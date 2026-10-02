@@ -1,0 +1,34 @@
+{
+  "name": "비북스 큐레이션 서점",
+  "short": "비북스 서가",
+  "tagline": "좋은 매체가 고른 책을, 원미동 작은 서점에서",
+  "intro": "서평지와 잡지, 출판 뉴스레터가 이달에 고른 책들을 모아 둡니다. 누가 왜 추천했는지 함께 읽고, 마음에 드는 책은 비북스에서 바로 주문하세요.",
+  "store": {
+    "address": "경기 부천시 원미구 원미동",
+    "instagram": "https://www.instagram.com/bbooks_bucheon/",
+    "pickup": "비북스 매장 픽업 (입고 후 문자 안내)",
+    "eta": "주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준)."
+  },
+  "pricing": {
+    "discountRate": 0.10,
+    "_discountNote": "도서정가제: 정가의 10% 이내 할인. 0이면 정가 판매.",
+    "shipping": 3000,
+    "freeShippingOver": 30000
+  },
+  "aladinLink": false,
+  "_aladinLinkNote": "true면 상세 페이지에 '알라딘에서 보기' 링크를 노출",
+  "apiUrl": "",
+  "_apiUrlNote": "비어 있으면 데모 모드(주문이 이 브라우저에만 저장됨). apps-script/Orders.gs 배포 후 웹앱 주소를 넣으면 실제 주문 접수.",
+  "media": {
+    "emmaus": {
+      "name": "엠마오",
+      "full": "그리스도교 서평지 엠마오",
+      "en": "EMMAUS REVIEW OF BOOKS",
+      "kind": "서평지",
+      "cadence": "월간 · 무료 구독",
+      "about": "그리스도교 출판 생태계를 가꾸는 공익 서평지. 매달 신간 프리뷰와 기획위원들의 분야별 추천, 이달의 책을 고른다.",
+      "subscribe": "https://emmausbooksreview.stibee.com/",
+      "color": "#7a2e2a"
+    }
+  }
+}
