@@ -11,13 +11,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,400&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
-<link rel="stylesheet" href="../assets/app.css?v=10032023">
+<link rel="stylesheet" href="../assets/app.css?v=10032105">
 </head>
-<body>
+<body data-page="cart">
 <header class="top">
   <div class="wrap top-in">
     <a class="logo" href="../"><span class="logo-mark">b</span><span><b>비북스 서가</b><small>좋은 매체가 고른 책을, 원미동 작은 서점에서</small></span></a>
-    <nav><a href="../" class="">홈</a><a href="../m/" class="">매체별</a><a href="../t/" class="">시기별</a><a href="../x/" class="">탐색</a><a href="../y/" class="">용서점</a><a href="../cart/" class="on">장바구니<b class=cart-n data-cart-count></b></a></nav>
+    <nav><a href="../" class="">홈</a><a href="../m/" class="">매체별</a><a href="../t/" class="">시기별</a><a href="../x/" class="">탐색</a><a href="../y/" class="">용서점</a><a href="../cart/" class="on">장바구니<b class=cart-n data-cart-count></b></a><a href="../login/" class="acct" data-account hidden>로그인</a></nav>
   </div>
 </header>
 <main>
@@ -30,6 +30,10 @@
   <div id="cart-box" hidden>
     <ul id="cart-list" class="cart-list"></ul>
     <form id="order" class="order" novalidate>
+      <div id="member-box" class="mbox" hidden><b>회원 주문</b> · <span id="member-benefit"></span>
+        <label class="pts">적립금 사용 <small>(보유 <span id="member-points"></span>)</small><span class="row"><input name="points" type="number" min="0" step="100" value="0" inputmode="numeric"><button type="button" class="btn small" id="points-all">전액</button></span></label>
+      </div>
+      <p id="guest-box" class="mbox guest"><span id="guest-benefit">비회원으로도 주문할 수 있어요.</span></p>
       <fieldset>
         <legend>받는 방법</legend>
         <label class="opt"><input type="radio" name="ship" value="pickup" checked> <span><b>매장 픽업</b> · 무료<br><small>비북스 매장 픽업 (입고 후 문자 안내)</small></span></label>
@@ -39,15 +43,27 @@
         <legend>주문하시는 분</legend>
         <label>이름<input name="name" id="o-name" required autocomplete="name"></label>
         <label>휴대폰<input name="phone" id="o-phone" required inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"></label>
-        <label>이메일 <small>(선택)</small><input name="email" id="o-email" type="email" autocomplete="email"></label>
-        <label class="addr" hidden>받을 주소<input name="address" id="o-address" autocomplete="street-address" placeholder="도로명 주소, 상세 주소"></label>
+        <label>이메일 <small>(선택 · 주문 확인 메일)</small><input name="email" id="o-email" type="email" autocomplete="email"></label>
         <label class="hp" aria-hidden="true">웹사이트<input name="website" tabindex="-1" autocomplete="off"></label>
+      </fieldset>
+      <fieldset class="addr" hidden>
+        <legend>받는 곳</legend>
+        <label hidden>저장한 배송지<select id="addr-pick"></select></label>
+        <div class="two"><label>받는 분<input name="recipient" autocomplete="shipping name" placeholder="주문자와 같으면 비워 두세요"></label>
+        <label>받는 분 연락처<input name="recipient_phone" inputmode="tel" autocomplete="shipping tel" placeholder="010-0000-0000"></label></div>
+        <label>우편번호 <small>(선택)</small><input name="zipcode" inputmode="numeric" autocomplete="shipping postal-code"></label>
+        <label>주소<input name="address" id="o-address" autocomplete="shipping street-address" placeholder="도로명 주소"></label>
+        <label>상세 주소<input name="address2" autocomplete="shipping address-line2" placeholder="동·호수 등"></label>
+        <label class="agree member-only"><input type="checkbox" name="save_address"> 이 주소를 내 배송지로 저장</label>
+      </fieldset>
+      <fieldset>
         <label>요청사항 <small>(선택)</small><textarea name="note" id="o-note" rows="2" placeholder="선물 포장, 입고 연락 방법 등"></textarea></label>
       </fieldset>
       <div class="sum" id="sum"></div>
-      <label class="agree"><input type="checkbox" name="agree" required> 주문 처리(입고·연락·배송)를 위해 이름·연락처·주소를 수집하고, 주문 완료 후 1년간 보관하는 데 동의합니다.</label>
+      <label class="agree"><input type="checkbox" name="agree" required> [비회원 필수] 주문 처리(입고 연락·결제 안내·배송)를 위해 이름·휴대폰·이메일·주소를 수집·이용하는 데 동의합니다. 주문 기록은 전자상거래법에 따라 5년간 보관합니다. <a href="../privacy/" target="_blank">개인정보 처리방침</a></label>
       <p class="muted small">주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준). 입고가 확인되면 결제 안내를 문자로 보내 드립니다.</p>
       <button class="btn primary big wide" type="submit">주문 요청하기</button>
+      <p class="muted small center">이미 주문하셨나요? <a href="../order/">비회원 주문 조회</a></p>
       <p class="demo-note" id="demo-note" hidden>지금은 미리보기(데모) 모드예요. 주문은 이 브라우저에만 저장되고 서점으로 전송되지 않습니다.</p>
     </form>
   </div>
@@ -58,10 +74,13 @@
   <div class="wrap">
     <p><b>비북스 큐레이션 서점</b> · 경기 부천시 원미구 원미동 · <a href="https://www.instagram.com/bbooks_bucheon/" target="_blank" rel="noopener">@bbooks_bucheon</a></p>
     <p class="muted">추천 글 요약은 비북스가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 각 매체에서 읽어 주세요 — <a href="https://emmausbooksreview.stibee.com/" target="_blank" rel="noopener">엠마오</a> · <a href="https://maily.so/secularsaints" target="_blank" rel="noopener">틈</a> · <a href="https://www.goscon.co.kr/news/articleList.html?sc_sub_section_code=S2N67&view_type=sm" target="_blank" rel="noopener">복음과상황</a> · <a href="https://www.newsnjoy.or.kr/news/articleList.html?sc_sub_section_code=S2N61&view_type=sm" target="_blank" rel="noopener">뉴스앤조이</a> · <a href="https://www.cbooknews.com/?c=75/80" target="_blank" rel="noopener">크리스찬북뉴스</a>. 도서 정보·표지·목차 제공: 알라딘.</p>
+    <p class="small"><a href="../terms/">이용약관</a> · <a href="../privacy/"><b>개인정보 처리방침</b></a> · <a href="../order/">비회원 주문 조회</a></p>
   </div>
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
-<script>window.SHOP={"apiUrl": "https://script.google.com/macros/s/AKfycbwyHVy2S23qiBFGlF8Th7OERR1EKP8yoXBLdd2H4gpKb2KqiFQBCE0_WfM2y3hBv32BYQ/exec", "pricing": {"discountRate": 0.1, "_discountNote": "도서정가제: 정가의 10% 이내 할인. 0이면 정가 판매.", "shipping": 3000, "freeShippingOver": 30000}, "pickup": "비북스 매장 픽업 (입고 후 문자 안내)", "eta": "주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준).", "root": "../", "idx": ""};</script>
-<script src="../assets/app.js?v=10032023"></script>
+<script>window.SHOP={"apiUrl": "https://script.google.com/macros/s/AKfycbwyHVy2S23qiBFGlF8Th7OERR1EKP8yoXBLdd2H4gpKb2KqiFQBCE0_WfM2y3hBv32BYQ/exec", "pricing": {"discountRate": 0.1, "_discountNote": "도서정가제: 정가의 10% 이내 할인. 0이면 정가 판매.", "shipping": 3000, "freeShippingOver": 30000}, "pickup": "비북스 매장 픽업 (입고 후 문자 안내)", "eta": "주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준).", "root": "../", "idx": "", "brand": "Q.books", "providers": ["google"], "supabase": {"url": "https://lswckxtmigcrlfbmmdns.supabase.co", "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxzd2NreHRtaWdjcmxmYm1tZG5zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwMTgxMzYsImV4cCI6MjEwNjU5NDEzNn0.VcF-zUCzXyxSINGddwK-bcr9GXJvUG7jyvaCN5W3Lz0"}};</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="../assets/member.js?v=10032105"></script>
+<script src="../assets/app.js?v=10032105"></script>
 </body>
 </html>

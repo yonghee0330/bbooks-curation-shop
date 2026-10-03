@@ -207,7 +207,7 @@ def page(title, body, depth, desc='', active='', og_image=None, page_id='', noin
     pretendard = '' if SHARE else '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">'
     cfg = {'apiUrl': SITE['apiUrl'], 'pricing': SITE['pricing'], 'pickup': SITE['store']['pickup'], 'eta': SITE['store']['eta'],
            'root': up, 'idx': 'index.html' if SHARE else '', 'brand': SITE.get('brand', ''),
-           'supabase': SITE.get('supabase') if (SITE.get('supabase') or {}).get('url') and not SHARE else {}}
+           'providers': SITE.get('loginProviders', ['google']), 'supabase': SITE.get('supabase') if (SITE.get('supabase') or {}).get('url') and not SHARE else {}}
     sbjs = '<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>' if cfg['supabase'] else ''
     return f'''<!doctype html>
 <html lang="ko">

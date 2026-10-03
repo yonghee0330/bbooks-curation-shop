@@ -207,7 +207,8 @@ create table if not exists point_ledger (
 create index if not exists point_ledger_user on point_ledger(user_id, created_at desc);
 
 create or replace function point_balance(uid uuid) returns int language sql stable security definer set search_path = public as $$
-  select coalesce(sum(delta), 0)::int from point_ledger where user_id = uid
+  select coalesce(sum(delta), 0)::int from point_ledger
+   where user_id = uid and (uid = auth.uid() or is_admin() or auth.uid() is null and current_user in ('postgres', 'service_role'))
 $$;
 
 -- ── RLS: 직접 쓰기 금지, 본인 행만 읽기 ───────────────────────────────

@@ -13,7 +13,7 @@
  *
  * 시트 '주문' 한 줄 = 주문 한 건. 상태 열(입고대기 → 입고완료 → 결제안내 → 결제완료 → 수령완료 / 취소)은 드롭다운으로 관리.
  * 금액은 브라우저가 보낸 값이 아니라 공개된 catalog.json 가격으로 서버에서 다시 계산합니다.
- * 개인정보(이름·연락처·주소)는 이 시트에만 저장되고, 접수 1년이 지나면 매달 자동으로 가립니다(주문 기록은 남김).
+ * 개인정보(이름·연락처·주소)는 이 시트에만 저장되고, 접수 5년(전자상거래법 보관 기간)이 지나면 매달 자동으로 가립니다(주문·금액 기록은 남김).
  * 시트 공유 범위는 운영자만으로 두세요.
  */
 var SHEET = '주문';
@@ -22,13 +22,13 @@ var SHEET_ID = '1DFfrawrL4WSroCXGmi8nxWoxrg3BIfpCddZbaT2xR0E';
 var HEAD = ['접수일시', '주문번호', '상태', '이름', '휴대폰', '이메일', '수령', '주소', '요청사항', '도서', '권수', '도서금액', '배송비', '합계', '추천 출처', 'ISBN 목록', '메모'];
 var STATUS = ['입고대기', '입고완료', '결제안내', '결제완료', '수령완료', '취소', '주문 접수', '입고 완료', '결제 안내', '결제 완료', '발송', '픽업 대기', '수령 완료'];
 // Q.books Supabase (공개용 주소·키 — 사이트에도 들어가는 값). 비어 있으면 알림 기능 꺼짐
-var SUPABASE_URL = '';
-var SUPABASE_ANON_KEY = '';
+var SUPABASE_URL = 'https://lswckxtmigcrlfbmmdns.supabase.co';
+var SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxzd2NreHRtaWdjcmxmYm1tZG5zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwMTgxMzYsImV4cCI6MjEwNjU5NDEzNn0.VcF-zUCzXyxSINGddwK-bcr9GXJvUG7jyvaCN5W3Lz0';
 var DEFAULTS = {
   CATALOG_URL: 'https://yonghee0330.github.io/bbooks-curation-shop/data/catalog.json',
   SHIPPING: '3000',          // 택배비 (site.json pricing.shipping 과 맞출 것)
   FREE_OVER: '30000',        // 이 금액 이상 무료배송
-  STORE_NAME: '비북스 서가',
+  STORE_NAME: 'Q.books',
   MAX_QTY: '20'
 };
 
@@ -239,11 +239,11 @@ function setup() {
   Logger.log('준비 완료. 이제 배포 → 새 배포 → 웹 앱으로 배포하세요.');
 }
 
-/** 접수 1년이 지난 주문의 이름·연락처·이메일·주소·요청사항을 가림 (주문·금액 기록은 남김) */
+/** 접수 5년(전자상거래법 보관 기간)이 지난 주문의 이름·연락처·이메일·주소·요청사항을 가림 (주문·금액 기록은 남김) */
 function purgeOld() {
   var sh = ss_().getSheetByName(SHEET);
   if (!sh || sh.getLastRow() < 2) return;
-  var cut = new Date(); cut.setFullYear(cut.getFullYear() - 1);
+  var cut = new Date(); cut.setFullYear(cut.getFullYear() - 5);
   var rng = sh.getRange(2, 1, sh.getLastRow() - 1, 9), v = rng.getValues(), n = 0;
   v.forEach(function (r) {
     if (r[0] instanceof Date && r[0] < cut && r[3] !== '(삭제)') { r[3] = '(삭제)'; r[4] = ''; r[5] = ''; r[7] = ''; r[8] = ''; n++; }

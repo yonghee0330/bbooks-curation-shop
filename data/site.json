@@ -34,8 +34,8 @@
   "brand": "Q.books",
   "_brandNote": "회원·주문 영역 이름(가칭). 확정되면 이 값만 바꾸면 됨",
   "supabase": {
-    "url": "",
-    "anonKey": ""
+    "url": "https://lswckxtmigcrlfbmmdns.supabase.co",
+    "anonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxzd2NreHRtaWdjcmxmYm1tZG5zIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTEwMTgxMzYsImV4cCI6MjEwNjU5NDEzNn0.VcF-zUCzXyxSINGddwK-bcr9GXJvUG7jyvaCN5W3Lz0"
   },
   "_supabaseNote": "Q.books 전용 Supabase 프로젝트. url·anonKey(공개용 키)가 있으면 회원 로그인·회원 주문이 켜지고, 없으면 기존 Apps Script 주문만 동작",
   "business": {
@@ -47,5 +47,9 @@
     "phone": "(연락처 입력)",
     "email": "pctspark@gmail.com",
     "privacyOfficer": "(개인정보 보호책임자 이름 입력)"
-  }
+  },
+  "loginProviders": [
+    "google"
+  ],
+  "_loginProvidersNote": "켜 둔 로그인 방식. 카카오 설정 후 \"kakao\" 추가"
 }
