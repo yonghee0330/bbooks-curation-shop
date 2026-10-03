@@ -46,13 +46,14 @@ def main():
     out_fetch = '' if '--no-fetch' in sys.argv else run('fetch.py')
     out_pending = run('pending.py')
     out_build = run('build.py', '--pages')
+    out_sync = run('sync_books.py', '--docs')  # 주문 금액 계산용 books 테이블 (Q.books Supabase)
     git = subprocess.run(['git', 'status', '--short'], cwd=ROOT, capture_output=True, text=True).stdout
     lines = [f'# 비북스 서가 주간 갱신 {date.today()}', '',
              f'- 새 호/묶음 {len(new_issues)}개, 새 추천 {new_items}편', *[f'  - {x}' for x in new_issues], '',
              '## 수집', '```', '\n'.join(x for x in out_collect.splitlines() if x.startswith(('■', '  +', '  ?', '   !'))), '```',
              '## 도서 정보', '```', '\n'.join(x for x in out_fetch.splitlines() if x.startswith(('■', '   ?'))), '```',
              '## 요약 대기', '```', out_pending.strip(), '```',
-             '## 빌드', '```', out_build.strip().splitlines()[-1] if out_build.strip() else '(실패)', '```',
+             '## 빌드', '```', out_build.strip().splitlines()[-1] if out_build.strip() else '(실패)', out_sync.strip(), '```',
              '## 바뀐 파일 (git)', '```', git.strip()[:3000], '```',
              '', '확인 후 배포: `git add -A && git commit -m "주간 갱신" && git push`']
     os.makedirs(os.path.join(ROOT, 'data', 'raw'), exist_ok=True)

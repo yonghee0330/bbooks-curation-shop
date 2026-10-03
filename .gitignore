@@ -5,3 +5,4 @@ share/
 data/cache/raw/
 .venv/
 data/raw/
+.secrets/

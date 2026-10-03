@@ -195,25 +195,27 @@ class Catalog:
 
 # ───────────────────────── 조각 ─────────────────────────
 
-def page(title, body, depth, desc='', active='', og_image=None):
+def page(title, body, depth, desc='', active='', og_image=None, page_id='', noindex=False):
     up = '../' * depth
     desc = desc or SITE['intro']
     nav = [('', '홈', 'home'), ('m/', '매체별', 'media'), ('t/', '시기별', 'time'), ('x/', '탐색', 'explore'),
            ('y/', '용서점', 'yong'), ('cart/', '장바구니', 'cart')]
     navh = ''.join(
         f'<a href="{up}{href}" class="{"on" if key == active else ""}">{label}{"<b class=cart-n data-cart-count></b>" if key == "cart" else ""}</a>'
-        for href, label, key in nav)
+        for href, label, key in nav) + f'<a href="{up}login/" class="acct{" on" if active == "me" else ""}" data-account hidden>로그인</a>'
     og = f'<meta property="og:image" content="{e(og_image)}">' if og_image else ''
     pretendard = '' if SHARE else '<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">'
     cfg = {'apiUrl': SITE['apiUrl'], 'pricing': SITE['pricing'], 'pickup': SITE['store']['pickup'], 'eta': SITE['store']['eta'],
-           'root': up, 'idx': 'index.html' if SHARE else ''}
+           'root': up, 'idx': 'index.html' if SHARE else '', 'brand': SITE.get('brand', ''),
+           'supabase': SITE.get('supabase') if (SITE.get('supabase') or {}).get('url') and not SHARE else {}}
+    sbjs = '<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>' if cfg['supabase'] else ''
     return f'''<!doctype html>
 <html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
-<meta name="description" content="{e(desc[:160])}">
+<meta name="description" content="{e(desc[:160])}">{'<meta name="robots" content="noindex">' if noindex else ''}
 <meta property="og:title" content="{e(title)}">
 <meta property="og:description" content="{e(desc[:160])}">
 {og}
@@ -222,7 +224,7 @@ def page(title, body, depth, desc='', active='', og_image=None):
 {pretendard}
 <link rel="stylesheet" href="{up}assets/app.css?v={VER}">
 </head>
-<body>
+<body data-page="{page_id}">
 <header class="top">
   <div class="wrap top-in">
     <a class="logo" href="{up}"><span class="logo-mark">b</span><span><b>{e(SITE['short'])}</b><small>{e(SITE['tagline'])}</small></span></a>
@@ -236,10 +238,13 @@ def page(title, body, depth, desc='', active='', og_image=None):
   <div class="wrap">
     <p><b>{e(SITE['name'])}</b> · {e(SITE['store']['address'])} · <a href="{SITE['store']['instagram']}" target="_blank" rel="noopener">@bbooks_bucheon</a></p>
     <p class="muted">추천 글 요약은 비북스가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 각 매체에서 읽어 주세요 — {' · '.join(f'<a href="{mm["home"]}" target="_blank" rel="noopener">{e(mm["name"])}</a>' for k, mm in MEDIA.items() if mm.get('home'))}. 도서 정보·표지·목차 제공: 알라딘.</p>
+    <p class="small"><a href="{up}terms/">이용약관</a> · <a href="{up}privacy/"><b>개인정보 처리방침</b></a> · <a href="{up}order/">비회원 주문 조회</a></p>
   </div>
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>window.SHOP={json.dumps(cfg, ensure_ascii=False)};</script>
+{sbjs}
+<script src="{up}assets/member.js?v={VER}"></script>
 <script src="{up}assets/app.js?v={VER}"></script>
 </body>
 </html>
@@ -685,6 +690,10 @@ def build_cart():
   <div id="cart-box" hidden>
     <ul id="cart-list" class="cart-list"></ul>
     <form id="order" class="order" novalidate>
+      <div id="member-box" class="mbox" hidden><b>회원 주문</b> · <span id="member-benefit"></span>
+        <label class="pts">적립금 사용 <small>(보유 <span id="member-points"></span>)</small><span class="row"><input name="points" type="number" min="0" step="100" value="0" inputmode="numeric"><button type="button" class="btn small" id="points-all">전액</button></span></label>
+      </div>
+      <p id="guest-box" class="mbox guest"><span id="guest-benefit">비회원으로도 주문할 수 있어요.</span></p>
       <fieldset>
         <legend>받는 방법</legend>
         <label class="opt"><input type="radio" name="ship" value="pickup" checked> <span><b>매장 픽업</b> · 무료<br><small>{e(SITE['store']['pickup'])}</small></span></label>
@@ -694,21 +703,173 @@ def build_cart():
         <legend>주문하시는 분</legend>
         <label>이름<input name="name" id="o-name" required autocomplete="name"></label>
         <label>휴대폰<input name="phone" id="o-phone" required inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"></label>
-        <label>이메일 <small>(선택)</small><input name="email" id="o-email" type="email" autocomplete="email"></label>
-        <label class="addr" hidden>받을 주소<input name="address" id="o-address" autocomplete="street-address" placeholder="도로명 주소, 상세 주소"></label>
+        <label>이메일 <small>(선택 · 주문 확인 메일)</small><input name="email" id="o-email" type="email" autocomplete="email"></label>
         <label class="hp" aria-hidden="true">웹사이트<input name="website" tabindex="-1" autocomplete="off"></label>
+      </fieldset>
+      <fieldset class="addr" hidden>
+        <legend>받는 곳</legend>
+        <label hidden>저장한 배송지<select id="addr-pick"></select></label>
+        <div class="two"><label>받는 분<input name="recipient" autocomplete="shipping name" placeholder="주문자와 같으면 비워 두세요"></label>
+        <label>받는 분 연락처<input name="recipient_phone" inputmode="tel" autocomplete="shipping tel" placeholder="010-0000-0000"></label></div>
+        <label>우편번호 <small>(선택)</small><input name="zipcode" inputmode="numeric" autocomplete="shipping postal-code"></label>
+        <label>주소<input name="address" id="o-address" autocomplete="shipping street-address" placeholder="도로명 주소"></label>
+        <label>상세 주소<input name="address2" autocomplete="shipping address-line2" placeholder="동·호수 등"></label>
+        <label class="agree member-only"><input type="checkbox" name="save_address"> 이 주소를 내 배송지로 저장</label>
+      </fieldset>
+      <fieldset>
         <label>요청사항 <small>(선택)</small><textarea name="note" id="o-note" rows="2" placeholder="선물 포장, 입고 연락 방법 등"></textarea></label>
       </fieldset>
       <div class="sum" id="sum"></div>
-      <label class="agree"><input type="checkbox" name="agree" required> 주문 처리(입고·연락·배송)를 위해 이름·연락처·주소를 수집하고, 주문 완료 후 1년간 보관하는 데 동의합니다.</label>
+      <label class="agree"><input type="checkbox" name="agree" required> [비회원 필수] 주문 처리(입고 연락·결제 안내·배송)를 위해 이름·휴대폰·이메일·주소를 수집·이용하는 데 동의합니다. 주문 기록은 전자상거래법에 따라 5년간 보관합니다. <a href="../privacy/" target="_blank">개인정보 처리방침</a></label>
       <p class="muted small">{e(SITE['store']['eta'])} 입고가 확인되면 결제 안내를 문자로 보내 드립니다.</p>
       <button class="btn primary big wide" type="submit">주문 요청하기</button>
+      <p class="muted small center">이미 주문하셨나요? <a href="../order/">비회원 주문 조회</a></p>
       <p class="demo-note" id="demo-note" hidden>지금은 미리보기(데모) 모드예요. 주문은 이 브라우저에만 저장되고 서점으로 전송되지 않습니다.</p>
     </form>
   </div>
   <div id="done" class="done" hidden></div>
 </section>'''
-    write('cart/index.html', page(f'장바구니 — {SITE["short"]}', body, 1, active='cart'))
+    write('cart/index.html', page(f'장바구니 — {SITE["short"]}', body, 1, active='cart', page_id='cart'))
+
+
+def build_member():
+    """회원(로그인·가입·내 정보)·주문 조회·운영자·약관 페이지 — 동작은 assets/member.js"""
+    B = e(SITE.get('brand', 'Q.books'))
+    biz = SITE.get('business', {})
+    login = f'''
+<section class="wrap block narrow auth" data-need-sb>
+  <div class="sec-head"><h1>로그인 · 가입</h1><p>{B} 회원이 되면 주문 내역을 한곳에서 보고 적립 혜택을 받아요</p></div>
+  <div class="auth-box">
+    <button class="btn wide sns kakao" data-provider="kakao"><span>카카오로 계속하기</span></button>
+    <button class="btn wide sns google" data-provider="google"><span>구글로 계속하기</span></button>
+    <p class="muted small">처음이면 로그인 뒤 약관 동의와 이름·연락처 입력으로 가입이 끝나요. 비밀번호는 만들지 않아요.</p>
+    <p class="small"><a href="../cart/">회원가입 없이 주문하기 →</a> · <a href="../order/">비회원 주문 조회</a></p>
+  </div>
+</section>'''
+    write('login/index.html', page(f'로그인 — {B}', login, 1, active='me', page_id='login', noindex=True))
+
+    join = f'''
+<section class="wrap block narrow auth" data-need-sb>
+  <div class="sec-head"><h1>가입 마무리</h1><p id="join-benefit"></p></div>
+  <form id="join" class="order" hidden novalidate>
+    <fieldset><legend>회원 정보</legend>
+      <p class="small">로그인 계정 <b id="join-email"></b></p>
+      <label>이름<input name="name" required autocomplete="name"></label>
+      <label>휴대폰<input name="phone" required inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"><small class="muted">입고·결제 안내 문자를 받을 번호</small></label>
+    </fieldset>
+    <fieldset class="consent"><legend>약관 동의</legend>
+      <label class="all"><input type="checkbox" name="all"> <b>전체 동의</b> <small>(선택 항목 포함)</small></label>
+      <label><input type="checkbox" name="terms"> [필수] 이용약관 <a href="../terms/" target="_blank">보기</a></label>
+      <label><input type="checkbox" name="privacy"> [필수] 개인정보 수집·이용 <a href="../privacy/" target="_blank">보기</a></label>
+      <table class="ctable"><tr><th>항목</th><td>이름, 휴대폰 번호, 이메일, 로그인 서비스 식별값, 배송지(입력 시), 주문·적립 기록</td></tr>
+      <tr><th>목적</th><td>회원 식별, 주문 처리(입고 연락·결제 안내·배송), 적립금 관리, 고객 문의 응대</td></tr>
+      <tr><th>보유 기간</th><td>탈퇴 시 즉시 삭제. 단 주문·결제·배송 기록은 전자상거래법에 따라 5년 보관</td></tr></table>
+      <p class="muted small">동의를 거부할 수 있으나, 거부하면 회원 가입을 할 수 없어요(비회원 주문은 가능).</p>
+      <label><input type="checkbox" name="age14"> [필수] 만 14세 이상입니다</label>
+      <label><input type="checkbox" name="marketing_email"> [선택] 새 큐레이션·이벤트 소식 이메일 받기</label>
+      <label><input type="checkbox" name="marketing_sms"> [선택] 새 큐레이션·이벤트 소식 문자 받기</label>
+      <p class="muted small">선택 항목은 동의하지 않아도 가입할 수 있고, 내 정보에서 언제든 바꿀 수 있어요. 주문 안내 문자·메일은 수신 동의와 관계없이 보내 드려요.</p>
+    </fieldset>
+    <button class="btn primary big wide" type="submit">가입 완료</button>
+    <button class="btn wide" type="button" id="join-cancel">가입하지 않기</button>
+  </form>
+</section>'''
+    write('join/index.html', page(f'가입 — {B}', join, 1, active='me', page_id='join', noindex=True))
+
+    me = f'''
+<section class="wrap block narrow me" data-need-sb>
+  <div id="me-box" hidden>
+    <div class="sec-head"><h1 id="me-name"></h1><p id="me-sub" class="muted"></p></div>
+    <div class="me-cards">
+      <div class="me-card"><span class="kicker">적립금</span><b id="me-points" class="big"></b><p class="muted small" id="me-benefit"></p></div>
+      <div class="me-card"><span class="kicker">바로가기</span><p><a href="../cart/">장바구니</a> · <a href="../">추천 도서</a></p><p id="me-admin" hidden><a href="../admin/">운영자 화면 →</a></p></div>
+    </div>
+    <h2>주문 내역</h2>
+    <div id="me-orders" class="orders"><p class="muted">불러오는 중…</p></div>
+    <h2>적립금 내역</h2>
+    <ul id="me-ledger" class="ledger"></ul>
+    <h2>배송지</h2>
+    <ul id="me-addr" class="addr-list"></ul>
+    <details class="addr-new"><summary>배송지 추가</summary>
+      <form id="addr-form" class="order">
+        <div class="two"><label>이름표<input name="label" placeholder="집, 회사…"></label><label>받는 분<input name="recipient"></label></div>
+        <div class="two"><label>연락처<input name="phone" inputmode="tel"></label><label>우편번호<input name="zipcode" inputmode="numeric"></label></div>
+        <label>주소<input name="address1"></label><label>상세 주소<input name="address2"></label>
+        <button class="btn primary">저장</button>
+      </form>
+    </details>
+    <h2>회원 정보</h2>
+    <form id="profile" class="order"><div class="two"><label>이름<input name="name"></label><label>휴대폰<input name="phone" inputmode="tel"></label></div><button class="btn">저장</button></form>
+    <form id="marketing" class="order consent"><label><input type="checkbox" name="email"> 새 큐레이션·이벤트 소식 이메일 받기</label><label><input type="checkbox" name="sms"> 새 큐레이션·이벤트 소식 문자 받기</label></form>
+    <p class="row"><button class="btn" id="logout">로그아웃</button><button class="btn ghost" id="withdraw">회원 탈퇴</button></p>
+  </div>
+</section>'''
+    write('me/index.html', page(f'내 정보 — {B}', me, 1, active='me', page_id='me', noindex=True))
+
+    order = f'''
+<section class="wrap block narrow" data-need-sb>
+  <div class="sec-head"><h1>주문 조회</h1><p>비회원 주문은 주문번호와 휴대폰 번호로 확인해요</p></div>
+  <p id="lookup-member" class="mbox" hidden>회원 주문은 <a href="../me/">내 정보 → 주문 내역</a>에서 볼 수 있어요.</p>
+  <form id="lookup" class="order"><div class="two"><label>주문번호<input name="no" placeholder="QB-1003-XXXXX" autocomplete="off"></label><label>휴대폰<input name="phone" inputmode="tel" placeholder="010-0000-0000"></label></div><button class="btn primary">조회</button></form>
+  <div id="lookup-out" class="orders"></div>
+</section>'''
+    write('order/index.html', page(f'주문 조회 — {B}', order, 1, page_id='order', noindex=True))
+
+    admin = f'''
+<section class="wrap block" data-need-sb>
+  <div class="sec-head"><h1>주문 관리</h1><p>상태를 바꾸면 고객에게 안내 메일이 가고(이메일이 있을 때) 진행 기록이 남아요</p></div>
+  <div id="adm" hidden>
+    <p class="row"><select id="adm-filter"><option value="open">진행 중</option><option value="">전체</option><option value="requested">주문 접수</option><option value="stocked">입고 완료</option><option value="payment_requested">결제 안내</option><option value="paid">결제 완료</option><option value="shipped">발송</option><option value="ready_pickup">픽업 대기</option><option value="completed">수령 완료</option><option value="cancelled">취소</option></select> <span id="adm-count" class="muted"></span></p>
+    <div id="adm-list" class="orders"></div>
+  </div>
+</section>'''
+    write('admin/index.html', page(f'주문 관리 — {B}', admin, 1, page_id='admin', noindex=True))
+
+    def biz_line():
+        return ' · '.join(e(f'{k} {v}') for k, v in [('상호', biz.get('name')), ('대표', biz.get('owner')), ('사업자등록번호', biz.get('bizNo')),
+                                                     ('통신판매업', biz.get('mailOrderNo')), ('주소', biz.get('address')), ('연락처', biz.get('phone')), ('이메일', biz.get('email'))])
+    draft = '<p class="demo-note">초안입니다. 사업자 정보를 채우고, 운영 전에 내용을 한 번 검토해 주세요.</p>'
+    terms = f'''
+<article class="wrap block narrow legal">
+  <h1>{B} 이용약관</h1>{draft}
+  <p class="muted small">시행일 2026년 10월 3일</p>
+  <h2>제1조 (목적)</h2><p>이 약관은 {e(biz.get('name'))}(이하 "서점")가 운영하는 {B}(이하 "서비스")에서 도서 주문과 회원 서비스를 이용하는 데 필요한 서점과 이용자의 권리·의무를 정합니다.</p>
+  <h2>제2조 (회원 가입)</h2><p>이용자는 카카오 또는 구글 계정으로 로그인한 뒤 이 약관과 개인정보 수집·이용에 동의하고 이름·휴대폰 번호를 입력해 회원이 됩니다. 만 14세 미만은 가입할 수 없습니다.</p>
+  <h2>제3조 (주문과 계약)</h2><p>서비스의 주문은 "주문 요청"입니다. 서점이 도매처 입고를 확인하고 결제 안내를 보낸 뒤 이용자가 결제하면 계약이 성립합니다. 품절·절판 등으로 입고되지 않으면 서점은 이를 알리고 주문을 취소할 수 있습니다.</p>
+  <h2>제4조 (가격과 혜택)</h2><p>도서 가격은 「출판문화산업 진흥법」(도서정가제)에 따라 정가의 10% 이내에서 할인하며, 할인과 적립금을 합한 경제적 이익은 정가의 15%를 넘지 않습니다. 회원 혜택(적립률, 무료배송 기준 등)은 서비스에 표시된 내용을 따르며, 바뀌면 미리 알립니다.</p>
+  <h2>제5조 (적립금)</h2><p>적립금은 주문한 책을 수령 완료한 때 쌓이며, 다음 주문에서 현금처럼 쓸 수 있습니다. 주문을 취소하면 사용한 적립금은 돌려드리고, 쌓인 적립금은 회수합니다. 탈퇴하면 남은 적립금은 사라집니다. 적립금은 현금으로 바꿀 수 없습니다.</p>
+  <h2>제6조 (취소·교환·반품)</h2><p>입고 전에는 언제든 취소할 수 있습니다. 결제 후에는 「전자상거래 등에서의 소비자보호에 관한 법률」에 따라 책을 받은 날부터 7일 이내에 청약을 철회할 수 있습니다. 단, 이용자의 책임으로 책이 훼손된 경우 등 법에서 정한 경우는 제외합니다. 파손·오배송은 서점이 비용을 부담해 교환합니다.</p>
+  <h2>제7조 (회원 탈퇴)</h2><p>회원은 내 정보 화면에서 언제든 탈퇴할 수 있으며, 서점은 개인정보 처리방침에 따라 정보를 처리합니다.</p>
+  <h2>제8조 (책임과 분쟁)</h2><p>서점은 천재지변 등 불가항력으로 인한 손해에 책임지지 않습니다. 분쟁은 서점 소재지를 관할하는 법원을 따릅니다.</p>
+  <p class="muted small">{biz_line()}</p>
+</article>'''
+    write('terms/index.html', page(f'이용약관 — {B}', terms, 1, page_id='terms'))
+
+    privacy = f'''
+<article class="wrap block narrow legal">
+  <h1>{B} 개인정보 처리방침</h1>{draft}
+  <p class="muted small">시행일 2026년 10월 3일</p>
+  <h2>1. 수집하는 항목과 목적</h2>
+  <table class="ctable"><tr><th>구분</th><th>항목</th><th>목적</th></tr>
+  <tr><td>회원 가입</td><td>이름, 휴대폰 번호, 이메일, 로그인 서비스(카카오·구글) 식별값</td><td>회원 식별, 주문 안내, 적립금 관리</td></tr>
+  <tr><td>주문(회원·비회원)</td><td>주문자 이름·휴대폰·이메일(선택), 받는 분·연락처·주소, 요청사항</td><td>입고 연락, 결제 안내, 배송·픽업</td></tr>
+  <tr><td>마케팅(선택 동의)</td><td>이메일, 휴대폰 번호</td><td>새 큐레이션·이벤트 소식 안내</td></tr>
+  <tr><td>자동 수집</td><td>로그인 기록, 접속 일시</td><td>부정 이용 방지, 서비스 안정성</td></tr></table>
+  <h2>2. 보유 기간</h2><p>회원 정보는 탈퇴 시 바로 삭제합니다. 다만 관계 법령에 따라 다음 기록은 정해진 기간 보관합니다: 계약·청약철회 기록 5년, 대금 결제·재화 공급 기록 5년, 소비자 불만·분쟁 처리 기록 3년(전자상거래법), 접속 기록 3개월(통신비밀보호법). 비회원 주문 정보도 같은 기준을 따릅니다.</p>
+  <h2>3. 제3자 제공</h2><p>서점은 개인정보를 제3자에게 제공하지 않습니다. 택배 발송 시에는 받는 분 이름·연락처·주소를 택배사에 전달합니다.</p>
+  <h2>4. 처리 위탁</h2>
+  <table class="ctable"><tr><th>받는 곳</th><th>위탁 업무</th></tr>
+  <tr><td>Supabase Inc.</td><td>회원·주문 데이터 보관(클라우드 데이터베이스)</td></tr>
+  <tr><td>Google LLC</td><td>주문 알림 메일 발송, 주문 관리 시트, 구글 로그인</td></tr>
+  <tr><td>Kakao Corp.</td><td>카카오 로그인</td></tr>
+  <tr><td>(택배사 입력)</td><td>도서 배송</td></tr></table>
+  <p class="muted small">Supabase·Google 서버는 국외(미국 등)에 있을 수 있습니다. 이전 항목은 위 1의 항목이며, 서비스 이용 기간 동안 네트워크로 전송·보관됩니다.</p>
+  <h2>5. 이용자의 권리</h2><p>이용자는 내 정보 화면에서 정보를 확인·수정하고, 마케팅 수신 동의를 철회하고, 탈퇴할 수 있습니다. 그 밖의 열람·정정·삭제·처리정지 요청은 아래 연락처로 해 주시면 지체 없이 처리합니다.</p>
+  <h2>6. 안전성 확보 조치</h2><p>데이터베이스 접근 권한을 행 단위로 제한해 회원은 자기 정보만 볼 수 있게 하고, 운영자 계정만 주문 관리에 접근합니다. 전송 구간은 HTTPS로 암호화합니다.</p>
+  <h2>7. 개인정보 보호책임자</h2><p>{e(biz.get('privacyOfficer'))} · {e(biz.get('email'))} · {e(biz.get('phone'))}</p>
+  <p class="muted small">{biz_line()}</p>
+</article>'''
+    write('privacy/index.html', page(f'개인정보 처리방침 — {B}', privacy, 1, page_id='privacy'))
 
 
 def build_redirects():
@@ -753,6 +914,7 @@ def main():
     build_books(c)
     build_explore(c)
     build_house(c)
+    build_member()
     build_cart()
     build_redirects()
     cat = {i: {'isbn13': i, 'title': b['short'], 'author': b['author'], 'publisher': b['publisher'],

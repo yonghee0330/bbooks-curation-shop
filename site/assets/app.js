@@ -101,12 +101,20 @@
   });
 
   // ── 장바구니 페이지 ──
-  function totals(c, cat, ship) {
+  function qbCtx() { return window.QB ? window.QB.ctx() : { member: false }; }
+  function totals(c, cat, ship, ptsWanted) {
     var std = 0, sub = 0;
     Object.keys(c).forEach(function (i) { if (cat[i]) { std += cat[i].priceStandard * c[i]; sub += cat[i].price * c[i]; } });
-    var p = CFG.pricing || {};
-    var fee = ship === 'delivery' && sub < (p.freeShippingOver || 0) ? (p.shipping || 0) : 0;
-    return { std: std, sub: sub, fee: fee, total: sub + fee };
+    var p = CFG.pricing || {}, x = qbCtx(), mb = x.benefits || {};
+    var freeOver = x.member && mb.free_shipping_over != null ? mb.free_shipping_over : (p.freeShippingOver || 0);
+    var fee = ship === 'delivery' && sub < freeOver ? (p.shipping || 0) : 0;
+    var pts = 0, earn = 0;
+    if (x.member) {
+      pts = Math.max(0, Math.min(ptsWanted || 0, x.points || 0, Math.floor(sub * (mb.max_points_ratio == null ? 1 : mb.max_points_ratio))));
+      if (pts && pts < (mb.min_points_use || 0)) pts = 0;
+      earn = Math.floor((sub - pts) * (mb.point_rate || 0));
+    }
+    return { std: std, sub: sub, fee: fee, pts: pts, earn: earn, total: sub - pts + fee, member: x.member };
   }
 
   function renderCart() {
@@ -128,14 +136,46 @@
 
   function summary(cat) {
     var form = $('#order'); if (!form) return;
-    var ship = form.ship.value, t = totals(cart(), cat, ship);
-    $('.addr', form).hidden = ship !== 'delivery';
+    var ship = form.ship.value, t = totals(cart(), cat, ship, form.points ? parseInt(form.points.value, 10) || 0 : 0);
+    $$('.addr', form).forEach(function (el) { el.hidden = ship !== 'delivery'; });
     var save = t.std - t.sub;
     $('#sum').innerHTML =
       '<div><span>정가 합계</span><span>' + won(t.std) + '</span></div>' +
-      (save ? '<div><span>비북스 할인</span><span>−' + won(save) + '</span></div>' : '') +
+      (save ? '<div><span>할인</span><span>−' + won(save) + '</span></div>' : '') +
+      (t.pts ? '<div><span>적립금 사용</span><span>−' + won(t.pts) + '</span></div>' : '') +
       '<div><span>' + (ship === 'delivery' ? '택배비' : '매장 픽업') + '</span><span>' + (t.fee ? won(t.fee) : '무료') + '</span></div>' +
-      '<div class="total"><span>결제 예정 금액</span><span>' + won(t.total) + '</span></div>';
+      '<div class="total"><span>결제 예정 금액</span><span>' + won(t.total) + '</span></div>' +
+      (t.earn ? '<div class="earn"><span>적립 예정 (수령 완료 시)</span><span>+' + won(t.earn) + '</span></div>' : '');
+  }
+
+  function memberForm(cat) {
+    var form = $('#order'); if (!form || !window.QB) return;
+    window.QB.ready.then(function () {
+      var x = qbCtx(), mb = x.benefits || {};
+      $('#guest-box').hidden = x.member; $('#member-box').hidden = !x.member;
+      $$('.member-only', form).forEach(function (el) { el.hidden = !x.member; });
+      form.agree.required = !x.member;
+      if (!x.member) {
+        var gb = $('#guest-benefit');
+        if (gb && mb.point_rate != null) gb.innerHTML = '회원으로 주문하면 ' + Math.round(mb.point_rate * 100) + '% 적립 · ' + won(mb.free_shipping_over) + ' 이상 무료배송 <a class="btn small" href="' + window.QB.loginUrl() + '">로그인 / 가입</a>';
+        return summary(cat);
+      }
+      var p = x.profile || {};
+      if (!form.name.value) form.name.value = p.name || '';
+      if (!form.phone.value) form.phone.value = p.phone || '';
+      if (!form.email.value) form.email.value = p.email || '';
+      $('#member-points').textContent = won(x.points);
+      $('#member-benefit').textContent = Math.round((mb.point_rate || 0) * 100) + '% 적립 · ' + won(mb.free_shipping_over) + ' 이상 무료배송 적용';
+      var sel = $('#addr-pick');
+      if (sel && x.addresses.length) {
+        sel.innerHTML = '<option value="">새 주소 입력</option>' + x.addresses.map(function (a, i) { return '<option value="' + i + '"' + (a.is_default ? ' selected' : '') + '>' + esc((a.label || '배송지') + ' · ' + a.address1) + '</option>'; }).join('');
+        sel.parentNode.hidden = false;
+        var fill = function () { var a = x.addresses[sel.value]; if (!a) return; form.recipient.value = a.recipient; form.recipient_phone.value = a.phone; form.zipcode.value = a.zipcode || ''; form.address.value = a.address1; form.address2.value = a.address2 || ''; };
+        sel.addEventListener('change', fill); fill();
+      }
+      $('#points-all').addEventListener('click', function () { form.points.value = x.points; summary(cat); });
+      summary(cat);
+    });
   }
 
   document.addEventListener('change', function (ev) {
@@ -143,7 +183,7 @@
     if (li && ev.target.matches('input[type=number]')) {
       var c = cart(); c[li.getAttribute('data-id')] = Math.max(1, Math.min(20, parseInt(ev.target.value, 10) || 1)); setCart(c); renderCart();
     }
-    if (ev.target.name === 'ship') getCatalog().then(summary);
+    if (ev.target.name === 'ship' || ev.target.name === 'points') getCatalog().then(summary);
   });
   document.addEventListener('click', function (ev) {
     var rm = ev.target.closest('[data-rm]');
@@ -165,36 +205,50 @@
       ['name', 'phone'].forEach(function (k) { if (!form[k].value.trim()) bad.push(form[k]); });
       if (!/^0\d{1,2}-?\d{3,4}-?\d{4}$/.test(form.phone.value.trim())) bad.push(form.phone);
       if (form.ship.value === 'delivery' && !form.address.value.trim()) bad.push(form.address);
-      if (!form.agree.checked) bad.push(form.agree);
+      if (form.agree.required && !form.agree.checked) bad.push(form.agree);
       $$('.err', form).forEach(function (x) { x.classList.remove('err'); });
       if (bad.length) { bad.forEach(function (x) { x.classList.add('err'); }); bad[0].focus(); toast('표시된 칸을 확인해 주세요'); return; }
       getCatalog().then(function (cat) {
-        var c = cart(), t = totals(c, cat, form.ship.value);
+        var c = cart(), t = totals(c, cat, form.ship.value, form.points ? parseInt(form.points.value, 10) || 0 : 0);
         var order = {
           no: orderNo(), at: new Date().toISOString(),
           name: form.name.value.trim(), phone: form.phone.value.trim(), email: form.email.value.trim(),
-          ship: form.ship.value, address: form.address.value.trim(), note: form.note.value.trim(), website: form.website ? form.website.value : '',
+          ship: form.ship.value, address: [form.address.value.trim(), form.address2 ? form.address2.value.trim() : ''].filter(Boolean).join(' '), note: form.note.value.trim(), website: form.website ? form.website.value : '',
           items: Object.keys(c).filter(function (i) { return cat[i]; }).map(function (i) {
             return { isbn13: i, title: cat[i].title, publisher: cat[i].publisher, qty: c[i], price: cat[i].price, priceStandard: cat[i].priceStandard, from: cat[i].recs[0] || '' };
           }),
           subtotal: t.sub, shipping: t.fee, total: t.total
         };
         var btn = $('button[type=submit]', form); btn.disabled = true; btn.textContent = '보내는 중…';
-        var send = CFG.apiUrl
+        var send;
+        if (window.QB) {
+          if (order.website) return;
+          send = window.QB.placeOrder({
+            name: order.name, phone: order.phone, email: order.email, ship: order.ship,
+            recipient: form.recipient && form.recipient.value.trim() || order.name, recipient_phone: form.recipient_phone && form.recipient_phone.value.trim() || order.phone,
+            zipcode: form.zipcode ? form.zipcode.value.trim() : '', address1: form.address.value.trim(), address2: form.address2 ? form.address2.value.trim() : '',
+            memo: order.note, points_use: t.pts, guest_privacy_agreed: !!form.agree.checked, save_address: !!(form.save_address && form.save_address.checked),
+            items: order.items.map(function (x) { return { isbn13: x.isbn13, qty: x.qty, source: x.from }; })
+          }).then(function (r) { order.no = r.order_no; order.subtotal = r.subtotal; order.shipping = r.shipping; order.total = r.total; order.pts = r.points_used; order.earn = r.points_to_earn; order.member = r.member; return { ok: true }; });
+        } else {
+          send = CFG.apiUrl
           ? fetch(CFG.apiUrl, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'order', order: order }) })
               .then(function (r) { return r.json(); }).then(function (res) { if (!res || !res.ok) throw new Error((res && res.error) || '접수 실패'); return res; })
           : Promise.resolve({ ok: true, demo: true });
+        }
         send.then(function (res) {
           if (res && res.total != null) { order.subtotal = res.subtotal; order.shipping = res.shipping; order.total = res.total; }
           delete order.website;
           var hist = load('bbshop.orders', []); hist.unshift(order); save('bbshop.orders', hist.slice(0, 20));
           save(KEY, {}); paint();
           var lines = order.items.map(function (x) { return '· ' + x.title + ' × ' + x.qty + '  ' + won(x.price * x.qty); }).join('\n');
-          var txt = '[비북스 주문 ' + order.no + ']\n' + lines + '\n' + (order.ship === 'delivery' ? '택배 ' + (order.shipping ? won(order.shipping) : '무료') : '매장 픽업') + '\n합계 ' + won(order.total);
+          var txt = '[' + (CFG.brand || '비북스') + ' 주문 ' + order.no + ']\n' + lines + '\n' + (order.pts ? '적립금 사용 −' + won(order.pts) + '\n' : '') + (order.ship === 'delivery' ? '택배 ' + (order.shipping ? won(order.shipping) : '무료') : '매장 픽업') + '\n합계 ' + won(order.total);
           $('#cart-box').hidden = true;
           var done = $('#done'); done.hidden = false;
           done.innerHTML = '<h2>주문 요청을 받았어요</h2><p>주문번호 <b>' + order.no + '</b></p><p class="muted">' + esc(CFG.eta || '') + '<br>입고가 확인되면 ' + esc(order.phone) + '로 결제 안내를 보내 드릴게요.</p><pre>' + esc(txt) + '</pre>' +
-            (CFG.apiUrl ? '' : '<p class="demo-note">데모 모드: 이 주문은 서점으로 전송되지 않았습니다.</p>') +
+            (CFG.apiUrl || window.QB ? '' : '<p class="demo-note">데모 모드: 이 주문은 서점으로 전송되지 않았습니다.</p>') +
+            (order.earn ? '<p>수령 완료 시 적립금 <b>' + won(order.earn) + '</b>이 쌓여요.</p>' : '') +
+            (window.QB ? '<p class="small">' + (order.member ? '<a href="' + ROOT + 'me/' + IDX + '">내 주문에서 진행 상황 보기 →</a>' : '주문 조회: <a href="' + ROOT + 'order/' + IDX + '?no=' + encodeURIComponent(order.no) + '">주문번호와 휴대폰 번호로 조회 →</a>') + '</p>' : '') +
             '<div class="row" style="justify-content:center"><button class="btn" id="copy">주문 내용 복사</button><a class="btn primary" href="' + ROOT + IDX + '">계속 둘러보기</a></div>';
           $('#copy').onclick = function () { (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).then(function () { toast('복사했어요'); }, function () { toast('복사하지 못했어요'); }); };
           window.scrollTo(0, 0);
@@ -209,4 +263,5 @@
   window.SHOP_PAINT = paint;
   paint();
   renderCart();
+  if ($('#order')) { $$('.member-only').forEach(function (el) { el.hidden = true; }); getCatalog().then(memberForm); }
 })();
