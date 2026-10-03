@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788932909172",
+ "isbn10": "8932909172",
+ "itemId": 5983176,
+ "title": "최초의 인간",
+ "subTitle": "",
+ "originalTitle": "Le premier homme (1995년)",
+ "author": "알베르 카뮈 (지은이)",
+ "authors": [],
+ "publisher": "열린책들",
+ "pubDate": "2009-12-20",
+ "priceStandard": 14800,
+ "priceSales": 13320,
+ "pages": 379,
+ "category": "국내도서>소설/시/희곡>프랑스소설",
+ "series": "열린책들 세계문학 3",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/598/31/cover200/8932909172_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=5983176&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "제1부 아버지를 찾아서\n\n중계자 : 카뮈 미망인\n\n생브리외\n\n3. 생브리외와 말랑(J. G.)\n\n4. 어린아이의 놀이들\n\n5. 아버지, 그의 죽음, 전쟁, 테러\n\n6. 가족\n\n에티엔\n\n중복된 6. 학교\n\n7. 몽도비 : 식민지와 아버지\n\n제2부 아들 혹은 최초의 인간\n\n1. 중고등학교\n\n닭장과 암탉 목따기\n\n목요일과 방학\n\n2. 자신이 생각해도 알 수 없는\n\n부록1. 낱장 Ⅰ-Ⅴ\n\n부록2. 최초의 인간(노트와 구상)\n\n부록3. 두 통의 편지\n\n가장 오래된 것과 가장 싱싱한 것의 만남\n\n알베르 카뮈 연보",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-03 13:50",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/598/31/cover500/8932909172_1.jpg"
+}

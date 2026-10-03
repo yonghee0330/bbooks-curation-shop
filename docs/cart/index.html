@@ -11,13 +11,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,400&display=swap">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
-<link rel="stylesheet" href="../assets/app.css?v=10021440">
+<link rel="stylesheet" href="../assets/app.css?v=10031540">
 </head>
 <body>
 <header class="top">
   <div class="wrap top-in">
     <a class="logo" href="../"><span class="logo-mark">b</span><span><b>비북스 서가</b><small>좋은 매체가 고른 책을, 원미동 작은 서점에서</small></span></a>
-    <nav><a href="../" class="">추천 도서</a><a href="../s/" class="">매체별</a><a href="../cart/" class="on" data-cart-link>장바구니<b class=cart-n data-cart-count></b></a></nav>
+    <nav><a href="../" class="">홈</a><a href="../m/" class="">매체별</a><a href="../t/" class="">시기별</a><a href="../x/" class="">탐색</a><a href="../y/" class="">용서점</a><a href="../cart/" class="on">장바구니<b class=cart-n data-cart-count></b></a></nav>
   </div>
 </header>
 <main>
@@ -37,11 +37,11 @@
       </fieldset>
       <fieldset>
         <legend>주문하시는 분</legend>
-        <label>이름<input name="name" required autocomplete="name"></label>
-        <label>휴대폰<input name="phone" required inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"></label>
-        <label>이메일 <small>(선택)</small><input name="email" type="email" autocomplete="email"></label>
-        <label class="addr" hidden>받을 주소<input name="address" autocomplete="street-address" placeholder="도로명 주소, 상세 주소"></label>
-        <label>요청사항 <small>(선택)</small><textarea name="note" rows="2" placeholder="선물 포장, 입고 연락 방법 등"></textarea></label>
+        <label>이름<input name="name" id="o-name" required autocomplete="name"></label>
+        <label>휴대폰<input name="phone" id="o-phone" required inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"></label>
+        <label>이메일 <small>(선택)</small><input name="email" id="o-email" type="email" autocomplete="email"></label>
+        <label class="addr" hidden>받을 주소<input name="address" id="o-address" autocomplete="street-address" placeholder="도로명 주소, 상세 주소"></label>
+        <label>요청사항 <small>(선택)</small><textarea name="note" id="o-note" rows="2" placeholder="선물 포장, 입고 연락 방법 등"></textarea></label>
       </fieldset>
       <div class="sum" id="sum"></div>
       <label class="agree"><input type="checkbox" name="agree" required> 주문 처리(입고·연락·배송)를 위해 이름·연락처·주소를 수집하고, 주문 완료 후 1년간 보관하는 데 동의합니다.</label>
@@ -56,11 +56,11 @@
 <footer class="foot">
   <div class="wrap">
     <p><b>비북스 큐레이션 서점</b> · 경기 부천시 원미구 원미동 · <a href="https://www.instagram.com/bbooks_bucheon/" target="_blank" rel="noopener">@bbooks_bucheon</a></p>
-    <p class="muted">추천 글 요약은 비북스가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 해당 매체에서 구독해 읽어 주세요. 도서 정보·표지·목차 제공: 알라딘.</p>
+    <p class="muted">추천 글 요약은 비북스가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 각 매체에서 읽어 주세요 — <a href="https://emmausbooksreview.stibee.com/" target="_blank" rel="noopener">엠마오</a> · <a href="https://maily.so/secularsaints" target="_blank" rel="noopener">틈</a> · <a href="https://www.goscon.co.kr/news/articleList.html?sc_sub_section_code=S2N67&view_type=sm" target="_blank" rel="noopener">복음과상황</a> · <a href="https://www.newsnjoy.or.kr/news/articleList.html?sc_sub_section_code=S2N61&view_type=sm" target="_blank" rel="noopener">뉴스앤조이</a> · <a href="https://www.cbooknews.com/?c=75/80" target="_blank" rel="noopener">크리스찬북뉴스</a>. 도서 정보·표지·목차 제공: 알라딘.</p>
   </div>
 </footer>
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <script>window.SHOP={"apiUrl": "", "pricing": {"discountRate": 0.1, "_discountNote": "도서정가제: 정가의 10% 이내 할인. 0이면 정가 판매.", "shipping": 3000, "freeShippingOver": 30000}, "pickup": "비북스 매장 픽업 (입고 후 문자 안내)", "eta": "주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준).", "root": "../", "idx": ""};</script>
-<script src="../assets/app.js?v=10021440"></script>
+<script src="../assets/app.js?v=10031540"></script>
 </body>
 </html>

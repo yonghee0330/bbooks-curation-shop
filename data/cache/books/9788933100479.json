@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788933100479",
+ "isbn10": "K452532729",
+ "itemId": 137088093,
+ "title": "영혼의 성 (1970년판)",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "아빌라의 테레사 (지은이), 최민순 (옮긴이)",
+ "authors": [],
+ "publisher": "바오로딸(성바오로딸)",
+ "pubDate": "1970-12-01",
+ "priceStandard": 6000,
+ "priceSales": 5400,
+ "pages": 286,
+ "category": "국내도서>종교/역학>가톨릭>가톨릭 신앙생활",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/13708/80/cover200/k452532729_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=137088093&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "성 데레사의 메시지\n\n머리말\n\n제 일궁방\n\n제 이궁방\n\n제 삼궁방\n\n제 사궁방\n\n제 오궁방\n\n제 육궁방\n\n제 칠궁방",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-03 14:16",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/13708/80/cover500/k452532729_1.jpg"
+}

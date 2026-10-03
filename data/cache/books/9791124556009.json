@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791124556009",
+ "isbn10": "K552138208",
+ "itemId": 392450083,
+ "title": "창세기 - 만화로 보는 성경 원문",
+ "subTitle": "만화로 보는 성경 원문",
+ "originalTitle": "",
+ "author": "로버트 크럼 (지은이), 이나무 (옮긴이)",
+ "authors": [],
+ "publisher": "이숲",
+ "pubDate": "2026-05-25",
+ "priceStandard": 25000,
+ "priceSales": 22500,
+ "pages": 230,
+ "category": "국내도서>만화/라이트노벨>그래픽노블",
+ "series": null,
+ "description": "언더그라운드 만화의 전설 로버트 크럼이 『창세기』를 단 한 줄의 가감 없이 만화로 옮겼다. 아담과 이브, 노아의 방주, 소돔과 고모라까지 인류 서사의 원형을 강렬한 그림체로 되살린 작품이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/39245/0/cover200/k552138208_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392450083&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "언더그라운드 만화의 전설 로버트 크럼이 『창세기』를 단 한 줄의 가감 없이 만화로 옮겼다. 아담과 이브, 카인과 아벨, 노아의 방주, 소돔과 고모라까지 인류 서사의 원형을 강렬한 그림체로 되살린 작품이다.\n\n낯선 이름과 독특한 성경 말투 때문에 쉽게 다가가기 어려웠던 『창세기』를 만화라는 형식으로 새롭게 읽게 한다. 유혹과 질투, 타락과 징벌, 믿음과 구원으로 이어지는 인간사의 극적 장면들이 생생하게 펼쳐진다.\n\n〈킹제임스 바이블〉을 바탕으로 작업했으며, 이번 우리말판은 여러 성경 번역본을 참고해 현대 독자도 자연스럽게 읽을 수 있도록 옮겼다. 부록에는 각 장 해설과 문화·역사적 배경 설명을 수록해 『창세기』를 입체적으로 이해하도록 돕는다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-03 15:36",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/39245/0/cover500/k552138208_1.jpg"
+}

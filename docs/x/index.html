@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>탐색 — 비북스 서가</title>
+<meta name="description" content="서평지와 잡지, 출판 뉴스레터가 이달에 고른 책들을 모아 둡니다. 누가 왜 추천했는지 함께 읽고, 마음에 드는 책은 비북스에서 바로 주문하세요.">
+<meta property="og:title" content="탐색 — 비북스 서가">
+<meta property="og:description" content="서평지와 잡지, 출판 뉴스레터가 이달에 고른 책들을 모아 둡니다. 누가 왜 추천했는지 함께 읽고, 마음에 드는 책은 비북스에서 바로 주문하세요.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,650;1,9..144,400&display=swap">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css">
+<link rel="stylesheet" href="../assets/app.css?v=10031540">
+</head>
+<body>
+<header class="top">
+  <div class="wrap top-in">
+    <a class="logo" href="../"><span class="logo-mark">b</span><span><b>비북스 서가</b><small>좋은 매체가 고른 책을, 원미동 작은 서점에서</small></span></a>
+    <nav><a href="../" class="">홈</a><a href="../m/" class="">매체별</a><a href="../t/" class="">시기별</a><a href="../x/" class="on">탐색</a><a href="../y/" class="">용서점</a><a href="../cart/" class="">장바구니<b class=cart-n data-cart-count></b></a></nav>
+  </div>
+</header>
+<main>
+
+<section class="wrap block explore">
+  <div class="sec-head"><h1>탐색</h1><p>매체 · 기간 · 코너 · 겹침을 조합해 보세요</p></div>
+  <form id="xf" class="xf" onsubmit="return false">
+    <div class="xf-row"><span class="xf-l">매체</span><label class="chk" style="--mc:#3d3a35"><input type="checkbox" name="m" value="yong" checked> 용서점</label><label class="chk" style="--mc:#7a2e2a"><input type="checkbox" name="m" value="emmaus" checked> 엠마오</label><label class="chk" style="--mc:#2f5d50"><input type="checkbox" name="m" value="teum" checked> 틈</label><label class="chk" style="--mc:#1f4e79"><input type="checkbox" name="m" value="goscon" checked> 복음과상황</label><label class="chk" style="--mc:#b4541a"><input type="checkbox" name="m" value="newsnjoy" checked> 뉴스앤조이</label><label class="chk" style="--mc:#5b4a8a"><input type="checkbox" name="m" value="cbooknews" checked> 크리스찬북뉴스</label></div>
+    <div class="xf-row"><span class="xf-l">코너</span><label class="chk"><input type="checkbox" name="g" value="pick" checked> 대표 추천</label><label class="chk"><input type="checkbox" name="g" value="review" checked> 서평·에세이</label><label class="chk"><input type="checkbox" name="g" value="new" checked> 신간 소개</label><label class="chk"><input type="checkbox" name="g" value="house" checked> 용서점</label><label class="chk"><input type="checkbox" name="g" value="related" checked> 함께 읽기</label></div>
+    <div class="xf-row"><span class="xf-l">기간</span><select name="from" aria-label="시작"><option value="2025-01">2025.01</option><option value="2025-02">2025.02</option><option value="2025-03">2025.03</option><option value="2025-04">2025.04</option><option value="2025-05">2025.05</option><option value="2025-06">2025.06</option><option value="2025-07">2025.07</option><option value="2025-08">2025.08</option><option value="2025-09">2025.09</option><option value="2025-10">2025.10</option><option value="2025-11">2025.11</option><option value="2025-12">2025.12</option><option value="2026-01">2026.01</option><option value="2026-02">2026.02</option><option value="2026-03">2026.03</option><option value="2026-04">2026.04</option><option value="2026-05">2026.05</option><option value="2026-06">2026.06</option><option value="2026-07">2026.07</option><option value="2026-08">2026.08</option><option value="2026-09">2026.09</option><option value="2026-10">2026.10</option></select> ~ <select name="to" aria-label="끝"><option value="2026-10">2026.10</option><option value="2026-09">2026.09</option><option value="2026-08">2026.08</option><option value="2026-07">2026.07</option><option value="2026-06">2026.06</option><option value="2026-05">2026.05</option><option value="2026-04">2026.04</option><option value="2026-03">2026.03</option><option value="2026-02">2026.02</option><option value="2026-01">2026.01</option><option value="2025-12">2025.12</option><option value="2025-11">2025.11</option><option value="2025-10">2025.10</option><option value="2025-09">2025.09</option><option value="2025-08">2025.08</option><option value="2025-07">2025.07</option><option value="2025-06">2025.06</option><option value="2025-05">2025.05</option><option value="2025-04">2025.04</option><option value="2025-03">2025.03</option><option value="2025-02">2025.02</option><option value="2025-01">2025.01</option></select>
+      <span class="xf-l gap">겹침</span><select name="multi" aria-label="겹침"><option value="1">모든 책</option><option value="2">2개 매체 이상</option><option value="3">3개 매체 이상</option></select></div>
+    <div class="xf-row"><input type="search" name="q" placeholder="제목 · 저자 · 출판사 · 추천자 검색" aria-label="검색">
+      <select name="sort" aria-label="정렬"><option value="recent">최근 추천 순</option><option value="many">추천 많은 순</option><option value="title">제목 순</option><option value="pub">출간 순</option></select>
+      <span class="seg"><button type="button" class="on" data-view="books">책</button><button type="button" data-view="recs">추천 글</button></span></div>
+  </form>
+  <p class="xcount" id="xcount"></p>
+  <div id="xres" class="grid"></div>
+  <div class="row center"><button class="btn" id="xmore" hidden>더 보기</button></div>
+</section>
+<script src="../assets/explore.js?v=10031540"></script>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <p><b>비북스 큐레이션 서점</b> · 경기 부천시 원미구 원미동 · <a href="https://www.instagram.com/bbooks_bucheon/" target="_blank" rel="noopener">@bbooks_bucheon</a></p>
+    <p class="muted">추천 글 요약은 비북스가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 각 매체에서 읽어 주세요 — <a href="https://emmausbooksreview.stibee.com/" target="_blank" rel="noopener">엠마오</a> · <a href="https://maily.so/secularsaints" target="_blank" rel="noopener">틈</a> · <a href="https://www.goscon.co.kr/news/articleList.html?sc_sub_section_code=S2N67&view_type=sm" target="_blank" rel="noopener">복음과상황</a> · <a href="https://www.newsnjoy.or.kr/news/articleList.html?sc_sub_section_code=S2N61&view_type=sm" target="_blank" rel="noopener">뉴스앤조이</a> · <a href="https://www.cbooknews.com/?c=75/80" target="_blank" rel="noopener">크리스찬북뉴스</a>. 도서 정보·표지·목차 제공: 알라딘.</p>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>window.SHOP={"apiUrl": "", "pricing": {"discountRate": 0.1, "_discountNote": "도서정가제: 정가의 10% 이내 할인. 0이면 정가 판매.", "shipping": 3000, "freeShippingOver": 30000}, "pickup": "비북스 매장 픽업 (입고 후 문자 안내)", "eta": "주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준).", "root": "../", "idx": ""};</script>
+<script src="../assets/app.js?v=10031540"></script>
+</body>
+</html>

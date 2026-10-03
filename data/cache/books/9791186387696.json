@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791186387696",
+ "isbn10": "K002138063",
+ "itemId": 391662734,
+ "title": "갈릴리",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "김광남 (지은이)",
+ "authors": [],
+ "publisher": "비전북(VisionBook)",
+ "pubDate": "2026-04-27",
+ "priceStandard": 19800,
+ "priceSales": 17820,
+ "pages": 408,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교 문학",
+ "series": null,
+ "description": "신약성서와 1세기 팔레스타인 현실을 바탕으로 청년 예수의 삶을 재현한 역사소설이다. 제자 안드레 시점으로 인간 예수의 모습을 사실적으로 그려낸다.",
+ "coverUrl": "https://image.aladin.co.kr/product/39166/27/cover200/k002138063_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=391662734&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "추천사_ 조성기 소설가ㆍ김기석 문학평론가\n\n가버나움\n\n잔치\n\n순회\n\n우기\n\n고백\n\n여리고\n\n예루살렘\n\n다시 가버나움\n\n에필로그\n\n작가의 말",
+ "intro": "신약성서와 1세기 팔레스타인의 사회경제적 현실을 바탕으로 청년 예수의 삶을 재현한 역사 소설이다. 성서학을 전공한 번역가 김광남의 첫 장편으로, 로마 제국의 압제와 질병, 세금에 시달리던 민초들의 삶을 배경으로 인간 예수의 모습을 입체적으로 그려낸다.\n\n사복음서를 단순히 재구성한 종교 소설이 아니라, 제자 안드레의 1인칭 시점으로 예수의 행적을 사실적으로 풀어낸다. 신학적 통찰과 역사적 사실주의가 결합된 서사 속에서 갈릴리 사람 예수에 대한 새로운 이해를 제시하는 역사소설이다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-03 15:19",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/39166/27/cover500/k002138063_1.jpg"
+}

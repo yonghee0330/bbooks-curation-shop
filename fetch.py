@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
-"""책 정보 수집 — data/sources/*.json 의 책마다
+"""책 정보 수집 — data/issues/**/*.json · data/house/*.json 의 모든 추천 항목마다
 
   1) 알라딘 Open API(ItemSearch → ItemLookUp)로 ISBN·표지·정가·분류·쪽수
-  2) 알라딘 상품 페이지 소개 블록(getContents Introduce)으로 책소개·목차·출판사 서평
+  2) 알라딘 상품 페이지 소개 블록(getContents Introduce)으로 책소개·목차
   (예스24 검색은 스크립트 접근 시 메인으로 돌려보내 오매칭 위험 → 쓰지 않음. 목차가 없으면 비워 둠)
 
-결과는 data/cache/books/<isbn13>.json, 표지는 data/cache/covers/<isbn13>.jpg 에 저장.
-이미 있는 캐시는 건너뜀(--refresh 로 다시 받기). 사이트 간 간격 3초 이상(알라딘 robots Crawl-delay 3).
+결과는 data/cache/books/<isbn13>.json. 표지는 알라딘 이미지 주소(cover500)를 그대로 씀.
+찾은 ISBN은 각 항목의 isbn13 으로 고정되고, 검색 결과는 data/cache/match.json 에 캐시.
+잘못 잡힌 책은 항목의 isbn13 을 손으로 고치고, 알라딘에 없는 책은 "none".
 
-  python3 fetch.py                 # 모든 소스
-  python3 fetch.py emmaus-28       # 특정 소스만
+  python3 fetch.py                 # 전체 (이미 받은 책은 건너뜀)
+  python3 fetch.py teum            # 경로에 'teum' 이 들어간 목록만
   python3 fetch.py --refresh       # 캐시 무시
   python3 fetch.py --reparse       # 받아 둔 html로 소개·목차만 다시 파싱
 """
@@ -25,7 +26,6 @@ import urllib.parse
 import urllib.request
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(ROOT, 'data', 'sources')
 BOOKS = os.path.join(ROOT, 'data', 'cache', 'books')
 COVERS = os.path.join(ROOT, 'data', 'cache', 'covers')
 RAW = os.path.join(ROOT, 'data', 'cache', 'raw')
@@ -88,34 +88,48 @@ def norm(s):
     return re.sub(r'[\s·・,.\-()（）\[\]:;!?「」『』《》<>]', '', (s or '')).lower()
 
 
+MATCH_PATH = os.path.join(ROOT, 'data', 'cache', 'match.json')
+MATCH = json.load(open(MATCH_PATH, encoding='utf-8')) if os.path.exists(MATCH_PATH) else {}
+
+
 def find_item(book):
-    """제목(+출판사)으로 검색해 가장 잘 맞는 상품 하나."""
+    """제목·출판사·저자로 검색해 가장 잘 맞는 상품 하나. 결과는 data/cache/match.json 에 캐시
+    (못 찾은 책은 30일 뒤 다시 시도 — 출간 전 소개된 책이 나중에 등록되는 경우)."""
     if book.get('isbn13'):
         return book['isbn13']
-    res = api('ItemSearch', Query=book.get('search') or book['title'], QueryType='Keyword',
-              SearchTarget='Book', MaxResults=20, Sort='Accuracy')
-    items = res.get('item') or []
-    want_t, want_p = norm(book['title']), norm(book.get('publisher'))
-    best, best_score = None, -1
-    for it in items:
-        t, p = norm(it.get('title')), norm(it.get('publisher'))
-        score = 0
-        if want_p and want_p in p or (p and p in want_p and want_p):
-            score += 5
-        head = want_t[:8]
-        if head and head in t:
-            score += 4
-        if t.startswith(want_t[:4]):
-            score += 1
-        if it.get('mallType') == 'BOOK':
-            score += 1
-        score += min(int(it.get('salesPoint') or 0), 50000) / 50000  # 같은 점수면 많이 팔린 판
-        if score > best_score:
-            best, best_score = it, score
-    if not best or best_score < 4:
-        print(f'   ? 확실한 일치 없음: {book["title"]} → 후보', [(i["title"][:30], i["publisher"]) for i in items[:5]])
-        return best.get('isbn13') if best and best_score >= 4 else None
-    return best.get('isbn13') or best.get('isbn')
+    mk = norm(book['title']) + '|' + norm(book.get('publisher'))
+    hit = MATCH.get(mk)
+    if hit and (hit.get('isbn') or time.time() - hit.get('t', 0) < 30 * 86400):
+        return hit.get('isbn')
+    main = re.split(r'\s+-\s+|\s*:\s+|\s*＞', book['title'])[0].strip() or book['title']  # 부제 떼고 검색
+    want_t, want_p, want_a = norm(main), norm(book.get('publisher')), norm((book.get('author') or '').split('·')[0].split(',')[0])
+    best, best_score, items = None, -1, []
+    for q in ([book.get('search')] if book.get('search') else []) + [f"{main} {book.get('publisher') or ''}".strip(), main]:
+        res = api('ItemSearch', Query=q, QueryType='Keyword', SearchTarget='Book', MaxResults=20, Sort='Accuracy')
+        items = res.get('item') or []
+        for it in items:
+            t, p, au = norm(html.unescape(it.get('title', ''))), norm(it.get('publisher')), norm(it.get('author'))
+            score = 0
+            if want_p and p and (want_p in p or p in want_p):
+                score += 5
+            if want_t and (t.startswith(want_t) or want_t.startswith(t.split('-')[0][:len(want_t)])):
+                score += 5
+            elif want_t[:8] and want_t[:8] in t:
+                score += 3
+            if want_a and len(want_a) >= 2 and want_a[:3] in au:
+                score += 3
+            if it.get('mallType') == 'BOOK':
+                score += 1
+            score += min(int(it.get('salesPoint') or 0), 50000) / 50000
+            if score > best_score:
+                best, best_score = it, score
+        if best_score >= 9:
+            break
+    isbn = (best.get('isbn13') or best.get('isbn')) if best and best_score >= 8 else None
+    if not isbn:
+        print(f'   ? 일치 없음: {book["title"]} / {book.get("publisher")} → 후보', [(html.unescape(i["title"])[:24], i["publisher"]) for i in items[:3]])
+    MATCH[mk] = {'isbn': isbn, 't': int(time.time()), 'score': round(best_score, 1)}
+    return isbn
 
 
 def clean_html(fragment):
@@ -231,49 +245,50 @@ def fetch_book(book):
                 rec['toc'] = v
             elif '출판사' in k and not rec['publisherReview']:
                 rec['publisherReview'] = v
-    # 표지
-    cov = os.path.join(COVERS, f'{rec["isbn13"]}.jpg')
-    if rec['coverUrl'] and (REFRESH or not os.path.exists(cov)):
-        url = rec['coverUrl'].replace('/cover200/', '/cover500/').replace('/coversum/', '/cover500/')
-        for u in (url, rec['coverUrl']):
-            try:
-                req = urllib.request.Request(u, headers={'User-Agent': UA, 'Referer': 'https://www.aladin.co.kr/'})
-                with urllib.request.urlopen(req, timeout=25) as r:
-                    data = r.read()
-                if len(data) > 2000:
-                    open(cov, 'wb').write(data)
-                    break
-            except Exception:  # noqa: BLE001
-                continue
+    rec['cover500'] = (rec['coverUrl'] or '').replace('/cover200/', '/cover500/').replace('/coversum/', '/cover500/')
     json.dump(rec, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     return rec['isbn13']
 
 
+def all_lists():
+    """data/issues/<매체>/<호>.json 과 data/house/<목록>.json"""
+    for base in ('issues', 'house'):
+        root = os.path.join(ROOT, 'data', base)
+        for dp, _, fns in os.walk(root):
+            for fn in sorted(fns):
+                if fn.endswith('.json') and not fn.startswith('_'):
+                    yield os.path.join(dp, fn)
+
+
 def main():
     os.makedirs(BOOKS, exist_ok=True)
-    os.makedirs(COVERS, exist_ok=True)
     os.makedirs(RAW, exist_ok=True)
     only = [a for a in sys.argv[1:] if not a.startswith('--')]
-    for fn in sorted(os.listdir(SRC)):
-        if not fn.endswith('.json') or (only and fn[:-5] not in only):
-            continue
-        sp = os.path.join(SRC, fn)
-        src = json.load(open(sp, encoding='utf-8'))
-        print(f'■ {src["title"]} ({len(src["books"])}권)')
-        changed = False
-        for b in src['books']:
-            isbn = fetch_book(b)
-            mark = '✓' if isbn else '✗'
-            info = ''
-            if isbn:
-                rec = json.load(open(os.path.join(BOOKS, f'{isbn}.json'), encoding='utf-8'))
-                info = f'{rec["title"][:28]} / {rec["publisher"]} / 목차 {"O" if rec["toc"] else "-"} 소개 {"O" if rec["intro"] or rec["description"] else "-"}'
-                if b.get('isbn13') != isbn:
-                    b['isbn13'] = isbn
-                    changed = True
-            print(f'  {mark} {b["title"][:30]:<30} {isbn or ""} {info}')
-        if changed:  # 찾은 ISBN을 소스에 고정 → 다음부터 검색 생략, 잘못 잡히면 손으로 고치면 됨
-            json.dump(src, open(sp, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+    ok = miss = 0
+    try:
+        for path in all_lists():
+            rel = os.path.relpath(path, os.path.join(ROOT, 'data'))
+            if only and not any(o in rel for o in only):
+                continue
+            doc = json.load(open(path, encoding='utf-8'))
+            changed = False
+            for it in doc.get('items', []):
+                if it.get('isbn13') == 'none':
+                    continue
+                isbn = fetch_book(it)
+                if isbn:
+                    ok += 1
+                    if it.get('isbn13') != isbn:
+                        it['isbn13'] = isbn
+                        changed = True
+                else:
+                    miss += 1
+            if changed:  # 찾은 ISBN을 고정 → 다음부터 검색 생략. 잘못 잡히면 손으로 고치고, 없는 책은 "none"
+                json.dump(doc, open(path, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+                print(f'  ✓ {rel}')
+    finally:
+        json.dump(MATCH, open(MATCH_PATH, 'w', encoding='utf-8'), ensure_ascii=False, indent=0)
+    print(f'■ 도서 정보: 연결 {ok}건, 못 찾음 {miss}건')
 
 
 if __name__ == '__main__':

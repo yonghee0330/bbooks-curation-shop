@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788941241249",
+ "isbn10": "8941241243",
+ "itemId": 301097937,
+ "title": "새한글성경 요한복음 쪽복음 NKT561-JN",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "대한성서공회 편집부 (지은이)",
+ "authors": [],
+ "publisher": "대한성서공회",
+ "pubDate": "2022-09-10",
+ "priceStandard": 1500,
+ "priceSales": 1500,
+ "pages": 128,
+ "category": "국내도서>종교/역학>기독교(개신교)>성경/찬송가>한글성경",
+ "series": null,
+ "description": "「새한글성경」은 디지털 매체에 익숙한 젊은이들이 성경을 더 쉽고 정확하게 이해하고 자신의 삶 속에 적용할 수 있도록 번역한 성경이다. 한 문장이 16절 50 글자가 넘지 않는 짧은 문장으로 번역했다.",
+ "coverUrl": "https://image.aladin.co.kr/product/30109/79/cover200/8941241243_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=301097937&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "",
+ "intro": "「새한글성경」은 디지털 매체에 익숙한 젊은이들이 성경을 더 쉽고 정확하게 이해하고 자신의 삶 속에 적용할 수 있도록 번역한 성경이다. 한 문장이 16절 50 글자가 넘지 않는 짧은 문장으로 번역했다. 일부 인지명도 교과서 기준에 맞추어 음역을 새롭게 함으로써 소통의 어려움이 없게 했다. 또한 성경 원문에 더욱 충실한 번역이 되도록 단어의 어원과 어순까지 세심하게 연구하여 최대한 원문에 가깝게 번역했다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-03 14:10",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/30109/79/cover500/8941241243_1.jpg"
+}

@@ -204,6 +204,7 @@
     });
   }
 
+  window.SHOP_PAINT = paint;
   paint();
   renderCart();
 })();
