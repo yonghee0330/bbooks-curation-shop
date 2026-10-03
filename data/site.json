@@ -49,6 +49,7 @@
     "privacyOfficer": "(개인정보 보호책임자 이름 입력)"
   },
   "loginProviders": [
+    "kakao",
     "google"
   ],
   "_loginProvidersNote": "켜 둔 로그인 방식. 카카오 설정 후 \"kakao\" 추가"
