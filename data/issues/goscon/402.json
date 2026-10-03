@@ -1,0 +1,268 @@
+{
+ "media": "goscon",
+ "id": "402",
+ "no": "402호",
+ "title": "복음과상황 402호",
+ "date": "2024-04-23",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=41473",
+ "season": "2024 봄",
+ "items": [
+  {
+   "key": "신을위한음악-좋은씨앗",
+   "title": "신을 위한 음악",
+   "author": "요한 힌리히 클라우센",
+   "translator": "홍은정",
+   "publisher": "좋은씨앗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41469",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《희년 신앙》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788958743996"
+  },
+  {
+   "key": "희년신앙-대장간",
+   "title": "희년 신앙",
+   "author": "김철호·김옥연",
+   "translator": "",
+   "publisher": "대장간",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41469",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《희년 신앙》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788970716619"
+  },
+  {
+   "key": "세속시대의기독교신앙형성-비전북",
+   "title": "세속 시대의 기독교 신앙 형성",
+   "author": "앤드루 루트",
+   "translator": "김광남",
+   "publisher": "비전북",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41469",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《희년 신앙》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791186387573"
+  },
+  {
+   "key": "모든사람을위한신약의구약사용안내서-ivp",
+   "title": "모든 사람을 위한 신약의 구약 사용 안내서",
+   "author": "그레그 러니어",
+   "translator": "이철민",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41469",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《희년 신앙》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932821672"
+  },
+  {
+   "key": "예수그리스도와신화-지우",
+   "title": "예수 그리스도와 신화",
+   "author": "루돌프 불트만",
+   "translator": "",
+   "publisher": "지우",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193664025"
+  },
+  {
+   "key": "하나님의임재연습-사자와어린양",
+   "title": "하나님의 임재 연습",
+   "author": "로렌스 형제",
+   "translator": "홍종락",
+   "publisher": "사자와어린양",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193325087"
+  },
+  {
+   "key": "웨슬리따라갓생살기-kmc",
+   "title": "웨슬리 따라 갓생살기",
+   "author": "이충범",
+   "translator": "",
+   "publisher": "KMC",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788984309128"
+  },
+  {
+   "key": "오만과환대-앵커출판미디어",
+   "title": "오만과 환대",
+   "author": "이선용",
+   "translator": "",
+   "publisher": "앵커출판&미디어",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791186606308"
+  },
+  {
+   "key": "십자가의길고독한사랑의길-생활성서사",
+   "title": "십자가의 길 고독한 사랑의 길",
+   "author": "김진태",
+   "translator": "",
+   "publisher": "생활성서사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788984816619"
+  },
+  {
+   "key": "하나님나라공동선교회-크리쿰북스",
+   "title": "하나님 나라, 공동선, 교회",
+   "author": "한국교회 희망 프로젝트",
+   "translator": "",
+   "publisher": "크리쿰북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788996738343"
+  },
+  {
+   "key": "진정한플렉스-죠이북스",
+   "title": "진정한 플렉스",
+   "author": "신동재",
+   "translator": "",
+   "publisher": "죠이북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193507131"
+  },
+  {
+   "key": "기쁜일상을위한일상영성-cup",
+   "title": "기쁜 일상을 위한 일상영성",
+   "author": "게리 토마스",
+   "translator": "윤종석",
+   "publisher": "CUP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791190564618"
+  },
+  {
+   "key": "해방-디플롯",
+   "title": "해방",
+   "author": "타라나 버크",
+   "translator": "김진원",
+   "publisher": "디플롯",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41470",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수 그리스도와 신화》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791198278272"
+  },
+  {
+   "key": "고백의언어들-복있는사람",
+   "title": "고백의 언어들",
+   "author": "김기석",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41471",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "《고백의 언어들》 하나님을 설명하기 위하여",
+   "by": [
+    "정민호"
+   ],
+   "summary": "하나님을 설명하기 위해 신앙 고백의 언어를 다듬어 온 김기석 목사의 책.",
+   "isbn13": "9791170831211"
+  },
+  {
+   "key": "쿠튀리에신부에게보내는편지-리시올",
+   "title": "쿠튀리에 신부에게 보내는 편지",
+   "author": "시몬 베유",
+   "translator": "이종영",
+   "publisher": "리시올",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41472",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "《쿠튀리에 신부에게 보내는 편지》 시몬 베유를 읽는다",
+   "by": [
+    "강동석"
+   ],
+   "summary": "‘불꽃’이라 불린 시몬 베유가 교회 밖에서 신앙을 묻고 쓴 편지.",
+   "isbn13": "9791190292252"
+  },
+  {
+   "key": "예수의식탁이야기-두란노",
+   "title": "예수의 식탁 이야기",
+   "author": "김호경",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41473",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "《예수의  식탁 이야기》 “밥은 먹고 다니니?”",
+   "by": [
+    "김다혜"
+   ],
+   "summary": "‘밥은 먹고 다니니?’라는 물음처럼 예수의 식탁 이야기를 통해 환대와 사귐을 묵상한다.",
+   "isbn13": "9788953148192"
+  }
+ ]
+}

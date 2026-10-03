@@ -1,0 +1,1470 @@
+{
+ "media": "ct100",
+ "id": "2000",
+ "no": "2000년",
+ "title": "20세기 기독교 책 100권",
+ "subtitle": "Books of the Century",
+ "date": "2000-04-24",
+ "column": "고전 목록",
+ "url": "https://www.christianitytoday.com/2000/04/books-of-century/",
+ "season": "고전",
+ "_curated": true,
+ "items": [
+  {
+   "key": "001-순전한기독교",
+   "title": "순전한 기독교",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "20세기 기독교 변증의 고전. 라디오 강연에서 출발해 교파를 넘는 기독교의 핵심을 쉬운 말로 설명한다.",
+   "rank": 1,
+   "isbn13": "9788936513269"
+  },
+  {
+   "key": "002-제자의길과십자가",
+   "title": "제자의 길과 십자가",
+   "author": "디트리히 본회퍼",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "값싼 은혜를 비판하고 값비싼 은혜, 곧 제자도의 대가를 묻는 본회퍼의 대표작. 『나를 따르라』로도 옮겨졌다.",
+   "rank": 2
+  },
+  {
+   "key": "003-교회교의학",
+   "title": "교회 교의학",
+   "author": "칼 바르트",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "20세기 신학의 거대한 봉우리. 하나님의 말씀에서 출발해 교회의 신학 전체를 다시 세운 바르트의 대작.",
+   "rank": 3,
+   "isbn13": "9788951109379"
+  },
+  {
+   "key": "004-반지의제왕",
+   "title": "반지의 제왕",
+   "author": "J. R. R. 톨킨",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "선과 악, 희생과 섭리를 그린 판타지 문학의 고전. 가톨릭 신자 톨킨의 세계관이 깊게 배어 있다.",
+   "rank": 4
+  },
+  {
+   "key": "005-예수의정치학",
+   "title": "예수의 정치학",
+   "author": "존 하워드 요더",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "예수의 삶과 가르침이 사회윤리와 무관하지 않다고 논증한 메노나이트 신학자의 고전.",
+   "rank": 5,
+   "isbn13": "9788932840406"
+  },
+  {
+   "key": "006-정통",
+   "title": "정통",
+   "author": "G. K. 체스터턴",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "저자가 기독교 정통 신앙에 이르게 된 사유의 여정을 역설과 유머로 풀어낸 변증서.",
+   "rank": 6,
+   "isbn13": "9791170831761"
+  },
+  {
+   "key": "007-칠층산",
+   "title": "칠층산",
+   "author": "토머스 머튼",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "방황하던 청년이 트라피스트 수도사가 되기까지의 회심을 기록한 자서전.",
+   "rank": 7
+  },
+  {
+   "key": "008-영적훈련과성장",
+   "title": "영적 훈련과 성장",
+   "author": "리처드 포스터",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "기도·금식·묵상 등 고전적 영성 훈련을 현대 그리스도인의 삶으로 안내한 책. 『영적 훈련과 성장』의 원제는 Celebration of Discipline.",
+   "rank": 8,
+   "isbn13": "9788904152483"
+  },
+  {
+   "key": "009-주님은나의최고봉",
+   "title": "주님은 나의 최고봉",
+   "author": "오스왈드 챔버스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "한 세기 동안 읽혀 온 하루 한 편의 묵상집.",
+   "rank": 9,
+   "isbn13": "9788977823389"
+  },
+  {
+   "key": "010-도덕적인간과비도덕적사회",
+   "title": "도덕적 인간과 비도덕적 사회",
+   "author": "라인홀드 니버",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "개인의 도덕과 집단의 이기심 사이의 긴장을 분석한 기독교 현실주의의 고전.",
+   "rank": 10,
+   "isbn13": "9788931000023"
+  },
+  {
+   "key": "011-모든것이산산이부서지다",
+   "title": "모든 것이 산산이 부서지다",
+   "author": "치누아 아체베",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "식민 지배와 선교가 아프리카 공동체를 어떻게 흔들었는지 그린 나이지리아 문학의 고전.",
+   "rank": 11,
+   "isbn13": "9788937461712"
+  },
+  {
+   "key": "012-익명의알코올중독자들",
+   "title": "익명의 알코올중독자들",
+   "author": "알코올중독자 익명 모임",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "12단계 회복 운동의 기초가 된 이른바 빅 북. 영적 회복의 언어를 대중화했다.",
+   "rank": 12
+  },
+  {
+   "key": "013-마르틴루터의생애",
+   "title": "마르틴 루터의 생애",
+   "author": "롤런드 베인턴",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "루터의 생애와 종교개혁을 생생하게 그린 대표적 평전. 『내가 여기 서 있나이다』로도 알려졌다.",
+   "rank": 13,
+   "isbn13": "9788904110438"
+  },
+  {
+   "key": "014-로마서강해",
+   "title": "로마서 강해",
+   "author": "칼 바르트",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "자유주의 신학의 운동장에 폭탄을 떨어뜨렸다는 평을 받은 바르트의 로마서 주석.",
+   "rank": 14
+  },
+  {
+   "key": "015-죽음의부정",
+   "title": "죽음의 부정",
+   "author": "어니스트 베커",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "인간 문화가 죽음의 공포를 부인하려는 시도라고 본 퓰리처상 수상작.",
+   "rank": 15,
+   "isbn13": "9791191114874"
+  },
+  {
+   "key": "016-마음의습관",
+   "title": "마음의 습관",
+   "author": "로버트 N. 벨라 외",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "미국인의 개인주의와 공동체의 관계를 분석한 종교사회학의 고전.",
+   "rank": 16
+  },
+  {
+   "key": "017-시골사제의일기",
+   "title": "시골 사제의 일기",
+   "author": "조르주 베르나노스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "시골 본당 젊은 사제의 고뇌와 은총을 그린 가톨릭 문학의 걸작.",
+   "rank": 17
+  },
+  {
+   "key": "018-옥중서신",
+   "title": "옥중서신",
+   "author": "디트리히 본회퍼",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "나치 감옥에서 쓴 편지와 단상. 성숙한 세상의 그리스도인을 묻는 본회퍼의 마지막 사유.",
+   "rank": 18,
+   "isbn13": "9791192675244"
+  },
+  {
+   "key": "019-변화하고있는선교",
+   "title": "변화하고 있는 선교",
+   "author": "데이비드 보쉬",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "선교 패러다임의 역사적 전환을 집대성한 선교신학의 교과서.",
+   "rank": 19,
+   "isbn13": "9788934106616"
+  },
+  {
+   "key": "020-예언자적상상력",
+   "title": "예언자적 상상력",
+   "author": "월터 브루그만",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "지배 체제의 상상력에 맞서는 예언자 전통의 언어를 되살린 책.",
+   "rank": 20,
+   "isbn13": "9791192675466"
+  },
+  {
+   "key": "021-만남으로서의진리",
+   "title": "만남으로서의 진리",
+   "author": "에밀 브루너",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "진리를 명제가 아니라 하나님과 인간의 인격적 만남으로 이해한 신학서.",
+   "rank": 21
+  },
+  {
+   "key": "022-페스트",
+   "title": "페스트",
+   "author": "알베르 카뮈",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "전염병에 갇힌 도시에서 고통과 연대를 묻는 소설. 신앙인과 비신앙인 모두에게 질문을 던진다.",
+   "rank": 22,
+   "isbn13": "9788937462672"
+  },
+  {
+   "key": "023-정통신학의사례",
+   "title": "정통 신학의 사례",
+   "author": "에드워드 존 카넬",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "20세기 중반 미국 신복음주의의 지성을 대표한 변증서.",
+   "rank": 23
+  },
+  {
+   "key": "024-대주교에게죽음이오다",
+   "title": "대주교에게 죽음이 오다",
+   "author": "윌라 캐더",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "미국 남서부를 개척한 두 선교사 사제의 삶을 그린 소설.",
+   "rank": 24,
+   "isbn13": "9788932911458"
+  },
+  {
+   "key": "025-오랜고독",
+   "title": "오랜 고독",
+   "author": "도로시 데이",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "가톨릭 노동자 운동을 시작한 도로시 데이의 자서전.",
+   "rank": 25
+  },
+  {
+   "key": "026-팅커크리크의순례자",
+   "title": "팅커 크리크의 순례자",
+   "author": "애니 딜러드",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "자연을 응시하며 창조의 경이와 잔혹함을 기록한 퓰리처상 수상 에세이.",
+   "rank": 26
+  },
+  {
+   "key": "027-제2차바티칸공의회문헌",
+   "title": "제2차 바티칸 공의회 문헌",
+   "author": "",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "20세기 가톨릭 교회의 쇄신을 이끈 공의회의 공식 문헌.",
+   "rank": 27
+  },
+  {
+   "key": "028-흑인의영혼",
+   "title": "흑인의 영혼",
+   "author": "W. E. B. 두보이스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "미국 흑인의 이중 의식과 영성을 탐구한 고전.",
+   "rank": 28
+  },
+  {
+   "key": "029-네개의사중주",
+   "title": "네 개의 사중주",
+   "author": "T. S. 엘리엇",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "시간과 영원, 구원을 노래한 엘리엇 만년의 신앙 시.",
+   "rank": 29
+  },
+  {
+   "key": "030-보이지않는인간",
+   "title": "보이지 않는 인간",
+   "author": "랠프 엘리슨",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "인종 차별 속에서 보이지 않는 존재가 된 흑인의 정체성을 그린 소설.",
+   "rank": 30,
+   "isbn13": "9788937461903"
+  },
+  {
+   "key": "031-기술의역사",
+   "title": "기술의 역사",
+   "author": "자크 엘륄",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "현대 사회를 지배하는 기술 체계를 비판한 엘륄의 대표작. 원제 The Technological Society.",
+   "rank": 31
+  },
+  {
+   "key": "032-침묵",
+   "title": "침묵",
+   "author": "엔도 슈사쿠",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "박해 시대 일본에서 배교의 갈림길에 선 선교사를 통해 하나님의 침묵을 묻는 소설.",
+   "rank": 32,
+   "isbn13": "9788936506391"
+  },
+  {
+   "key": "033-안네의일기",
+   "title": "안네의 일기",
+   "author": "안네 프랑크",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "나치 치하 은신처에서 쓴 소녀의 일기. 희망과 인간성의 증언.",
+   "rank": 33,
+   "isbn13": "9788970121116"
+  },
+  {
+   "key": "034-죽음의수용소에서",
+   "title": "죽음의 수용소에서",
+   "author": "빅터 프랭클",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "수용소 경험에서 길어 올린 삶의 의미에 관한 고전.",
+   "rank": 34,
+   "isbn13": "9788936803261"
+  },
+  {
+   "key": "035-문명속의불만",
+   "title": "문명 속의 불만",
+   "author": "지그문트 프로이트",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "문명과 본능의 갈등을 다룬 프로이트의 후기 저작. 종교 비판의 대표적 텍스트.",
+   "rank": 35
+  },
+  {
+   "key": "036-근본진리",
+   "title": "근본진리",
+   "author": "",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "20세기 초 근본주의 운동의 이름이 된 소책자 모음 The Fundamentals.",
+   "rank": 36
+  },
+  {
+   "key": "037-산둥수용소",
+   "title": "산둥 수용소",
+   "author": "랭던 길키",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "2차 대전 중 일본군 수용소 생활에서 인간 본성과 죄를 성찰한 신학자의 기록.",
+   "rank": 37,
+   "isbn13": "9788994752792"
+  },
+  {
+   "key": "038-다른목소리로",
+   "title": "다른 목소리로",
+   "author": "캐럴 길리건",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "여성의 도덕 발달을 새롭게 해석한 심리학의 고전.",
+   "rank": 38
+  },
+  {
+   "key": "039-권력과영광",
+   "title": "권력과 영광",
+   "author": "그레이엄 그린",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "혁명기 멕시코에서 쫓기는 술주정뱅이 사제의 은총을 그린 소설.",
+   "rank": 39,
+   "isbn13": "9788932911465"
+  },
+  {
+   "key": "040-블랙라이크미",
+   "title": "블랙 라이크 미",
+   "author": "존 하워드 그리핀",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "흑인으로 변장해 미국 남부를 여행한 백인 기자의 인종 차별 체험기.",
+   "rank": 40,
+   "isbn13": "9788952210685"
+  },
+  {
+   "key": "041-해방신학",
+   "title": "해방신학",
+   "author": "구스타보 구티에레스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "가난한 이들의 자리에서 신학을 다시 쓴 해방신학의 출발점.",
+   "rank": 41,
+   "isbn13": "9788941971498"
+  },
+  {
+   "key": "042-무죄한피를흘리지말라",
+   "title": "무죄한 피를 흘리지 말라",
+   "author": "필립 핼리",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "나치 점령기 유대인 아이들을 숨겨 준 프랑스 르샹봉 마을 이야기.",
+   "rank": 42
+  },
+  {
+   "key": "043-인격공동체",
+   "title": "인격 공동체",
+   "author": "스탠리 하우어워스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "덕과 내러티브, 교회 공동체를 중심으로 기독교 윤리를 다시 세운 책. 원제 A Community of Character.",
+   "rank": 43
+  },
+  {
+   "key": "044-진실속에서살기",
+   "title": "진실 속에서 살기",
+   "author": "바츨라프 하벨",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "전체주의 아래서 진실하게 사는 힘을 말한 체코 극작가·대통령의 에세이.",
+   "rank": 44
+  },
+  {
+   "key": "045-신약의윤리적비전",
+   "title": "신약의 윤리적 비전",
+   "author": "리처드 헤이스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "공동체·십자가·새 창조를 축으로 신약 윤리를 정리한 대표작.",
+   "rank": 45,
+   "isbn13": "9788932815350"
+  },
+  {
+   "key": "046-신계시권위",
+   "title": "신, 계시, 권위",
+   "author": "칼 F. H. 헨리",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "복음주의 신학의 계시론과 권위론을 집대성한 대작.",
+   "rank": 46,
+   "isbn13": "9791191822199"
+  },
+  {
+   "key": "047-히로시마",
+   "title": "히로시마",
+   "author": "존 허시",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "원폭 생존자 여섯 명의 이야기를 기록한 르포르타주.",
+   "rank": 47
+  },
+  {
+   "key": "048-예언자들",
+   "title": "예언자들",
+   "author": "아브라함 헤셸",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "예언자들이 하나님의 파토스를 어떻게 체험하고 전했는지 밝힌 유대 사상의 고전.",
+   "rank": 48,
+   "isbn13": "9788991097032"
+  },
+  {
+   "key": "049-멋진신세계",
+   "title": "멋진 신세계",
+   "author": "올더스 헉슬리",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "쾌락과 통제로 유지되는 디스토피아를 그린 고전 소설.",
+   "rank": 49,
+   "isbn13": "9788973814725"
+  },
+  {
+   "key": "050-종교적경험의다양성",
+   "title": "종교적 경험의 다양성",
+   "author": "윌리엄 제임스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "회심과 신비 체험 등 종교 경험을 심리학적으로 탐구한 고전.",
+   "rank": 50,
+   "isbn13": "9788935652297"
+  },
+  {
+   "key": "051-심판",
+   "title": "심판",
+   "author": "프란츠 카프카",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "이유도 모른 채 재판에 휘말린 인간을 통해 실존의 부조리를 그린 소설.",
+   "rank": 51,
+   "isbn13": "9788973812127"
+  },
+  {
+   "key": "052-희망의증언",
+   "title": "희망의 증언",
+   "author": "마틴 루터 킹 주니어",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "킹 목사의 설교와 연설, 글을 모은 선집.",
+   "rank": 52
+  },
+  {
+   "key": "053-과학혁명의구조",
+   "title": "과학혁명의 구조",
+   "author": "토머스 S. 쿤",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "패러다임 전환이라는 개념으로 과학사를 다시 쓴 책.",
+   "rank": 53,
+   "isbn13": "9788972915546"
+  },
+  {
+   "key": "054-앵무새죽이기",
+   "title": "앵무새 죽이기",
+   "author": "하퍼 리",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "인종 편견에 맞서는 변호사와 그 아이들의 이야기를 그린 소설.",
+   "rank": 54,
+   "isbn13": "9788932917207"
+  },
+  {
+   "key": "055-모래군의열두달",
+   "title": "모래 군의 열두 달",
+   "author": "알도 레오폴드",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "땅의 윤리를 제시한 생태 에세이의 고전.",
+   "rank": 55,
+   "isbn13": "9791187685968"
+  },
+  {
+   "key": "056-나니아연대기",
+   "title": "나니아 연대기",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "사자 아슬란을 중심으로 기독교 서사를 판타지로 그린 연작 동화.",
+   "rank": 56,
+   "isbn13": "9788952744852"
+  },
+  {
+   "key": "057-스크루테이프의편지",
+   "title": "스크루테이프의 편지",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "고참 악마가 조카 악마에게 보내는 편지 형식으로 인간의 유혹과 신앙을 꿰뚫은 풍자.",
+   "rank": 57,
+   "isbn13": "9788936513191"
+  },
+  {
+   "key": "058-기독교와자유주의",
+   "title": "기독교와 자유주의",
+   "author": "J. 그레셤 메이첸",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "자유주의 신학은 기독교와 다른 종교라고 논박한 근본주의 논쟁의 고전.",
+   "rank": 58
+  },
+  {
+   "key": "059-덕의상실",
+   "title": "덕의 상실",
+   "author": "앨러스데어 매킨타이어",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "현대 도덕 담론의 붕괴를 진단하고 덕 윤리의 회복을 주장한 철학서.",
+   "rank": 59
+  },
+  {
+   "key": "060-말콤X자서전",
+   "title": "말콤 X 자서전",
+   "author": "말콤 X, 알렉스 헤일리",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "흑인 민권 운동가 말콤 X의 회심과 투쟁을 기록한 자서전.",
+   "rank": 60
+  },
+  {
+   "key": "061-근본주의와미국문화",
+   "title": "근본주의와 미국 문화",
+   "author": "조지 M. 마스든",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "미국 근본주의의 형성을 문화사로 추적한 역사서.",
+   "rank": 61
+  },
+  {
+   "key": "062-독사의뒤엉킴",
+   "title": "독사의 뒤엉킴",
+   "author": "프랑수아 모리아크",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "증오에 사로잡힌 노인의 내면과 은총을 그린 가톨릭 소설.",
+   "rank": 62
+  },
+  {
+   "key": "063-십자가에달린하나님",
+   "title": "십자가에 달린 하나님",
+   "author": "위르겐 몰트만",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "고난받는 하나님을 십자가에서 읽어 낸 현대 신학의 고전.",
+   "rank": 63
+  },
+  {
+   "key": "064-벌거벗은광장",
+   "title": "벌거벗은 광장",
+   "author": "리처드 존 뉴하우스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "공적 영역에서 종교를 배제한 미국 민주주의를 비판한 책.",
+   "rank": 64
+  },
+  {
+   "key": "065-다원주의사회에서의복음",
+   "title": "다원주의 사회에서의 복음",
+   "author": "레슬리 뉴비긴",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "서구 다원주의 문화 속에서 복음의 공적 진리를 변호한 선교신학의 고전.",
+   "rank": 65,
+   "isbn13": "9788932845517"
+  },
+  {
+   "key": "066-그리스도와문화",
+   "title": "그리스도와 문화",
+   "author": "H. 리처드 니버",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "그리스도와 문화의 관계를 다섯 유형으로 정리한 고전.",
+   "rank": 66
+  },
+  {
+   "key": "067-인간의본성과운명",
+   "title": "인간의 본성과 운명",
+   "author": "라인홀드 니버",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "인간의 죄와 역사의 의미를 다룬 니버 신학의 대표작.",
+   "rank": 67,
+   "isbn13": "9788987444673"
+  },
+  {
+   "key": "068-수도원산책",
+   "title": "수도원 산책",
+   "author": "캐슬린 노리스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "시인이 베네딕트 수도원에서 보낸 시간을 통해 영성을 발견한 에세이.",
+   "rank": 68
+  },
+  {
+   "key": "069-상처입은치유자",
+   "title": "상처 입은 치유자",
+   "author": "헨리 나우웬",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "자기 상처를 치유의 자원으로 삼는 목회자상을 그린 고전.",
+   "rank": 69,
+   "isbn13": "9788953142329"
+  },
+  {
+   "key": "070-아가페와에로스",
+   "title": "아가페와 에로스",
+   "author": "안더스 니그렌",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "기독교 사랑 개념을 아가페와 에로스로 대비한 신학 연구.",
+   "rank": 70,
+   "isbn13": "9788944703225"
+  },
+  {
+   "key": "071-그리스도인의내적성숙과세상속의교회",
+   "title": "그리스도인의 내적 성숙과 세상 속의 교회",
+   "author": "엘리자베스 오코너",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "세이비어 교회 공동체의 내적 여정과 외적 여정을 그린 책.",
+   "rank": 71
+  },
+  {
+   "key": "072-좋은사람은찾기힘들다",
+   "title": "좋은 사람은 찾기 힘들다",
+   "author": "플래너리 오코너",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "폭력과 은총이 교차하는 미국 남부 가톨릭 작가의 단편집.",
+   "rank": 72,
+   "isbn13": "9788983925275"
+  },
+  {
+   "key": "073-성스러움의의미",
+   "title": "성스러움의 의미",
+   "author": "루돌프 오토",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "두렵고도 매혹적인 신비, 누미노제 개념을 제시한 종교학의 고전.",
+   "rank": 73,
+   "isbn13": "9788941987215"
+  },
+  {
+   "key": "074-하나님을아는지식",
+   "title": "하나님을 아는 지식",
+   "author": "J. I. 패커",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "하나님을 아는 것이 무엇인지 성경적으로 풀어낸 복음주의 고전.",
+   "rank": 74
+  },
+  {
+   "key": "075-울어라사랑하는조국이여",
+   "title": "울어라, 사랑하는 조국이여",
+   "author": "앨런 페이턴",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "아파르트헤이트 시대 남아공의 비극과 화해를 그린 소설.",
+   "rank": 75
+  },
+  {
+   "key": "076-예수의역사2000년",
+   "title": "예수의 역사 2000년",
+   "author": "야로슬라프 펠리칸",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "시대마다 예수가 어떻게 이해되어 왔는지 추적한 문화사.",
+   "rank": 76,
+   "isbn13": "9788985467261"
+  },
+  {
+   "key": "077-네가지기본덕",
+   "title": "네 가지 기본 덕",
+   "author": "요제프 피퍼",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "지혜·정의·용기·절제라는 사추덕을 해설한 가톨릭 철학자의 책.",
+   "rank": 77
+  },
+  {
+   "key": "078-개인적지식",
+   "title": "개인적 지식",
+   "author": "마이클 폴라니",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "모든 앎에 인격적 참여가 있음을 논증한 과학철학서.",
+   "rank": 78,
+   "isbn13": "9788989103523"
+  },
+  {
+   "key": "079-선택받은사람들",
+   "title": "선택받은 사람들",
+   "author": "하임 포톡",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "뉴욕 유대인 두 소년의 우정과 신앙을 그린 소설.",
+   "rank": 79
+  },
+  {
+   "key": "080-기독교와사회위기",
+   "title": "기독교와 사회 위기",
+   "author": "월터 라우센부시",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "사회복음 운동을 대표하는 책.",
+   "rank": 80,
+   "isbn13": "9791193647110"
+  },
+  {
+   "key": "081-창조주의생각",
+   "title": "창조주의 생각",
+   "author": "도로시 L. 세이어스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "작가의 창작 경험으로 삼위일체를 설명한 독특한 신학 에세이.",
+   "rank": 81
+  },
+  {
+   "key": "082-예수의생애연구사",
+   "title": "예수의 생애 연구사",
+   "author": "알베르트 슈바이처",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "역사적 예수 연구의 흐름을 총정리하며 그 한계를 드러낸 고전.",
+   "rank": 82,
+   "isbn13": "5000106036"
+  },
+  {
+   "key": "083-해변에서",
+   "title": "해변에서",
+   "author": "네빌 슈트",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "핵전쟁 이후 마지막을 기다리는 사람들을 그린 소설.",
+   "rank": 83,
+   "isbn13": "9788994210612"
+  },
+  {
+   "key": "084-가난한시대를사는부유한그리스도인",
+   "title": "가난한 시대를 사는 부유한 그리스도인",
+   "author": "로널드 J. 사이더",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "세계 빈곤 앞에서 그리스도인의 소유와 나눔을 물은 책.",
+   "rank": 84
+  },
+  {
+   "key": "085-이반데니소비치의하루",
+   "title": "이반 데니소비치의 하루",
+   "author": "알렉산드르 솔제니친",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "소련 강제수용소 수감자의 하루를 그린 소설.",
+   "rank": 85,
+   "isbn13": "9788931004069"
+  },
+  {
+   "key": "086-수용소군도",
+   "title": "수용소 군도",
+   "author": "알렉산드르 솔제니친",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "소련 강제수용소 체제를 고발한 기록 문학.",
+   "rank": 86,
+   "isbn13": "9788932918525"
+  },
+  {
+   "key": "087-기독교의기본진리",
+   "title": "기독교의 기본 진리",
+   "author": "존 스토트",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "그리스도의 인격과 사역, 응답을 간명하게 정리한 복음주의 입문서.",
+   "rank": 87,
+   "isbn13": "9788904101016"
+  },
+  {
+   "key": "088-인간의의미",
+   "title": "인간의 의미",
+   "author": "폴 투르니에",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "의학과 신앙을 아우르며 인격으로서의 인간을 성찰한 책.",
+   "rank": 88
+  },
+  {
+   "key": "089-하나님을추구함",
+   "title": "하나님을 추구함",
+   "author": "A. W. 토저",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "하나님을 향한 갈망을 일깨우는 영성의 고전.",
+   "rank": 89,
+   "isbn13": "9788904169412"
+  },
+  {
+   "key": "090-8월의포성",
+   "title": "8월의 포성",
+   "author": "바바라 터크먼",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "1차 세계대전 개전 한 달을 그린 퓰리처상 수상 역사서.",
+   "rank": 90,
+   "isbn13": "9788971158289"
+  },
+  {
+   "key": "091-신비주의",
+   "title": "신비주의",
+   "author": "에블린 언더힐",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "서구 신비주의 전통을 체계적으로 정리한 연구서.",
+   "rank": 91
+  },
+  {
+   "key": "092-배제와포용",
+   "title": "배제와 포용",
+   "author": "미로슬라브 볼프",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "정체성과 화해를 삼위일체와 십자가로 성찰한 신학서.",
+   "rank": 92,
+   "isbn13": "9788932817989"
+  },
+  {
+   "key": "093-구약성서신학",
+   "title": "구약성서 신학",
+   "author": "게르하르트 폰 라트",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "구약의 신앙을 전승사적으로 해석한 구약신학의 고전.",
+   "rank": 93
+  },
+  {
+   "key": "094-세계기독교선교운동사",
+   "title": "세계 기독교 선교 운동사",
+   "author": "앤드루 F. 월스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "기독교의 무게중심이 남반구로 옮겨 간 선교 운동사를 다룬 책.",
+   "rank": 94
+  },
+  {
+   "key": "095-프로테스탄트윤리와자본주의정신",
+   "title": "프로테스탄트 윤리와 자본주의 정신",
+   "author": "막스 베버",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "청교도 윤리가 근대 자본주의에 미친 영향을 분석한 사회학의 고전.",
+   "rank": 95,
+   "isbn13": "9791187142454"
+  },
+  {
+   "key": "096-신을기다리며",
+   "title": "신을 기다리며",
+   "author": "시몬 베유",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "기독교의 문턱에서 신과 씨름한 시몬 베유의 편지와 에세이.",
+   "rank": 96,
+   "isbn13": "9791170832409"
+  },
+  {
+   "key": "097-나이트",
+   "title": "나이트",
+   "author": "엘리 위젤",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "아우슈비츠 생존자가 신앙과 침묵을 증언한 기록.",
+   "rank": 97,
+   "isbn13": "9791168127883"
+  },
+  {
+   "key": "098-지옥으로의하강",
+   "title": "지옥으로의 하강",
+   "author": "찰스 윌리엄스",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "잉클링스의 일원이 쓴 영적 스릴러 소설.",
+   "rank": 98
+  },
+  {
+   "key": "099-사탄의체제와예수의비폭력",
+   "title": "사탄의 체제와 예수의 비폭력",
+   "author": "월터 윙크",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "권세들의 지배 체제와 예수의 비폭력 저항을 분석한 책. 원제 Engaging the Powers.",
+   "rank": 99,
+   "isbn13": "9788987427867"
+  },
+  {
+   "key": "100-내가알지못했던예수",
+   "title": "내가 알지 못했던 예수",
+   "author": "필립 얀시",
+   "translator": "",
+   "publisher": "",
+   "link": "",
+   "section": "classic",
+   "by": [
+    "Christianity Today"
+   ],
+   "summary": "익숙한 그림 대신 복음서가 그리는 예수를 다시 만나게 하는 책.",
+   "rank": 100,
+   "isbn13": "9788932812878"
+  }
+ ]
+}

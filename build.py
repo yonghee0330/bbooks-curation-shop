@@ -50,9 +50,12 @@ SECTIONS = {
     'editor': ('편집자 추천', 3, 'pick'), 'curation': ('큐레이션', 3, 'pick'), 'best': ('베스트서평', 3, 'review'),
     'essay': ('서사의 서사', 3, 'review'), 'special': ('특별 기고', 4, 'review'),
     'preview': ('신간 프리뷰', 4, 'new'), 'new': ('이 책 한번 잡솨봐', 4, 'new'), 'daily': ('1일1책', 4, 'new'),
-    'person': ('인물 여백', 5, 'review'), 'related': ('함께 읽기', 9, 'related'),
+    'person': ('인물 여백', 5, 'review'), 'review': ('서평', 3, 'review'), 'classic': ('고전 목록', 3, 'pick'),
+    'related': ('함께 읽기', 9, 'related'),
 }
-SECTION_BY_MEDIA = {('emmaus', 'editor'): '기획위원 Pick', ('cbooknews', 'editor'): '편집자추천도서'}
+SECTION_BY_MEDIA = {('emmaus', 'editor'): '기획위원 Pick', ('cbooknews', 'editor'): '편집자추천도서', ('goscon', 'editor'): '에디터가 고른 책',
+                    ('goscon', 'new'): '새 책 소개', ('kmib', 'pick'): '올해 최고의 책', ('kmib', 'curation'): '놓치기 아까운 책',
+                    ('ct100', 'classic'): '20세기 기독교 책 100권'}
 GROUPS = [('pick', '대표 추천'), ('review', '서평·에세이'), ('new', '신간 소개'), ('house', '용서점'), ('related', '함께 읽기')]
 SEASON_ORDER = {'봄': 1, '여름': 2, '가을': 3, '겨울': 4}
 
@@ -97,8 +100,8 @@ def season_key(s):
 
 
 def sec_label(media, sec, item=None):
-    if item and item.get('label'):
-        return item['label']
+    if item and (item.get('label') or item.get('corner')):
+        return item.get('label') or item['corner']
     return SECTION_BY_MEDIA.get((media, sec)) or SECTIONS.get(sec, (sec, 8, 'review'))[0]
 
 
@@ -283,11 +286,14 @@ def price(b):
     return f'<span class="price"><s>{won(b["priceStandard"])}</s> <b>{won(b["price"])}</b></span>'
 
 
+ROUNDUP = re.compile(r'외\s*\d+\s*권')  # 여러 권을 묶은 신간 소개 기사 제목은 요약 자리에 반복하지 않음
+
+
 def rec_text(r):
     """요약이 있으면 요약, 없으면 매체의 기사 제목 + 원문 링크"""
     if r['summary']:
         return f'<p class="why">{e(r["summary"])}</p>'
-    if r['headline']:
+    if r['headline'] and not ROUNDUP.search(r['headline']):
         return f'<p class="why headline">「{e(r["headline"])}」</p>'
     return '<p class="why muted">요약 준비 중 — 원문에서 읽어 주세요.</p>'
 
@@ -645,7 +651,7 @@ def build_explore(c):
         books.append({'i': b['isbn13'], 't': b['short'], 'a': first_author(b['author']), 'p': b['publisher'],
                       'c': b['thumb'], 'pr': b['price'], 'ps': b['priceStandard'], 'pd': (b.get('pubDate') or '')[:7],
                       'cat': ' '.join((b.get('category') or '').split('>')[1:3]),
-                      'r': [[r['media'], r['issue']['id'], r['date'], r['section'], r['secKo'], ', '.join(r['by'][:2]), r['summary'][:120] or r['headline'][:80]] for r in b['recs']]})
+                      'r': [[r['media'], r['issue']['id'], r['date'], r['section'], r['secKo'], ', '.join(r['by'][:2]), r['summary'][:120] or ('' if ROUNDUP.search(r['headline']) else r['headline'][:80])] for r in b['recs']]})
     data = {'media': {m: [mm['name'], mm['color']] for m, mm in MEDIA.items()}, 'groups': {k: v[2] for k, v in SECTIONS.items()},
             'issues': issues, 'books': books, 'months': c.months()}
     write('data/index.json', json.dumps(data, ensure_ascii=False, separators=(',', ':')))

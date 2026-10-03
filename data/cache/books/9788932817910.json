@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788932817910",
+ "isbn10": "893281791X",
+ "itemId": 256905598,
+ "title": "크리스마스 트롤",
+ "subTitle": "",
+ "originalTitle": "Christmas Troll",
+ "author": "유진 피터슨 (지은이), 윌 테리 (그림), 지인이와 아빠 (옮긴이)",
+ "authors": [],
+ "publisher": "IVP",
+ "pubDate": "2020-11-04",
+ "priceStandard": 12000,
+ "priceSales": 10800,
+ "pages": 34,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 어린이/청소년",
+ "series": null,
+ "description": "유진 피터슨이 어린이를 위해 쓴 최초의 그림책이다. 깜깜한 숲속에서 뜻하지 않게 트롤을 만나게 된 준이와 민이는, 놀라운 경험을 통해 아빠가 이야기하신 선물의 진정한 의미를 깨닫게 된다. \n",
+ "coverUrl": "https://image.aladin.co.kr/product/25690/55/cover200/893281791x_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=256905598&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "유진 피터슨이 어린이를 위해 쓴 최초의 그림책이다. 크리스마스 이브에 선물을 미리 풀어 보고 싶었지만 엄마, 아빠가 허락하시지 않자 준이는 동생 민이와 함께 집을 나오기로 결심한다. 깜깜한 숲속에서 뜻하지 않게 트롤을 만나게 된 준이와 민이는, 놀라운 경험을 통해 아빠가 이야기하신 선물의 진정한 의미를 깨닫게 된다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:56",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/25690/55/cover500/893281791x_1.jpg"
+}

@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791196362294",
+ "isbn10": "K922630624",
+ "itemId": 244215229,
+ "title": "선택, 어느 편에 설 것인가? : 여호수아, 사사기, 룻기 - Bible in Hand",
+ "subTitle": "Bible in Hand",
+ "originalTitle": "",
+ "author": "김근주 (해제)",
+ "authors": [],
+ "publisher": "봄이다프로젝트",
+ "pubDate": "2020-07-07",
+ "priceStandard": 15000,
+ "priceSales": 14250,
+ "pages": 278,
+ "category": "국내도서>종교/역학>기독교(개신교)>성경의 이해",
+ "series": "교양인을 위한 성경 ",
+ "description": "<교양인을 위한 성경> 시리즈는 성경 원문의 뜻을 우리말 어법에 맞게 정확하게 번역한 <성경전서 새번역> 본문에, 김근주 교수(기독연구원 느헤미야), 권연경 교수(숭실대 기독교학과)가 깊이 있는 해제를 제공한다.",
+ "coverUrl": "https://image.aladin.co.kr/product/24421/52/cover200/k922630624_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=244215229&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "일러두기\n\nabout the BIBLE\n\n01. 여호수아\n\n02. 사사기\n\n03. 룻기",
+ "intro": "시리즈는 성경 원문의 뜻을 우리말 어법에 맞게 정확하게 번역한 본문에, 김근주 교수(기독연구원 느헤미야), 권연경 교수(숭실대 기독교학과)가 깊이 있는 해제를 제공한다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:53",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/24421/52/cover500/k922630624_1.jpg"
+}

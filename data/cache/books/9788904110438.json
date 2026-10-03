@@ -1,0 +1,29 @@
+{
+ "isbn13": "9788904110438",
+ "isbn10": "8904110432",
+ "itemId": 45764,
+ "title": "마르틴 루터의 생애",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "롤런드 베인턴 (지은이), 이종태 (옮긴이)",
+ "authors": [],
+ "publisher": "생명의말씀사",
+ "pubDate": "1996-10-10",
+ "priceStandard": 20000,
+ "priceSales": 18000,
+ "pages": 556,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교 인물",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/4/57/cover200/8904110432_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=45764&partner=openAPI&start=api",
+ "stockStatus": "구판절판",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:07",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/4/57/cover500/8904110432_1.jpg"
+}

@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788941987215",
+ "isbn10": "8941987210",
+ "itemId": 77542,
+ "title": "성스러움의 의미",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "루돌프 오토 (지은이)",
+ "authors": [],
+ "publisher": "분도출판사",
+ "pubDate": "1987-07-01",
+ "priceStandard": 11000,
+ "priceSales": 9900,
+ "pages": 278,
+ "category": "국내도서>종교/역학>종교일반>종교철학",
+ "series": "종교학총서 2",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/7/75/cover200/8941987210_2.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=77542&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "001. 합리와 비합리\n002. 누멘적인 것\n003. 피조물적 감정-누면적 대상에 대한 느낌의 주관적 반영으로\n004. 두려운 신비\n005. 매독성\n006. 어마어마함\n007. 유추적 감정들\n008. 누멘적 가치로서의 거룩함-장엄성\n009. 비합리적이란 무엇인가\n010. 누멘적인 것의 표현수단\n011. 구약성서에 있어서의 누멘적인 것\n012. 신약성서에 있어서의 누멘적인 것\n013. 루터에 있어서의 누멘적인 것\n014. 두 가지 발전 과정\n015. 선험적 범주로서의 성스러움\n016. 그 역사적 출현\n017. 조잡성의 원인들\n018. 선험적 범주로서의 성스러움\n019. 성스러움의 현현과 직감의 능력\n020. 원시 그리스도교에 있어서의 직감\n021. 현대 그리스도교에 있어서의 직감\n022. 종교적 선험성과 역사",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:11",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/7/75/cover500/8941987210_2.jpg"
+}

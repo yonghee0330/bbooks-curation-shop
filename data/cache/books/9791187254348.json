@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791187254348",
+ "isbn10": "K842730493",
+ "itemId": 268517336,
+ "title": "그림으로 신학하기",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "구미정 (지은이)",
+ "authors": [],
+ "publisher": "서로북스",
+ "pubDate": "2021-03-31",
+ "priceStandard": 16000,
+ "priceSales": 14400,
+ "pages": 214,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>신학일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/26851/73/cover200/k842730493_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=268517336&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "여는 말\n\n1. 성서 : '오직 성서'만으로 충분한가\n\n2. 천치창조 : 합리와 무지가 충돌할 때\n\n3. 나그네 : 자발적 유목민이 된다는 것\n\n4. 도시 : 소돔의 욕망을 해부하다\n\n5. 언약 : 하나님이 세상에 보내는 연애편지\n\n6. 믿음 : 맹목과 광신을 넘어서\n\n7. 아름다움 : 시선의 폭력과 욕망의 틈바구니에서\n\n8. 가난 : 가난한 사람은 복이 있나니\n\n9. 감정 : 우리가 살아있다는 증거\n\n10. 헛됨 : 모든 것이 헛되나, 이것 하나만은\n\n11. 공동체 : 유토피아를 꿈꾸다\n\n12. 죽음 : '메멘토 모리'해야 '아모르 파티'한다\n\n그림 목록",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 03:27",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/26851/73/cover500/k842730493_1.jpg"
+}

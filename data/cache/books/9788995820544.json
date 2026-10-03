@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788995820544",
+ "isbn10": "8995820543",
+ "itemId": 21824615,
+ "title": "GPS 성경지명사전 - 재개정판",
+ "subTitle": "재개정판",
+ "originalTitle": "",
+ "author": "홍순화 (지은이)",
+ "authors": [],
+ "publisher": "한국성서지리연구원",
+ "pubDate": "2012-12-17",
+ "priceStandard": 44000,
+ "priceSales": 39600,
+ "pages": 622,
+ "category": "국내도서>종교/역학>기독교(개신교)>성경의 이해",
+ "series": null,
+ "description": "성경을 읽으면 1500개가 넘는 지명이 나오기에 이 지명을 손쉽게 알게 하는 성경 지명 사전이 필요하다. 성경을 읽고 연구하는 대부분의 사람들이 지명이 나오면 어려워하고 있기에 성경지명사전이 필요하다.",
+ "coverUrl": "https://image.aladin.co.kr/product/2182/46/cover200/8995820543_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=21824615&partner=openAPI&start=api",
+ "stockStatus": "구판절판",
+ "toc": "",
+ "intro": "성경을 읽으면 1500개가 넘는 지명이 나오기에 이 지명을 손쉽게 알게 하는 성경 지명 사전이 필요하다. 성경을 읽고 연구하는 대부분의 사람들이 지명이 나오면 어려워하고 있기에 성경지명사전이 필요하다. GPS의 등장으로 좌표를 알면 성지를 인공위성으로 촬영한 성지를 구글지도와 스마트 폰으로 보면서 성지를 입체적으로 파악할 수 있는 시대가 되었다.\n\n이 책에 기록된 성지의 좌표는 성경을 공부하는 사람들과 성지를 직접 답사하는 분들에게 큰 도움을 줄 것이다. 성지의 일부분은 장소를 찾기 어려운 곳이기에 GPS 수신장치를 이용하면 잘못된 장소로 가거나 방황하는 노력을 줄일 수 있다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 04:10",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/2182/46/cover500/8995820543_1.jpg"
+}

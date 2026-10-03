@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788970135014",
+ "isbn10": "8970135014",
+ "itemId": 545340,
+ "title": "종교, 과학에 말을 걸다",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "김호경 (지은이)",
+ "authors": [],
+ "publisher": "책세상",
+ "pubDate": "2005-02-25",
+ "priceStandard": 4900,
+ "priceSales": 4410,
+ "pages": 172,
+ "category": "국내도서>과학>과학의 이해>과학사/기술사",
+ "series": "책세상문고 우리시대 96",
+ "description": "종교와 과학의 상호의존의 역사를 일목요연하게 정리하여 보여준다. 역사를 고대, 중세, 근대,  근대 이후로 나누고 각 시대별로 과학과 종교가 어떤 관계를 맺고 있었는지를 살폈다.",
+ "coverUrl": "https://image.aladin.co.kr/product/54/53/cover200/8970135014_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=545340&partner=openAPI&start=api",
+ "stockStatus": "구판절판",
+ "toc": "들어가는 말\n\n제1장. 코스모스의 시대\n\n1. 신들의 세계\n\n2. 소크라테스 이전 사람들\n\n3. 거대 신의 몰락\n\n제2장. 하나님 중심의 시대\n\n1. 천동설의 세계\n\n2. 아우구스티누스적 세계관\n\n3. 과학 위의 종교\n\n제3장. 과학 만능의 시대\n\n1. 망원경의 세계\n\n2. 기계론적 세계관\n\n3. 종교 위의 과학\n\n제4장. 카오스의 시대\n\n1. 현미경의 세계\n\n2. 다원론적 세계관\n\n3. 종교와 과학의 소통\n\n맺는말\n\n주\n\n더 읽어야 할 자료들",
+ "intro": "종교와 과학의 상호의존의 역사를 일목요연하게 정리하여 보여준다. 역사를 고대, 중세, 근대, 근대 이후로 나누고 각 시대별로 과학과 종교가 어떤 관계를 맺고 있었는지를 살폈다. 이를 바탕으로 종교와 과학의 대립적 관계를 강조하는 태도를 버리고, 양자간의 소통의 가능성을 탐색하는 작업이 활발하게 이루어져야 함을 주장한다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:51",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/54/53/cover500/8970135014_1.jpg"
+}

@@ -2,7 +2,414 @@
  "media": "goscon",
  "id": "428",
  "no": "428호",
+ "title": "복음과상황 428호 〈서사의 서사〉 시간의 형상",
+ "date": "2026-06-27",
+ "column": "서사의 서사",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42141",
+ "headline": "시간의 형상",
+ "season": "2026 여름",
+ "_curated": true,
  "items": [
+  {
+   "key": "의심후에-성서유니온",
+   "title": "의심 후에",
+   "author": "A. J. 스워보다",
+   "translator": "송동민",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932550800"
+  },
+  {
+   "key": "정치와종교그위험한관계에대하여-아바서원",
+   "title": "정치와 종교, 그 위험한 관계에 대하여",
+   "author": "오스 기니스",
+   "translator": "홍병룡",
+   "publisher": "아바서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791190376945"
+  },
+  {
+   "key": "1세기교회를형성한낯선얼굴들-ivp",
+   "title": "1세기 교회를 형성한 낯선 얼굴들",
+   "author": "니제이 굽타",
+   "translator": "김명희",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932824093"
+  },
+  {
+   "key": "하나님의큰일-복있는사람",
+   "title": "하나님의 큰 일",
+   "author": "헤르만 바빙크",
+   "translator": "박태현",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791170833253"
+  },
+  {
+   "key": "세계관을변화시키는크리스천북클럽-이레서원",
+   "title": "세계관을 변화시키는 크리스천 북클럽",
+   "author": "정진부",
+   "translator": "",
+   "publisher": "이레서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788974356910"
+  },
+  {
+   "key": "내아이의길을열어주는부모-cup",
+   "title": "내 아이의 길을 열어주는 부모",
+   "author": "홍기자",
+   "translator": "",
+   "publisher": "CUP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791190564823"
+  },
+  {
+   "key": "그리스도시를걷다-산지니",
+   "title": "그리스 도시를 걷다",
+   "author": "김수길",
+   "translator": "",
+   "publisher": "산지니",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791168616639"
+  },
+  {
+   "key": "믿지만거기까지-소유",
+   "title": "믿지만, 거기까지",
+   "author": "이상훈",
+   "translator": "",
+   "publisher": "소유",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199584525"
+  },
+  {
+   "key": "읽는설교에베소서-죠이북스",
+   "title": "읽는 설교 에베소서",
+   "author": "노진준",
+   "translator": "",
+   "publisher": "죠이북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193507735"
+  },
+  {
+   "key": "풍성한삶으로초대-이미아직",
+   "title": "풍성한 삶으로 초대",
+   "author": "김형국",
+   "translator": "",
+   "publisher": "이미아직",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199325623"
+  },
+  {
+   "key": "신과함께되어가다테오포이에시스의신학적상상력-대장간",
+   "title": "신과-함께-되어가다, 테오포이에시스의 신학적 상상력",
+   "author": "김수연 외 7인",
+   "translator": "",
+   "publisher": "대장간",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788970717951"
+  },
+  {
+   "key": "청년파산-메디치미디어",
+   "title": "청년 파산",
+   "author": "박기태",
+   "translator": "",
+   "publisher": "메디치미디어",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791157065639"
+  },
+  {
+   "key": "노들섬과세운상가-돌고래",
+   "title": "노들섬과 세운상가",
+   "author": "박경선",
+   "translator": "",
+   "publisher": "돌고래",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199854468"
+  },
+  {
+   "key": "정치에오염된신앙의언어-야다북스",
+   "title": "정치에 오염된 신앙의 언어",
+   "author": "권연경·구미정·최종원·신진욱·김중락·김동춘",
+   "translator": "",
+   "publisher": "야다북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199536180"
+  },
+  {
+   "key": "마틴루서킹-아르테",
+   "title": "마틴 루서 킹",
+   "author": "조너선 아이그",
+   "translator": "장상미",
+   "publisher": "아르테",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791173574566"
+  },
+  {
+   "key": "모백록-도서출판100",
+   "title": "모백록",
+   "author": "나탈리 칸스",
+   "translator": "백지윤",
+   "publisher": "도서출판100",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791189092689"
+  },
+  {
+   "key": "난민의사도바울-오월의봄",
+   "title": "난민의 사도 바울",
+   "author": "김진호",
+   "translator": "",
+   "publisher": "오월의봄",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791168731820"
+  },
+  {
+   "key": "영혼까지웃게한치과의사뉴스마-좋은씨앗",
+   "title": "영혼까지 웃게 한 치과의사 뉴스마",
+   "author": "이기섭",
+   "translator": "",
+   "publisher": "좋은씨앗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788958744412"
+  },
+  {
+   "key": "기독교선교의윤리적비전-한국해외선교회출판부",
+   "title": "기독교 선교의 윤리적 비전",
+   "author": "마이클 니바우어",
+   "translator": "김효찬·이경준",
+   "publisher": "한국해외선교회출판부",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788986502138"
+  },
+  {
+   "key": "쉼터의사계그리고다시봄-생각비행",
+   "title": "쉼터의 사계, 그리고 다시 봄",
+   "author": "김은녕",
+   "translator": "",
+   "publisher": "생각비행",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791192745886"
+  },
+  {
+   "key": "영화로살펴보는다양성이야기-철수와영희",
+   "title": "영화로 살펴보는 다양성 이야기",
+   "author": "주수원",
+   "translator": "",
+   "publisher": "철수와영희",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791171530502"
+  },
+  {
+   "key": "침묵하는신과침묵당하는사람들-비아토르",
+   "title": "침묵하는 신과 침묵당하는 사람들",
+   "author": "조민아",
+   "translator": "이은진",
+   "publisher": "비아토르",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42139",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《의심 후에》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791194216476"
+  },
+  {
+   "key": "기로에선기독교-너머서",
+   "title": "기로에 선 기독교",
+   "author": "마이클 J. 크루거",
+   "translator": "송동민",
+   "publisher": "너머서",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42140",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "낯선 시공간에서 만나는 기독교",
+   "by": [
+    "정민호"
+   ],
+   "summary": "2세기 기독교가 어떤 기로에 서 있었는지 보여 주는 마이클 크루거의 책.",
+   "isbn13": "9791199513051"
+  },
+  {
+   "key": "모두를위한번영의원천-지우",
+   "title": "모두를 위한 번영의 원천",
+   "author": "스튜어트 피긴·로버트 D. 린더",
+   "translator": "김석원·김성은",
+   "publisher": "지우",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42140",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "낯선 시공간에서 만나는 기독교",
+   "by": [
+    "정민호"
+   ],
+   "summary": "호주 복음주의 역사 속 복음과 성령, 공적 기여를 정리한 책.",
+   "isbn13": "9791193664155"
+  },
+  {
+   "key": "수도규칙-분도출판사",
+   "title": "수도규칙",
+   "author": "베네딕도",
+   "translator": "이형우",
+   "publisher": "분도출판사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42140",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "낯선 시공간에서 만나는 기독교",
+   "by": [
+    "정민호"
+   ],
+   "summary": "서방 수도 생활의 기초가 된 베네딕도의 수도규칙.",
+   "isbn13": "9788941991090"
+  },
   {
    "key": "시간의형상",
    "title": "시간의 형상",
@@ -16,12 +423,5 @@
    "summary": "사물은 복제되고 되풀이되며 시간을 채운다는 예술사학자의 통찰. 기독교 잡지들의 창간호를 만지며, 매달 찍어내는 잡지가 시간의 나이테가 되기를 바라는 마음으로 읽는다.",
    "isbn13": "9791188679256"
   }
- ],
- "title": "복음과상황 428호 〈서사의 서사〉 시간의 형상",
- "date": "2026-06-27",
- "column": "서사의 서사",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42141",
- "headline": "시간의 형상",
- "season": "2026 여름",
- "_curated": true
+ ]
 }

@@ -1,0 +1,242 @@
+{
+ "media": "kmib",
+ "id": "2021",
+ "no": "2021년",
+ "title": "2021 국민일보 올해의 책",
+ "subtitle": "초대교회를 떠올리며 예배의 회복을 염원한 한 해",
+ "date": "2021-12-31",
+ "column": "올해의 책",
+ "url": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+ "season": "2021 겨울",
+ "_curated": true,
+ "items": [
+  {
+   "key": "우리가몰랐던1세기교회-ivp",
+   "title": "우리가 몰랐던 1세기 교회",
+   "author": "박영호",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "pick",
+   "by": [
+    "민경찬",
+    "김학철",
+    "김미현"
+   ],
+   "summary": "올해 최고의 책. 신약학자 출신 목회자가 1세기 교회의 사회사를 쉽고 생생하게 전하며, 지금 한국교회가 겪는 문제를 초대교회의 자리에서 다시 보게 한다.",
+   "isbn13": "9788932818429"
+  },
+  {
+   "key": "예배란무엇인가-비아토르",
+   "title": "예배란 무엇인가",
+   "author": "최주훈",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "강영란"
+   ],
+   "summary": "주보의 순서 하나하나를 알고 배우자고 권하며 예배의 역사와 본질을 치열하게 묻는 책. 예배도 아는 만큼 보인다.",
+   "isbn13": "9791191851045"
+  },
+  {
+   "key": "철학자의신학수업-복있는사람",
+   "title": "철학자의 신학 수업",
+   "author": "강영안",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "정지영"
+   ],
+   "summary": "잘못 인용된 경구들의 유래를 파헤치며 철학·신학·성경을 넘나들어 복음의 세계로 안내하는 유쾌한 신학 수업.",
+   "isbn13": "9788963603810"
+  },
+  {
+   "key": "신학이란무엇인가Reader-복있는사람",
+   "title": "신학이란 무엇인가 Reader",
+   "author": "알리스터 맥그래스",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "이재근"
+   ],
+   "summary": "1,198쪽에 이르는 신학 원전 해설집. 한국 신학계에 드문 사료집 장르를 연, 서양 기독 출판계가 준 선물 같은 책.",
+   "isbn13": "9791191987096"
+  },
+  {
+   "key": "성경신학스터디바이블-복있는사람",
+   "title": "성경신학 스터디 바이블",
+   "author": "",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "김회권"
+   ],
+   "summary": "성경 각 권을 주제와 서사에 따라 연결해 읽도록 돕는 스터디 바이블. 성경의 숲과 나무를 함께 보려는 독자에게 맞춤하다.",
+   "isbn13": "9791197467608"
+  },
+  {
+   "key": "고난이하는일-ivp",
+   "title": "고난이 하는 일",
+   "author": "박영선",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [],
+   "summary": "한국교회가 이제야 껍데기를 벗고 고난의 본질을 묵상할 때를 맞았다고 진단하는, 짧지만 깊은 박영선 목사의 책.",
+   "isbn13": "9788932818757"
+  },
+  {
+   "key": "신데카메론-복있는사람",
+   "title": "신데카메론",
+   "author": "최종원 외",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "오수경"
+   ],
+   "summary": "팬데믹 속에 화상으로 모인 한인 그리스도인 10명의 이야기. 재난 앞에서 교회와 사회가 무엇을 생각하고 어떻게 반응해야 하는지 묻는다.",
+   "isbn13": "9791197467660"
+  },
+  {
+   "key": "밤에드리는기도-ivp",
+   "title": "밤에 드리는 기도",
+   "author": "티시 해리슨 워런",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "김미현"
+   ],
+   "summary": "불안과 두려움, 질병과 죽음 앞에서 드리는 밤 기도의 전통을 소개하는 책. 기도조차 어려운 시기를 지나는 이들에게.",
+   "isbn13": "9788932818627"
+  },
+  {
+   "key": "영혼의밤을지날때-바람이불어오는곳",
+   "title": "영혼의 밤을 지날 때",
+   "author": "다이애나 그루버",
+   "translator": "",
+   "publisher": "바람이불어오는곳",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "문준호"
+   ],
+   "summary": "루터, 스펄전, 마더 테레사 등 우울 속에서도 신앙의 꽃을 피운 7인의 삶을 들여다본 책. 타자의 고통에 다정한 시선을 건넨다.",
+   "isbn13": "9791191887006"
+  },
+  {
+   "key": "어둠속의촛불들-비아",
+   "title": "어둠 속의 촛불들",
+   "author": "로완 윌리엄스",
+   "translator": "",
+   "publisher": "비아",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "김준철"
+   ],
+   "summary": "전 캔터베리 대주교가 코로나 시대 그리스도인에게 보내는 신앙과 희망, 사랑의 메시지.",
+   "isbn13": "9791191239164"
+  },
+  {
+   "key": "하나님없이도살수있을까-선율",
+   "title": "하나님 없이도 살 수 있을까?",
+   "author": "고은식",
+   "translator": "",
+   "publisher": "선율",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "year",
+   "by": [
+    "이한민"
+   ],
+   "summary": "청소년 사역자가 AI, 메타버스, 트랜스휴머니즘 같은 미래 키워드로 청소년과 나눈 대화를 그림과 함께 담았다. 교사와 부모도 함께 읽기 좋다.",
+   "isbn13": "9791188887156"
+  },
+  {
+   "key": "부서진사람-바람이불어오는곳",
+   "title": "부서진 사람",
+   "author": "",
+   "translator": "",
+   "publisher": "바람이불어오는곳",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "curation",
+   "by": [
+    "정병오"
+   ],
+   "summary": "이런 책도 주목. 브루더호프 공동체를 이끈 하인리히 아놀드의 생애를 미화 없이 그리며, 연약한 사람들이 공동체 안에서 어떻게 회복되는지 정직하게 보여 준다.",
+   "isbn13": "9791196889289"
+  },
+  {
+   "key": "책읽는삶-두란노",
+   "title": "책 읽는 삶",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "curation",
+   "by": [],
+   "summary": "이런 책도 주목. 루이스의 독서 편력을 전하며 신간 넷에 고전 하나를 섞어 읽는 독서의 기쁨을 권한다.",
+   "isbn13": "9788953140271"
+  },
+  {
+   "key": "곤고한날에는생각하라-죠이북스",
+   "title": "곤고한 날에는 생각하라",
+   "author": "김기현",
+   "translator": "",
+   "publisher": "죠이북스",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "curation",
+   "by": [],
+   "summary": "이런 책도 주목. 아렌트부터 논어, 심청전까지 동서양 고전을 넘나들며 성경이 답의 기준이 됨을 논증한다.",
+   "isbn13": "9788942104727"
+  },
+  {
+   "key": "광장과골방-새물결플러스",
+   "title": "광장과 골방",
+   "author": "장동민",
+   "translator": "",
+   "publisher": "새물결플러스",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "curation",
+   "by": [],
+   "summary": "이런 책도 주목. 복음을 들고 공론장에 뛰어들어 소통 가능한 실천적 대안을 제안하자는 공공신학 이야기.",
+   "isbn13": "9791161291987"
+  },
+  {
+   "key": "이덕주의산상팔복이야기-홍성사",
+   "title": "이덕주의 산상팔복 이야기",
+   "author": "이덕주",
+   "translator": "",
+   "publisher": "홍성사",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "curation",
+   "by": [],
+   "summary": "이런 책도 주목. 팔복의 말씀이 한반도 교회사의 인물들에게서 어떻게 역사가 되었는지 풀어낸 설교.",
+   "isbn13": "9788936503765"
+  },
+  {
+   "key": "살아내고살려내고-대한기독교서회",
+   "title": "살아내고 살려내고",
+   "author": "백소영",
+   "translator": "",
+   "publisher": "대한기독교서회",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0924225371",
+   "section": "curation",
+   "by": [],
+   "summary": "이런 책도 주목. 문자주의를 넘어 공동체와 함께 성경을 읽고 묵상을 나누자고 촉구하는 책.",
+   "isbn13": "9788951120695"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791189363086",
+ "isbn10": "K512632616",
+ "itemId": 250053357,
+ "title": "내가 사랑한 계절들 - 가을에서 여름까지, 한낮의 소란에서 해질녘의 바람까지",
+ "subTitle": "가을에서 여름까지, 한낮의 소란에서 해질녘의 바람까지",
+ "originalTitle": "",
+ "author": "박정은 (지은이)",
+ "authors": [],
+ "publisher": "옐로브릭",
+ "pubDate": "2020-08-30",
+ "priceStandard": 15000,
+ "priceSales": 13500,
+ "pages": 256,
+ "category": "국내도서>에세이>한국에세이",
+ "series": null,
+ "description": "<사려 깊은 수다> 저자 박정은의 신작 에세이. 무심한 듯 흐르는 계절들을 걸어가며 채집한 기쁨의 편린들, 일상에서 길어올린 시간과 영원에 대한 사색을 담았다.",
+ "coverUrl": "https://image.aladin.co.kr/product/25005/33/cover200/k512632616_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=250053357&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "머리말\n\n가을 #1\n\n겨울 #1\n\n봄 #1\n\n여름 #1\n\n가을 #2\n\n겨울 #2\n\n봄 #2\n\n여름 #2",
+ "intro": "<사려 깊은 수다> 저자 박정은의 신작 에세이. 무심한 듯 흐르는 계절들을 걸어가며 채집한 기쁨의 편린들, 일상에서 길어올린 시간과 영원에 대한 사색을 담았다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:53",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/25005/33/cover500/k512632616_1.jpg"
+}

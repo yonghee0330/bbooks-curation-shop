@@ -2,20 +2,14 @@
  "media": "goscon",
  "id": "431",
  "no": "431호",
+ "title": "복음과상황 431호 〈서사의 서사〉 작가의 배신, 독자의 믿음",
+ "date": "2026-09-28",
+ "column": "서사의 서사",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42224",
+ "headline": "작가의 배신, 독자의 믿음",
+ "season": "2026 가을",
+ "_curated": true,
  "items": [
-  {
-   "key": "착한판사나쁜판사-펜타클",
-   "title": "착한 판사, 나쁜 판사",
-   "author": "류기인",
-   "publisher": "펜타클",
-   "section": "essay",
-   "by": [
-    "이범진"
-   ],
-   "headline": "작가의 배신, 독자의 믿음",
-   "summary": "소년사건 전담 판사의 신간. 작가의 배신이 잦은 시절에도 믿을 수 있는 저자의 책이 도착한 날, 읽기 전부터 추천하고 싶은 마음을 적는다.",
-   "isbn13": "9791199853263"
-  },
   {
    "key": "창세기1장다시읽기-동연",
    "title": "창세기 1장 다시 읽기",
@@ -27,14 +21,393 @@
    ],
    "headline": "작가의 배신, 독자의 믿음",
    "summary": "함께 도착한 믿는 저자의 신간. 출판계에 대한 자조 끝에 다시 신뢰를 회복하는 한 걸음으로 이 책들을 꼽는다.",
-   "isbn13": "9791176110464"
+   "isbn13": "9791176110464",
+   "translator": "",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "corner": "새 책 맛보기"
+  },
+  {
+   "key": "착한판사나쁜판사-펜타클",
+   "title": "착한 판사, 나쁜 판사",
+   "author": "류기인",
+   "publisher": "펜타클",
+   "section": "essay",
+   "by": [
+    "이범진"
+   ],
+   "headline": "작가의 배신, 독자의 믿음",
+   "summary": "소년사건 전담 판사의 신간. 작가의 배신이 잦은 시절에도 믿을 수 있는 저자의 책이 도착한 날, 읽기 전부터 추천하고 싶은 마음을 적는다.",
+   "isbn13": "9791199853263",
+   "translator": "",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "corner": "새 책 맛보기"
+  },
+  {
+   "key": "룻과함께아모르파티-비아토르",
+   "title": "룻과 함께 아모르 파티",
+   "author": "구미정",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791194216490"
+  },
+  {
+   "key": "철학자의신-소요서가",
+   "title": "철학자의 신",
+   "author": "이충진",
+   "translator": "",
+   "publisher": "소요서가",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199202665"
+  },
+  {
+   "key": "제2성전기유대문헌입문-더울림",
+   "title": "제2성전기 유대 문헌 입문",
+   "author": "김주헌",
+   "translator": "",
+   "publisher": "더울림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199811218"
+  },
+  {
+   "key": "학교는그들을돕지못했다-교육공동체벗",
+   "title": "학교는 그들을 돕지 못했다",
+   "author": "오선",
+   "translator": "",
+   "publisher": "교육공동체벗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788968802294"
+  },
+  {
+   "key": "빛과소리를만져보면-문학동네",
+   "title": "빛과 소리를 만져보면",
+   "author": "박주환",
+   "translator": "",
+   "publisher": "문학동네",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791141618858"
+  },
+  {
+   "key": "그리스도의말-이학사",
+   "title": "그리스도의 말",
+   "author": "미셸 앙리",
+   "translator": "김동규",
+   "publisher": "이학사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788961474993"
+  },
+  {
+   "key": "성경지도-생활성서사",
+   "title": "성경 지도",
+   "author": "마르코 자펠라 외 4인",
+   "translator": "이한석",
+   "publisher": "생활성서사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788984817234"
+  },
+  {
+   "key": "깁스일기-소동",
+   "title": "깁스 일기",
+   "author": "사소한",
+   "translator": "",
+   "publisher": "소동",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193193228"
+  },
+  {
+   "key": "죽고싶은사람살리고싶은사람-마름모",
+   "title": "죽고 싶은 사람, 살리고 싶은 사람",
+   "author": "백종우",
+   "translator": "",
+   "publisher": "마름모",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791194285328"
+  },
+  {
+   "key": "완벽하지않아도-바람이불어오는곳",
+   "title": "완벽하지 않아도",
+   "author": "케이트 보울러",
+   "translator": "정다운",
+   "publisher": "바람이불어오는곳",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791191887426"
+  },
+  {
+   "key": "그리스도인의신앙과삶-비아",
+   "title": "그리스도인의 신앙과 삶",
+   "author": "윌리엄 템플",
+   "translator": "김준철",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199780460"
+  },
+  {
+   "key": "내면을돌보는일-성서유니온",
+   "title": "내면을 돌보는 일",
+   "author": "척 드그로트",
+   "translator": "정효진",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932550824"
+  },
+  {
+   "key": "평신도의재발견-ivp",
+   "title": "평신도의 재발견",
+   "author": "로버트 뱅크스",
+   "translator": "송인수",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932824185"
+  },
+  {
+   "key": "메노나이트신앙을소개합니다-대장간",
+   "title": "메노나이트 신앙을 소개합니다",
+   "author": "메노나이트 신앙고백 편찬위원회",
+   "translator": "",
+   "publisher": "대장간",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788970718156"
+  },
+  {
+   "key": "내몸과지구를살리는옷사용설명서-철수와영희",
+   "title": "내 몸과 지구를 살리는 옷 사용 설명서",
+   "author": "배온·배성호",
+   "translator": "",
+   "publisher": "철수와영희",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791171530526"
+  },
+  {
+   "key": "성경과성화속주인공들-안로르바루치코스그림",
+   "title": "성경과 성화 속 주인공들",
+   "author": "소피 코-루리에",
+   "translator": "",
+   "publisher": "안-로르 바루치코스 그림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": ""
+  },
+  {
+   "key": "하나님경영-죠이북스",
+   "title": "하나님 경영",
+   "author": "김석년",
+   "translator": "",
+   "publisher": "죠이북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193507858"
+  },
+  {
+   "key": "다시성령을만나다-좋은씨앗",
+   "title": "다시, 성령을 만나다",
+   "author": "김세용",
+   "translator": "",
+   "publisher": "좋은씨앗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788958744467"
+  },
+  {
+   "key": "실종된메시아-두란노",
+   "title": "실종된 메시아",
+   "author": "카일 아이들먼·마크 무어",
+   "translator": "윤종석",
+   "publisher": "두란노",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788953153608"
+  },
+  {
+   "key": "일상의틈새로하늘을보다-사자와어린양",
+   "title": "일상의 틈새로 하늘을 보다",
+   "author": "주상학",
+   "translator": "",
+   "publisher": "사자와어린양",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42222",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《창세기 1장 다시 읽기》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193325223"
+  },
+  {
+   "key": "유배지에서만난하나님-복있는사람",
+   "title": "유배지에서 만난 하나님",
+   "author": "김기현",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42223",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "자기 인생의 정직한 탐구자들",
+   "by": [
+    "강동석"
+   ],
+   "summary": "혼돈의 시대를 건너온 신학자 김기현의 비망록. 유배지 같은 자리에서 만난 하나님을 증언한다.",
+   "isbn13": "9791170833529"
+  },
+  {
+   "key": "산을등에지고가려했네-우리학교",
+   "title": "산을 등에 지고 가려 했네",
+   "author": "손봉호",
+   "translator": "",
+   "publisher": "우리학교",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42223",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "자기 인생의 정직한 탐구자들",
+   "by": [
+    "강동석"
+   ],
+   "summary": "기독교 윤리학자이자 철학자 손봉호 교수의 회고록.",
+   "isbn13": "9791167552815"
+  },
+  {
+   "key": "하나님이커브볼을던지실때-새물결플러스",
+   "title": "하나님이 커브볼을 던지실 때",
+   "author": "피터 엔스",
+   "translator": "노동래",
+   "publisher": "새물결플러스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42223",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "자기 인생의 정직한 탐구자들",
+   "by": [
+    "강동석"
+   ],
+   "summary": "야구 선수 출신 성서학자 피터 엔스가 예상치 못한 인생의 커브볼 앞에서 신앙을 다시 생각한다.",
+   "isbn13": "9791161293172"
   }
- ],
- "title": "복음과상황 431호 〈서사의 서사〉 작가의 배신, 독자의 믿음",
- "date": "2026-09-28",
- "column": "서사의 서사",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42224",
- "headline": "작가의 배신, 독자의 믿음",
- "season": "2026 가을",
- "_curated": true
+ ]
 }

@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788933113790",
+ "isbn10": "8933113797",
+ "itemId": 239941088,
+ "title": "전쟁과 사랑 - 사치코 이야기",
+ "subTitle": "사치코 이야기",
+ "originalTitle": "",
+ "author": "엔도 슈사쿠 (지은이), 김승철 (옮긴이)",
+ "authors": [],
+ "publisher": "바오로딸(성바오로딸)",
+ "pubDate": "2020-05-07",
+ "priceStandard": 21000,
+ "priceSales": 18900,
+ "pages": 616,
+ "category": "국내도서>종교/역학>가톨릭>가톨릭 문학",
+ "series": null,
+ "description": "엔도 슈사쿠가 제2차 세계대전을 소재로 쓴 소설. 나가사키에서 전쟁의 비극을 경험하는 사치코와 슈헤이 이야기이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/23994/10/cover200/8933113797_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=239941088&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "그 사람이 왔다 / 사치코 / 스파이 / 작은 비밀 / 검푸른 파도 / 죽음의 장소 / 학생 기숙사 / 사랑에 대하여 / 번민 / 탈주 / 여자의 마음 / 불타는 여름 / 콜베 신부의 죽음 / 한 걸음 한 걸음 / 그날 / 어떤 결심 / 마치 전쟁이 없는 것처럼 / 슈헤이의 편지 / 어두운 나날 / 1944년(쇼와 19년) / 사치코는 그때 / 진혼곡 / 8월 9일 / 그리고 그 이후/ 저자 후기 / 역자 해설과 후기",
+ "intro": "엔도 슈사쿠가 쓴 이 소설은 주인공의 순수하고 가슴 아픈 사랑, 콜베 신부의 숭고한 사랑을 통해 진짜 사랑이 무엇이고, 신앙과 현실에서 번민하는 그들을 통해 자신의 신앙도 돌아보게 한다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:51",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/23994/10/cover500/8933113797_1.jpg"
+}

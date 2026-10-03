@@ -1,0 +1,44 @@
+{
+ "media": "goscon",
+ "id": "2020-09",
+ "no": "",
+ "title": "복음과상황 2020-09",
+ "date": "2020-09-22",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=40170",
+ "season": "2020 가을",
+ "items": [
+  {
+   "key": "하나님의공동선-성서유니온선교회",
+   "title": "하나님의 공동선",
+   "author": "송용원",
+   "translator": "",
+   "publisher": "성서유니온선교회",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=40168",
+   "section": "review",
+   "corner": "삶과 독서",
+   "headline": "《하나님의 공동선》 성경을 보는 렌즈, 공동선",
+   "by": [
+    "홍창용"
+   ],
+   "summary": "코로나 시대 교회가 비난받는 현실 앞에서 ‘공동선’을 성경을 읽는 렌즈로 제시하는 송용원 교수의 책.",
+   "isbn13": "9788932550596"
+  },
+  {
+   "key": "칭의와하나님나라-두란노",
+   "title": "칭의와 하나님 나라",
+   "author": "김세윤",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=40170",
+   "section": "review",
+   "corner": "삶과 독서",
+   "headline": "《칭의와 하나님 나라》 구약의 약속을 성취하는 칭의",
+   "by": [
+    "전진우"
+   ],
+   "summary": "칭의를 구약의 약속을 성취하는 하나님나라의 관점에서 다시 읽게 하는 김세윤 교수의 책.",
+   "isbn13": "9788953138186"
+  }
+ ]
+}

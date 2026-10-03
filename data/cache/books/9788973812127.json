@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788973812127",
+ "isbn10": "8973812122",
+ "itemId": 92096,
+ "title": "심판",
+ "subTitle": "",
+ "originalTitle": "Der Prozess (1925년)",
+ "author": "프란츠 카프카 (지은이)",
+ "authors": [],
+ "publisher": "(주)태일소담출판사",
+ "pubDate": "1997-07-08",
+ "priceStandard": 4500,
+ "priceSales": 4050,
+ "pages": 256,
+ "category": "국내도서>소설/시/희곡>세계의 소설>동유럽소설",
+ "series": "소담 베스트셀러 월드북 58",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/9/20/cover200/9788973812127.gif",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=92096&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": ".제1장 체포, 뷔르스토나라는 여인 ... 9\n.제2장 최초의 심리 ... 40\n.제3장 텅 빈 법정에서, 학생, 사무실 ... 56\n...\n.미완의 단장 ... 236\n.작가와 작품 해설 ... 258\n.작가 연보 ... 260",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:09",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/9/20/cover500/9788973812127.gif"
+}

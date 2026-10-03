@@ -28,9 +28,21 @@ def main():
                                      headers=hdr, method='POST')
         urllib.request.urlopen(req, timeout=60).read()
     # 사이트에서 빠진 책은 판매 중지
-    keep = ','.join(r['isbn13'] for r in rows)
-    req = urllib.request.Request(sec['url'] + '/rest/v1/books?isbn13=not.in.(' + keep + ')', data=b'{"active":false}', headers=hdr, method='PATCH')
-    urllib.request.urlopen(req, timeout=60).read()
+    # (전체 ISBN을 URL에 넣으면 길이 초과 400 → DB의 활성 목록을 받아 차집합만 끔)
+    keep = {r['isbn13'] for r in rows}
+    live, off = set(), 0
+    while True:  # Supabase 는 한 번에 1000행까지만 돌려줌
+        req = urllib.request.Request(sec['url'] + f'/rest/v1/books?select=isbn13&active=eq.true&order=isbn13&limit=1000&offset={off}', headers=hdr)
+        page = json.load(urllib.request.urlopen(req, timeout=60))
+        live |= {r['isbn13'] for r in page}
+        if len(page) < 1000:
+            break
+        off += 1000
+    gone = sorted(live - keep)
+    for i in range(0, len(gone), 100):
+        req = urllib.request.Request(sec['url'] + '/rest/v1/books?isbn13=in.(' + ','.join(gone[i:i + 100]) + ')',
+                                     data=b'{"active":false}', headers=hdr, method='PATCH')
+        urllib.request.urlopen(req, timeout=60).read()
     print(f'■ books 동기화: {len(rows)}권')
 
 

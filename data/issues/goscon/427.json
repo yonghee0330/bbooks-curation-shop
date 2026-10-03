@@ -2,7 +2,254 @@
  "media": "goscon",
  "id": "427",
  "no": "427호",
+ "title": "복음과상황 427호 〈서사의 서사〉 위험한 글쓰기",
+ "date": "2026-05-29",
+ "column": "서사의 서사",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42119",
+ "headline": "위험한 글쓰기",
+ "season": "2026 봄",
+ "_curated": true,
  "items": [
+  {
+   "key": "신앙사춘기너머-복있는사람",
+   "title": "신앙 사춘기 너머",
+   "author": "정신실",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791170833314"
+  },
+  {
+   "key": "기도-생활성서",
+   "title": "기도",
+   "author": "로버트 배런",
+   "translator": "허찬욱",
+   "publisher": "생활성서",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788984817173"
+  },
+  {
+   "key": "고갈된세상속충만한나라-죠이북스",
+   "title": "고갈된 세상 속 충만한 나라",
+   "author": "이지일",
+   "translator": "",
+   "publisher": "죠이북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193507728"
+  },
+  {
+   "key": "그리고신학이시작되었다-비아",
+   "title": "그리고 신학이 시작되었다",
+   "author": "존 베어",
+   "translator": "김준철·민경찬",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199780439"
+  },
+  {
+   "key": "맥체인수업-샘솟는기쁨",
+   "title": "맥체인 수업",
+   "author": "박양규",
+   "translator": "",
+   "publisher": "샘솟는기쁨",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791192794815"
+  },
+  {
+   "key": "당신의소명은무엇인가요-바람이불어오는곳",
+   "title": "당신의 소명은 무엇인가요",
+   "author": "캐런 스왈로우 프라이어",
+   "translator": "윤종석",
+   "publisher": "바람이불어오는곳",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791191887396"
+  },
+  {
+   "key": "빵안파는빵집-밝은세상",
+   "title": "빵 안 파는 빵집",
+   "author": "차에셀(빵이)",
+   "translator": "",
+   "publisher": "밝은세상",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788984375192"
+  },
+  {
+   "key": "살아있는뇌변화하는뇌-cup",
+   "title": "살아있는 뇌, 변화하는 뇌",
+   "author": "박시운",
+   "translator": "",
+   "publisher": "CUP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791190564809"
+  },
+  {
+   "key": "갈릴리-비전북",
+   "title": "갈릴리",
+   "author": "김광남",
+   "translator": "",
+   "publisher": "비전북",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791186387696"
+  },
+  {
+   "key": "보이는세상보이지않는하나님보이지않는세상보이는하-선율",
+   "title": "보이는 세상 보이지 않는 하나님, 보이지 않는 세상 보이는 하나님",
+   "author": "양진철",
+   "translator": "",
+   "publisher": "선율",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791188887316"
+  },
+  {
+   "key": "신약의숨은단어들-두란노",
+   "title": "신약의 숨은 단어들",
+   "author": "김영인",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788953152861"
+  },
+  {
+   "key": "복음사용설명서-좋은씨앗",
+   "title": "복음사용설명서",
+   "author": "김덕종",
+   "translator": "",
+   "publisher": "좋은씨앗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42116",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《신앙 사춘기 너머》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788958744382"
+  },
+  {
+   "key": "아무것도아닌것들의기쁨-문학동네",
+   "title": "아무것도 아닌 것들의 기쁨",
+   "author": "김학철",
+   "translator": "",
+   "publisher": "문학동네",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42117",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "바울을 다시 묻다",
+   "by": [
+    "강동석"
+   ],
+   "summary": "비천하고 멸시받는 ‘아무것도 아닌 것들’이 이룬 연대와 평등의 공동체를 바울에게서 읽는 김학철의 책.",
+   "isbn13": "9788954639477"
+  },
+  {
+   "key": "바울신학크로키-비아토르",
+   "title": "바울 신학 크로키",
+   "author": "김선용",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42117",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "바울을 다시 묻다",
+   "by": [
+    "강동석"
+   ],
+   "summary": "편지의 사람 바울의 신학을 비평적이고 학술적으로 스케치한 김선용의 책.",
+   "isbn13": "9791194216407"
+  },
+  {
+   "key": "지극히작은자들을위한바울신학-ivp",
+   "title": "지극히 작은 자들을 위한 바울 신학",
+   "author": "칼라 스워퍼드 워크스",
+   "translator": "오현미",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42117",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "바울을 다시 묻다",
+   "by": [
+    "강동석"
+   ],
+   "summary": "바울을 ‘지극히 작은 자’를 위한 사도로 읽어 낸 칼라 스워퍼드 워크스의 책.",
+   "isbn13": "9788932824055"
+  },
   {
    "key": "나와타인을쓰다-글항아리",
    "title": "나와 타인을 쓰다",
@@ -55,12 +302,5 @@
    "summary": "『전쟁 같은 맛』 저자의 첫 책. 한국과 미국에서 유령 같은 존재가 된 이들을 탐구한다.",
    "isbn13": "9788972971924"
   }
- ],
- "title": "복음과상황 427호 〈서사의 서사〉 위험한 글쓰기",
- "date": "2026-05-29",
- "column": "서사의 서사",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42119",
- "headline": "위험한 글쓰기",
- "season": "2026 봄",
- "_curated": true
+ ]
 }

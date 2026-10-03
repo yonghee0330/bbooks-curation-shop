@@ -2,11 +2,427 @@
  "media": "goscon",
  "id": "424",
  "no": "424호",
- "items": [],
  "title": "복음과상황 424호 〈서사의 서사〉 타인의 삶",
  "date": "2026-02-28",
  "column": "서사의 서사",
  "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42039",
  "headline": "타인의 삶",
- "season": "2025 겨울"
+ "season": "2025 겨울",
+ "items": [
+  {
+   "key": "강영안의공부한다는것-복있는사람",
+   "title": "강영안의 공부한다는 것",
+   "author": "강영안·최종원",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791170833147"
+  },
+  {
+   "key": "아바-비아",
+   "title": "아바",
+   "author": "이블린 언더힐",
+   "translator": "황윤하",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199437685"
+  },
+  {
+   "key": "주는나의피난처-코리텐붐원작",
+   "title": "주는 나의 피난처",
+   "author": "엘리자베스 쉐릴·존 셰릴",
+   "translator": "언어의정원",
+   "publisher": "코리 텐 붐 원작",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791194954057"
+  },
+  {
+   "key": "한완상마지막고언-홍인식대담정리",
+   "title": "한완상 마지막 고언",
+   "author": "한완상",
+   "translator": "",
+   "publisher": "홍인식 대담·정리",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788969074096"
+  },
+  {
+   "key": "종교개혁중세에서근대로의역사적대전환-길",
+   "title": "종교개혁, 중세에서 근대로의 역사적 대전환",
+   "author": "최종원",
+   "translator": "",
+   "publisher": "길",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788964453070"
+  },
+  {
+   "key": "말씀으로드리는기도숨쉬는모든순간-아바서원",
+   "title": "말씀으로 드리는 기도, 숨 쉬는 모든 순간",
+   "author": "제니퍼 터커",
+   "translator": "전의우",
+   "publisher": "아바서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791190376921"
+  },
+  {
+   "key": "모음속을걷는자음처럼-너머서",
+   "title": "모음 속을 걷는 자음처럼",
+   "author": "한희철",
+   "translator": "",
+   "publisher": "너머서",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199513037"
+  },
+  {
+   "key": "하나님질문있어요-성서유니온",
+   "title": "하나님 질문 있어요!",
+   "author": "데이브 스트렐러",
+   "translator": "정효진",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932501376"
+  },
+  {
+   "key": "톰라이트의사순절과부활절-야다북스",
+   "title": "톰 라이트의 사순절과 부활절",
+   "author": "톰 라이트",
+   "translator": "전의우",
+   "publisher": "야다북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199536142"
+  },
+  {
+   "key": "신영복다시읽기-돌베개",
+   "title": "신영복 다시 읽기",
+   "author": "권진관 외 12인",
+   "translator": "",
+   "publisher": "돌베개",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791194442820"
+  },
+  {
+   "key": "자카르타가온다-두번째테제",
+   "title": "자카르타가 온다",
+   "author": "빈센트 베빈스",
+   "translator": "박소현",
+   "publisher": "두번째테제",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791190186520"
+  },
+  {
+   "key": "개미목사의주식투자첫걸음-사자와어린양",
+   "title": "개미 목사의 주식투자 첫걸음",
+   "author": "장일",
+   "translator": "",
+   "publisher": "사자와어린양",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193325209"
+  },
+  {
+   "key": "절기와설교하나님을배우다-좋은씨앗",
+   "title": "절기와 설교, 하나님을 배우다",
+   "author": "이성호·조광현",
+   "translator": "",
+   "publisher": "좋은씨앗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788958744306"
+  },
+  {
+   "key": "10대와통하는처음만나는세계고전-철수와영희",
+   "title": "10대와 통하는 처음 만나는 세계 고전",
+   "author": "장동석",
+   "translator": "",
+   "publisher": "철수와영희",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791171530397"
+  },
+  {
+   "key": "예배수업-세움북스",
+   "title": "예배 수업",
+   "author": "안재경",
+   "translator": "",
+   "publisher": "세움북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193996713"
+  },
+  {
+   "key": "십자가의길컬러링book-생활성서",
+   "title": "십자가의 길 컬러링 BOOK",
+   "author": "조재형",
+   "translator": "",
+   "publisher": "생활성서",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788984817081"
+  },
+  {
+   "key": "예수님과더가까워지는어린이365기도-cup",
+   "title": "예수님과 더 가까워지는 어린이 365 기도",
+   "author": "사라 영",
+   "translator": "이륜정",
+   "publisher": "CUP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791190564793"
+  },
+  {
+   "key": "배움으로기억하는일본군위안부-생각비행",
+   "title": "배움으로 기억하는 일본군 ‘위안부’",
+   "author": "방지원",
+   "translator": "",
+   "publisher": "생각비행",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791192745633"
+  },
+  {
+   "key": "부활의자리로-두란노",
+   "title": "부활의 자리로",
+   "author": "C. S. 루이스",
+   "translator": "윤종석",
+   "publisher": "두란노",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788953152397"
+  },
+  {
+   "key": "기독교대중문화30-ivp",
+   "title": "기독교×대중문화 3.0",
+   "author": "김상덕·이민형",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932824024"
+  },
+  {
+   "key": "의미가인생을바꾼다면-김영사",
+   "title": "의미가 인생을 바꾼다면",
+   "author": "타트야나 슈넬·킬리안 트로티어",
+   "translator": "장혜경",
+   "publisher": "김영사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791173324581"
+  },
+  {
+   "key": "ai시대한국교회에던지는11가지질문-생명의말씀사",
+   "title": "AI 시대, 한국교회에 던지는 11가지 질문",
+   "author": "최윤식 외 4인",
+   "translator": "",
+   "publisher": "생명의말씀사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788904169481"
+  },
+  {
+   "key": "도스토옙스키와저녁식사를-바틀비",
+   "title": "도스토옙스키와 저녁 식사를",
+   "author": "김영웅",
+   "translator": "",
+   "publisher": "바틀비",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791191959451"
+  },
+  {
+   "key": "다르거나혹은같거나-e복음과상황",
+   "title": "다르거나 혹은 같거나",
+   "author": "김영준",
+   "translator": "",
+   "publisher": "e복음과상황",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42037",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《강영안의 공부한다는 것》 외 23권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": ""
+  },
+  {
+   "key": "심볼전쟁-진인진",
+   "title": "심볼전쟁",
+   "author": "홍이표",
+   "translator": "",
+   "publisher": "진인진",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42038",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "상징으로 읽는 한일 기독교사",
+   "by": [
+    "강동석"
+   ],
+   "summary": "한국과 일본의 국가·민족 상징이 어떻게 대립하고 경합해 왔는지 추적한 책.",
+   "isbn13": "9788963476391"
+  },
+  {
+   "key": "태극기와한국교회-이야기books",
+   "title": "태극기와 한국교회",
+   "author": "홍승표",
+   "translator": "",
+   "publisher": "이야기books",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42038",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "상징으로 읽는 한일 기독교사",
+   "by": [
+    "강동석"
+   ],
+   "summary": "태극기를 든 ‘극우 기독교’의 출현을 한국 교회와 태극기의 역사로 설명하는 책.",
+   "isbn13": "9791191434019"
+  }
+ ]
 }

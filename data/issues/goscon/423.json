@@ -2,7 +2,252 @@
  "media": "goscon",
  "id": "423",
  "no": "423호",
+ "title": "복음과상황 423호 〈서사의 서사〉 장서가의 새해맞이",
+ "date": "2026-01-30",
+ "column": "서사의 서사",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42015",
+ "headline": "장서가의 새해맞이",
+ "season": "2025 겨울",
+ "_curated": true,
  "items": [
+  {
+   "key": "살림길오늘이곳에서-밝은봄",
+   "title": "살림길, 오늘 이곳에서",
+   "author": "살림꾼들",
+   "translator": "",
+   "publisher": "밝은봄",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791197165023"
+  },
+  {
+   "key": "가장고단하고가장빛나는시간-죠이북스",
+   "title": "가장 고단하고 가장 빛나는 시간",
+   "author": "신동재",
+   "translator": "",
+   "publisher": "죠이북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193507636"
+  },
+  {
+   "key": "황금률-야다북스",
+   "title": "황금률",
+   "author": "권수경",
+   "translator": "",
+   "publisher": "야다북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199536128"
+  },
+  {
+   "key": "여자목사-바람이불어오는곳",
+   "title": "여자목사",
+   "author": "나디아 볼즈웨버",
+   "translator": "윤종석",
+   "publisher": "바람이불어오는곳",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791191887365"
+  },
+  {
+   "key": "샬롬재정학-샘솟는기쁨",
+   "title": "샬롬재정학",
+   "author": "구영민",
+   "translator": "",
+   "publisher": "샘솟는기쁨",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791192794761"
+  },
+  {
+   "key": "타일러반할테런각색-세움북스",
+   "title": "타일러 반 할테런 각색",
+   "author": "베아트리스 멜로",
+   "translator": "박광영",
+   "publisher": "세움북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": ""
+  },
+  {
+   "key": "멈추어라그리고알아라-비아",
+   "title": "멈추어라, 그리고 알아라",
+   "author": "마이클 램지",
+   "translator": "김준철",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199437678"
+  },
+  {
+   "key": "영적분별을살다-좋은씨앗",
+   "title": "영적 분별을 살다",
+   "author": "정재상",
+   "translator": "",
+   "publisher": "좋은씨앗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788958744290"
+  },
+  {
+   "key": "묵상을다시생각하다-성서유니온",
+   "title": "묵상을 다시 생각하다",
+   "author": "권연경 외 17인",
+   "translator": "",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932550787"
+  },
+  {
+   "key": "에이미필러히브리서주석-복있는사람",
+   "title": "에이미 필러 히브리서 주석",
+   "author": "에이미 필러",
+   "translator": "김기철·노종문",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791170833093"
+  },
+  {
+   "key": "거룩한행운라이팅북-너머서",
+   "title": "거룩한 행운: 라이팅북",
+   "author": "유진 피터슨",
+   "translator": "권혁일",
+   "publisher": "너머서",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42009",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《예수님이 사용하신 히브리어 낱말》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199513006"
+  },
+  {
+   "key": "북한기독교역사사전-한국기독교역사연구소",
+   "title": "북한기독교역사사전",
+   "author": "북한기독교역사사전 편찬위원회",
+   "translator": "",
+   "publisher": "한국기독교역사연구소",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42013",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "역사란 무엇인가? ②",
+   "by": [
+    "이범진"
+   ],
+   "summary": "광복과 분단 80년을 맞아 북한 지역 기독교의 역사를 집대성한 사전.",
+   "isbn13": "9791191974072"
+  },
+  {
+   "key": "북한우표와국가상징성-경인문화사",
+   "title": "북한 우표와 국가 상징성",
+   "author": "안재영",
+   "translator": "",
+   "publisher": "경인문화사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42013",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "역사란 무엇인가? ②",
+   "by": [
+    "이범진"
+   ],
+   "summary": "북한 우표에 담긴 국가 상징을 분석해 북한 체제를 읽는 연구.",
+   "isbn13": "9788949969039"
+  },
+  {
+   "key": "김교신백년의외침-비아토르",
+   "title": "김교신, 백 년의 외침",
+   "author": "류동규",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42013",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "역사란 무엇인가? ②",
+   "by": [
+    "이범진"
+   ],
+   "summary": "구독자 200명의 잡지로 시대를 깨운 김교신의 외침을 오늘에 되새기는 책.",
+   "isbn13": "9791194216339"
+  },
+  {
+   "key": "한국개신교사상사13-홍성사",
+   "title": "한국 개신교 사상사 1-3",
+   "author": "양현혜",
+   "translator": "",
+   "publisher": "홍성사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42013",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "역사란 무엇인가? ②",
+   "by": [
+    "이범진"
+   ],
+   "summary": "양현혜 교수가 한국 개신교 사상의 흐름을 세 권으로 정리한 사상사."
+  },
   {
    "key": "계속읽기-마티",
    "title": "계속 읽기",
@@ -81,12 +326,5 @@
    "summary": "글쓰기 책을 읽던 시절 만난 번역서. 같은 번역자의 이름이 산문집 『계속 읽기』로 이어졌다.",
    "isbn13": "9791190853255"
   }
- ],
- "title": "복음과상황 423호 〈서사의 서사〉 장서가의 새해맞이",
- "date": "2026-01-30",
- "column": "서사의 서사",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42015",
- "headline": "장서가의 새해맞이",
- "season": "2025 겨울",
- "_curated": true
+ ]
 }

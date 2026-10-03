@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788970715438",
+ "isbn10": "8970715436",
+ "itemId": 254541086,
+ "title": "장애신학 2 - 장애의 렌즈를 통해 본 성경",
+ "subTitle": "장애의 렌즈를 통해 본 성경",
+ "originalTitle": "",
+ "author": "김홍덕 (지은이)",
+ "authors": [],
+ "publisher": "대장간",
+ "pubDate": "2020-10-23",
+ "priceStandard": 25000,
+ "priceSales": 22500,
+ "pages": 352,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>신학일반",
+ "series": "장애신학 ",
+ "description": "10년전 한국에는 생소했던 장애신학이라는 용어를 소개한 저자가 장애신학의 관점으로 신구약 전체를 조망하며 연구한 책이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/25454/10/cover200/8970715436_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=254541086&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "들어가는 말\n\n1부•구약에서 장애신학 하기\n\n1장•창세기, 출애굽기\n\n2장•레위기, 민수기, 신명기\n\n3장•여호수아, 사사기, 룻기, 사무엘상하, 열왕기상하\n\n4장•역대상하, 에스라, 느헤미야, 에스더\n\n5장•욥기, 잠언 , 전도서\n\n6장•시편, 애가서, 아가서\n\n7장•이사야, 예레미야, 에스겔, 다니엘, 12소선지서\n\n2부•신약에서 장애신학 하기\n\n8장•마태복음, 마가복음\n\n9장•누가복음-사도행전\n\n10장•요한복음, 요한1,2,3서, 계시록\n\n11장•바울서신\n\n12장•히브리서 및 일반서신",
+ "intro": "10년전 한국에는 생소했던 장애신학이라는 용어를 소개한 저자가 장애신학의 관점으로 신구약 전체를 조망하며 연구한 책이다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 03:25",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/25454/10/cover500/8970715436_1.jpg"
+}

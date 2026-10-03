@@ -2,7 +2,254 @@
  "media": "goscon",
  "id": "429",
  "no": "429호",
+ "title": "복음과상황 429호 〈서사의 서사〉 “내 인생의 영토는 여기까지”",
+ "date": "2026-07-29",
+ "column": "서사의 서사",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42171",
+ "headline": "“내 인생의 영토는 여기까지”",
+ "season": "2026 여름",
+ "_curated": true,
  "items": [
+  {
+   "key": "모든이야기의시작-지우",
+   "title": "모든 이야기의 시작",
+   "author": "정우조",
+   "translator": "",
+   "publisher": "지우",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791193664162"
+  },
+  {
+   "key": "목포의활기찬나날니스벳-사람이크는책",
+   "title": "목포의 활기찬 나날, 니스벳",
+   "author": "김양호",
+   "translator": "",
+   "publisher": "사람이크는책",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791196812973"
+  },
+  {
+   "key": "빼앗긴들판에복음을심다-한국기독교역사연구소",
+   "title": "빼앗긴 들판에 복음을 심다",
+   "author": "백종근",
+   "translator": "",
+   "publisher": "한국기독교역사연구소",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791191974119"
+  },
+  {
+   "key": "기독교신앙의정수-ivp",
+   "title": "기독교 신앙의 정수",
+   "author": "마이클 고힌",
+   "translator": "김일호",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932824147"
+  },
+  {
+   "key": "나의하느님-이온서가",
+   "title": "나의 하느님",
+   "author": "베아트리체 제르비니·소니아 마리아 루체 포센티니",
+   "translator": "",
+   "publisher": "이온서가",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791198156792"
+  },
+  {
+   "key": "신약성경가까이-복있는사람",
+   "title": "신약성경, 가까이",
+   "author": "김호경",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791170833444"
+  },
+  {
+   "key": "희망을짓는다는것-성서유니온",
+   "title": "희망을 짓는다는 것",
+   "author": "엘렌 데이비스·오스틴 매키버 데니스",
+   "translator": "",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788932550817"
+  },
+  {
+   "key": "왜그리스도인인가-비아",
+   "title": "왜 그리스도인인가?",
+   "author": "더글라스 존 홀",
+   "translator": "조윤",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199780446"
+  },
+  {
+   "key": "평신도를위한쉽게쓴성경문해력-야다북스",
+   "title": "평신도를 위한 쉽게 쓴 성경 문해력",
+   "author": "코리 M. 마쉬",
+   "translator": "이현호",
+   "publisher": "야다북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791199960008"
+  },
+  {
+   "key": "변혁과화해를향한복음주의운동의미래-대장간",
+   "title": "변혁과 화해를 향한 복음주의 운동의 미래",
+   "author": "KEEIM",
+   "translator": "",
+   "publisher": "대장간",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9788970718002"
+  },
+  {
+   "key": "너나알아-더웨이",
+   "title": "너, 나 알아?",
+   "author": "이덕주",
+   "translator": "",
+   "publisher": "더웨이",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791198435972"
+  },
+  {
+   "key": "기독학부모로살아가기-한낮의단비",
+   "title": "기독학부모로 살아가기",
+   "author": "김정준",
+   "translator": "",
+   "publisher": "한낮의단비",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42167",
+   "section": "new",
+   "corner": "새 책 맛보기",
+   "headline": "《모든 이야기의 시작》 외 11권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "",
+   "isbn13": "9791198378514"
+  },
+  {
+   "key": "노들섬과세운상가-돌고래",
+   "title": "노들섬과 세운상가",
+   "author": "박경선",
+   "translator": "",
+   "publisher": "돌고래",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42169",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "누가 도시의 주인인가",
+   "by": [
+    "오지은"
+   ],
+   "summary": "시장이 바뀔 때마다 바뀌는 서울의 공간 정치를 노들섬과 세운상가로 읽는다.",
+   "isbn13": "9791199854468"
+  },
+  {
+   "key": "저항하는청계천-나름북스",
+   "title": "저항하는 청계천",
+   "author": "최인기",
+   "translator": "",
+   "publisher": "나름북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42169",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "누가 도시의 주인인가",
+   "by": [
+    "오지은"
+   ],
+   "summary": "개발 속에서 번번이 밀려난 청계천 사람들의 저항의 역사를 기록했다.",
+   "isbn13": "9791186036938"
+  },
+  {
+   "key": "아파트는어떻게마을이되었나-빨간소금",
+   "title": "아파트는 어떻게 마을이 되었나",
+   "author": "위스테이별내 마을작가단",
+   "translator": "",
+   "publisher": "빨간소금",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=42169",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "누가 도시의 주인인가",
+   "by": [
+    "오지은"
+   ],
+   "summary": "협동조합 아파트 주민들이 아파트를 마을로 만들어 간 이야기.",
+   "isbn13": "9791191383706"
+  },
   {
    "key": "행운아-북하우스",
    "title": "행운아",
@@ -55,12 +302,5 @@
    "summary": "시인이 떠난 지 8년 만에 나온 유고 시집.",
    "isbn13": "9791124065495"
   }
- ],
- "title": "복음과상황 429호 〈서사의 서사〉 “내 인생의 영토는 여기까지”",
- "date": "2026-07-29",
- "column": "서사의 서사",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=42171",
- "headline": "“내 인생의 영토는 여기까지”",
- "season": "2026 여름",
- "_curated": true
+ ]
 }

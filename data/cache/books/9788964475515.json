@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788964475515",
+ "isbn10": "8964475518",
+ "itemId": 233450036,
+ "title": "자유인 김재준",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "홍인표 (지은이)",
+ "authors": [],
+ "publisher": "동연출판사",
+ "pubDate": "2020-02-17",
+ "priceStandard": 16000,
+ "priceSales": 14400,
+ "pages": 294,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교 인물",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/23345/0/cover200/8964475518_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=233450036&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "추천의 글\n\n머리말\n\n1장 들어가는 말\n\n2장 '자유사상'의 배경\n\n3장 김재준의 회심\n\n4장 체제, 그 너머의 삶과 교육 생각\n\n5장 김재준과 1930년대 자유주의 논쟁\n\n6장 간도에서의 활동\n\n7장 김재준의 공산주의 이해 - 한경직, 박형룡과의 비교를 중심으로\n\n8장 1960년대 이후 현실 참여\n\n9장 '자유'의 맥락에서 본 김재준의 시 세계\n\n10장 나오는말\n\n참고문헌\n\n미주",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:55",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/23345/0/cover500/8964475518_1.jpg"
+}

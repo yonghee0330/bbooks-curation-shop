@@ -392,7 +392,7 @@ def goscon(since):
     """과거분은 SEED, 새 글은 전체기사 RSS에서 기사 메타 '리뷰 > 서사의 서사'로 골라냄"""
     st = state('goscon')
     done = set(st.get('done', []))
-    cand = list(GOSCON_SEED)
+    cand = list(GOSCON_SEED) + [int(r['idxno']) for r in goscon_list(since, 'S2N67')]
     rss = get('https://www.goscon.co.kr/rss/allArticle.xml', gap=2) or ''
     cand += [int(x) for x in re.findall(r'articleView\.html\?idxno=(\d+)', rss)]
     new = 0
@@ -473,7 +473,7 @@ def newsnjoy(since):
         else:
             ids = []
             for attempt in range(8):  # 이 엔드포인트는 가끔 '정상적인 접근이 아닙니다'로 거절 → 간격 두고 재시도
-                j = get(ajax.format(total=total, p=page), gap=4)
+                j = get(ajax.format(total=total, p=page), gap=4, referer=list_url.format(p=1))
                 try:
                     d = json.loads(j or '{}')
                 except ValueError:
@@ -594,7 +594,132 @@ def cbooknews(since):
     log(f'■ 크리스찬북뉴스: 새 글 {new}개')
 
 
-COLLECTORS = {'emmaus': emmaus, 'teum': teum, 'goscon': goscon, 'newsnjoy': newsnjoy, 'cbooknews': cbooknews}
+# ───────────────────────── 복음과상황 리뷰 코너 (서사의 서사 외) ─────────────────────────
+# 리뷰 섹션(S1N36) 목록은 사이트의 '더보기' JSON 으로 받음 (Referer 필요). 책 서지는 본문의 정형화된 줄에서 뽑음:
+#   ▲ 제목 / 저자 지음 / 역자 옮김 / 출판사 펴냄 / 15,000원    · 제목｜저자 지음｜출판사    · (제목 줄) ↵ : 한줄평 ↵ 저자 지음 | 출판사 | 가격
+GOSCON_CORNERS = {  # 코너 코드: (사이트 코너 이름, 비북스 섹션)
+    'S2N13': ('에디터가 고른 책', 'editor'), 'S2N15': ('새 책 나들이', 'new'), 'S2N78': ('새 책 맛보기', 'new'),
+    'S2N14': ('잠깐 독서', 'new'), 'S2N77': ('책방에서', 'review'), 'S2N61': ('시대를 잇는 읽기', 'review'),
+    'S2N12': ('독서일기', 'review'), 'S2N24': ('삶과 독서', 'review'), 'S2N42': ('교회력, 계절의 독서', 'review'),
+    'S2N26': ('팬데믹 시대의 신학서 읽기', 'review'), 'S2N34': ('에디터의 책꽂이', 'review'), 'S2N11': ('편애하는 리뷰', 'review'),
+}
+_SEP = re.compile(r'\s*[/|｜]\s*')
+
+
+def parse_goscon_books(lines):
+    """본문 줄 목록 → [{'title','author','translator','publisher','blurb'}]"""
+    out = []
+    for i, ln in enumerate(lines):
+        if not re.search(r'(지음|엮음|글·그림|그림|편저|저|쓰고)\s*([/|｜]|$)', ln) or not re.search(r'[/|｜]', ln):
+            continue
+        parts = [x.strip(' ▲·') for x in _SEP.split(ln.strip(' ▲')) if x.strip(' ▲')]
+        title = author = tr = pub = ''
+        for j, x in enumerate(parts):
+            if re.search(r'[\d,]{3,}\s*원$', x):
+                continue
+            if re.search(r'(지음|엮음|그림|편저|쓰고|글)$', x) and not author:
+                author = re.sub(r'\s*(지음|엮음|글·그림|그림|편저|쓰고|글)$', '', x).strip()
+            elif x.endswith('옮김'):
+                tr = x[:-2].strip()
+            elif x.endswith('펴냄') or (author and not pub and j > 0):
+                pub = x.replace('펴냄', '').strip()
+            elif j == 0 and not author:
+                title = x
+        if not title:  # 제목이 윗줄에 있는 형식
+            k = i - 1
+            while k >= 0 and (lines[k].startswith(':') or not lines[k].strip()):
+                k -= 1
+            title = lines[k].strip(' ▲') if k >= 0 else ''
+        title = re.sub(r'^[《〈]|[》〉]$', '', title).strip()
+        if not title or len(title) > 70 or not pub or len(pub) > 25:
+            continue
+        blurb = []
+        for k in range(i + 1, min(i + 8, len(lines))):
+            if re.search(r'(지음|엮음|옮김|펴냄)\s*([/|｜]|$)', lines[k]):
+                break
+            blurb.append(lines[k])
+        out.append({'title': title, 'author': author, 'translator': tr, 'publisher': pub, 'blurb': '\n'.join(blurb)[:1500]})
+    return out
+
+
+def goscon_list(since, sub=None):
+    """리뷰 섹션 기사 목록 [{idxno, sub_section_code, title, viewDate, user_name}] — since 이후"""
+    ref = 'https://www.goscon.co.kr/news/articleList.html?sc_section_code=S1N36&view_type=sm'
+    rows = []
+    for p in range(1, 120):
+        u = ('https://www.goscon.co.kr/news/ajaxArticlePaging.php?total=5000&list_per_page=20&page_per_page=10'
+             f'&page={p}&sc_section_code=S1N36&view_type=sm&box_idxno=0')
+        try:
+            d = json.loads(get(u, gap=2, referer=ref) or '{}')
+        except ValueError:
+            d = {}
+        data = d.get('data') or []
+        if not data:
+            break
+        rows += [r for r in data if (r.get('viewDate') or '').replace('.', '-') >= since and (not sub or r.get('sub_section_code') == sub)]
+        if (data[-1].get('viewDate') or '9').replace('.', '-') < since:
+            break
+    return rows
+
+
+def goscon_reviews(since):
+    st = state('goscon_reviews')
+    done = set(st.get('done', []))
+    new = 0
+    for r in goscon_list(since):
+        code = r.get('sub_section_code')
+        if code not in GOSCON_CORNERS or r['idxno'] in done:
+            continue
+        corner, sec = GOSCON_CORNERS[code]
+        t = get(f"https://www.goscon.co.kr/news/articleView.html?idxno={r['idxno']}", gap=3)
+        if not t:
+            continue
+        done.add(r['idxno'])
+        sub = re.search(r'class="subheading">\[(\d+)호', t)
+        no = sub.group(1) if sub else ''
+        d = meta(t, 'article:published_time')[:10] or r['viewDate'].replace('.', '-')
+        bm = re.search(r'id="article-view-content-div"[^>]*>(.*?)</article>', t, re.S)
+        lines = [x.strip() for x in text_of(bm.group(1)).split('\n')] if bm else []
+        lines = [x for x in lines if x]
+        if any('유료회원만' in x for x in lines[:40]):
+            log(f"  · 복상 {corner} {r['idxno']} — 유료 기사, 건너뜀")
+            continue
+        books = parse_goscon_books(lines)
+        headline = html.unescape(r.get('title') or '')
+        url = f"https://www.goscon.co.kr/news/articleView.html?idxno={r['idxno']}"
+        writer = html.unescape(r.get('user_name') or '').strip()
+        items = []
+        for b in books:
+            key = item_key(b['title'], b['publisher'])
+            if any(x['key'] == key for x in items):
+                continue
+            save_raw('goscon', no or d[:7], key, f"[{corner}] {headline}\n{b['title']} / {b['author']} / {b['publisher']}\n\n{b['blurb']}")
+            items.append({'key': key, 'title': b['title'], 'author': b['author'], 'translator': b['translator'],
+                          'publisher': b['publisher'], 'link': url, 'section': sec, 'corner': corner, 'headline': headline,
+                          'by': [writer] if writer and sec in ('editor', 'review') else ['복음과상황'], 'summary': ''})
+        if not items:
+            log(f"  · 복상 {corner} {headline[:30]} — 서지 줄 없음")
+            continue
+        iid = no or d[:7]
+        old = load_issue('goscon', iid) or {}
+        issue = {k: v for k, v in old.items() if k != 'items'}
+        issue.update({'media': 'goscon', 'id': iid, 'items': items})
+        issue.setdefault('no', f'{no}호' if no else '')
+        issue.setdefault('title', f'복음과상황 {no}호' if no else f'복음과상황 {d[:7]}')
+        issue.setdefault('date', d)
+        issue.setdefault('column', '리뷰')
+        issue.setdefault('url', url)
+        save_issue(issue)
+        new += 1
+        log(f"  + 복상 {no}호 {corner} 「{headline[:30]}」 {len(items)}권")
+        st['done'] = sorted(done)
+        save_state('goscon_reviews', st)
+    st['done'] = sorted(done)
+    save_state('goscon_reviews', st)
+    log(f'■ 복상 리뷰 코너: 새 기사 {new}개')
+
+
+COLLECTORS = {'emmaus': emmaus, 'teum': teum, 'goscon': goscon, 'goscon_reviews': goscon_reviews, 'newsnjoy': newsnjoy, 'cbooknews': cbooknews}
 
 
 def main():

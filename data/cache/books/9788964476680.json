@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788964476680",
+ "isbn10": "8964476689",
+ "itemId": 275157313,
+ "title": "돌 쥔 주먹을 풀게 하는 힘",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "한완상 (지은이)",
+ "authors": [],
+ "publisher": "동연출판사",
+ "pubDate": "2021-07-07",
+ "priceStandard": 16000,
+ "priceSales": 14400,
+ "pages": 260,
+ "category": "국내도서>에세이>한국에세이",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/27515/73/cover200/8964476689_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275157313&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "1부 발악을 이기는 발선의 힘\n\n2부 나를 넘어설 용기: 자기 비움의 힘\n\n3부 예수운동, 장벽 허물기 그리고 복음\n\n4부 진짜 멋진 새 질서를 향한 창조적 파괴",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 03:30",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/27515/73/cover500/8964476689_1.jpg"
+}

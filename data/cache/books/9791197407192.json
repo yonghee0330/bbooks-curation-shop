@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791197407192",
+ "isbn10": "K262937328",
+ "itemId": 331416066,
+ "title": "칠십인역 입문 - 칠십인역의 정의, 역사적 배경, 기원, 번역 과정, 가치, 권위",
+ "subTitle": "칠십인역의 정의, 역사적 배경, 기원, 번역 과정, 가치, 권위",
+ "originalTitle": "The Septuagint: What It Is and Why It Matters",
+ "author": "그레고리 R. 래니어, 윌리엄 A. 로스 (지은이), 이민희 (옮긴이)",
+ "authors": [],
+ "publisher": "북오븐",
+ "pubDate": "2024-01-02",
+ "priceStandard": 18500,
+ "priceSales": 17580,
+ "pages": 216,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>설교/성경연구",
+ "series": null,
+ "description": "칠십인역의 번역과 전승 과정을 통해 성경이 우리에게 오기까지 과정을 알 수 있다. 칠십인역 이해를 통해 히브리 성서의 원문을 복원하는 데 도움을 준다. 칠십인역 이해를 통해 고대 유대 세계를 들여다볼 수 있다.",
+ "coverUrl": "https://image.aladin.co.kr/product/33141/60/cover200/k262937328_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=331416066&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "들어가는 글\n\n1부 | 칠십인역이란 무엇인가?\n\n1장. (이름과 상관없이) 이른바 칠십인역이란 무엇인가?\n\n2장. 그리스어 구약은 누구로부터, 어디에서 왔는가?\n\n3장. 그리스어 구약은 어떻게 번역되었나?\n\n4장. 그리스어 구약은 어떻게 발전했나?\n\n2부 | 칠십인역은 왜 중요한가?\n\n5장. 구약 연구에서 칠십인역은 왜 중요한가?\n\n6장. 신약 연구에서 칠십인역은 왜 중요한가?\n\n7장. 칠십인역은 어떤 권위를 갖나?\n\n부록 | 칠십인역에 관한 열 가지 핵심 질문\n\n찾아보기\n\n성구 찾아보기",
+ "intro": "칠십인역(Septuagint)을 잘 아는 사람은 많지 않다. 신학생이나 목회자들도 잘 알지 못하며 그리스도인들 역시 마찬가지다. 성경 난외주나 주석을 보다가 간혹 칠십인역을 떠올리며 궁금함을 느끼기도 하지만 그리스어로 번역된 구약 성경이라는 것, 72명의 유대 학자들이 72일간 번역했다는 전설 같은 이야기(아리스테아스의 편지) 정도만 알 뿐이다. 그렇다면 칠십인역이란 무엇이며 왜 중요한가?",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:19",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/33141/60/cover500/k262937328_1.jpg"
+}

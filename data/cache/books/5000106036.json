@@ -1,0 +1,29 @@
+{
+ "isbn13": "5000106036",
+ "isbn10": "5000106036",
+ "itemId": 106036,
+ "title": "예수의 생애 연구사",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "알베르트 슈바이처 (지은이)",
+ "authors": [],
+ "publisher": "대한기독교서회",
+ "pubDate": "1995-03-30",
+ "priceStandard": 15000,
+ "priceSales": 13500,
+ "pages": 603,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>신학일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/img/noimg_b.gif",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=106036&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:12",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/img/noimg_b.gif"
+}

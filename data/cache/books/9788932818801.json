@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788932818801",
+ "isbn10": "8932818800",
+ "itemId": 286761187,
+ "title": "엄마의 엄마",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "이주현 (지은이)",
+ "authors": [],
+ "publisher": "IVP",
+ "pubDate": "2022-01-12",
+ "priceStandard": 13000,
+ "priceSales": 11700,
+ "pages": 44,
+ "category": "국내도서>에세이>사진/그림 에세이",
+ "series": null,
+ "description": "이주현 작가의 어른을 위한 동화. 사랑하는 엄마를 갑작스럽게 잃고 마음에 찾아온 캄캄한 밤과, 그 너머 화해와 용기를 그려 보이는 자전적 그림책. 가족의 빈자리를 느끼는 이들, 엄마를 미워하며 사랑하는 모든 딸들, 엄마를 부르고 엄마라 불리는 모든 이들에게 위로와 회복의 메시지를 건넨다.",
+ "coverUrl": "https://image.aladin.co.kr/product/28676/11/cover200/8932818800_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=286761187&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "이주현 작가의 어른을 위한 동화. 사랑하는 엄마를 갑작스럽게 잃고 마음에 찾아온 캄캄한 밤과, 그 너머 화해와 용기를 그려 보이는 자전적 그림책. 섬세하고 아름다운 그림, 애틋하고도 꿈결 같은 이야기에 담긴 엄마의 엄마 이야기. 사랑하는 가족의 빈자리를 느끼는 이들, 엄마를 미워하며 사랑하는 모든 딸들, 엄마를 부르고 엄마라 불리는 모든 이들에게, 이 책은 작가의 고유한 목소리로 위로와 회복의 메시지를 건넨다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 03:36",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/28676/11/cover500/8932818800_1.jpg"
+}

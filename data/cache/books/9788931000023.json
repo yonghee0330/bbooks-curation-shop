@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788931000023",
+ "isbn10": "K512531112",
+ "itemId": 116323748,
+ "title": "도덕적 인간과 비도덕적 사회 (2004년판)",
+ "subTitle": "",
+ "originalTitle": "Moral Man and Immoral Society: A Study of Ethics and Politics",
+ "author": "라인홀드 니버 (지은이), 이한우 (옮긴이)",
+ "authors": [],
+ "publisher": "문예출판사",
+ "pubDate": "2004-04-30",
+ "priceStandard": 15000,
+ "priceSales": 13500,
+ "pages": 294,
+ "category": "국내도서>사회과학>사회학>사회학 일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/11632/37/cover200/k512531112_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=116323748&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "001. 인간과 사회:함께 살아가는 법\n002. 사회생활을 위한 개인의 합리적 원천들\n003. 사회생활을 위한 개인의 종교적 원천들\n004. 여러 민족의 도덕성\n005. 특권계급의 윤리적 태도\n006. 프롤레타리아계급의 윤리적 태도\n007. 혁며을 통한 정의\n008. 정치적 힘에 의한 정의\n009. 정치에서 도덕적 제 가치의 보존\n010. 개인의 도덕과 사회의 도덕 사이의 갈등",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 02:06",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/11632/37/cover500/k512531112_1.jpg"
+}

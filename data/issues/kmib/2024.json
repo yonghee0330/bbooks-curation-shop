@@ -1,0 +1,374 @@
+{
+ "media": "kmib",
+ "id": "2024",
+ "no": "2024년",
+ "title": "2024 국민일보 올해의 책",
+ "subtitle": "성경의 진의로 시대의 불확실성에 맞선 한 해",
+ "date": "2024-12-27",
+ "column": "올해의 책",
+ "url": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+ "season": "2024 겨울",
+ "_curated": true,
+ "items": [
+  {
+   "key": "고백의언어들-복있는사람",
+   "title": "고백의 언어들",
+   "author": "김기석",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "pick",
+   "by": [
+    "홍종락",
+    "민경찬"
+   ],
+   "summary": "올해 최고의 책. 43년 목회하며 만난 하나님을 예술·과학·철학의 이야기로 풀어낸 책. 익숙한 기독교의 핵심 용어가 장인의 손에서 생명력을 얻는 보물창고.",
+   "isbn13": "9791170831211"
+  },
+  {
+   "key": "히브리어의시간-복있는사람",
+   "title": "히브리어의 시간",
+   "author": "송민원",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "이재원",
+    "이학영"
+   ],
+   "summary": "목회 신학 국내 1위. 신학자의 전유물이던 고대 히브리어를 대중의 언어로 소개하며 재미와 신앙적 유익을 함께 잡은 책.",
+   "isbn13": "9791170830825"
+  },
+  {
+   "key": "태초에인권이있었다-ivp",
+   "title": "태초에 인권이 있었다",
+   "author": "민경구",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "정한욱"
+   ],
+   "summary": "모세오경 주석 작업으로 인권이 하나님이 태초부터 세운 권리임을 밝혀낸 책.",
+   "isbn13": "9788932822587"
+  },
+  {
+   "key": "신약성경과그세계-비아토르",
+   "title": "신약성경과 그 세계",
+   "author": "N. T. 라이트, 마이클 F. 버드",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "옥명호"
+   ],
+   "summary": "목회 신학 해외 1위. 역사·문화·신학의 맥락에서 신약을 풀어낸 신약성경 안내서의 결정판.",
+   "isbn13": "9791191851939"
+  },
+  {
+   "key": "지거쾨더성서의그림들-사자와어린양",
+   "title": "지거 쾨더, 성서의 그림들",
+   "author": "지거 쾨더",
+   "translator": "",
+   "publisher": "사자와어린양",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "최주훈"
+   ],
+   "summary": "성경 이야기를 특유의 시각으로 재해석한 독일 사제 화가 지거 쾨더의 작품 해설집. 그림과 글이 과거를 오늘로 옮겨 놓는다.",
+   "isbn13": "9791193325131"
+  },
+  {
+   "key": "정원에서길을물었다-선율",
+   "title": "정원에서 길을 물었다",
+   "author": "",
+   "translator": "",
+   "publisher": "선율",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "이범진"
+   ],
+   "summary": "일반 신앙 국내 1위. 뉴욕 보태니컬가든 정원사가 정원의 언어로 쓴 신앙 고백. 교회가 잃어버린 풍성한 언어를 되찾는다.",
+   "isbn13": "9791188887255"
+  },
+  {
+   "key": "평신도교회가온다-잉클링즈",
+   "title": "평신도교회가 온다",
+   "author": "송인수",
+   "translator": "",
+   "publisher": "잉클링즈",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "최규식"
+   ],
+   "summary": "교육 운동가가 쓴 평신도교회 실전서. 크래머, 스토트, 옥한흠 이후 오랜만에 만나는 평신도 신학서.",
+   "isbn13": "9791197598777"
+  },
+  {
+   "key": "어쩌다거룩하게-바람이불어오는곳",
+   "title": "어쩌다 거룩하게",
+   "author": "나디아 볼즈웨버",
+   "translator": "",
+   "publisher": "바람이불어오는곳",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "박현철"
+   ],
+   "summary": "일반 신앙 해외 1위. 교회는 거룩하고 아름다운 곳이 아니라 거룩하고 아름다운 것이 필요한 사람을 위한 곳임을 감동적으로 알려 준다.",
+   "isbn13": "9791191887150"
+  },
+  {
+   "key": "팀켈러사랑으로나아가는오늘-두란노",
+   "title": "팀 켈러, 사랑으로 나아가는 오늘",
+   "author": "팀 켈러",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [],
+   "summary": "평신도와 목회자 모두에게 호평받은 팀 켈러의 책.",
+   "isbn13": "9788953149557"
+  },
+  {
+   "key": "기다림은낭비가아니다-두란노",
+   "title": "기다림은 낭비가 아니다",
+   "author": "마크 브로갑",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "김미현"
+   ],
+   "summary": "쇼츠의 시대에 경시된 기다림의 힘에 주목한 책.",
+   "isbn13": "9788953149076"
+  },
+  {
+   "key": "하나님의침묵-두란노",
+   "title": "하나님의 침묵",
+   "author": "헬무트 틸리케",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [],
+   "summary": "평신도와 목회자 모두에게 호평받은 틸리케의 설교.",
+   "isbn13": "9788953149434"
+  },
+  {
+   "key": "험담그일상의언어-구름이머무는동안",
+   "title": "험담, 그 일상의 언어",
+   "author": "",
+   "translator": "",
+   "publisher": "구름이머무는동안",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "송민원"
+   ],
+   "summary": "하나님이 주신 언어 능력이 권력과 폭력이 되지 않으려면 어떻게 해야 하는지 묻는 책.",
+   "isbn13": "9791198267658"
+  },
+  {
+   "key": "빅스토리바이블-성서유니온",
+   "title": "빅 스토리 바이블",
+   "author": "N. T. 라이트",
+   "translator": "",
+   "publisher": "성서유니온",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "김세나"
+   ],
+   "summary": "어린이 청소년 1위. 하나님 나라라는 드라마 140편을 흥미롭게 볼 수 있는 성경 이야기.",
+   "isbn13": "9788932540375"
+  },
+  {
+   "key": "복음을들고너에게갈게-생명의말씀사",
+   "title": "복음을 들고 너에게 갈게",
+   "author": "",
+   "translator": "",
+   "publisher": "생명의말씀사",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "year",
+   "by": [
+    "강인구"
+   ],
+   "summary": "기독교의 기본 진리에 일상이라는 새 옷을 입힌 변증서. 초신자와 청소년 모두에게.",
+   "isbn13": "9788904168842"
+  },
+  {
+   "key": "하나님나라복음과제자도-ivp",
+   "title": "하나님 나라 복음과 제자도",
+   "author": "",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "김선일"
+   ],
+   "summary": "놓치기 아까운 책. 하나님 나라 복음의 관점으로 부활과 제자도 등 핵심 주제를 정리한 국내 저자의 모범서.",
+   "isbn13": "9788932822877"
+  },
+  {
+   "key": "기후교회로가는길-바람이불어오는곳",
+   "title": "기후 교회로 가는 길",
+   "author": "",
+   "translator": "",
+   "publisher": "바람이불어오는곳",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "고태석"
+   ],
+   "summary": "놓치기 아까운 책. 기후 변화와 기독교 신앙의 관계를 설득력 있게 제시한 책.",
+   "isbn13": "9791191887228"
+  },
+  {
+   "key": "교회경계를걷는공동체-비아토르",
+   "title": "교회, 경계를 걷는 공동체",
+   "author": "",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "김현철"
+   ],
+   "summary": "놓치기 아까운 책. 성직주의 등 한국교회의 폐단을 짚으며 성경적 공동체로 나아가자고 권한다.",
+   "isbn13": "9791191851946"
+  },
+  {
+   "key": "나라권력영광-비아토르",
+   "title": "나라, 권력, 영광",
+   "author": "",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "이현주"
+   ],
+   "summary": "놓치기 아까운 책. 극우 정치와 손잡은 교회가 미국 정치를 어떻게 움직이는지 보여 준다.",
+   "isbn13": "9791194216032"
+  },
+  {
+   "key": "신약단어수업-ivp",
+   "title": "신약 단어 수업",
+   "author": "",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "송용원"
+   ],
+   "summary": "놓치기 아까운 책. 15개의 단어로 신약학을 명쾌하게 정리한 책.",
+   "isbn13": "9788932822907"
+  },
+  {
+   "key": "조직신학-복있는사람",
+   "title": "조직신학",
+   "author": "웨인 그루뎀",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "문신준"
+   ],
+   "summary": "놓치기 아까운 책. 기독교의 핵심 교리를 성도들과 어렵지 않게 나누도록 돕는 조직신학.",
+   "isbn13": "9791170831402"
+  },
+  {
+   "key": "정통-복있는사람",
+   "title": "정통",
+   "author": "G. K. 체스터턴",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "김진혁"
+   ],
+   "summary": "놓치기 아까운 책. 체스터턴 탄생 150주년 대표작 세트 가운데 하나. 해학과 풍자, 유머가 있는 그리스도교.",
+   "isbn13": "9791170831761"
+  },
+  {
+   "key": "다시성경을찾아줘-홍성사",
+   "title": "다시 성경을 찾아줘",
+   "author": "",
+   "translator": "",
+   "publisher": "홍성사",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "김성중"
+   ],
+   "summary": "놓치기 아까운 책. 청소년을 위한 쉽고 재미있는 성경 입문서.",
+   "isbn13": "9788936515836"
+  },
+  {
+   "key": "바울과시간-도서출판100",
+   "title": "바울과 시간",
+   "author": "L. 앤 저비스",
+   "translator": "",
+   "publisher": "도서출판100",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "최병인"
+   ],
+   "summary": "놓치기 아까운 책. 바울의 시간 관념과 신학 사상을 연구해 성서와 신학의 균형을 보여 준 책.",
+   "isbn13": "9791189092535"
+  },
+  {
+   "key": "고백록-",
+   "title": "고백록",
+   "author": "아우구스티누스",
+   "translator": "",
+   "publisher": "",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "김기현"
+   ],
+   "summary": "추천단이 꼽은 꼭 읽어야 할 고전 1위. 신앙의 정수를 개인의 고백으로 풀어낸 세기의 고전.",
+   "isbn13": "9788944724084"
+  },
+  {
+   "key": "신곡-",
+   "title": "신곡",
+   "author": "단테 알리기에리",
+   "translator": "",
+   "publisher": "",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [
+    "이정일"
+   ],
+   "summary": "추천단이 꼽은 고전. 죽음 이후를 상상하는 시간을 갖게 하는 책.",
+   "isbn13": "9788937488061"
+  },
+  {
+   "key": "성도의공동생활-",
+   "title": "성도의 공동생활",
+   "author": "디트리히 본회퍼",
+   "translator": "",
+   "publisher": "",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=1735198846",
+   "section": "curation",
+   "by": [],
+   "summary": "추천단이 꼽은 고전. 그리스도인 공동체의 삶에 관한 본회퍼의 고전.",
+   "isbn13": "9791192675015"
+  }
+ ]
+}
