@@ -10,14 +10,14 @@
     "eta": "주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준)."
   },
   "pricing": {
-    "discountRate": 0.10,
+    "discountRate": 0.1,
     "_discountNote": "도서정가제: 정가의 10% 이내 할인. 0이면 정가 판매.",
     "shipping": 3000,
     "freeShippingOver": 30000
   },
   "aladinLink": false,
   "_aladinLinkNote": "true면 상세 페이지에 '알라딘에서 보기' 링크를 노출",
-  "apiUrl": "",
+  "apiUrl": "https://script.google.com/macros/s/AKfycbwyHVy2S23qiBFGlF8Th7OERR1EKP8yoXBLdd2H4gpKb2KqiFQBCE0_WfM2y3hBv32BYQ/exec",
   "_apiUrlNote": "비어 있으면 데모 모드(주문이 이 브라우저에만 저장됨). apps-script/Orders.gs 배포 후 웹앱 주소를 넣으면 실제 주문 접수.",
   "media": {
     "emmaus": {

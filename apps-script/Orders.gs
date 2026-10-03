@@ -17,6 +17,8 @@
  * 시트 공유 범위는 운영자만으로 두세요.
  */
 var SHEET = '주문';
+// 독립 프로젝트로 만들 때: 스크립트 속성 SHEET_ID 또는 아래 기본값의 시트를 씀. 시트에 묶인 프로젝트면 비워 둬도 됨.
+var SHEET_ID = '1DFfrawrL4WSroCXGmi8nxWoxrg3BIfpCddZbaT2xR0E';
 var HEAD = ['접수일시', '주문번호', '상태', '이름', '휴대폰', '이메일', '수령', '주소', '요청사항', '도서', '권수', '도서금액', '배송비', '합계', '추천 출처', 'ISBN 목록', '메모'];
 var STATUS = ['입고대기', '입고완료', '결제안내', '결제완료', '수령완료', '취소'];
 var DEFAULTS = {
@@ -26,6 +28,11 @@ var DEFAULTS = {
   STORE_NAME: '비북스 서가',
   MAX_QTY: '20'
 };
+
+function ss_() {
+  var id = PropertiesService.getScriptProperties().getProperty('SHEET_ID') || SHEET_ID;
+  return id ? SpreadsheetApp.openById(id) : SpreadsheetApp.getActive();
+}
 
 function prop_(k) {
   return PropertiesService.getScriptProperties().getProperty(k) || DEFAULTS[k] || '';
@@ -114,7 +121,7 @@ function notify_(o, p) {
     '\n도서 ' + won_(p.sub) + ' + 배송 ' + won_(p.fee) + ' = 합계 ' + won_(p.total) +
     '\n연락처: ' + o.phone + (o.email ? ' / ' + o.email : '') + (o.note ? '\n요청: ' + o.note : '') +
     (p.notes.length ? '\n\n확인 필요: ' + p.notes.join(' / ') : '') +
-    '\n\n주문 시트: ' + SpreadsheetApp.getActive().getUrl());
+    '\n\n주문 시트: ' + ss_().getUrl());
 }
 
 function confirm_(o, p) {
@@ -135,7 +142,7 @@ function confirm_(o, p) {
 /* ───────── 시트 ───────── */
 
 function sheet_() {
-  var ss = SpreadsheetApp.getActive();
+  var ss = ss_();
   var sh = ss.getSheetByName(SHEET) || ss.insertSheet(SHEET);
   if (sh.getLastRow() === 0) {
     sh.appendRow(HEAD);
@@ -145,6 +152,8 @@ function sheet_() {
     sh.getRange('L:N').setNumberFormat('#,##0');
     sh.getRange('C2:C').setDataValidation(SpreadsheetApp.newDataValidation().requireValueInList(STATUS, true).build());
     sh.getRange('J:J').setWrap(true);
+    if (!ScriptApp.getProjectTriggers().some(function (t) { return t.getHandlerFunction() === 'purgeOld'; }))
+      ScriptApp.newTrigger('purgeOld').timeBased().onMonthDay(1).atHour(4).create();
   }
   return sh;
 }
@@ -163,7 +172,7 @@ function setup() {
 
 /** 접수 1년이 지난 주문의 이름·연락처·이메일·주소·요청사항을 가림 (주문·금액 기록은 남김) */
 function purgeOld() {
-  var sh = SpreadsheetApp.getActive().getSheetByName(SHEET);
+  var sh = ss_().getSheetByName(SHEET);
   if (!sh || sh.getLastRow() < 2) return;
   var cut = new Date(); cut.setFullYear(cut.getFullYear() - 1);
   var rng = sh.getRange(2, 1, sh.getLastRow() - 1, 9), v = rng.getValues(), n = 0;
