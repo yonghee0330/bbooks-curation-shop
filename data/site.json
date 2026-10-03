@@ -4,7 +4,7 @@
   "tagline": "좋은 매체가 고른 책을, 원미동 작은 서점에서",
   "intro": "서평지와 잡지, 출판 뉴스레터가 이달에 고른 책들을 모아 둡니다. 누가 왜 추천했는지 함께 읽고, 마음에 드는 책은 비북스에서 바로 주문하세요.",
   "store": {
-    "address": "경기 부천시 원미구 원미동",
+    "address": "경기도 부천시 원미구 부천로136번길 24, 지하2층",
     "instagram": "https://www.instagram.com/bbooks_bucheon/",
     "pickup": "비북스 매장 픽업 (입고 후 문자 안내)",
     "eta": "주문 확인 후 보통 2–4일 안에 입고됩니다 (도매처 재고 기준)."
@@ -39,14 +39,14 @@
   },
   "_supabaseNote": "Q.books 전용 Supabase 프로젝트. url·anonKey(공개용 키)가 있으면 회원 로그인·회원 주문이 켜지고, 없으면 기존 Apps Script 주문만 동작",
   "business": {
-    "name": "(상호 입력)",
-    "owner": "(대표자 입력)",
-    "bizNo": "(사업자등록번호 입력)",
+    "name": "비북스 b.books",
+    "owner": "경규환",
+    "bizNo": "697-05-03470",
     "mailOrderNo": "(통신판매업 신고번호 입력)",
-    "address": "경기 부천시 원미구 원미동 (상세 주소 입력)",
+    "address": "경기도 부천시 원미구 부천로136번길 24, 지하2층 일부호(원미동)",
     "phone": "(연락처 입력)",
     "email": "pctspark@gmail.com",
-    "privacyOfficer": "(개인정보 보호책임자 이름 입력)"
+    "privacyOfficer": "경규환(대표)"
   },
   "loginProviders": [
     "kakao",

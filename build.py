@@ -195,6 +195,13 @@ class Catalog:
 
 # ───────────────────────── 조각 ─────────────────────────
 
+def biz_footer():
+    b = SITE.get('business', {})
+    parts = [('상호', b.get('name')), ('대표', b.get('owner')), ('사업자등록번호', b.get('bizNo')), ('통신판매업', b.get('mailOrderNo')),
+             ('주소', b.get('address')), ('전화', b.get('phone')), ('이메일', b.get('email'))]
+    return ' · '.join(e(f'{k} {v}') for k, v in parts if v and not str(v).startswith('('))
+
+
 def page(title, body, depth, desc='', active='', og_image=None, page_id='', noindex=False):
     up = '../' * depth
     desc = desc or SITE['intro']
@@ -238,6 +245,7 @@ def page(title, body, depth, desc='', active='', og_image=None, page_id='', noin
   <div class="wrap">
     <p><b>{e(SITE['name'])}</b> · {e(SITE['store']['address'])} · <a href="{SITE['store']['instagram']}" target="_blank" rel="noopener">@bbooks_bucheon</a></p>
     <p class="muted">추천 글 요약은 비북스가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 각 매체에서 읽어 주세요 — {' · '.join(f'<a href="{mm["home"]}" target="_blank" rel="noopener">{e(mm["name"])}</a>' for k, mm in MEDIA.items() if mm.get('home'))}. 도서 정보·표지·목차 제공: 알라딘.</p>
+    <p class="small muted">{biz_footer()}</p>
     <p class="small"><a href="{up}terms/">이용약관</a> · <a href="{up}privacy/"><b>개인정보 처리방침</b></a> · <a href="{up}order/">비회원 주문 조회</a></p>
   </div>
 </footer>
