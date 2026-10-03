@@ -696,6 +696,7 @@ def build_cart():
         <label>휴대폰<input name="phone" id="o-phone" required inputmode="tel" autocomplete="tel" placeholder="010-0000-0000"></label>
         <label>이메일 <small>(선택)</small><input name="email" id="o-email" type="email" autocomplete="email"></label>
         <label class="addr" hidden>받을 주소<input name="address" id="o-address" autocomplete="street-address" placeholder="도로명 주소, 상세 주소"></label>
+        <label class="hp" aria-hidden="true">웹사이트<input name="website" tabindex="-1" autocomplete="off"></label>
         <label>요청사항 <small>(선택)</small><textarea name="note" id="o-note" rows="2" placeholder="선물 포장, 입고 연락 방법 등"></textarea></label>
       </fieldset>
       <div class="sum" id="sum"></div>

@@ -173,7 +173,7 @@
         var order = {
           no: orderNo(), at: new Date().toISOString(),
           name: form.name.value.trim(), phone: form.phone.value.trim(), email: form.email.value.trim(),
-          ship: form.ship.value, address: form.address.value.trim(), note: form.note.value.trim(),
+          ship: form.ship.value, address: form.address.value.trim(), note: form.note.value.trim(), website: form.website ? form.website.value : '',
           items: Object.keys(c).filter(function (i) { return cat[i]; }).map(function (i) {
             return { isbn13: i, title: cat[i].title, publisher: cat[i].publisher, qty: c[i], price: cat[i].price, priceStandard: cat[i].priceStandard, from: cat[i].recs[0] || '' };
           }),
@@ -184,7 +184,9 @@
           ? fetch(CFG.apiUrl, { method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' }, body: JSON.stringify({ action: 'order', order: order }) })
               .then(function (r) { return r.json(); }).then(function (res) { if (!res || !res.ok) throw new Error((res && res.error) || '접수 실패'); return res; })
           : Promise.resolve({ ok: true, demo: true });
-        send.then(function () {
+        send.then(function (res) {
+          if (res && res.total != null) { order.subtotal = res.subtotal; order.shipping = res.shipping; order.total = res.total; }
+          delete order.website;
           var hist = load('bbshop.orders', []); hist.unshift(order); save('bbshop.orders', hist.slice(0, 20));
           save(KEY, {}); paint();
           var lines = order.items.map(function (x) { return '· ' + x.title + ' × ' + x.qty + '  ' + won(x.price * x.qty); }).join('\n');

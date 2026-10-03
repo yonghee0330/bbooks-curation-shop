@@ -357,3 +357,4 @@ code { font-size: .9em; background: rgba(0,0,0,.08); padding: 1px 5px; border-ra
   .media-card small { text-align: left; }
   .xf-l.gap { margin-left: 0; }
 }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
