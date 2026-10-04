@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788985628860",
+ "isbn10": "8985628860",
+ "itemId": 81280167,
+ "title": "산돌 손양원 목사 자료선집",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "이만열, 산돌손양원기념사업회 (엮은이)",
+ "authors": [],
+ "publisher": "한국기독교역사연구소",
+ "pubDate": "2015-10-19",
+ "priceStandard": 33000,
+ "priceSales": 29700,
+ "pages": 555,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교 인물",
+ "series": "한국기독교역사연구 자료총서 47",
+ "description": "이 책은 손양원(1902~1950) 목사의 유고와 재판 관련 기록을 모은 것이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/8128/1/cover200/k822434349_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=81280167&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "1. 일지, 일기 편\n\n2. 편지 편\n\n3. 설교 편\n\n4. 재판기록 편",
+ "intro": "이 책은 손양원(1902~1950) 목사의 유고와 재판 관련 기록을 모은 것이다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 04:46",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/8128/1/cover500/k822434349_1.jpg"
+}

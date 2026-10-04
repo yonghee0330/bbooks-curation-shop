@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788936514341",
+ "isbn10": "8936514342",
+ "itemId": 275079501,
+ "title": "오독 - 문학 비평의 실험, 개정판",
+ "subTitle": "문학 비평의 실험, 개정판",
+ "originalTitle": "An Experiment in Criticism",
+ "author": "C. S. 루이스 (지은이), 홍종락 (옮긴이)",
+ "authors": [],
+ "publisher": "홍성사",
+ "pubDate": "2021-06-30",
+ "priceStandard": 15000,
+ "priceSales": 13500,
+ "pages": 188,
+ "category": "국내도서>에세이>독서에세이",
+ "series": "정본 C. S. 루이스 클래식 ",
+ "description": "《오독: 문학 비평의 실험》(원제: An Experiment in Criticism)의 무선 개정판. 이 책은 기존의 문학 비평 방식이 과연 정당하고 유익한지 이의를 제기하며, 새롭게 문학 비평 방식을 실험해 볼 것을 제안한다.",
+ "coverUrl": "https://image.aladin.co.kr/product/27507/95/cover200/8936514342_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275079501&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "ⅰ 소수와 다수\n\nⅱ 잘못된 특징 규정\n\nⅲ 소수와 다수가 그림과 음악을 대하는 방식\n\nⅳ 비문학적인 사람들의 독서\n\nⅴ 신화에 대하여\n\nⅵ ‘환상’의 의미\n\nⅶ 리얼리즘에 대하여\n\nⅷ 문학적 독자들의 오독\n\nⅸ 개관\n\nⅹ 시\n\nⅺ 실험\n\n맺음말\n\n부록: 오이디푸스에 대한 주\n\n옮긴이의 말",
+ "intro": "《오독: 문학 비평의 실험》(원제: An Experiment in Criticism)의 무선 개정판. 이 책은 루이스가 살아 있을 당시 1961년 출간되었는데, 같은 해 《헤아려 본 슬픔》이 출간되었고 그다음 해 《개인 기도》가 출간되었다. 이 책은 기존의 문학 비평 방식이 과연 정당하고 유익한지 이의를 제기하며, 새롭게 문학 비평 방식을 실험해 볼 것을 제안한다. 우리가 처한 문제는 책을 읽기 전에 책을 먼저 판단하는 경우, 유행에 따라 그 평가가 바뀌며 대개 잘못된 결론에 이른다는 것이다.\n\n루이스는 판단의 순서를 뒤집어, 독자의 독서 유형을 먼저 살펴본다. 그래야 우리 안에 좋은 책과 나쁜 책을 분별하는 기준이 정확히 세워진다고 루이스는 주장한다. 이 실험을 위해 그림과 음악 그리고 각종 예술을 대하는 사람들의 방식들을 관찰해 나간다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 05:45",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/27507/95/cover500/8936514342_1.jpg"
+}

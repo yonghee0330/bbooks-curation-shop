@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788964475256",
+ "isbn10": "8964475259",
+ "itemId": 208139740,
+ "title": "마을을 일구는 농촌 교회들",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "강기원 (지은이), 한경호 (엮은이), 총회한국교회연구원 (기획)",
+ "authors": [],
+ "publisher": "동연출판사",
+ "pubDate": "2019-09-09",
+ "priceStandard": 17000,
+ "priceSales": 15300,
+ "pages": 408,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>목회일반",
+ "series": "총회한국교회연구원 마을목회 시리즈 13",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/20813/97/cover200/8964475259_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=208139740&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "제1부 마을을 변화시키고 돌보는 목회\n\n제2부 농사와 더불어 가는 목회\n\n제3부 문화선교로 복음을 전하는 목회\n\n제4부 복지 사역을 통한 목회\n\n제5부 다양한 개척목회 현장\n\n제6부 마을과 하나 되는 목회\n\n제7부 공동체를 지향하는 목회\n\n제8부 청소년교육을 위주로 하는 현장",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 00:29",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/20813/97/cover500/8964475259_1.jpg"
+}

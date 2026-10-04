@@ -642,6 +642,61 @@ def parse_goscon_books(lines):
     return out
 
 
+def parse_goscon_old(headline, lines):
+    """제목 줄의 《책 제목》을 길잡이로 삼아 붙어 있는 서지('제목저자 지음/ 역자 옮김출판사 펴냄')를 가른다"""
+    out = []
+    titles = [t.strip() for t in re.findall(r'《([^》]{1,70})》', headline)]
+    for i, ln in enumerate(lines):
+        if '펴냄' not in ln:
+            continue
+        ln0 = ln.strip(' ▲')
+        for t in titles:
+            if not ln0.startswith(t):
+                continue
+            rest = ln0[len(t):].strip()
+            m = re.match(r'(?P<a>.+?)\s*(?:지음|엮음|글·그림|저|쓰고|글)\s*[/|｜]?\s*(?:(?P<t>[^/|｜]+?)\s*옮김)?\s*(?P<p>[^/|｜]+?)\s*펴냄', rest)
+            if not m or len(m.group('p')) > 25:
+                continue
+            blurb = [x for x in lines[i + 1:i + 6]]
+            tail = rest[m.end():]
+            tail = re.sub(r'^\s*[/|｜]?\s*[\d,]{3,}\s*원\s*', '', tail)
+            out.append({'title': t, 'author': m.group('a').strip(), 'translator': (m.group('t') or '').strip(), 'publisher': m.group('p').strip(),
+                        'blurb': ('\n'.join([tail] + blurb))[:1500]})
+            break
+    return out
+
+
+def parse_goscon_3line(lines):
+    """제목 / '저자 지음/ 역자 옮김' / '출판사 펴냄/가격' 이 세 줄로 이어지는 옛 서식"""
+    out = []
+    for i in range(2, len(lines)):
+        if '펴냄' not in lines[i] or len(lines[i]) > 60:
+            continue
+        mid = lines[i - 1]
+        if not re.search(r'(지음|엮음|옮김|글|그림|저)\s*($|[/|｜])', mid) or len(mid) > 80:
+            continue
+        title = lines[i - 2].strip(' ▲《》')
+        if not title or len(title) > 70:
+            continue
+        author = tr = ''
+        for x in re.split(r'[/|｜]', mid):
+            x = x.strip()
+            if x.endswith('옮김'):
+                tr = x[:-2].strip()
+            else:
+                author = re.sub(r'\s*(지음|엮음|글·그림|그림|편저|저|글)$', '', x).strip()
+        pub = re.sub(r'\s*펴냄.*$', '', lines[i]).strip(' ▲/')
+        if not pub or len(pub) > 25:
+            continue
+        blurb = []
+        for k in range(i + 1, min(i + 6, len(lines))):
+            if k + 2 < len(lines) and '펴냄' in lines[k + 2]:
+                break
+            blurb.append(lines[k])
+        out.append({'title': title, 'author': author, 'translator': tr, 'publisher': pub, 'blurb': '\n'.join(blurb)[:1500]})
+    return out
+
+
 def goscon_list(since, sub=None):
     """리뷰 섹션 기사 목록 [{idxno, sub_section_code, title, viewDate, user_name}] — since 이후"""
     ref = 'https://www.goscon.co.kr/news/articleList.html?sc_section_code=S1N36&view_type=sm'
@@ -686,6 +741,10 @@ def goscon_reviews(since):
             continue
         books = parse_goscon_books(lines)
         headline = html.unescape(r.get('title') or '')
+        if not books:  # 옛 서식(제목·저자가 붙어 있고 '▲ 제목저자 지음/ 역자 옮김출판사 펴냄/ 가격')
+            books = parse_goscon_old(headline, lines)
+        if not books:  # 세 줄 서식(제목 / 저자 지음 / 출판사 펴냄/가격)
+            books = parse_goscon_3line(lines)
         url = f"https://www.goscon.co.kr/news/articleView.html?idxno={r['idxno']}"
         writer = html.unescape(r.get('user_name') or '').strip()
         items = []

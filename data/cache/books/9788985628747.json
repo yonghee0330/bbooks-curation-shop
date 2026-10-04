@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788985628747",
+ "isbn10": "8985628747",
+ "itemId": 27154310,
+ "title": "극동의 지배",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "Arthur Judson Brown (지은이)",
+ "authors": [],
+ "publisher": "한국기독교역사연구소",
+ "pubDate": "2013-05-15",
+ "priceStandard": 28000,
+ "priceSales": 25200,
+ "pages": 738,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교 역사",
+ "series": "번역총서 (한국기독교역사연구소) 11",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/2715/43/cover200/8985628747_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=27154310&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "제1부 한국: 극동의 전략적 요충지\n\n제2부 한국을 차지하기 위한 경쟁\n\n제3부 일본: 극동의 제국 세력\n\n제4부 극동 문제 속의 기독교 선교\n\n찾아보기",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 03:35",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/2715/43/cover500/8985628747_1.jpg"
+}

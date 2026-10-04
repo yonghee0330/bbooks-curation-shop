@@ -1,0 +1,29 @@
+{
+ "media": "goscon",
+ "id": "nl-013",
+ "no": "뉴스레터 13호",
+ "title": "〈서사의 서사〉 뉴스레터 13호 · 2024년 4월 첫째 주 · 책을 사는 사람들의 마음",
+ "date": "2024-04-03",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/gH-GhKZQ0qi6NrasHB-PjIsDBBynZn8",
+ "headline": "책을 사는 사람들의 마음",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "문과남자의과학공부-돌베개",
+   "title": "문과 남자의 과학 공부",
+   "author": "",
+   "translator": "",
+   "publisher": "돌베개",
+   "link": "https://stibee.com/api/v1.0/emails/share/gH-GhKZQ0qi6NrasHB-PjIsDBBynZn8",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책을 사는 사람들의 마음",
+   "summary": "책방 손님이 ‘문과 학생의 과학 공부’로 잘못 기억해 찾아달라던 책.",
+   "isbn13": "9791192836188"
+  }
+ ]
+}

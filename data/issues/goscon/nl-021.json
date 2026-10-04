@@ -1,0 +1,29 @@
+{
+ "media": "goscon",
+ "id": "nl-021",
+ "no": "뉴스레터 21호",
+ "title": "〈서사의 서사〉 뉴스레터 21호 · 2024년 6월 첫째 주 · 책 읽기에 좋은 장소는 어디일까",
+ "date": "2024-06-03",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/PHyAZibQmxYeHWzt8-bQ3jd_9rzcjK4",
+ "headline": "책 읽기에 좋은 장소는 어디일까",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "서재결혼시키기-지호",
+   "title": "서재 결혼 시키기",
+   "author": "앤 패디먼",
+   "translator": "",
+   "publisher": "지호",
+   "link": "https://stibee.com/api/v1.0/emails/share/PHyAZibQmxYeHWzt8-bQ3jd_9rzcjK4",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책 읽기에 좋은 장소는 어디일까",
+   "summary": "책 속으로 걸어 들어가지 못할 때 책의 물리적 환경 속으로 걸어 들어가는 독서를 소개한 책.",
+   "isbn13": "9788986270716"
+  }
+ ]
+}

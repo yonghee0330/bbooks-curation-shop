@@ -1,0 +1,59 @@
+{
+ "media": "goscon",
+ "id": "nl-005",
+ "no": "뉴스레터 5호",
+ "title": "〈서사의 서사〉 뉴스레터 5호 · 2024년 2월 첫째 주 · 극단적으로 느린 독서법",
+ "date": "2024-02-03",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/sZ35iuy3xWrY9IOdFYFSy489vz1Drus",
+ "headline": "극단적으로 느린 독서법",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "상처입은앎-비아",
+   "title": "상처 입은 앎",
+   "author": "로완 윌리엄스",
+   "translator": "",
+   "publisher": "비아",
+   "link": "https://stibee.com/api/v1.0/emails/share/sZ35iuy3xWrY9IOdFYFSy489vz1Drus",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "극단적으로 느린 독서법",
+   "summary": "로완 윌리엄스의 첫 영성사 책. 번역가의 고뇌를 생각하게 하며, 이 책의 서평을 짧게 소개한다.",
+   "isbn13": "9791192769509"
+  },
+  {
+   "key": "레노바레성경-두란노",
+   "title": "레노바레 성경",
+   "author": "",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://stibee.com/api/v1.0/emails/share/sZ35iuy3xWrY9IOdFYFSy489vz1Drus",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "극단적으로 느린 독서법",
+   "summary": "필자가 고등학생 때 선생님에게 선물받은 첫 해설 성경. 해설 성경 읽기의 출발점으로 소개된다.",
+   "isbn13": "9788953110281"
+  },
+  {
+   "key": "프리셉트성경-프리셉트",
+   "title": "프리셉트 성경",
+   "author": "",
+   "translator": "",
+   "publisher": "프리셉트",
+   "link": "https://stibee.com/api/v1.0/emails/share/sZ35iuy3xWrY9IOdFYFSy489vz1Drus",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "극단적으로 느린 독서법",
+   "summary": "말씀 연구에 갈증을 느껴 처음 직접 구입한 해설 성경.",
+   "isbn13": "9788984758469"
+  }
+ ]
+}

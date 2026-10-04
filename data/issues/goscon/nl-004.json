@@ -1,0 +1,59 @@
+{
+ "media": "goscon",
+ "id": "nl-004",
+ "no": "뉴스레터 4호",
+ "title": "〈서사의 서사〉 뉴스레터 4호 · 2024년 1월 넷째 주 · 사인본에는 한 번 더 손이 간다",
+ "date": "2024-01-21",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/lMA0fyhJr-1OJBSsRkHcLCTlD7bun1w",
+ "headline": "사인본에는 한 번 더 손이 간다",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "지복직관-새물결플러스",
+   "title": "지복직관",
+   "author": "한스 부어스마",
+   "translator": "",
+   "publisher": "새물결플러스",
+   "link": "https://stibee.com/api/v1.0/emails/share/lMA0fyhJr-1OJBSsRkHcLCTlD7bun1w",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "사인본에는 한 번 더 손이 간다",
+   "summary": "번역자 김광남 선생을 동네 책방의 독자 모임에서 만나 사인을 받은 일화 속 책. 사인본이 한 번 더 손이 가는 이유를 말한다.",
+   "isbn13": "9791161292595"
+  },
+  {
+   "key": "캐스팅-서로북스",
+   "title": "캐스팅",
+   "author": "우희덕",
+   "translator": "",
+   "publisher": "서로북스",
+   "link": "https://stibee.com/api/v1.0/emails/share/lMA0fyhJr-1OJBSsRkHcLCTlD7bun1w",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "사인본에는 한 번 더 손이 간다",
+   "summary": "〈복음과상황〉 2023년 11월호 커버스토리 ‘어떤 웃음’의 뒷이야기가 담긴 책. 저자 사인본을 구독자 선물로 소개했다.",
+   "isbn13": "9791187254522"
+  },
+  {
+   "key": "싸이코패밀리라도괜찮아-잉클링즈",
+   "title": "싸이코 패밀리라도 괜찮아",
+   "author": "고직한, 김정희",
+   "translator": "",
+   "publisher": "잉클링즈",
+   "link": "https://stibee.com/api/v1.0/emails/share/lMA0fyhJr-1OJBSsRkHcLCTlD7bun1w",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "사인본에는 한 번 더 손이 간다",
+   "summary": "약 30년 정신질환의 터널을 걷는 가족의 이야기. 면지에 저자 사인이 들어 있는 책을 선물로 소개했다.",
+   "isbn13": "9791197598746"
+  }
+ ]
+}

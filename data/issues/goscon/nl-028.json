@@ -1,0 +1,59 @@
+{
+ "media": "goscon",
+ "id": "nl-028",
+ "no": "뉴스레터 28호",
+ "title": "〈서사의 서사〉 뉴스레터 28호 · 2024년 7월 셋째 주 · 회의하는 마음",
+ "date": "2024-07-15",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/75LG9bazUyqSkHSspPqA26nGuMXT0oU",
+ "headline": "회의하는 마음",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "회의하는용기-복있는사람",
+   "title": "회의하는 용기",
+   "author": "오스 기니스",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://stibee.com/api/v1.0/emails/share/75LG9bazUyqSkHSspPqA26nGuMXT0oU",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "회의하는 마음",
+   "summary": "교회 독서 모임의 두 번째 책. 의심하는 도마의 손을 붙잡는 예수가 표지에 그려져 있다.",
+   "isbn13": "9791170831167"
+  },
+  {
+   "key": "기도의자리로-두란노",
+   "title": "기도의 자리로",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://stibee.com/api/v1.0/emails/share/75LG9bazUyqSkHSspPqA26nGuMXT0oU",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "회의하는 마음",
+   "summary": "교회 독서 모임이 다시 시작되며 처음 함께 읽은 책.",
+   "isbn13": "9788953138742"
+  },
+  {
+   "key": "태양왕수바수박의전설-웅진주니어",
+   "title": "태양 왕 수바: 수박의 전설",
+   "author": "이지은",
+   "translator": "",
+   "publisher": "웅진주니어",
+   "link": "https://stibee.com/api/v1.0/emails/share/75LG9bazUyqSkHSspPqA26nGuMXT0oU",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "회의하는 마음",
+   "summary": "학교 책 읽어 주기 활동에서 회장이 골라 준 그림책.",
+   "isbn13": "9788901271323"
+  }
+ ]
+}

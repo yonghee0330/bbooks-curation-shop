@@ -1,0 +1,29 @@
+{
+ "media": "goscon",
+ "id": "nl-015",
+ "no": "뉴스레터 15호",
+ "title": "〈서사의 서사〉 뉴스레터 15호 · 2024년 4월 셋째 주 · 책값의 적정선",
+ "date": "2024-04-15",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/l9jhYNMvg7TDrDLSrLAu02jKZ0q1kh8",
+ "headline": "책값의 적정선",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "내속에는나무가자란다-바다출판사",
+   "title": "내 속에는 나무가 자란다",
+   "author": "수마나 로이",
+   "translator": "",
+   "publisher": "바다출판사",
+   "link": "https://stibee.com/api/v1.0/emails/share/l9jhYNMvg7TDrDLSrLAu02jKZ0q1kh8",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책값의 적정선",
+   "summary": "글을 쓰는 계기를 묻는 질문에 떠올린 책. 나무의 시간에 글을 쓰기 시작했다는 문장이 인용된다.",
+   "isbn13": "9791166892073"
+  }
+ ]
+}

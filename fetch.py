@@ -76,12 +76,18 @@ def get(url, referer=None, host_gap=3.0):
 
 def api(op, **params):
     q = {'ttbkey': KEY, 'output': 'js', 'Version': '20131101', **params}
-    txt = get(f'https://www.aladin.co.kr/ttb/api/{op}.aspx?' + urllib.parse.urlencode(q), host_gap=1.0)
-    try:
-        return json.loads(txt)
-    except ValueError:
-        # 알라딘 js 출력은 가끔 제어문자/역슬래시가 섞여 있음
-        return json.loads(re.sub(r'[\x00-\x1f]', ' ', txt).replace("\\'", "'"))
+    url = f'https://www.aladin.co.kr/ttb/api/{op}.aspx?' + urllib.parse.urlencode(q)
+    for attempt in range(4):  # 알라딘이 가끔 JSON 대신 오류 페이지를 줌 → 잠시 쉬고 재시도
+        txt = get(url, host_gap=1.0) or ''
+        try:
+            return json.loads(txt)
+        except ValueError:
+            try:  # 알라딘 js 출력은 가끔 제어문자/역슬래시가 섞여 있음
+                return json.loads(re.sub(r'[\x00-\x1f]', ' ', txt).replace("\\'", "'"))
+            except ValueError:
+                time.sleep(5 * (attempt + 1))
+    print('   ! 알라딘 응답 오류, 건너뜀:', params.get('Query') or params.get('ItemId'))
+    return {}
 
 
 def norm(s):

@@ -1,0 +1,123 @@
+{
+ "media": "goscon",
+ "id": "351",
+ "no": "351호",
+ "title": "복음과상황 351호",
+ "date": "2020-01-21",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30811",
+ "season": "2019 겨울",
+ "items": [
+  {
+   "key": "예수의부활-새물결플러스",
+   "title": "예수의 부활",
+   "author": "마이클 R. 리코나",
+   "translator": "김광남",
+   "publisher": "새물결플러스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30808",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "《예수의 부활》 부활은 실화다?",
+   "by": [
+    "이범진"
+   ],
+   "summary": "기적의 영역인 예수의 부활을 역사적으로 어떻게 증명할 수 있는지 탐구한 방대한 연구서.",
+   "isbn13": "9791161291321"
+  },
+  {
+   "key": "기후교회왜어떻게-생태문명연구소",
+   "title": "기후 교회 왜? 어떻게?",
+   "author": "짐 안탈",
+   "translator": "한성수",
+   "publisher": "생태문명연구소",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30809",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "《기후 교회 왜? 어떻게?》 주소지 407, 우리는 함께 살고 있다",
+   "by": [
+    "김다혜"
+   ],
+   "summary": "기후 위기 시대에 교회가 왜, 어떻게 기후 교회가 되어야 하는지 안내하는 책.",
+   "isbn13": "9791195824069"
+  },
+  {
+   "key": "네이웃을내몸과같이-nics",
+   "title": "네 이웃을 내 몸과 같이",
+   "author": "김근주",
+   "translator": "",
+   "publisher": "NICS",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30812",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《교회의 정치학》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "‘느헤미야 렉처 시리즈 2’. 이웃 사랑의 의미를 성경으로 풀어내며 동성 성행위 본문 논의도 다룬다."
+  },
+  {
+   "key": "내내읽다가늙었습니다-사이드웨이",
+   "title": "내내 읽다가 늙었습니다",
+   "author": "박홍규·박지원",
+   "translator": "",
+   "publisher": "사이드웨이",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30812",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《교회의 정치학》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "농사짓는 지식인 박홍규 교수와의 대담으로 책 읽는 삶을 돌아보는 책.",
+   "isbn13": "9791196349134"
+  },
+  {
+   "key": "교회의정치학-ivp",
+   "title": "교회의 정치학",
+   "author": "스탠리 하우어워스",
+   "translator": "백지윤",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30812",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《교회의 정치학》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "구원, 정의, 종교의 자유에 대한 교회의 통념에 도전하는 하우어워스의 책.",
+   "isbn13": "9788932817439"
+  },
+  {
+   "key": "예수역사와만나다-비아",
+   "title": "예수, 역사와 만나다",
+   "author": "야로슬라프 펠리칸",
+   "translator": "민경찬·손승우",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30812",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《교회의 정치학》 외 3권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "미국 〈크리스채너티 투데이〉가 20세기 고전 100선에 꼽은 역사 속 예수 연구서.",
+   "isbn13": "9788928646685"
+  },
+  {
+   "key": "패스오버-홍성사",
+   "title": "패스 오버",
+   "author": "김동호",
+   "translator": "",
+   "publisher": "홍성사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30811",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《패스 오버》 외 8권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "폐암 2기 진단을 받은 김동호 목사가 암 환우들을 위로하며 쓴 책.",
+   "isbn13": "9788936503659"
+  }
+ ]
+}

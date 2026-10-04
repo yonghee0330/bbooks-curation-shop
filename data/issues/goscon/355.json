@@ -1,7 +1,157 @@
 {
  "media": "goscon",
  "id": "355",
+ "no": "355호",
+ "title": "복음과상황 355호",
+ "date": "2020-05-22",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30913",
+ "season": "2020 봄",
  "items": [
+  {
+   "key": "루미나리스-복있는사람",
+   "title": "루미나리스",
+   "author": "▲ 로완 윌리엄스",
+   "translator": "홍종락",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "로완 윌리엄스가 자신에게 영향을 준 신앙의 인물들을 소개하는 ‘루미나리스’.",
+   "isbn13": "9788963603445"
+  },
+  {
+   "key": "우주의시작창세기111장-이레서원",
+   "title": "우주의 시작: 창세기 1-11장",
+   "author": "▲ 드루 존슨",
+   "translator": "이여진",
+   "publisher": "이레서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "창세기 1-11장을 우주, 인간 본성, 가족, 생태 등의 주제로 풀어낸 책.",
+   "isbn13": "9788974355319"
+  },
+  {
+   "key": "창세기로예배하다-샘솟는기쁨",
+   "title": "창세기로 예배하다",
+   "author": "▲ 홍인식",
+   "translator": "",
+   "publisher": "샘솟는기쁨",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "창세기 본문을 55개 주제로 나눠 렉시오 디비나로 묵상하는 안내서.",
+   "isbn13": "9791189303259"
+  },
+  {
+   "key": "돼지다운돼지-홍성사",
+   "title": "돼지다운 돼지",
+   "author": "▲ 조엘 샐러틴",
+   "translator": "CR번역연구소",
+   "publisher": "홍성사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "농부이자 베스트셀러 작가가 쓴 농장 운영철학 에세이.",
+   "isbn13": "9788936514198"
+  },
+  {
+   "key": "미래로열린영성의역사-한국장로교출판사",
+   "title": "미래로 열린 영성의 역사",
+   "author": "▲ 필립 셸드레이크",
+   "translator": "정병준",
+   "publisher": "한국장로교출판사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "교파와 지역을 넘어 2천 년 기독교 영성의 역사를 시대별로 살피는 책.",
+   "isbn13": "9788939843851"
+  },
+  {
+   "key": "전남기독교이야기2-세움북스",
+   "title": "전남 기독교 이야기 2",
+   "author": "▲ 김양호",
+   "translator": "",
+   "publisher": "세움북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "호남 기독교 역사를 그리는 ‘전남 기독교 이야기’ 시리즈 두 번째 책.",
+   "isbn13": "9791187025627"
+  },
+  {
+   "key": "기독교가상실한유산들-대장간",
+   "title": "기독교가 상실한 유산들",
+   "author": "▲ 진 에드워드",
+   "translator": "박인천",
+   "publisher": "대장간",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "1세기에 실제로 일어났던 일들을 살피며 기독교가 상실한 유산을 되찾는 책.",
+   "isbn13": "9788970715155"
+  },
+  {
+   "key": "우리아버지-비아",
+   "title": "우리 아버지",
+   "author": "▲ 알렉산더 슈메만",
+   "translator": "정다운",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "정교회 신학자가 주기도문을 해설한 책. 구 소련 시기에 쓰였다.",
+   "isbn13": "9788928646753"
+  },
+  {
+   "key": "인대인스타터이론편-생명의말씀사",
+   "title": "인대인 스타터(이론편)",
+   "author": "▲ 박광리",
+   "translator": "",
+   "publisher": "생명의말씀사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30912",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《돼지다운 돼지》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "세상을 향하는 제자훈련의 시작을 위한 성경공부 교재 시리즈 이론편.",
+   "isbn13": "9788904132225"
+  },
   {
    "key": "일곱문장으로읽는구약신약-ivp",
    "title": "일곱 문장으로 읽는 구약·신약",
@@ -66,11 +216,5 @@
    "summary": "톰 라이트가 1세기 유대인 바울의 생애와 사상을 생생하게 그린 전기.",
    "isbn13": "9791188255559"
   }
- ],
- "no": "355호",
- "title": "복음과상황 355호",
- "date": "2020-05-22",
- "column": "리뷰",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30913",
- "season": "2020 봄"
+ ]
 }

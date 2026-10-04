@@ -1,0 +1,44 @@
+{
+ "media": "goscon",
+ "id": "nl-012",
+ "no": "뉴스레터 12호",
+ "title": "〈서사의 서사〉 뉴스레터 12호 · 2024년 3월 다섯째 주 · 책과 잡지의 탄생",
+ "date": "2024-03-27",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/WeuPis16y7XRcx_H-bUYtYpmzntq8xY",
+ "headline": "책과 잡지의 탄생",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "배트맨크리스천-세움북스",
+   "title": "배트맨 크리스천",
+   "author": "구선우",
+   "translator": "",
+   "publisher": "세움북스",
+   "link": "https://stibee.com/api/v1.0/emails/share/WeuPis16y7XRcx_H-bUYtYpmzntq8xY",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책과 잡지의 탄생",
+   "summary": "필자의 첫 책. 책을 쓰는 데 걸린 시간과 출판사에게 선택받은 경험을 들려준다.",
+   "isbn13": "9791191715545"
+  },
+  {
+   "key": "부모와아이의마음을잇는대화-프로방스",
+   "title": "부모와 아이의 마음을 잇는 대화",
+   "author": "김연진 외",
+   "translator": "",
+   "publisher": "프로방스",
+   "link": "https://stibee.com/api/v1.0/emails/share/WeuPis16y7XRcx_H-bUYtYpmzntq8xY",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책과 잡지의 탄생",
+   "summary": "필자가 여덟 명과 함께 집필한 책.",
+   "isbn13": "9791164802081"
+  }
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "media": "goscon",
+ "id": "nl-016",
+ "no": "뉴스레터 16호",
+ "title": "〈서사의 서사〉 뉴스레터 16호 · 2024년 4월 넷째 주 · 94,900원짜리 중고책",
+ "date": "2024-04-21",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/-yfXIERcfGhlNxSjcKrCf-rThFBtzQ0",
+ "headline": "94,900원짜리 중고책",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "하마에게물리다-고려원",
+   "title": "하마에게 물리다",
+   "author": "오에 겐자부로",
+   "translator": "",
+   "publisher": "고려원",
+   "link": "https://stibee.com/api/v1.0/emails/share/-yfXIERcfGhlNxSjcKrCf-rThFBtzQ0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "94,900원짜리 중고책",
+   "summary": "출판사 부도로 중단된 전집의 한 권. 94,900원에 올라온 중고책을 매번 확인하게 되는 이야기의 주인공.",
+   "isbn13": "9788912135140"
+  },
+  {
+   "key": "만년양식집-문학동네",
+   "title": "만년양식집",
+   "author": "오에 겐자부로",
+   "translator": "",
+   "publisher": "문학동네",
+   "link": "https://stibee.com/api/v1.0/emails/share/-yfXIERcfGhlNxSjcKrCf-rThFBtzQ0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "94,900원짜리 중고책",
+   "summary": "78세에 쓴 뒤 절필을 선언한 오에 겐자부로의 마지막 작품.",
+   "isbn13": "9788954694100"
+  },
+  {
+   "key": "네메시스-문학동네",
+   "title": "네메시스",
+   "author": "필립 로스",
+   "translator": "",
+   "publisher": "문학동네",
+   "link": "https://stibee.com/api/v1.0/emails/share/-yfXIERcfGhlNxSjcKrCf-rThFBtzQ0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "94,900원짜리 중고책",
+   "summary": "77세에 쓴 뒤 절필을 선언한 필립 로스의 마지막 소설.",
+   "isbn13": "9788954636261"
+  },
+  {
+   "key": "해류속의섬들-고유명사",
+   "title": "해류 속의 섬들",
+   "author": "어니스트 헤밍웨이",
+   "translator": "",
+   "publisher": "고유명사",
+   "link": "https://stibee.com/api/v1.0/emails/share/-yfXIERcfGhlNxSjcKrCf-rThFBtzQ0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "94,900원짜리 중고책",
+   "summary": "사후에 편집되어 출간된 헤밍웨이의 소설. 유작 사례로 언급된다.",
+   "isbn13": "9791197727337"
+  },
+  {
+   "key": "최초의인간-열린책들",
+   "title": "최초의 인간",
+   "author": "알베르 카뮈",
+   "translator": "",
+   "publisher": "열린책들",
+   "link": "https://stibee.com/api/v1.0/emails/share/-yfXIERcfGhlNxSjcKrCf-rThFBtzQ0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "94,900원짜리 중고책",
+   "summary": "미완성인 채로 사후에 출간된 카뮈의 마지막 작품.",
+   "isbn13": "9788932909172"
+  },
+  {
+   "key": "실종자-솔출판사",
+   "title": "실종자",
+   "author": "프란츠 카프카",
+   "translator": "",
+   "publisher": "솔출판사",
+   "link": "https://stibee.com/api/v1.0/emails/share/-yfXIERcfGhlNxSjcKrCf-rThFBtzQ0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "94,900원짜리 중고책",
+   "summary": "미완성 장편으로 특유의 색깔을 드러내는 카프카의 작품.",
+   "isbn13": "9791160200195"
+  }
+ ]
+}

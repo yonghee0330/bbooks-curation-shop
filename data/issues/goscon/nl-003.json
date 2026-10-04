@@ -1,0 +1,74 @@
+{
+ "media": "goscon",
+ "id": "nl-003",
+ "no": "뉴스레터 3호",
+ "title": "〈서사의 서사〉 뉴스레터 3호 · 2024년 1월 셋째 주 · 새해 초 세 편의 투고가 들어왔다",
+ "date": "2024-01-15",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/XRsfa1Pce6JoeIC-BXtopiiIZRGVxQs",
+ "headline": "새해 초 세 편의 투고가 들어왔다",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "교회답지않아다투는우리-지우",
+   "title": "교회답지 않아 다투는 우리",
+   "author": "",
+   "translator": "",
+   "publisher": "지우",
+   "link": "https://stibee.com/api/v1.0/emails/share/XRsfa1Pce6JoeIC-BXtopiiIZRGVxQs",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "새해 초 세 편의 투고가 들어왔다",
+   "summary": "교회에서 성장통을 겪는 청년 이야기가 나오는 책. 투고 원고를 받은 출판사의 고민을 말하는 글에서 인용된다.",
+   "isbn13": "9791197744099"
+  },
+  {
+   "key": "과학자의신앙공부-선율",
+   "title": "과학자의 신앙공부",
+   "author": "김영웅",
+   "translator": "",
+   "publisher": "선율",
+   "link": "https://stibee.com/api/v1.0/emails/share/XRsfa1Pce6JoeIC-BXtopiiIZRGVxQs",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "새해 초 세 편의 투고가 들어왔다",
+   "summary": "선율 출판사 이재원 대표가 〈서사의 서사〉를 응원하며 구독자 선물로 찬조한 책.",
+   "isbn13": "9791188887125"
+  },
+  {
+   "key": "닮은듯다른우리-선율",
+   "title": "닮은 듯 다른 우리",
+   "author": "김영웅",
+   "translator": "",
+   "publisher": "선율",
+   "link": "https://stibee.com/api/v1.0/emails/share/XRsfa1Pce6JoeIC-BXtopiiIZRGVxQs",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "새해 초 세 편의 투고가 들어왔다",
+   "summary": "이재원 대표가 구독자 선물로 찬조한 선율의 책. 생물학으로 『카라마조프가의 형제들』과 인간다움을 읽는다.",
+   "isbn13": "9791188887163"
+  },
+  {
+   "key": "생물학자의신앙고백-선율",
+   "title": "생물학자의 신앙고백",
+   "author": "김영웅",
+   "translator": "",
+   "publisher": "선율",
+   "link": "https://stibee.com/api/v1.0/emails/share/XRsfa1Pce6JoeIC-BXtopiiIZRGVxQs",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "새해 초 세 편의 투고가 들어왔다",
+   "summary": "이재원 대표가 구독자 선물로 찬조한 선율의 책.",
+   "isbn13": "9791188887217"
+  }
+ ]
+}

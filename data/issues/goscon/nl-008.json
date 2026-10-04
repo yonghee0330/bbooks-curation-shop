@@ -1,0 +1,74 @@
+{
+ "media": "goscon",
+ "id": "nl-008",
+ "no": "뉴스레터 8호",
+ "title": "〈서사의 서사〉 뉴스레터 8호 · 2024년 3월 첫째 주 · 우리가 책을 부를 때",
+ "date": "2024-03-03",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/jtfjeael4wSSrnVNC6drPlhstNTcIMY",
+ "headline": "우리가 책을 부를 때",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "오늘의착각-난다",
+   "title": "오늘의 착각",
+   "author": "허수경",
+   "translator": "",
+   "publisher": "난다",
+   "link": "https://stibee.com/api/v1.0/emails/share/jtfjeael4wSSrnVNC6drPlhstNTcIMY",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "우리가 책을 부를 때",
+   "summary": "허수경의 유고 산문. 김행숙의 시를 재인용한 대목에서 인용된다.",
+   "isbn13": "9791188862740"
+  },
+  {
+   "key": "입속의검은잎-문학과지성사",
+   "title": "입 속의 검은 잎",
+   "author": "기형도",
+   "translator": "",
+   "publisher": "문학과지성사",
+   "link": "https://stibee.com/api/v1.0/emails/share/jtfjeael4wSSrnVNC6drPlhstNTcIMY",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "우리가 책을 부를 때",
+   "summary": "책을 산 날이 바로 시인의 기일임을 알게 된 일화 속 시집.",
+   "isbn13": "9788932003979"
+  },
+  {
+   "key": "초월과자기초월-갈무리",
+   "title": "초월과 자기-초월",
+   "author": "메롤드 웨스트폴",
+   "translator": "",
+   "publisher": "갈무리",
+   "link": "https://stibee.com/api/v1.0/emails/share/jtfjeael4wSSrnVNC6drPlhstNTcIMY",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "우리가 책을 부를 때",
+   "summary": "신의 초월성이 인간의 자기 초월의 근거라고 말하는 책. 동일성의 시대에 바깥의 음성을 듣는 법을 다룬 서평이 소개된다.",
+   "isbn13": "9788961953368"
+  },
+  {
+   "key": "비움과숨-동연",
+   "title": "비움과 숨",
+   "author": "안규식",
+   "translator": "",
+   "publisher": "동연",
+   "link": "https://stibee.com/api/v1.0/emails/share/jtfjeael4wSSrnVNC6drPlhstNTcIMY",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "우리가 책을 부를 때",
+   "summary": "서평 필자가 쓴 다석 류영모 신학 연구서.",
+   "isbn13": "9788964479827"
+  }
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791170830436",
+ "isbn10": "K372937972",
+ "itemId": 330110622,
+ "title": "마르틴 루터 대교리문답",
+ "subTitle": "",
+ "originalTitle": "Der Große Katechismus",
+ "author": "마틴 루터 (지은이), 최주훈 (옮긴이)",
+ "authors": [],
+ "publisher": "복있는사람",
+ "pubDate": "2017-01-31",
+ "priceStandard": 22000,
+ "priceSales": 19800,
+ "pages": 373,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>신학일반",
+ "series": null,
+ "description": "마르틴 루터의 <대교리문답>(1529년)은 개신교 최초의 교리문답서로, 그리스도인에게 필요한 기독교적 기초를 다섯 기둥(십계명, 신조, 주기도, 세례, 성만찬)으로 나누어 정리한 책이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/33011/6/cover200/k372937972_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=330110622&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "해설의 글\n\n마르틴 루터 서문\n\n초판 서문\n\n제1부 십계명\n\n제2부 신조\n\n제3부 주기도\n\n제4부 세례\n\n제5부 성만찬",
+ "intro": "마르틴 루터의 <대교리문답>(1529년)은 개신교 최초의 교리문답서로, 그리스도인에게 필요한 기독교적 기초를 다섯 기둥.십계명, 신조, 주기도, 세례, 성만찬.으로 나누어 정리한 책이다. 독일의 작센 지역 교회들을 시찰하면서 목격한 교회의 현실에 큰 충격을 받고 심혈을 기울여 펴낸 역작이다. 이 책에서 그는 앞선 다섯 항목이야말로 그리스도인이 반드시 숙지하고 실천해야 할 가장 기본적인 교리임을 강조한다. 루터는 각각의 주제들을 다루면서 복음적 이해가 무엇인지 질문하고 그 답변이 무엇인지 문답 형식을 취해 설명한다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 23:59",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/33011/6/cover500/k372937972_1.jpg"
+}

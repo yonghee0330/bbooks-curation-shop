@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788932520766",
+ "isbn10": "8932520763",
+ "itemId": 26527726,
+ "title": "시가서 바로 읽기",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "차준희 (지은이)",
+ "authors": [],
+ "publisher": "성서유니온",
+ "pubDate": "2013-05-08",
+ "priceStandard": 13000,
+ "priceSales": 11700,
+ "pages": 232,
+ "category": "국내도서>종교/역학>기독교(개신교)>성경의 이해",
+ "series": "차준희 교수의 평신도를 위한 구약특강 3",
+ "description": "통독과 다독을 넘어, 정독으로 성경 읽기. 성경은 많이 빠르게 읽는 것보다 바르게 읽는 것이 중요하다. 성경 전체의 숲을 보는 통독과 더불어, 성경을 바로 읽고 깊게 읽도록 도와줄 책이 ‘구약 전도사’ 차준희 저자를 통해 나왔다.",
+ "coverUrl": "https://image.aladin.co.kr/product/2652/77/cover200/8932520763_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=26527726&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "머리말\n\n구약 들어가기\n\n시가서 들어가기\n\n1강: 욥기\n\n1. 욥기의 구조\n\n2. 욥기의 주요 본문\n\n3. 욥기의 메시지\n\n2강: 시편\n\n1. 시편의 구조\n\n2. 시편의 특성: ‘인간 영혼의 해부도’\n\n3. 찬양시와 탄원시의 구성요소\n\n4. 시편의 주요 본문\n\n3강: 잠언\n\n1. 잠언의 구조\n\n2. 잠언의 주요 본문\n\n3. 잠언의 메시지\n\n4강: 전도서\n\n1. 전도서의 구조\n\n2. 전도서의 주요 본문\n\n3. 전도서의 메시지\n\n5강: 아가\n\n1. 아가의 구조\n\n2. 아가의 주요 본문\n\n3. 아가의 메시지\n\n6강: 애가\n\n1. 애가의 구조\n\n2. 애가의 주요 본문\n\n3. 애가의 메시지\n\n간추린 참고 문헌\n\n미주",
+ "intro": "통독과 다독을 넘어, 정독으로 성경 읽기. 성경은 많이 빠르게 읽는 것보다 바르게 읽는 것이 중요하다. 성경 전체의 숲을 보는 통독과 더불어, 성경을 바로 읽고 깊게 읽도록 도와줄 책이 ‘구약 전도사’ 차준희 저자를 통해 나왔다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 03:34",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/2652/77/cover500/8932520763_1.jpg"
+}

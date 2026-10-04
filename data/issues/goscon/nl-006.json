@@ -1,0 +1,74 @@
+{
+ "media": "goscon",
+ "id": "nl-006",
+ "no": "뉴스레터 6호",
+ "title": "〈서사의 서사〉 뉴스레터 6호 · 2024년 2월 둘째 주 · 독서가 남긴 흔적",
+ "date": "2024-02-09",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/6fiQYgV2pYBKurgUdehP3vxhVVWp6N8",
+ "headline": "독서가 남긴 흔적",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "불안의서-봄날의책",
+   "title": "불안의 서",
+   "author": "페르난두 페소아",
+   "translator": "",
+   "publisher": "봄날의책",
+   "link": "https://stibee.com/api/v1.0/emails/share/6fiQYgV2pYBKurgUdehP3vxhVVWp6N8",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "독서가 남긴 흔적",
+   "summary": "갑상선 수술을 앞둔 필자가 선물받은 책. 책을 건네는 마음이 담긴 메시지와 함께 독서의 흔적을 이야기한다.",
+   "isbn13": "9788996997962"
+  },
+  {
+   "key": "부의미래-청림출판",
+   "title": "부의 미래",
+   "author": "앨빈 토플러",
+   "translator": "",
+   "publisher": "청림출판",
+   "link": "https://stibee.com/api/v1.0/emails/share/6fiQYgV2pYBKurgUdehP3vxhVVWp6N8",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "독서가 남긴 흔적",
+   "summary": "군 복무 시절 자대 배치 후 가장 먼저 읽은 책으로, 독서 노트의 흔적을 되짚는 대목에 나온다.",
+   "isbn13": "9788935206582"
+  },
+  {
+   "key": "하나님앞에선예배자-죠이선교회",
+   "title": "하나님 앞에 선 예배자",
+   "author": "매트 레드먼",
+   "translator": "",
+   "publisher": "죠이선교회",
+   "link": "https://stibee.com/api/v1.0/emails/share/6fiQYgV2pYBKurgUdehP3vxhVVWp6N8",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "독서가 남긴 흔적",
+   "summary": "전역 직전에 읽은 책으로 독서가 남긴 흔적을 이야기한다.",
+   "isbn13": "9788942101696"
+  },
+  {
+   "key": "교회교향곡-바람이불어오는곳",
+   "title": "교회 교향곡",
+   "author": "",
+   "translator": "",
+   "publisher": "바람이불어오는곳",
+   "link": "https://stibee.com/api/v1.0/emails/share/6fiQYgV2pYBKurgUdehP3vxhVVWp6N8",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "독서가 남긴 흔적",
+   "summary": "필자가 독서 중 발견한 빛나는 구슬을 하나로 꿰어 쓴 책. 당시에는 출간 예정이었다.",
+   "isbn13": "9791191887204"
+  }
+ ]
+}

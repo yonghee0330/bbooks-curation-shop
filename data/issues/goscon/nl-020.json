@@ -1,0 +1,59 @@
+{
+ "media": "goscon",
+ "id": "nl-020",
+ "no": "뉴스레터 20호",
+ "title": "〈서사의 서사〉 뉴스레터 20호 · 2024년 5월 넷째 주 · 책이 주는 작은 구원에 대하여",
+ "date": "2024-05-21",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/gDo83BFTOebygtBK59UFP8tAz2Ju0s0",
+ "headline": "책이 주는 작은 구원에 대하여",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "서준식옥중서한-야간비행",
+   "title": "서준식 옥중서한",
+   "author": "서준식",
+   "translator": "",
+   "publisher": "야간비행",
+   "link": "https://stibee.com/api/v1.0/emails/share/gDo83BFTOebygtBK59UFP8tAz2Ju0s0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책이 주는 작은 구원에 대하여",
+   "summary": "유물론자로서 예수의 길을 걸어가기로 한 서준식이 남긴 책. 앎에서 삶으로 간 사람들의 이야기로 소개된다.",
+   "isbn13": "9788985304726"
+  },
+  {
+   "key": "개인적인체험-을유문화사",
+   "title": "개인적인 체험",
+   "author": "오에 겐자부로",
+   "translator": "",
+   "publisher": "을유문화사",
+   "link": "https://stibee.com/api/v1.0/emails/share/gDo83BFTOebygtBK59UFP8tAz2Ju0s0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책이 주는 작은 구원에 대하여",
+   "summary": "〈서사의 서사〉를 읽으며 알게 된 소설. 장애를 안고 태어난 아기에게서 도망치다 받아들이기까지의 이야기.",
+   "isbn13": "9788932403526"
+  },
+  {
+   "key": "의자놀이-휴머니스트",
+   "title": "의자놀이",
+   "author": "",
+   "translator": "",
+   "publisher": "휴머니스트",
+   "link": "https://stibee.com/api/v1.0/emails/share/gDo83BFTOebygtBK59UFP8tAz2Ju0s0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책이 주는 작은 구원에 대하여",
+   "summary": "노동자의 삶으로 방향을 바꿔 온 필자의 독서 경험 가운데 읽은 책.",
+   "isbn13": "9788958625254"
+  }
+ ]
+}

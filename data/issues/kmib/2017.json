@@ -1,0 +1,296 @@
+{
+ "media": "kmib",
+ "id": "2017",
+ "no": "2017년",
+ "title": "2017 국민일보 올해의 책",
+ "subtitle": "종교개혁 500주년 올해의 책 15권",
+ "date": "2017-12-28",
+ "column": "올해의 책",
+ "url": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+ "season": "2017 겨울",
+ "_curated": true,
+ "items": [
+  {
+   "key": "루터의재발견-복있는사람",
+   "title": "루터의 재발견",
+   "author": "최주훈",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "pick",
+   "by": [
+    "양희송",
+    "김기현"
+   ],
+   "summary": "올해 최고의 책. 루터교 목사가 마르틴 루터의 생애와 신학을 한국의 문제의식으로 풀어낸 꼼꼼한 루터 연구. 500년 전의 루터가 아닌 오늘 우리 시대의 루터를 읽게 한다.",
+   "isbn13": "9788963602271"
+  },
+  {
+   "key": "나를넘어서는성경읽기-성서유니온",
+   "title": "나를 넘어서는 성경읽기",
+   "author": "김근주",
+   "translator": "",
+   "publisher": "성서유니온",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "pick",
+   "by": [
+    "양희송"
+   ],
+   "summary": "올해 최고의 책. 한국교회에 퍼진 잘못된 성경 읽기를 교정하는 얇지만 밀도 있는 책. 성도들에게 학술서보다 더 큰 영향을 줄 만하다는 평을 받았다.",
+   "isbn13": "9788932521220"
+  },
+  {
+   "key": "창조론연대기-새물결플러스",
+   "title": "창조론 연대기",
+   "author": "김민석",
+   "translator": "",
+   "publisher": "새물결플러스",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "양희송"
+   ],
+   "summary": "첨예한 창조 논쟁과 신학 주제를 만화로 소화한 기독교 웹툰. 청소년부터 중장년까지 부담 없이 배울 수 있다.",
+   "isbn13": "9791186409923"
+  },
+  {
+   "key": "야근하는당신에게-좋은씨앗",
+   "title": "야근하는 당신에게",
+   "author": "이정규",
+   "translator": "",
+   "publisher": "좋은씨앗",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "조영민"
+   ],
+   "summary": "야근에 지친 이들에게 하나님의 위로와 마음의 성찬을 건네는 목회자의 책.",
+   "isbn13": "9788958742760"
+  },
+  {
+   "key": "가정내어드림-규장",
+   "title": "가정, 내어드림",
+   "author": "이용규",
+   "translator": "",
+   "publisher": "규장",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "박재찬"
+   ],
+   "summary": "선교사 가정의 진솔한 고백이 담긴 책. 배우자와 자녀에 대한 세속적 불안과 두려움에 맞설 용기를 준다.",
+   "isbn13": "9788960975125"
+  },
+  {
+   "key": "과학시대의도전과기독교의응답-새물결플러스",
+   "title": "과학 시대의 도전과 기독교의 응답",
+   "author": "우종학",
+   "translator": "",
+   "publisher": "새물결플러스",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "김기현"
+   ],
+   "summary": "현장 과학자이자 보수적 신앙인이 창조과학을 비롯한 과학과 신앙의 문제를 이야기한다.",
+   "isbn13": "9791161290157"
+  },
+  {
+   "key": "1세기교회예배이야기-ivp",
+   "title": "1세기 교회 예배 이야기",
+   "author": "로버트 뱅크스",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "이재근"
+   ],
+   "summary": "십수 년 전 나온 책을 다시 펴낸 초대교회 예배 이야기. 작지만 역동적이고 순전한 예배와 삶을 갈망하게 한다.",
+   "isbn13": "9788932814827"
+  },
+  {
+   "key": "팀켈러의내가만든신-두란노",
+   "title": "팀 켈러의 내가 만든 신",
+   "author": "팀 켈러",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "안성우"
+   ],
+   "summary": "우상숭배에 대한 정확한 진단과 말씀 중심의 구체적 처방을 설득력 있게 제시하는 책.",
+   "isbn13": "9788953128286"
+  },
+  {
+   "key": "제자가된다는것-복있는사람",
+   "title": "제자가 된다는 것",
+   "author": "로완 윌리엄스",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "민경찬"
+   ],
+   "summary": "체계적이지 않지만 단단하고 시적인 아름다움이 있는 책. 한국 그리스도교계에 결여된 감각을 일깨운다는 편집자들의 지지를 받았다.",
+   "isbn13": "9791170831068"
+  },
+  {
+   "key": "아이들이교회로몰려온다-생명의말씀사",
+   "title": "아이들이 교회로 몰려온다",
+   "author": "임만호",
+   "translator": "",
+   "publisher": "생명의말씀사",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "김혜정"
+   ],
+   "summary": "입소문만으로 베스트셀러가 된 책. 다음 세대 사역의 실질적 경험을 나눈다.",
+   "isbn13": "9788904071388"
+  },
+  {
+   "key": "칼뱅과공동선-ivp",
+   "title": "칼뱅과 공동선",
+   "author": "송용원",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "이동준"
+   ],
+   "summary": "개혁파 교회가 다른 신학에 기웃거리지 않고도 공동선에 이바지할 밑바탕을 마련해 준 책.",
+   "isbn13": "9788932814995"
+  },
+  {
+   "key": "신학공부-예책",
+   "title": "신학공부",
+   "author": "김진혁",
+   "translator": "",
+   "publisher": "예책",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "박용희"
+   ],
+   "summary": "종교개혁 500주년에 등장한 국내 저자의 탁월한 작품. 신앙의 문제와 신학의 답변이 얼마나 긴밀한지 쉽게 보여 준다.",
+   "isbn13": "9788998300166"
+  },
+  {
+   "key": "로마서-복있는사람",
+   "title": "로마서",
+   "author": "칼 바르트",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "최경환"
+   ],
+   "summary": "제대로 된 번역과 편집으로 새롭게 태어난 대작 중의 대작. 현대신학을 알려면 거쳐야 할 책.",
+   "isbn13": "9791170831259"
+  },
+  {
+   "key": "오스기니스의저항-토기장이",
+   "title": "오스 기니스의 저항",
+   "author": "오스 기니스",
+   "translator": "",
+   "publisher": "토기장이",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "송광택"
+   ],
+   "summary": "기독교 변증가가 현대 사회를 분석하며 신앙의 변절을 요구하는 시대의 그리스도인에게 던지는 도전.",
+   "isbn13": "9788977823822"
+  },
+  {
+   "key": "성서역사와만나다-비아",
+   "title": "성서 역사와 만나다",
+   "author": "야로슬라프 펠리칸",
+   "translator": "",
+   "publisher": "비아",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "year",
+   "by": [
+    "강영란"
+   ],
+   "summary": "성서가 기독교의 경전에서 인류의 고전으로 자리 잡은 과정을 다채롭게 보여 준다.",
+   "isbn13": "9788928638482"
+  },
+  {
+   "key": "복음의공공성-비아토르",
+   "title": "복음의 공공성",
+   "author": "김근주",
+   "translator": "",
+   "publisher": "비아토르",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "curation",
+   "by": [
+    "양희송"
+   ],
+   "summary": "한국교회가 간과해 온 ‘공공성’에 주목해 호평받았으나 같은 저자의 책이 최고의 책이 되어 아쉽게 빠졌다.",
+   "isbn13": "9791188255023"
+  },
+  {
+   "key": "두지평-ivp",
+   "title": "두 지평",
+   "author": "앤터니 티슬턴",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "curation",
+   "by": [
+    "목창균",
+    "송광택"
+   ],
+   "summary": "텍스트와 독자라는 두 지평의 융합을 향해 나아가는 해석학의 고전.",
+   "isbn13": "9788932814902"
+  },
+  {
+   "key": "설교자의일주일-복있는사람",
+   "title": "설교자의 일주일",
+   "author": "김영봉",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "curation",
+   "by": [
+    "이정규"
+   ],
+   "summary": "고대 수사학의 로고스·파토스·에토스로 설교의 의미와 설교자의 존재를 분석하고 돌아보게 하는 책.",
+   "isbn13": "9791170830443"
+  },
+  {
+   "key": "마르틴루터의대교리문답-복있는사람",
+   "title": "마르틴 루터의 대교리문답",
+   "author": "마르틴 루터",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "curation",
+   "by": [
+    "민경찬"
+   ],
+   "summary": "독일어 원전에서 직역한 루터 원전 번역의 시작을 알리는 책.",
+   "isbn13": "9791170830436"
+  },
+  {
+   "key": "신학공부를위해필요한101가지철학개념-도서출판100",
+   "title": "신학공부를 위해 필요한 101가지 철학 개념",
+   "author": "켈리 제임스 클락",
+   "translator": "",
+   "publisher": "도서출판 100",
+   "link": "https://www.kmib.co.kr/article/view.asp?arcid=0012011390",
+   "section": "curation",
+   "by": [
+    "박용희"
+   ],
+   "summary": "1인 출판사의 신선한 시도라는 지지를 받은 책. 좋은 콘텐츠만 있으면 독자가 반응한다는 것을 보여 줬다.",
+   "isbn13": "9791195998630"
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+{
+ "media": "goscon",
+ "id": "nl-037",
+ "no": "뉴스레터 37호",
+ "title": "〈서사의 서사〉 뉴스레터 37호 · 2024년 9월 셋째 주 · 나를 붙잡기 위해 외우는 주문",
+ "date": "2024-09-15",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/azCrgmPevxRI5mtZFwwkSwq_NBocxX0",
+ "headline": "나를 붙잡기 위해 외우는 주문",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "역사의쓸모-다산북스",
+   "title": "역사의 쓸모",
+   "author": "",
+   "translator": "",
+   "publisher": "다산북스",
+   "link": "https://stibee.com/api/v1.0/emails/share/azCrgmPevxRI5mtZFwwkSwq_NBocxX0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "나를 붙잡기 위해 외우는 주문",
+   "summary": "역사 공부는 시간 여행으로 사람을 만나러 가는 일이라는 대목이 인용된 책."
+  },
+  {
+   "key": "고요한읽기-문학동네",
+   "title": "고요한 읽기",
+   "author": "",
+   "translator": "",
+   "publisher": "문학동네",
+   "link": "https://stibee.com/api/v1.0/emails/share/azCrgmPevxRI5mtZFwwkSwq_NBocxX0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "나를 붙잡기 위해 외우는 주문",
+   "summary": "“굴속의 시간은 형성의 시간이다”라는 문장이 인용된 책.",
+   "isbn13": "9791141601164"
+  },
+  {
+   "key": "책읽는삶-두란노",
+   "title": "책 읽는 삶",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://stibee.com/api/v1.0/emails/share/azCrgmPevxRI5mtZFwwkSwq_NBocxX0",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "나를 붙잡기 위해 외우는 주문",
+   "summary": "책을 읽는 것은 타인의 눈으로 새로운 세계를 보는 일이라는 루이스의 말이 인용된다.",
+   "isbn13": "9788953140271"
+  }
+ ]
+}

@@ -1,7 +1,236 @@
 {
  "media": "goscon",
  "id": "354",
+ "no": "354호",
+ "title": "복음과상황 354호",
+ "date": "2020-04-17",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30878",
+ "season": "2020 봄",
  "items": [
+  {
+   "key": "세계화시대의그리스도교-홍성사",
+   "title": "세계화 시대의 그리스도교",
+   "author": "배덕만",
+   "translator": "",
+   "publisher": "홍성사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30881",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "《세계화 시대의 그리스도교》 20세기 그리스도교의  입체 지도",
+   "by": [
+    "정민호"
+   ],
+   "summary": "그리스도의 부활부터 현재까지 그리스도교의 광범위한 역사를 세계화 시대 관점으로 정리한 책.",
+   "isbn13": "9788936503673"
+  },
+  {
+   "key": "예수의기도-죠이북스",
+   "title": "예수의 기도",
+   "author": "마크 존스",
+   "translator": "오현미",
+   "publisher": "죠이북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "예수의 기도를 통해 그리스도에 관한 교리를 논하는 마크 존스의 책.",
+   "isbn13": "9788942104390"
+  },
+  {
+   "key": "과학은모든것을설명할수있을까-아바서원",
+   "title": "과학은 모든 것을 설명할 수 있을까?",
+   "author": "존 레녹스",
+   "translator": "황병룡",
+   "publisher": "아바서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "수학자이자 기독교 변증가가 무신론자들과 벌인 논쟁에서 과학이 모든 것을 설명하지 못한다고 말하는 책.",
+   "isbn13": "9791190376112"
+  },
+  {
+   "key": "크리스토퍼라이트의다니엘서강해-cup",
+   "title": "크리스토퍼 라이트의 다니엘서 강해",
+   "author": "크리스토퍼 라이트",
+   "translator": "박세혁",
+   "publisher": "CUP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "다니엘서를 통해 애국주의, 인종 차별 등 이 시대의 신앙을 돌아보는 크리스토퍼 라이트의 강해.",
+   "isbn13": "9791190564014"
+  },
+  {
+   "key": "기독교승리의발자취-새물결플러스",
+   "title": "기독교 승리의 발자취",
+   "author": "로드니 스타크",
+   "translator": "허성식",
+   "publisher": "새물결플러스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "종교사회학자가 기독교가 어떻게 승리해 왔는지 역사로 풀어낸 책.",
+   "isbn13": "9791161291482"
+  },
+  {
+   "key": "영적전쟁바울서신으로본사탄과악한영들-이레서원",
+   "title": "영적 전쟁: 바울 서신으로 본 사탄과 악한 영들",
+   "author": "클린턴 E. 아놀드",
+   "translator": "길성남",
+   "publisher": "이레서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "바울 서신을 중심으로 사탄과 악한 영의 권세를 성경신학으로 분석한 책.",
+   "isbn13": "9788974355289"
+  },
+  {
+   "key": "신천지백신12-두란노",
+   "title": "신천지 백신 1, 2",
+   "author": "양형주",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "10년 이상 이단을 연구한 저자가 신천지 교리를 반증하는 책 1, 2권."
+  },
+  {
+   "key": "타자들의삶-글누림",
+   "title": "타자들의 삶",
+   "author": "고경옥",
+   "translator": "",
+   "publisher": "글누림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "큐레이터가 ‘소외’를 주제로 여성, 성소수자 등을 다룬 에세이 미술비평서.",
+   "isbn13": "9788963276038"
+  },
+  {
+   "key": "느려도괜찮아빛나는너니까-홍림",
+   "title": "느려도 괜찮아 빛나는 너니까",
+   "author": "장누리",
+   "translator": "",
+   "publisher": "홍림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "미술치료사인 저자가 뇌전증 진단을 받은 딸과 함께한 시간을 그림과 사진으로 담은 책.",
+   "isbn13": "9788969340238"
+  },
+  {
+   "key": "정의로운사회를향하여-동연",
+   "title": "정의로운 사회를 향하여",
+   "author": "이삼열",
+   "translator": "",
+   "publisher": "동연",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30884",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《타자들의 삶》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "기독교 사회운동의 이론을 연구해 온 원로의 글을 모아 정의로운 사회를 묻는 책.",
+   "isbn13": "9788964475553"
+  },
+  {
+   "key": "기억하라네가누구인지를-비아",
+   "title": "기억하라, 네가 누구인지를",
+   "author": "윌리엄 윌리몬",
+   "translator": "정다운",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30885",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《기억하라, 네가 누구인지를 》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "세례의 의미와 신학적 논쟁을 담아 세례 교육에 활용하게 하는 윌리몬의 책.",
+   "isbn13": "9788928646746"
+  },
+  {
+   "key": "우리시대의그리스도교사상가들-도서출판100",
+   "title": "우리 시대의 그리스도교 사상가들",
+   "author": "김동규 외 5인",
+   "translator": "",
+   "publisher": "도서출판100",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30885",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《기억하라, 네가 누구인지를 》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "철학과 신학을 넘나드는 학자들의 사상으로 오늘의 그리스도교 사상가들을 소개하는 책.",
+   "isbn13": "9791189092122"
+  },
+  {
+   "key": "두배힘든열배기쁜합-세미한",
+   "title": "두 배 힘든 열 배 기쁜 합",
+   "author": "김주선",
+   "translator": "",
+   "publisher": "세미한",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30885",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《기억하라, 네가 누구인지를 》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "10년 넘게 청년·신혼부부를 멘토링해 온 저자가 연애와 결혼을 말하는 책.",
+   "isbn13": "9791196730437"
+  },
+  {
+   "key": "컬처케어-ivp",
+   "title": "컬처 케어",
+   "author": "마코토 후지무라",
+   "translator": "백지윤",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30885",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《기억하라, 네가 누구인지를 》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "예술가에게는 세계와 인간성을 지킬 책임이 있다며 문화를 돌보는 ‘컬처 케어’를 말하는 책.",
+   "isbn13": "9788932817477"
+  },
   {
    "key": "체체파리의비법-이수현번역",
    "title": "체체파리의 비법",
@@ -18,11 +247,5 @@
    "summary": "익숙한 것을 낯설게 보게 하는 제임스 팁트리 주니어의 SF 단편집. 낯선 이야기 속에서 오늘의 기시감을 만난다.",
    "isbn13": "9791187206026"
   }
- ],
- "no": "354호",
- "title": "복음과상황 354호",
- "date": "2020-04-17",
- "column": "리뷰",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30878",
- "season": "2020 봄"
+ ]
 }

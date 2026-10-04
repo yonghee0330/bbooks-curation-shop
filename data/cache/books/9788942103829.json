@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788942103829",
+ "isbn10": "8942103820",
+ "itemId": 108467601,
+ "title": "어린이 성경 사전 - 말씀이 쏙쏙",
+ "subTitle": "말씀이 쏙쏙",
+ "originalTitle": "",
+ "author": "필 스마우스 (지은이), 죠이북스 편집부 (옮긴이)",
+ "authors": [],
+ "publisher": "죠이북스",
+ "pubDate": "2017-05-01",
+ "priceStandard": 23000,
+ "priceSales": 20700,
+ "pages": 256,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 어린이/청소년",
+ "series": null,
+ "description": "성경 용어의 뜻을 풍성하고 쉽게 설명하고 있다. 필요에 따라 성경 용어의 반대말을 표기하기도 하고, 성경 용어가 나오는 성경 구절을 함께 넣어서 말씀 자체도 이해할 수 있게 했다.",
+ "coverUrl": "https://image.aladin.co.kr/product/10846/76/cover200/8942103820_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=108467601&partner=openAPI&start=api",
+ "stockStatus": "구판절판",
+ "toc": "가나다 순",
+ "intro": "성경 용어의 뜻을 풍성하고 쉽게 설명하고 있다. 필요에 따라 성경 용어의 반대말을 표기하기도 하고, 성경 용어가 나오는 성경 구절을 함께 넣어서 말씀 자체도 이해할 수 있게 했다. 이 책의 중요한 특징을 한 가지 더 꼽자면, 어린이가 성경 옆에 이 책을 두고 어려운 단어가 나올 때마다 찾아 읽을 수도 있지만, 이야기책을 읽듯 처음부터 읽어 나가는 것만으로도 성경을 이해하는 데 도움이 된다는 것이다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 05:43",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/10846/76/cover500/8942103820_1.jpg"
+}

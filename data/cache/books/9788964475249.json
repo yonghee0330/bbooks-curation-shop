@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788964475249",
+ "isbn10": "8964475240",
+ "itemId": 205864024,
+ "title": "그리스도인의 논어 산책",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "임종수 (지은이)",
+ "authors": [],
+ "publisher": "동연출판사",
+ "pubDate": "2019-08-30",
+ "priceStandard": 9000,
+ "priceSales": 8100,
+ "pages": 107,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 신앙생활>신앙생활일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/20586/40/cover200/8964475240_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=205864024&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "책머리에\n\n1장 흐르는 물을 바라보며_천상지탄\n\n2장 추운 겨울에 만난 사람_세한송백\n\n3장 사람들과 함께 길을 걸어가다_인능홍도\n\n4장 곡을 하고 노래 부르지 않다_곡즉불가\n\n5장 세상 사람 모두가 형제자매_사해형제\n\n6장 공동체를 회복하는 힘_위정이덕\n\n7장 쉼의 미학_신신요요\n\n8장 공자의 기도_구지도구\n\n9장 말과 부끄러움_치궁불체\n\n10장 공경하되 멀리하기_경이원지\n\n11장 주님의 길_극기복례\n\n참고문헌",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 00:29",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/20586/40/cover500/8964475240_1.jpg"
+}

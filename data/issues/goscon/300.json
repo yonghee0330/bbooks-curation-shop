@@ -1,0 +1,75 @@
+{
+ "media": "goscon",
+ "id": "300",
+ "no": "300호",
+ "title": "복음과상황 300호",
+ "date": "2015-10-29",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=29453",
+ "season": "2015 가을",
+ "items": [
+  {
+   "key": "의료선교의길을묻다-이종훈엮음",
+   "title": "의료선교의 길을 묻다",
+   "author": "민요셉·최정규·심재두·양승봉",
+   "translator": "",
+   "publisher": "이종훈 엮음",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29452",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《진보정치, 미안하다고 해야 할 때》 外 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "의료 선교의 길을 묻는 책.",
+   "isbn13": "9788958742463"
+  },
+  {
+   "key": "새롭게살려낸우리말새롭게살려낸우리말-강우근그림",
+   "title": "새롭게 살려낸 우리말 새롭게 살려낸 우리말",
+   "author": "최종규",
+   "translator": "",
+   "publisher": "강우근 그림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29452",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《진보정치, 미안하다고 해야 할 때》 外 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "최종규가 우리말을 새롭게 살려낸 어원 이야기."
+  },
+  {
+   "key": "치앙마이그녀를안아줘-옐로브릭",
+   "title": "치앙마이, 그녀를 안아 줘",
+   "author": "치앙마이래빗",
+   "translator": "",
+   "publisher": "옐로브릭",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29453",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《역사적 예수》 外 4종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "번역가 남편과 작가 지망생 아내가 치앙마이로 떠난 이야기를 담은 책.",
+   "isbn13": "9791195371839"
+  },
+  {
+   "key": "바른신앙을위한질문들-두란노",
+   "title": "바른 신앙을 위한 질문들",
+   "author": "김세윤",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29453",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《역사적 예수》 外 4종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "사영리, 주일성수, 헌금만으로 천국에 갈 수 있는가를 묻는 김세윤의 바른 신앙을 위한 질문들.",
+   "isbn13": "9788953123908"
+  }
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "media": "goscon",
+ "id": "nl-014",
+ "no": "뉴스레터 14호",
+ "title": "〈서사의 서사〉 뉴스레터 14호 · 2024년 4월 둘째 주 · 책을 고르는 기준",
+ "date": "2024-04-09",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/E8U-KgIUPnromKrFh6cB8L8_dzgqR8U",
+ "headline": "책을 고르는 기준",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "구원그이후-무근검",
+   "title": "구원 그 이후",
+   "author": "박영선",
+   "translator": "",
+   "publisher": "무근검",
+   "link": "https://stibee.com/api/v1.0/emails/share/E8U-KgIUPnromKrFh6cB8L8_dzgqR8U",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책을 고르는 기준",
+   "summary": "이 책을 읽다 저자의 다른 책도 읽고 싶어졌다는 친구의 독서 이야기.",
+   "isbn13": "9791187506591"
+  },
+  {
+   "key": "하나님의열심-무근검",
+   "title": "하나님의 열심",
+   "author": "박영선",
+   "translator": "",
+   "publisher": "무근검",
+   "link": "https://stibee.com/api/v1.0/emails/share/E8U-KgIUPnromKrFh6cB8L8_dzgqR8U",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책을 고르는 기준",
+   "summary": "책이 책을 부른다는 이야기에서 같은 저자의 다른 책으로 이어진 책.",
+   "isbn13": "9791187506072"
+  },
+  {
+   "key": "대장간이야기-고유서가",
+   "title": "대장간 이야기",
+   "author": "정진오",
+   "translator": "",
+   "publisher": "고유서가",
+   "link": "https://stibee.com/api/v1.0/emails/share/E8U-KgIUPnromKrFh6cB8L8_dzgqR8U",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책을 고르는 기준",
+   "summary": "점점 사라져 가는 대장간의 세계를 다룬 책. 새로운 세계의 이야기에 끌린다는 친구가 읽고 싶어 한 책.",
+   "isbn13": "9791193710241"
+  },
+  {
+   "key": "이것이인간인가-돌베개",
+   "title": "이것이 인간인가",
+   "author": "프리모 레비",
+   "translator": "",
+   "publisher": "돌베개",
+   "link": "https://stibee.com/api/v1.0/emails/share/E8U-KgIUPnromKrFh6cB8L8_dzgqR8U",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책을 고르는 기준",
+   "summary": "앞서 읽은 두 권에서 인용돼 장바구니에 넣게 된 책. 읽던 책에서 다음 책으로 이어지는 독서를 보여 준다.",
+   "isbn13": "9788971992647"
+  }
+ ]
+}

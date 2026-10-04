@@ -1,0 +1,44 @@
+{
+ "media": "goscon",
+ "id": "320",
+ "no": "320호",
+ "title": "복음과상황 320호",
+ "date": "2017-06-28",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30018",
+ "season": "2017 여름",
+ "items": [
+  {
+   "key": "부와가난에관하여-홍종락이지혜옮김비아",
+   "title": "부와 가난에 관하여",
+   "author": "자끄 엘륄",
+   "translator": "",
+   "publisher": "홍종락·이지혜 옮김 비아토르",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30017",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《인간의 번영》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "“가난한 사람들의 존재는 숨겨진 깊은 악을 드러낸다”고 말하는 엘륄의 책.",
+   "isbn13": "9791188255016"
+  },
+  {
+   "key": "검은태양-장경혜그림",
+   "title": "검은 태양",
+   "author": "장경선",
+   "translator": "",
+   "publisher": "장경혜 그림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30018",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《행복과 인간적 삶의 조건》 외",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "장경선의 작품. 한 사람의 이야기를 통해 삶과 신앙을 돌아보게 하는 책.",
+   "isbn13": "9791186419311"
+  }
+ ]
+}

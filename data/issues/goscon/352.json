@@ -1,7 +1,28 @@
 {
  "media": "goscon",
  "id": "352",
+ "no": "352호",
+ "title": "복음과상황 352호",
+ "date": "2020-02-19",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30836",
+ "season": "2019 겨울",
  "items": [
+  {
+   "key": "gk체스터턴지음-아바서원",
+   "title": "G. K. 체스터턴 지음",
+   "author": "",
+   "translator": "송동민·서해동",
+   "publisher": "아바서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30833",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "《영원한 사람》 찔리면서도 통쾌한 기독교 변증",
+   "by": [
+    "이범진"
+   ],
+   "summary": "위트와 역설로 기독교를 변호한 체스터턴의 책."
+  },
   {
    "key": "예배는선교다-대장간",
    "title": "예배는 선교다",
@@ -65,11 +86,5 @@
    "summary": "제자훈련이 계급처럼 소비되는 현실을 짚고 인격으로 자라 가는 제자훈련을 말하는 박영선 목사의 책.",
    "isbn13": "9791170832164"
   }
- ],
- "no": "352호",
- "title": "복음과상황 352호",
- "date": "2020-02-19",
- "column": "리뷰",
- "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30836",
- "season": "2019 겨울"
+ ]
 }

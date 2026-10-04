@@ -1,0 +1,44 @@
+{
+ "media": "goscon",
+ "id": "2018-10",
+ "no": "",
+ "title": "복음과상황 2018-10",
+ "date": "2018-10-29",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30443",
+ "season": "2018 가을",
+ "items": [
+  {
+   "key": "원함과행함-대장간",
+   "title": "원함과 행함",
+   "author": "자끄 엘륄",
+   "translator": "김치수",
+   "publisher": "대장간",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30442",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "‘기독교 × 윤리’는 가능한가?",
+   "by": [
+    "이범진"
+   ],
+   "summary": "기독교 윤리에 대한 엘륄의 비판적 분석을 담은 ‘자끄 엘륄 총서’ 서른 번째 책. 도덕의 기원부터 따진다.",
+   "isbn13": "9788970714585"
+  },
+  {
+   "key": "위선-ivp",
+   "title": "위선",
+   "author": "권연경",
+   "translator": "",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30443",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "성경, ‘위선과의 투쟁’의 기록",
+   "by": [
+    "오지은"
+   ],
+   "summary": "성경에 가득한 ‘위선과의 투쟁’을 에덴의 타락부터 오늘까지 낱낱이 드러내는 책.",
+   "isbn13": "9788932816456"
+  }
+ ]
+}

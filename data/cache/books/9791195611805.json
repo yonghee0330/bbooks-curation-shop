@@ -1,0 +1,30 @@
+{
+ "isbn13": "9791195611805",
+ "isbn10": "K462434972",
+ "itemId": 68486414,
+ "title": "기독교 공동체의 성서적 기원과 실천적 대안",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "차정식 (지은이)",
+ "authors": [],
+ "publisher": "짓다",
+ "pubDate": "2015-10-14",
+ "priceStandard": 18000,
+ "priceSales": 17100,
+ "pages": 428,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>신학일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/6848/64/cover200/k462434972_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=68486414&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "저자서문\n\n1장 서론\n\n2장 공동체론의 주요 쟁점과 연구 방향\n\n3장 기독교 공동체의 구약성서적 기원과 유형\n\n4장 기독교 공동체의 신약성서적 모델과 구조\n\n5장 공동체의 성서적 대안과 오늘날의 기독교공동체\n\n6장 지속 가능한 공동체의 모델을 향하여\n\n참고문헌",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 03:54",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/6848/64/cover500/k462434972_1.jpg"
+}

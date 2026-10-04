@@ -1,0 +1,105 @@
+{
+ "media": "goscon",
+ "id": "nl-011",
+ "no": "뉴스레터 11호",
+ "title": "〈서사의 서사〉 뉴스레터 11호 · 2024년 3월 넷째 주 · 400호, 사진, 중년, 병렬독서",
+ "date": "2024-03-21",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/a_T3t-FM9snBohidcWOrwrIkQDyYGcA",
+ "headline": "400호, 사진, 중년, 병렬독서",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "책열권을동시에읽어라-뜨인돌",
+   "title": "책, 열 권을 동시에 읽어라",
+   "author": "",
+   "translator": "",
+   "publisher": "뜨인돌",
+   "link": "https://stibee.com/api/v1.0/emails/share/a_T3t-FM9snBohidcWOrwrIkQDyYGcA",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "400호, 사진, 중년, 병렬독서",
+   "summary": "2009년에 번역 출간된 책. ‘초병렬 독서법’을 소개한다.",
+   "search": "책 열 권을 동시에 읽어라",
+   "isbn13": "9788958072683"
+  },
+  {
+   "key": "조나단에드워즈처럼살수는없을까-부흥과개혁사",
+   "title": "조나단 에드워즈처럼 살 수는 없을까?",
+   "author": "",
+   "translator": "",
+   "publisher": "부흥과개혁사",
+   "link": "https://stibee.com/api/v1.0/emails/share/a_T3t-FM9snBohidcWOrwrIkQDyYGcA",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "400호, 사진, 중년, 병렬독서",
+   "summary": "필자가 학생 시절 읽고 조나단 에드워즈에게 빠지게 된 책.",
+   "isbn13": "9788988614198"
+  },
+  {
+   "key": "조나단에드워즈평전-부흥과개혁사",
+   "title": "조나단 에드워즈 평전",
+   "author": "조지 마즈던",
+   "translator": "",
+   "publisher": "부흥과개혁사",
+   "link": "https://stibee.com/api/v1.0/emails/share/a_T3t-FM9snBohidcWOrwrIkQDyYGcA",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "400호, 사진, 중년, 병렬독서",
+   "summary": "855쪽에 이르는 평전. 두꺼운 책을 연속해서 읽으며 독서에 자신이 붙은 경험을 말한다.",
+   "isbn13": "9788988614815"
+  },
+  {
+   "key": "조나단에드워즈생애와사상-부흥과개혁사",
+   "title": "조나단 에드워즈 생애와 사상",
+   "author": "양낙흥",
+   "translator": "",
+   "publisher": "부흥과개혁사",
+   "link": "https://stibee.com/api/v1.0/emails/share/a_T3t-FM9snBohidcWOrwrIkQDyYGcA",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "400호, 사진, 중년, 병렬독서",
+   "summary": "758쪽의 연구서. 에드워즈를 파고들며 독서의 틀이 깨진 경험의 일부.",
+   "isbn13": "9788988614174"
+  },
+  {
+   "key": "책을읽는방법-문학동네",
+   "title": "책을 읽는 방법",
+   "author": "히라노 게이치로",
+   "translator": "",
+   "publisher": "문학동네",
+   "link": "https://stibee.com/api/v1.0/emails/share/a_T3t-FM9snBohidcWOrwrIkQDyYGcA",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "400호, 사진, 중년, 병렬독서",
+   "summary": "자유로운 책 읽기를 추구하며 읽은 독서에 관한 책.",
+   "isbn13": "9788954605205"
+  },
+  {
+   "key": "유혹하는책읽기-교보문고",
+   "title": "유혹하는 책 읽기",
+   "author": "앨런 제이콥스",
+   "translator": "",
+   "publisher": "교보문고",
+   "link": "https://stibee.com/api/v1.0/emails/share/a_T3t-FM9snBohidcWOrwrIkQDyYGcA",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "400호, 사진, 중년, 병렬독서",
+   "summary": "독서에 관한 독서로 읽은 책 가운데 하나.",
+   "isbn13": "9788998886356"
+  }
+ ]
+}

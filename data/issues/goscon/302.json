@@ -1,0 +1,76 @@
+{
+ "media": "goscon",
+ "id": "302",
+ "no": "302호",
+ "title": "복음과상황 302호",
+ "date": "2015-12-28",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=29515",
+ "season": "2015 겨울",
+ "items": [
+  {
+   "key": "크리스마스미스터리-스텔라이스트그림",
+   "title": "크리스마스 미스터리",
+   "author": "요슈타인 가아더",
+   "translator": "손화수",
+   "publisher": "스텔라 이스트 그림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29514",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수는 어떻게 신이 되었나》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "요슈타인 가아더가 쓴 크리스마스를 둘러싼 미스터리 이야기.",
+   "isbn13": "9791186921036"
+  },
+  {
+   "key": "동물과식물이름에이런뜻이-그림안경자",
+   "title": "동물과 식물 이름에 이런 뜻이?!",
+   "author": "이주희·노정임",
+   "translator": "",
+   "publisher": "그림 안경자",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29514",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《예수는 어떻게 신이 되었나》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "동물과 식물 이름에 숨은 뜻을 풀어 쓴 청소년 책.",
+   "isbn13": "9788993463873"
+  },
+  {
+   "key": "고린도전서어떻게읽을것인가-성서유니온",
+   "title": "고린도전서 어떻게 읽을 것인가",
+   "author": "조병수",
+   "translator": "",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29515",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《역사전쟁》 외 3종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "‘어떻게 읽을 것인가’ 시리즈의 고린도전서 편.",
+   "isbn13": "9788932520933"
+  },
+  {
+   "key": "소예언서어떻게읽을것인가1-성서유니온",
+   "title": "소예언서 어떻게 읽을 것인가 1",
+   "author": "김근주",
+   "translator": "",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=29515",
+   "section": "new",
+   "corner": "잠깐 독서",
+   "headline": "《역사전쟁》 외 3종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "‘어떻게 읽을 것인가’ 시리즈 소예언서 1권. 호세아, 요엘, 아모스, 오바댜를 다룬다.",
+   "isbn13": "9788932520940"
+  }
+ ]
+}

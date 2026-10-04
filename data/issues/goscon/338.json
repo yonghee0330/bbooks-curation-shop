@@ -1,0 +1,91 @@
+{
+ "media": "goscon",
+ "id": "338",
+ "no": "338호",
+ "title": "복음과상황 338호",
+ "date": "2018-12-27",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30495",
+ "season": "2018 겨울",
+ "items": [
+  {
+   "key": "교회를찾아서-비아",
+   "title": "교회를 찾아서",
+   "author": "레이첼 헬드 에반스",
+   "translator": "박천규",
+   "publisher": "비아",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30491",
+   "section": "review",
+   "corner": "독서일기",
+   "headline": "교회와의 관계를 정직하게 씨름하다",
+   "by": [
+    "심에스더"
+   ],
+   "summary": "교회를 떠났다 돌아온 저자가 교회라는 존재의 의미를 찾아가는 책.",
+   "isbn13": "9788928644131"
+  },
+  {
+   "key": "호세마리아마르도네스지음-신앙과지성사",
+   "title": "호세 마리아 마르도네스 지음",
+   "author": "",
+   "translator": "홍인식",
+   "publisher": "신앙과지성사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30493",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "모든 ‘가짜’는 가라",
+   "by": [
+    "오지은 기자"
+   ],
+   "summary": "서투르게 아는 것이 더 위험하다며 하나님에 대한 바른 이해를 말하는 책."
+  },
+  {
+   "key": "신비와의만남-정교회출판사",
+   "title": "신비와의 만남",
+   "author": "바르톨로메오스",
+   "translator": "박노양",
+   "publisher": "정교회출판사",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30494",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "낯선 기독교 ‘정교회’",
+   "by": [
+    "이범진 기자"
+   ],
+   "summary": "정교회 최고 수장이 한국에는 낯선 정교회의 신앙을 소개하는 책.",
+   "isbn13": "9788992941532"
+  },
+  {
+   "key": "세계관수업-복있는사람",
+   "title": "세계관 수업",
+   "author": "양희송",
+   "translator": "",
+   "publisher": "복있는사람",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30495",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "다시, ‘세계관’을 읽을 시간",
+   "by": [
+    "옥명호 편집장"
+   ],
+   "summary": "세계관이 무엇인지 쉽게 풀어 주는 양희송의 세계관 수업.",
+   "isbn13": "9788963602622"
+  },
+  {
+   "key": "세계관그개념의역사-cup",
+   "title": "세계관 그 개념의 역사",
+   "author": "데이비드 노글",
+   "translator": "박세혁",
+   "publisher": "CUP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30495",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "다시, ‘세계관’을 읽을 시간",
+   "by": [
+    "옥명호 편집장"
+   ],
+   "summary": "‘세계관’이라는 개념의 역사를 짚으며 신앙과 세계관의 관계를 살피는 책.",
+   "isbn13": "9788988042922"
+  }
+ ]
+}

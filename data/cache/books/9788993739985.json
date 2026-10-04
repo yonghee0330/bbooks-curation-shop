@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788993739985",
+ "isbn10": "8993739986",
+ "itemId": 125710582,
+ "title": "2017 북한 종교자유 백서",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "안현민 (지은이)",
+ "authors": [],
+ "publisher": "북한인권정보센터",
+ "pubDate": "2017-12-01",
+ "priceStandard": 20000,
+ "priceSales": 18000,
+ "pages": 269,
+ "category": "국내도서>사회과학>통일/북한관계>북한학 일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/12571/5/cover200/8993739986_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=125710582&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "서문\n\nⅠ 백서개요\n\n1. 백서발간 목적과 필요성\n\n2. 조사 방법\n\n3. 조사대상 및 내용\n\n4. 기대효과 및 제약요인\n\nⅡ 종교 자유의 의미\n\n1. 종교 자유의 개념\n\n2. 종교 자유의 주체\n\n3. 종교 자유의 내용\n\n4. 종교 자유의 한계와 제한\n\nⅢ 북한의 종교 현황\n\n1. 북한에서의 종교의 의미\n\n2. 북한의 시기별 종교정책 변화\n\n3. 북한의 종교별 현황\n\n4. 북한의 종교교류 현황\n\nⅣ 북한의 종교 자유 및 박해 실태\n\n1. 북한주민의 종교자유에 대한 인식 수준\n\n2. 북한주민의 실제 종교 활동\n\n3. 북한당국의 종교박해 실태\n\n4. 북한의 종교박해 사례\n\nⅤ 결론\n\n참고문헌",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 05:49",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/12571/5/cover500/8993739986_1.jpg"
+}

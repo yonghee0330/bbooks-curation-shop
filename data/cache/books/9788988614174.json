@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788988614174",
+ "isbn10": "8988614178",
+ "itemId": 438201,
+ "title": "조나단 에드워즈 생애와 사상",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "양낙흥 (지은이)",
+ "authors": [],
+ "publisher": "부흥과개혁사",
+ "pubDate": "2003-10-10",
+ "priceStandard": 50000,
+ "priceSales": 45000,
+ "pages": 758,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>목회일반",
+ "series": null,
+ "description": "조나단 에드워즈의 생애와 사상을 전반적으로 소개해주는 입문서다. 에드워즈의 방대한 저서 중 특별히 회심론, 부흥론, 교회론에 관련된 주요 저서들이 아주 상세하게 요약되어 소개되고 있다. 저자는 에드워즈를 본격적으로 소개하기에 앞서, 에드워즈 이해의 밑거름이 되는 청교도 회심론과 교회회원권 문제를 친절하게 설명해줌으로서 독자들의 에드워즈 이해를 한층 쉽게 도와 주고 있다.",
+ "coverUrl": "https://image.aladin.co.kr/product/43/82/cover200/8988614178_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=438201&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "조나단 에드워즈의 생애와 사상을 전반적으로 소개해주는 입문서다. 에드워즈의 방대한 저서 중 특별히 회심론, 부흥론, 교회론에 관련된 주요 저서들이 아주 상세하게 요약되어 있다. 저자는 에드워즈를 본격적으로 소개하기에 앞서, 에드워즈 이해의 밑거름이 되는 청교도 회심론과 교회회원권 문제를 친절하게 설명해줌으로서 독자들의 에드워즈 이해를 한층 쉽게 도와 주고 있다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 08:01",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/43/82/cover500/8988614178_1.jpg"
+}

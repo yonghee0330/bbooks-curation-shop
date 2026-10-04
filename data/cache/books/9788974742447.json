@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788974742447",
+ "isbn10": "8974742446",
+ "itemId": 44870466,
+ "title": "정말 좋은 걸까? - 함께 생각하자 원자력",
+ "subTitle": "함께 생각하자 원자력",
+ "originalTitle": "",
+ "author": "김혜정, 황위친 (지은이), 문현선 (옮긴이)",
+ "authors": [],
+ "publisher": "풀빛",
+ "pubDate": "2014-08-12",
+ "priceStandard": 12000,
+ "priceSales": 10800,
+ "pages": 48,
+ "category": "국내도서>어린이>사회/역사/철학>사회 일반",
+ "series": "풀빛 그림 아이 47",
+ "description": "풀빛 그림아이 시리즈. 원자력 발전에 관하여 아무도 알려 주지 않는 이야기를 들려 준다. ‘많은 사람이 좋은 것이라고 하니까 좋은 것이겠지.’라고 미루어 짐작하지 않고 원자력 발전이 무엇인지, 원자력 발전이 정말 좋고 필요한 것인지 스스로 생각해 보도록 이끈다.",
+ "coverUrl": "https://image.aladin.co.kr/product/4487/4/cover200/8974742446_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=44870466&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "",
+ "intro": "풀빛 그림아이 시리즈. 원자력 발전에 관하여 아무도 알려 주지 않는 이야기를 들려 준다. 교과서에 나온 이야기만 보고, ‘많은 사람이 좋은 것이라고 하니까 좋은 것이겠지.’라고 미루어 짐작하지 않고 원자력 발전이 무엇인지, 원자력 발전이 정말 좋고 필요한 것인지 스스로 생각해 보도록 이끈다. 책의 끝에는 김혜정 시민 방사능 감시센터 위원장의 ‘원자력 발전에 관해 꼭 알아야 할 이야기’를 수록해, 읽은 후에 자기 생각과 의견을 마지막 장에 적어보도록 했다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 03:46",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/4487/4/cover500/8974742446_1.jpg"
+}

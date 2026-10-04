@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788993463774",
+ "isbn10": "8993463778",
+ "itemId": 63014300,
+ "title": "밀양 큰할매 - 어린이를 위한 인권 이야기",
+ "subTitle": "어린이를 위한 인권 이야기",
+ "originalTitle": "",
+ "author": "김규정 (지은이)",
+ "authors": [],
+ "publisher": "철수와영희",
+ "pubDate": "2015-07-17",
+ "priceStandard": 12000,
+ "priceSales": 10800,
+ "pages": 44,
+ "category": "국내도서>어린이>사회/역사/철학>인권/평등",
+ "series": "철수와영희 그림책 7",
+ "description": "밀양에서 할매와 할배들이 어떤 이유로 10년 동안 송전탑 반대투쟁을 해 왔는지 어린이들에게 알려주기 위해 기획된 책이다. 송전탑의 환경 파괴, 핵 발전의 위험성, 전기 생산 지역과 전기 소비 지역의 불평등에 대한 이야기를 담아낸 인문, 환경 그림책이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/6301/43/cover200/8993463778_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=63014300&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "목차 없는 상품입니다.",
+ "intro": "철수와영희 그림책 시리즈 7권. 밀양에서 할매와 할배들이 어떤 이유로 10년 동안 송전탑 반대투쟁을 해 왔는지 어린이들에게 알려주기 위해 기획된 책이다. 송전탑의 환경 파괴, 핵 발전의 위험성, 전기 생산 지역과 전기 소비 지역의 불평등에 대한 이야기를 담아낸 인문, 환경 그림책이다.\n\n이 책은 어린이의 눈높이에서 글과 그림을 통해 밀양의 송전탑 반대 투쟁의 진실을 알리고 있다. 나아가 태양광과 풍력 같은 재생 가능 에너지를 이용해 지역 분산형 에너지 정책을 세운다면 전기 생산 지역과 소비 지역 간의 불평등을 야기하는 국가 권력의 인권 침해를 막을 수 있다고 이야기한다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 04:12",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/6301/43/cover500/8993463778_1.jpg"
+}

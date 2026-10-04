@@ -1,0 +1,29 @@
+{
+ "media": "goscon",
+ "id": "nl-022",
+ "no": "뉴스레터 22호",
+ "title": "〈서사의 서사〉 뉴스레터 22호 · 2024년 6월 둘째 주 · 책은 도끼다",
+ "date": "2024-06-09",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/zIN4gseI6BWTvDOnM0rijz6Vccjc87I",
+ "headline": "책은 도끼다",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "디에센셜프란츠카프카-민음사",
+   "title": "디 에센셜: 프란츠 카프카",
+   "author": "프란츠 카프카",
+   "translator": "",
+   "publisher": "민음사",
+   "link": "https://stibee.com/api/v1.0/emails/share/zIN4gseI6BWTvDOnM0rijz6Vccjc87I",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "책은 도끼다",
+   "summary": "“책은 우리 내면의 얼어붙은 바다를 깨는 도끼여야 한다”는 카프카의 편지 대목이 실린 책.",
+   "isbn13": "9788937456091"
+  }
+ ]
+}

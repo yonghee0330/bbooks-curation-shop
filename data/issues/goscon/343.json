@@ -1,0 +1,235 @@
+{
+ "media": "goscon",
+ "id": "343",
+ "no": "343호",
+ "title": "복음과상황 343호",
+ "date": "2019-05-28",
+ "column": "리뷰",
+ "url": "https://www.goscon.co.kr/news/articleView.html?idxno=30627",
+ "season": "2019 봄",
+ "items": [
+  {
+   "key": "섹스앤더처치-한울아카데미",
+   "title": "섹스 앤 더 처치",
+   "author": "캐시 루디",
+   "translator": "박광호",
+   "publisher": "한울아카데미",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30626",
+   "section": "review",
+   "corner": "독서일기",
+   "headline": "교회여, 섹슈얼리티를 공부하자!",
+   "by": [
+    "심에스더"
+   ],
+   "summary": "성 문제로 넘쳐나는 시대에 교회와 성의 관계를 정직하게 다루는 책.",
+   "isbn13": "9788946054394"
+  },
+  {
+   "key": "예수신경-새물결플러스",
+   "title": "예수 신경",
+   "author": "스캇 맥나이트",
+   "translator": "김창동",
+   "publisher": "새물결플러스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30628",
+   "section": "review",
+   "corner": "독서일기",
+   "headline": "다시, 처음의 자리로?",
+   "by": [
+    "여정훈"
+   ],
+   "summary": "예수 신경이 말하는 복음의 핵심을 짚는 스캇 맥나이트의 책.",
+   "isbn13": "9788994752938"
+  },
+  {
+   "key": "성경을만나다-성서유니온",
+   "title": "성경을 만나다",
+   "author": "존 골딩게이",
+   "translator": "손승우",
+   "publisher": "성서유니온",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30629",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "대가가 그린 성경의 큰 그림",
+   "by": [
+    "이범진"
+   ],
+   "summary": "거장의 안내를 따라 성경의 큰 줄기를 알아 가는 존 골딩게이의 성경 입문서.",
+   "isbn13": "9788932540245"
+  },
+  {
+   "key": "가족의온도-생각비행",
+   "title": "가족의 온도",
+   "author": "이설아",
+   "translator": "",
+   "publisher": "생각비행",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30630",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "입양을 생각하는 이들에게",
+   "by": [
+    "오지은"
+   ],
+   "summary": "입양을 생각하는 이들에게 권하는 가족 이야기. 세 아이를 입양한 부모의 경험을 담았다.",
+   "isbn13": "9791189576257"
+  },
+  {
+   "key": "리처드마우제임스스미스외지음-안시열옮김ivp",
+   "title": "리처드 마우·제임스 스미스 외 지음",
+   "author": "캐서린 애플게이트·짐 스텀프",
+   "translator": "",
+   "publisher": "안시열 옮김 / IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30631",
+   "section": "editor",
+   "corner": "에디터가 고른 책",
+   "headline": "‘진화’를 받아들인 기독지성인들의 ‘간증’",
+   "by": [
+    "옥명호"
+   ],
+   "summary": "기원에 대한 이분법이 가져온 파괴적 힘을 넘어 창조와 진화의 대화를 제안하는 책."
+  },
+  {
+   "key": "개혁자들-포이에마",
+   "title": "개혁자들",
+   "author": "야나이하라 다다오",
+   "translator": "홍순명",
+   "publisher": "포이에마",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "일본 무교회주의자 야나이하라 다다오가 들려주는 진리의 무게를 지닌 개혁자 이야기.",
+   "isbn13": "9791158090821"
+  },
+  {
+   "key": "알고보면흥미있는구약이야기-kmc",
+   "title": "알고 보면 흥미 있는 구약 이야기",
+   "author": "임봉대",
+   "translator": "",
+   "publisher": "KMC",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "구약의 이야기에서 신약의 예수님까지 이어지는 흥미로운 연결을 풀어낸 책.",
+   "isbn13": "9788984308138"
+  },
+  {
+   "key": "전남기독교이야기-세움북스",
+   "title": "전남 기독교 이야기",
+   "author": "김양호",
+   "translator": "",
+   "publisher": "세움북스",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "이야기 한국교회사 시리즈 두 번째. 전남 기독교의 역사를 정교한 사실로 풀어낸 책.",
+   "isbn13": "9791187025627"
+  },
+  {
+   "key": "성화이미와아직의은혜-좋은씨앗",
+   "title": "성화, 이미와 아직의 은혜",
+   "author": "손재익",
+   "translator": "",
+   "publisher": "좋은씨앗",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "성화에 대한 오해를 풀고 이미와 아직 사이의 은혜를 성경과 신앙고백서로 설명하는 책.",
+   "isbn13": "9788958743163"
+  },
+  {
+   "key": "오늘이라는예배-ivp",
+   "title": "오늘이라는 예배",
+   "author": "티시 해리슨 워런",
+   "translator": "백지윤",
+   "publisher": "IVP",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "인생의 방향은 거대한 사상이 아니라 날마다의 작은 실천이 정한다며 일상의 예배를 말하는 책.",
+   "isbn13": "9788932816142"
+  },
+  {
+   "key": "박영선의이사야읽기-무근검",
+   "title": "박영선의 이사야 읽기",
+   "author": "박영선",
+   "translator": "",
+   "publisher": "무근검",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "박영선 목사가 젊은 목회자들에게 이사야서를 강의한 내용을 담은 책.",
+   "isbn13": "9791187506263"
+  },
+  {
+   "key": "구약의그리스도어떻게설교할것인가-이레서원",
+   "title": "구약의 그리스도 어떻게 설교할 것인가",
+   "author": "시드니 그레이다누스",
+   "translator": "김진섭, 류호영, 류호준",
+   "publisher": "이레서원",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "설교학의 대가가 구약 본문에서 그리스도를 어떻게 설교할지 보여 주는 책.",
+   "isbn13": "9788974355135"
+  },
+  {
+   "key": "작별-돌베개",
+   "title": "작별",
+   "author": "레이먼드 게이타",
+   "translator": "변진경",
+   "publisher": "돌베개",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30632",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《개혁자들》 외 8종",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "철학자가 아버지를 기억하며 쓴 회고록이자 이민자 가정의 이야기.",
+   "isbn13": "9788971999585"
+  },
+  {
+   "key": "산딸기크림봉봉-소피블래콜그림",
+   "title": "산딸기 크림봉봉",
+   "author": "에밀리 젠킨스",
+   "translator": "",
+   "publisher": "소피 블래콜 그림",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=30627",
+   "section": "review",
+   "corner": "독서일기",
+   "headline": "맛도 좋고, 영양도 풍성한 그림책",
+   "by": [
+    "오수경"
+   ],
+   "summary": "산딸기 크림봉봉이라는 달콤한 이름으로 시작하는 에밀리 젠킨스의 그림책.",
+   "isbn13": "9791185751917"
+  }
+ ]
+}

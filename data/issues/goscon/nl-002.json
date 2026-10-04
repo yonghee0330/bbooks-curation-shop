@@ -1,0 +1,29 @@
+{
+ "media": "goscon",
+ "id": "nl-002",
+ "no": "뉴스레터 2호",
+ "title": "〈서사의 서사〉 뉴스레터 2호 · 2024년 1월 둘째 주 · 일에 진심인 사람들",
+ "date": "2024-01-09",
+ "column": "서사의 서사 뉴스레터",
+ "url": "https://stibee.com/api/v1.0/emails/share/q8k_QMSX-Ce7W6-7gX2l8c4MXaObl7Y",
+ "headline": "일에 진심인 사람들",
+ "season": "",
+ "_curated": true,
+ "items": [
+  {
+   "key": "팀켈러의일과영성-두란노",
+   "title": "팀 켈러의 일과 영성",
+   "author": "팀 켈러",
+   "translator": "",
+   "publisher": "두란노",
+   "link": "https://stibee.com/api/v1.0/emails/share/q8k_QMSX-Ce7W6-7gX2l8c4MXaObl7Y",
+   "section": "essay",
+   "by": [
+    "서사의 서사"
+   ],
+   "headline": "일에 진심인 사람들",
+   "summary": "일하는 태도를 돌아보게 한 책. 힘겨운 한 주를 보내던 필자가 이 책을 읽으며 일에 대한 마음을 가다듬는다.",
+   "isbn13": "9788953119901"
+  }
+ ]
+}

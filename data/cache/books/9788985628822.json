@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788985628822",
+ "isbn10": "K082434344",
+ "itemId": 62650318,
+ "title": "믿음의 흔적을 찾아 : 일본 간토 간사이의 기독교 유적",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "한국기독교역사연구소 편집부 (엮은이)",
+ "authors": [],
+ "publisher": "한국기독교역사연구소",
+ "pubDate": "2015-06-25",
+ "priceStandard": 16000,
+ "priceSales": 14400,
+ "pages": 416,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교 역사",
+ "series": null,
+ "description": "전문 연구자들이 일본의 기독교 유적지를 소개하고 역사적 배경과 그 의미를 설명한 답사 안내서이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/6265/3/cover200/8985628836_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=62650318&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "책을 내면서: 그리스도교 유적으로 다시 읽는 일본 근현대사 / 서정민\n\n1부 동녘의 새 천막 간토\n\n1 일본의 제물포 요코하마\n\n2 일본의 서울 도쿄에서 만나는 기독교\n\n3 간토 외곽의 선교 발자취\n\n2부 일본인의 영원한 본향 간사이\n\n4 또 하나의 선교 관문 효고\n\n5 한일의 접점, 상인의 도시 오사카\n\n6 고대 한일관계사의 원점 나라\n\n7 천년 도읍 교토의 기독교유적",
+ "intro": "전문 연구자들이 일본의 기독교 유적지를 소개하고 역사적 배경과 그 의미를 설명한 답사 안내서이다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 03:54",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/6265/3/cover500/8985628836_1.jpg"
+}

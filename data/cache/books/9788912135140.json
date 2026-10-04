@@ -1,0 +1,29 @@
+{
+ "isbn13": "9788912135140",
+ "isbn10": "8912135147",
+ "itemId": 169016,
+ "title": "하마에게 물리다",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "오에 겐자부로 (지은이)",
+ "authors": [],
+ "publisher": "고려원(고려원미디어)",
+ "pubDate": "1997-01-01",
+ "priceStandard": 7500,
+ "priceSales": 6750,
+ "pages": 338,
+ "category": "국내도서>소설/시/희곡>일본소설>1950년대 이후 일본소설",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/16/90/cover200/8912135147_1.gif",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=169016&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 08:09",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/16/90/cover500/8912135147_1.gif"
+}
