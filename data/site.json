@@ -1,8 +1,8 @@
 {
-  "name": "비북스 큐레이션 서점",
-  "short": "비북스 서가",
-  "tagline": "좋은 매체가 고른 책을, 원미동 작은 서점에서",
-  "intro": "서평지와 잡지, 출판 뉴스레터가 이달에 고른 책들을 모아 둡니다. 누가 왜 추천했는지 함께 읽고, 마음에 드는 책은 비북스에서 바로 주문하세요.",
+  "name": "C.books — 크리스천북 큐레이팅 서비스",
+  "short": "C.books",
+  "tagline": "크리스천북 큐레이팅 서비스",
+  "intro": "기독 서평지와 잡지, 출판 뉴스레터가 고른 책과 특별 추천도서 리스트를 한자리에 모읍니다. 누가 왜 추천했는지 함께 읽고, 마음에 드는 책은 C.books에서 바로 주문하세요.",
   "store": {
     "address": "경기도 부천시 원미구 부천로136번길 24, 지하2층",
     "instagram": "https://www.instagram.com/b_books2026/",
@@ -31,7 +31,7 @@
       "color": "#7a2e2a"
     }
   },
-  "brand": "Q.books",
+  "brand": "C.books",
   "_brandNote": "회원·주문 영역 이름(가칭). 확정되면 이 값만 바꾸면 됨",
   "supabase": {
     "url": "https://lswckxtmigcrlfbmmdns.supabase.co",

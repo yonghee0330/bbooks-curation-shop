@@ -1,4 +1,4 @@
-/* 비북스 큐레이션 서점 — 장바구니(localStorage) · 필터 · 탭 · 주문 요청 */
+/* C.books 크리스천북 큐레이팅 서비스 — 장바구니(localStorage) · 필터 · 탭 · 주문 요청 */
 (function () {
   'use strict';
   var CFG = window.SHOP || {};
@@ -242,7 +242,7 @@
           var hist = load('bbshop.orders', []); hist.unshift(order); save('bbshop.orders', hist.slice(0, 20));
           save(KEY, {}); paint();
           var lines = order.items.map(function (x) { return '· ' + x.title + ' × ' + x.qty + '  ' + won(x.price * x.qty); }).join('\n');
-          var txt = '[' + (CFG.brand || '비북스') + ' 주문 ' + order.no + ']\n' + lines + '\n' + (order.pts ? '적립금 사용 −' + won(order.pts) + '\n' : '') + (order.ship === 'delivery' ? '택배 ' + (order.shipping ? won(order.shipping) : '무료') : '매장 픽업') + '\n합계 ' + won(order.total);
+          var txt = '[' + (CFG.brand || 'C.books') + ' 주문 ' + order.no + ']\n' + lines + '\n' + (order.pts ? '적립금 사용 −' + won(order.pts) + '\n' : '') + (order.ship === 'delivery' ? '택배 ' + (order.shipping ? won(order.shipping) : '무료') : '매장 픽업') + '\n합계 ' + won(order.total);
           $('#cart-box').hidden = true;
           var done = $('#done'); done.hidden = false;
           done.innerHTML = '<h2>주문 요청을 받았어요</h2><p>주문번호 <b>' + order.no + '</b></p><p class="muted">' + esc(CFG.eta || '') + '<br>입고가 확인되면 ' + esc(order.phone) + '로 결제 안내를 보내 드릴게요.</p><pre>' + esc(txt) + '</pre>' +

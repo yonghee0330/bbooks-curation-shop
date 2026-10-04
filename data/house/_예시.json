@@ -3,7 +3,7 @@
   "id": "2026-10-example",
   "title": "목록 제목",
   "date": "2026-10-01",
-  "curator": "용서점",
+  "curator": "C.C",
   "intro": "이 목록을 만든 이유 두세 문장.",
   "items": [
     {"key": "book-1", "title": "책 제목", "publisher": "출판사", "isbn13": "", "note": "서점이 이 책을 고른 이유 한두 문장."}

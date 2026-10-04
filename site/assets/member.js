@@ -1,9 +1,9 @@
-/* Q.books(가칭) 회원 — Supabase 로그인(구글·카카오) · 가입 동의 · 내 정보 · 주문 조회 · 운영자 */
+/* C.books 회원 — Supabase 로그인(구글·카카오) · 가입 동의 · 내 정보 · 주문 조회 · 운영자 */
 (function () {
   'use strict';
   var CFG = window.SHOP || {}, SB = CFG.supabase || {}, ROOT = CFG.root || '', IDX = CFG.idx || '';
   var PAGE = document.body.getAttribute('data-page') || '';
-  var BRAND = CFG.brand || 'Q.books';
+  var BRAND = CFG.brand || 'C.books';
 
   function $(s, el) { return (el || document).querySelector(s); }
   function $$(s, el) { return Array.prototype.slice.call((el || document).querySelectorAll(s)); }

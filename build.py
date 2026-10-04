@@ -1,21 +1,21 @@
 #!/usr/bin/env python3
-"""비북스 큐레이션 서점 빌드 — data/(매체별 호 + 용서점 목록 + 알라딘 캐시) → 정적 사이트
+"""C.books 크리스천북 큐레이팅 서비스 빌드 — data/(매체별 호 + C.C 목록 + 알라딘 캐시) → 정적 사이트
 
   python3 collect.py          # 1) 매체별 새 호·새 글 수집 → data/issues/
-  python3 pending.py          # 2) 요약이 비어 있는 추천 확인 (요약은 비북스가 다시 씀)
+  python3 pending.py          # 2) 요약이 비어 있는 추천 확인 (요약은 C.books가 다시 씀)
   python3 fetch.py            # 3) 책 정보·목차 (알라딘)
   python3 build.py            # 4) dist/ 생성       (--serve: http://localhost:8810)
   python3 build.py --pages    #    GitHub Pages용 docs/ → commit · push 하면 배포
 
 출력
-  index.html                  홈 — 이번 달, 여러 매체가 함께 고른 책, 용서점 큐레이션, 매체
+  index.html                  홈 — 이번 달, 여러 매체가 함께 고른 책, C.C 큐레이션, 매체
   m/<매체>/                   매체별 — 연도·계절별 호 목록
   i/<매체>/<호>/              호별 — 코너별 추천 (한 번에 담기)
   t/                          시기별 — 월별 타임라인
   t/<YYYY-MM>/                같은 시기, 매체마다 고른 책
   b/<isbn13>/                 도서 — 같은 책에 대한 매체별 추천 글, 책소개·목차, 구매
   x/                          탐색 — 매체·기간·코너·겹침·검색을 조합
-  y/ , y/<목록>/              용서점 큐레이션
+  y/ , y/<목록>/              C.C 큐레이션
   cart/                       장바구니 · 주문 요청
   data/catalog.json, data/index.json
 """
@@ -46,7 +46,7 @@ MEDIA = OrderedDict(sorted(((k, v) for k, v in json.load(open(os.path.join(DATA,
 # 코너: (이름, 무게 — 작을수록 강한 추천, 묶음)
 SECTIONS = {
     'pick': ('이달의 책', 1, 'pick'), 'mention': ('이달의 책 두 번째', 2, 'pick'), 'year': ('올해의 책', 2, 'pick'),
-    'house': ('용서점 추천', 2, 'house'),
+    'house': ('C.C 추천', 2, 'house'),
     'editor': ('편집자 추천', 3, 'pick'), 'curation': ('큐레이션', 3, 'pick'), 'best': ('베스트서평', 3, 'review'),
     'essay': ('서사의 서사', 3, 'review'), 'special': ('특별 기고', 4, 'review'),
     'preview': ('신간 프리뷰', 4, 'new'), 'new': ('이 책 한번 잡솨봐', 4, 'new'), 'daily': ('1일1책', 4, 'new'),
@@ -56,7 +56,7 @@ SECTIONS = {
 SECTION_BY_MEDIA = {('emmaus', 'editor'): '기획위원 Pick', ('cbooknews', 'editor'): '편집자추천도서', ('goscon', 'editor'): '에디터가 고른 책',
                     ('goscon', 'new'): '새 책 소개', ('kmib', 'pick'): '올해 최고의 책', ('kmib', 'curation'): '놓치기 아까운 책',
                     ('ct100', 'classic'): '20세기 기독교 책 100권'}
-GROUPS = [('pick', '대표 추천'), ('review', '서평·에세이'), ('new', '신간 소개'), ('house', '용서점'), ('related', '함께 읽기')]
+GROUPS = [('pick', '대표 추천'), ('review', '서평·에세이'), ('new', '신간 소개'), ('house', 'C.C'), ('related', '함께 읽기')]
 SEASON_ORDER = {'봄': 1, '여름': 2, '가을': 3, '겨울': 4}
 
 e = html.escape
@@ -126,9 +126,41 @@ def toc_html(toc):
 
 # ───────────────────────── 데이터 ─────────────────────────
 
+def unit_n(mm, n):
+    return {'호': f'{n}개 호', '년': f'{n}개 연도', '목록': f'{n}개 목록'}.get(mm.get('unit'), f'{n}개월')
+
+
+def fam(m):
+    """같은 매체에서 나뉜 목록(복음과상황 서평·새 책 / 서사의 서사, 틈 / 틈 올해의 책)은 한 매체로 센다"""
+    return MEDIA[m].get('family', m)
+
+
+def is_regular(m):
+    return MEDIA[m].get('group') == 'regular'
+
+
+def split_issue(m, iss):
+    """한 파일을 화면용 목록으로 나눈다 — 복음과상황: 〈서사의 서사〉 / 정기 서평·새 책 코너, 틈: 연말 올해의 책은 특별 리스트"""
+    items = iss.get('items') or []
+    if m == 'goscon':
+        essay = [it for it in items if it.get('section') in ('essay', 'related')]
+        rest = [it for it in items if it.get('section') not in ('essay', 'related')]
+        out = []
+        if essay:
+            out.append(('goscon', dict(iss, items=essay, column='서사의 서사')))
+        if rest:
+            link = next((it.get('link') for it in rest if it.get('link')), '') or iss.get('url', '')
+            out.append(('gosconbook', dict(iss, items=rest, title=f'복음과상황 {iss.get("no", "")} 서평·새 책'.replace('  ', ' '),
+                                           headline='', column='정기 코너', url=link)))
+        return out
+    if m == 'teum' and items and all(it.get('section') == 'year' for it in items):
+        return [('teumyear', iss)]
+    return [(m, iss)]
+
+
 class Catalog:
     def __init__(self):
-        self.issues = []          # 호/월 묶음/용서점 목록
+        self.issues = []          # 호/월 묶음/C.C 목록
         self.recs = []            # 추천 한 건 = (책, 매체, 호, 코너, 추천자, 요약)
         self.books = {}           # isbn13 → 알라딘 정보 + recs
         self.load()
@@ -158,8 +190,10 @@ class Catalog:
         hd = os.path.join(DATA, 'house')
         if os.path.isdir(hd):
             lists += [('yong', os.path.join(hd, fn)) for fn in sorted(os.listdir(hd)) if fn.endswith('.json') and not fn.startswith('_')]
+        expanded = []
         for m, path in lists:
-            iss = json.load(open(path, encoding='utf-8'))
+            expanded += split_issue(m, json.load(open(path, encoding='utf-8')))
+        for m, iss in expanded:
             iss['media'] = m
             if not iss.get('items') or iss.get('hidden'):
                 continue
@@ -187,13 +221,14 @@ class Catalog:
             b['recs'].sort(key=lambda r: (r['date'], -r['weight']), reverse=True)
             b['media'] = sorted({r['media'] for r in b['recs']}, key=lambda m: MEDIA[m]['order'])
             b['outside'] = [m for m in b['media'] if m != 'yong']
+            b['fams'] = sorted({fam(m) for m in b['outside']})
             b['weight'] = min((r['weight'] for r in b['recs']), default=9)
             b['last'] = max((r['date'] for r in b['recs']), default='')
             b['first'] = min((r['date'] for r in b['recs']), default='')
         self.books = {k: v for k, v in self.books.items() if v['recs']}
 
     def months(self):
-        return sorted({r['month'] for r in self.recs if r['media'] != 'yong'}, reverse=True)
+        return sorted({r['month'] for r in self.recs if is_regular(r['media'])}, reverse=True)
 
 
 # ───────────────────────── 조각 ─────────────────────────
@@ -209,7 +244,7 @@ def page(title, body, depth, desc='', active='', og_image=None, page_id='', noin
     up = '../' * depth
     desc = desc or SITE['intro']
     nav = [('', '홈', 'home'), ('m/', '매체별', 'media'), ('t/', '시기별', 'time'), ('x/', '탐색', 'explore'),
-           ('y/', '용서점', 'yong'), ('cart/', '장바구니', 'cart')]
+           ('y/', 'C.C', 'yong'), ('cart/', '장바구니', 'cart')]
     navh = ''.join(
         f'<a href="{up}{href}" class="{"on" if key == active else ""}">{label}{"<b class=cart-n data-cart-count></b>" if key == "cart" else ""}</a>'
         for href, label, key in nav) + f'<a href="{up}login/" class="acct{" on" if active == "me" else ""}" data-account hidden>로그인</a>'
@@ -237,7 +272,7 @@ def page(title, body, depth, desc='', active='', og_image=None, page_id='', noin
 <body data-page="{page_id}">
 <header class="top">
   <div class="wrap top-in">
-    <a class="logo" href="{up}"><span class="logo-mark">b</span><span><b>{e(SITE['short'])}</b><small>{e(SITE['tagline'])}</small></span></a>
+    <a class="logo" href="{up}"><span class="logo-mark">C</span><span><b>{e(SITE['short'])}</b><small>{e(SITE['tagline'])}</small></span></a>
     <nav>{navh}</nav>
   </div>
 </header>
@@ -247,7 +282,7 @@ def page(title, body, depth, desc='', active='', og_image=None, page_id='', noin
 <footer class="foot">
   <div class="wrap">
     <p><b>{e(SITE['name'])}</b> · {e(SITE['store']['address'])} · <a href="{SITE['store']['instagram']}" target="_blank" rel="noopener">@{e(SITE['store']['instagram'].rstrip('/').rsplit('/', 1)[-1])}</a></p>
-    <p class="muted">추천 글 요약은 비북스가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 각 매체에서 읽어 주세요 — {' · '.join(f'<a href="{mm["home"]}" target="_blank" rel="noopener">{e(mm["name"])}</a>' for k, mm in MEDIA.items() if mm.get('home'))}. 도서 정보·표지·목차 제공: 알라딘.</p>
+    <p class="muted">추천 글 요약은 C.books가 각 매체의 글을 읽고 다시 쓴 것입니다. 원문은 각 매체에서 읽어 주세요 — {' · '.join(f'<a href="{mm["home"]}" target="_blank" rel="noopener">{e(mm["name"])}</a>' for k, mm in MEDIA.items() if mm.get('home'))}. 도서 정보·표지·목차 제공: 알라딘.</p>
     <p class="small muted">{biz_footer()}</p>
     <p class="small"><a href="{up}terms/">이용약관</a> · <a href="{up}privacy/"><b>개인정보 처리방침</b></a> · <a href="{up}order/">비회원 주문 조회</a></p>
   </div>
@@ -349,7 +384,7 @@ def build_home(c):
     # 이번 달 — 매체별 최신 호
     latest_cols = ''
     for m, mm in MEDIA.items():
-        if mm.get('house'):
+        if mm.get('group') != 'regular':
             continue
         iss = next((i for i in c.issues if i['media'] == m), None)
         if not iss:
@@ -362,19 +397,19 @@ def build_home(c):
   <span class="latest-d">{ymd(iss['date'])} · {len(iss['recs'])}권</span>
   {strip(list(OrderedDict((x['isbn13'], x) for x in bs).values()), up, 5).replace('<a ', '<span ').replace('</a>', '</span>')}
 </a>'''
-    multi = sorted([b for b in c.books.values() if len(b['outside']) >= 2],
-                   key=lambda b: (-len(b['outside']), b['weight'], b['last']), reverse=False)
-    multi = sorted(multi, key=lambda b: (-len(b['outside']), -int(b['last'].replace('-', '') or 0)))
+    multi = [b for b in c.books.values() if len(b['fams']) >= 2]
+    multi = sorted(multi, key=lambda b: (-len(b['fams']), -int(b['last'].replace('-', '') or 0)))
     multi_html = ''.join(f'''<a class="overlap" href="b/{b['isbn13']}/">
   {cover(b)}
   <div><b>{e(b['short'])}</b><span class="meta">{e(b['publisher'])}</span>
   <div class="mchips">{media_dots(b)}</div><small>{len(b['recs'])}편의 추천 · {ymd(b['first'])[:9]} ~ {ymd(b['last'])[:9]}</small></div>
 </a>''' for b in multi[:12])
     house = [i for i in c.issues if i['media'] == 'yong']
-    house_html = ''.join(f'''<a class="house" href="{i['path']}"><span class="kicker">용서점 큐레이션 · {ymd(i['date'])[:9]}</span><b>{e(i['title'])}</b><p>{e(i.get('intro', '')[:110])}</p>{strip([r['book'] for r in i['recs'] if r['book']], up, 6).replace('<a ', '<span ').replace('</a>', '</span>')}</a>''' for i in house[:3])
-    n_media = sum(1 for m, mm in MEDIA.items() if not mm.get('house') and any(i['media'] == m for i in c.issues))
+    house_html = ''.join(f'''<a class="house" href="{i['path']}"><span class="kicker">C.C · {ymd(i['date'])[:9]}</span><b>{e(i['title'])}</b><p>{e(i.get('intro', '')[:110])}</p>{strip([r['book'] for r in i['recs'] if r['book']], up, 6).replace('<a ', '<span ').replace('</a>', '</span>')}</a>''' for i in house[:3])
+    n_media = len({fam(m) for m, mm in MEDIA.items() if mm.get('group') == 'regular' and any(i['media'] == m for i in c.issues)})
+    n_special = sum(1 for m, mm in MEDIA.items() if mm.get('group') == 'special' and any(i['media'] == m for i in c.issues))
     n_reviews = sum(1 for r in c.recs if r['media'] != 'yong')
-    media_cards = ''
+    media_cards, special_cards = '', ''
     for m, mm in MEDIA.items():
         if mm.get('house'):
             continue
@@ -382,22 +417,26 @@ def build_home(c):
         if not iss:
             continue
         nb = len({r['isbn'] for i in iss for r in i['recs'] if r['isbn']})
-        media_cards += f'''<a class="media-card" href="m/{m}/" style="--mc:{mm['color']}"><div><b>{e(mm['full'])}</b><span>{e(mm['kind'])} · {e(mm['cadence'])}</span><p>{e(mm['about'])}</p></div><small>{len(iss)}{'개 호' if mm['unit'] == '호' else '개월'} · {nb}권<br>{ymd(min(i['date'] for i in iss))[:9]} ~</small></a>'''
+        card = f'''<a class="media-card" href="m/{m}/" style="--mc:{mm['color']}"><div><b>{e(mm['full'])}</b><span>{e(mm['kind'])} · {e(mm['cadence'])}</span><p>{e(mm['about'])}</p></div><small>{unit_n(mm, len(iss))} · {nb}권<br>{ymd(min(i['date'] for i in iss))[:9]} ~</small></a>'''
+        if mm.get('group') == 'special':
+            special_cards += card
+        else:
+            media_cards += card
     body = f'''
 <section class="hero">
   <div class="wrap hero-in">
     <div class="hero-txt">
-      <p class="kicker">기독 서평 큐레이션 · {month_label(cur) if cur else ''}</p>
+      <p class="kicker">C.books · 크리스천북 큐레이팅 서비스 · {month_label(cur) if cur else ''}</p>
       <h1>좋은 매체가 고른 책,<br>한자리에서 비교하며 고르기</h1>
       <p class="sub">{e(SITE['intro'])}</p>
-      <p class="stats"><b>{n_media}</b>개 매체 · <b>{len([i for i in c.issues if i['media'] != 'yong'])}</b>개 호 · <b>{n_reviews:,}</b>편의 추천 · <b>{len(c.books):,}</b>권</p>
+      <p class="stats"><b>{n_media}</b>개 정기 매체 · <b>{n_special}</b>개 특별 리스트 · <b>{len([i for i in c.issues if i['media'] != 'yong'])}</b>개 호 · <b>{n_reviews:,}</b>편의 추천 · <b>{len(c.books):,}</b>권</p>
       <div class="row"><a class="btn primary" href="x/">조건으로 찾아보기</a><a class="btn ghost" href="t/{cur}/">{month_label(cur) if cur else ''}에 고른 책 →</a></div>
     </div>
   </div>
 </section>
 
 <section class="wrap block">
-  <div class="sec-head"><h2>매체별 최신 호</h2><p>같은 시기, 각 매체가 고른 책</p></div>
+  <div class="sec-head"><h2>정기 매체 최신 호</h2><p>꾸준히 업데이트되는 매체들이 같은 시기에 고른 책</p></div>
   <div class="latests">{latest_cols}</div>
 </section>
 
@@ -406,18 +445,23 @@ def build_home(c):
   <div class="overlaps">{multi_html or '<p class="muted">아직 겹친 책이 없어요.</p>'}</div>
 </section>
 
-{f'<section class="wrap block"><div class="sec-head"><h2>용서점 큐레이션</h2><p>매체들의 추천을 함께 읽고 서점이 고른 목록</p><a class="more" href="y/">전체 →</a></div><div class="houses">{house_html}</div></section>' if house else ''}
+{f'<section class="wrap block"><div class="sec-head"><h2>C.books Curating - C.C</h2><p>매체들의 추천을 함께 읽고 C.books가 고른 목록</p><a class="more" href="y/">전체 →</a></div><div class="houses">{house_html}</div></section>' if house else ''}
 
 <section class="wrap block">
-  <div class="sec-head"><h2>함께 읽는 매체</h2><p>추천 목록을 가져오는 곳</p></div>
+  <div class="sec-head"><h2>정기 업데이트 매체</h2><p>매달·매주 새 추천이 올라오는 곳</p></div>
   <div class="media-list">{media_cards}</div>
 </section>
+
+<section class="wrap block">
+  <div class="sec-head"><h2>특별 추천도서 리스트</h2><p>해마다, 혹은 한 번 발표된 선정 목록</p></div>
+  <div class="media-list">{special_cards}</div>
+</section>
 '''
-    write('index.html', page(f'{SITE["name"]} — 기독 서평 매체들이 고른 책', body, 0, active='home'))
+    write('index.html', page(SITE['name'], body, 0, active='home'))
 
 
 def build_media(c):
-    idx = ''
+    idx = {'regular': '', 'special': ''}
     for m, mm in MEDIA.items():
         if mm.get('house'):
             continue
@@ -446,14 +490,16 @@ def build_media(c):
     <p class="kicker">{e(mm['en'])} · {e(mm['kind'])}</p>
     <h1>{e(mm['full'])}</h1>
     <p class="sub">{e(mm['about'])}</p>
-    <p class="stats light">{len(iss)}{'개 호' if mm['unit'] == '호' else '개월'} · 추천 {sum(len(i['recs']) for i in iss)}편 · {nb}권</p>
-    <div class="row"><a class="btn ghost light" href="{mm['subscribe']}" target="_blank" rel="noopener">{e(mm['name'])} 구독·원문 ↗</a><a class="btn ghost light" href="{up}x/?m={m}">이 매체의 책 탐색</a></div>
+    <p class="stats light">{unit_n(mm, len(iss))} · 추천 {sum(len(i['recs']) for i in iss)}편 · {nb}권</p>
+    <div class="row">{f'<a class="btn ghost light" href="{mm["subscribe"]}" target="_blank" rel="noopener">{e(mm["name"])} 원문 ↗</a>' if mm.get('subscribe') else ''}<a class="btn ghost light" href="{up}x/?m={m}">이 매체의 책 탐색</a></div>
   </div>
 </section>
 <div class="wrap seasons">{sec_html}</div>'''
         write(f'm/{m}/index.html', page(f'{mm["full"]} 추천 도서 — {SITE["short"]}', body, 2, desc=mm['about'], active='media'))
-        idx += f'''<a class="media-issue" href="{m}/" style="--mc:{mm['color']}"><span class="mag-en">{e(mm['en'])}</span><b>{e(mm['full'])}</b><span>{e(mm['about'])}</span><small>{len(iss)}{'개 호' if mm['unit'] == '호' else '개월'} · {nb}권 · 최근 {ymd(iss[0]['date'])}</small></a>'''
-    write('m/index.html', page(f'매체별 — {SITE["short"]}', f'<section class="wrap block"><div class="sec-head"><h1>매체별</h1><p>매체를 고르면 연도·계절별로 호를 볼 수 있어요</p></div><div class="issues">{idx}</div></section>', 1, active='media'))
+        idx[mm.get('group', 'regular')] += f'''<a class="media-issue" href="{m}/" style="--mc:{mm['color']}"><span class="mag-en">{e(mm['en'])}</span><b>{e(mm['full'])}</b><span>{e(mm['about'])}</span><small>{unit_n(mm, len(iss))} · {nb}권 · 최근 {ymd(iss[0]['date'])}</small></a>'''
+    body = (f'<section class="wrap block"><div class="sec-head"><h1>정기 업데이트 매체</h1><p>매체를 고르면 연도·계절별로 호를 볼 수 있어요</p></div><div class="issues">{idx["regular"]}</div></section>'
+            f'<section class="wrap block"><div class="sec-head"><h2>특별 추천도서 리스트</h2><p>연말 선정·고전 목록처럼 따로 발표된 리스트</p></div><div class="issues">{idx["special"]}</div></section>')
+    write('m/index.html', page(f'매체별 — {SITE["short"]}', body, 1, active='media'))
 
 
 def build_issues(c):
@@ -525,15 +571,15 @@ def build_time(c):
         for ym in yms:
             cells = ''
             for m, mm in MEDIA.items():
-                if mm.get('house'):
+                if mm.get('group') != 'regular':
                     continue
                 rs = [r for r in c.recs if r['month'] == ym and r['media'] == m]
                 bs = list(OrderedDict((r['book']['isbn13'], r['book']) for r in sorted(rs, key=lambda r: r['weight']) if r['book']).values())
                 cells += f'<div class="tl-cell" style="--mc:{mm["color"]}">{f"<b>{len(rs)}</b>" + strip(bs, up1, 3).replace("<a ", "<span ").replace("</a>", "</span>") if rs else "<span class=muted>—</span>"}</div>'
-            overlap = [b for b in c.books.values() if len({r['media'] for r in b['recs'] if r['month'] == ym and r['media'] != 'yong'}) >= 2]
+            overlap = [b for b in c.books.values() if len({fam(r['media']) for r in b['recs'] if r['month'] == ym and is_regular(r['media'])}) >= 2]
             rows += f'<a class="tl-row" href="{ym}/"><span class="tl-m">{int(ym[5:7])}월<small>{ym[:4]}</small></span>{cells}<span class="tl-ov">{f"겹침 {len(overlap)}" if overlap else ""}</span></a>'
         tl += f'<section class="season"><h3>{e(s)}</h3>{rows}</section>'
-    head = ''.join(f'<span style="--mc:{mm["color"]}">{e(mm["name"])}</span>' for m, mm in MEDIA.items() if not mm.get('house'))
+    head = ''.join(f'<span style="--mc:{mm["color"]}">{e(mm["name"])}</span>' for m, mm in MEDIA.items() if mm.get('group') == 'regular')
     body = f'''<section class="wrap block"><div class="sec-head"><h1>시기별</h1><p>같은 시기에 매체마다 어떤 책을 골랐는지 — 달을 누르면 나란히 볼 수 있어요</p></div>
 <div class="tl"><div class="tl-head"><span></span>{head}<span></span></div>{tl}</div></section>'''
     write('t/index.html', page(f'시기별 — {SITE["short"]}', body, 1, active='time'))
@@ -543,10 +589,10 @@ def build_time(c):
         cols = ''
         month_books = defaultdict(set)
         for r in c.recs:
-            if r['month'] == ym and r['book'] and r['media'] != 'yong':
+            if r['month'] == ym and r['book'] and is_regular(r['media']):
                 month_books[r['isbn']].add(r['media'])
         for m, mm in MEDIA.items():
-            if mm.get('house'):
+            if mm.get('group') != 'regular':
                 continue
             rs = sorted([r for r in c.recs if r['month'] == ym and r['media'] == m], key=lambda r: (r['weight'], r['date']))
             if not rs:
@@ -558,14 +604,14 @@ def build_time(c):
                     continue
                 seen.add(k)
                 b = r['book']
-                hot = ' hot' if b and len(month_books[r['isbn']]) >= 2 else ''
+                hot = ' hot' if b and len({fam(x) for x in month_books[r['isbn']]}) >= 2 else ''
                 items += f'''<li class="{hot}">{f'<a href="{up}b/{b["isbn13"]}/">{cover(b, "cover xs")}</a>' if b else '<div class="cover xs nocover"></div>'}
 <div><a href="{up}b/{b['isbn13']}/" class="t">{e(b['short'])}</a>''' if b else f'''<li>{'<div class="cover xs nocover"></div>'}<div><span class="t">{e(r['item']['title'])}</span>'''
                 items += f'<small>{e(r["secKo"])}{(" · " + e(r["by"][0])) if r["by"] else ""}</small>{"".join(mchip(x) for x in sorted(month_books[r["isbn"]] - {m})) if hot else ""}</div></li>'
             issues = [i for i in c.issues if i['media'] == m and i['month'] == ym]
             cols += f'''<section class="mcol" style="--mc:{mm['color']}"><h2><a href="{up}m/{m}/">{e(mm['name'])}</a></h2>
 <p class="muted small">{' · '.join(f'<a href="{up}{i["path"]}">{e(i.get("no") or "목록")}</a>' for i in issues)}</p><ol>{items}</ol></section>'''
-        overlap = [c.books[i] for i, ms in month_books.items() if len(ms) >= 2]
+        overlap = [c.books[i] for i, ms in month_books.items() if len({fam(x) for x in ms}) >= 2]
         i_ = months.index(ym)
         prev_m = months[i_ + 1] if i_ + 1 < len(months) else None
         next_m = months[i_ - 1] if i_ > 0 else None
@@ -573,7 +619,7 @@ def build_time(c):
         callout = f'<div class="callout"><b>이달 여러 매체가 함께 고른 책</b> {links}</div>' if overlap else ''
         body = f'''
 <section class="wrap block">
-  <div class="sec-head"><h1>{month_label(ym)}, 매체들이 고른 책</h1><p>{e(season_of(ym + '-15'))} · {sum(1 for r in c.recs if r['month'] == ym and r['media'] != 'yong')}편의 추천</p>
+  <div class="sec-head"><h1>{month_label(ym)}, 매체들이 고른 책</h1><p>{e(season_of(ym + '-15'))} · {sum(1 for r in c.recs if r['month'] == ym and is_regular(r['media']))}편의 추천</p>
   <span class="pager">{f'<a href="../{prev_m}/">← {month_label(prev_m)}</a>' if prev_m else ''}{f'<a href="../{next_m}/">{month_label(next_m)} →</a>' if next_m else ''}</span></div>
   {callout}
   <div class="mcols">{cols}</div>
@@ -613,7 +659,7 @@ def build_books(c):
     <p class="meta">{e(b['author'])}</p>
     <dl class="facts">{dl}</dl>
     <div class="buybox">
-      <div class="prices"><span>정가 <s>{won(b['priceStandard'])}</s></span><span class="now">비북스 <b>{won(b['price'])}</b></span></div>
+      <div class="prices"><span>정가 <s>{won(b['priceStandard'])}</s></span><span class="now">C.books <b>{won(b['price'])}</b></span></div>
       <div class="qty" data-qty><button data-q="-1" aria-label="수량 빼기">−</button><input type="number" min="1" max="20" value="1" aria-label="수량"><button data-q="1" aria-label="수량 더하기">+</button></div>
       <div class="row">{add_btn(b, '장바구니 담기', 'btn add big')}<button class="btn primary big" data-buy="{b['isbn13']}">바로 주문</button></div>
       <p class="muted small">{e(SITE['store']['eta'])} 매장 픽업 또는 택배</p>
@@ -687,10 +733,9 @@ def build_house(c):
     body = f'''
 <section class="issue-hero" style="--mc:{mm['color']}"><div class="wrap">
   <p class="kicker">{e(mm['en'])}</p><h1>{e(mm['full'])}</h1><p class="sub">{e(mm['about'])}</p>
-  <p class="sub small">목록 추가: <code>data/house/</code>에 JSON 하나 (예: <code>2026-10-첫목록.json</code>) → <code>python3 fetch.py && python3 build.py</code></p>
 </div></section>
 <section class="wrap block"><div class="houses">{rows or '<p class="muted">아직 목록이 없어요.</p>'}</div></section>'''
-    write('y/index.html', page(f'용서점 큐레이션 — {SITE["short"]}', body, 1, active='yong'))
+    write('y/index.html', page(f'C.books Curating - C.C — {SITE["short"]}', body, 1, active='yong'))
 
 
 def build_cart():
@@ -748,7 +793,7 @@ def build_cart():
 
 def build_member():
     """회원(로그인·가입·내 정보)·주문 조회·운영자·약관 페이지 — 동작은 assets/member.js"""
-    B = e(SITE.get('brand', 'Q.books'))
+    B = e(SITE.get('brand', 'C.books'))
     biz = SITE.get('business', {})
     login = f'''
 <section class="wrap block narrow auth" data-need-sb>
