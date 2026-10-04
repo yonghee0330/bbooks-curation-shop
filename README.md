@@ -22,3 +22,7 @@ python3 build.py --serve    # http://localhost:8810
 - 주문: `apiUrl` 비어 있으면 데모(브라우저에만 저장). `apps-script/Orders.gs` 배포 → URL 넣으면 구글 시트 접수 + 메일 알림.
 - 알라딘 TTB 키는 `../bbooks-curation/config.json` 또는 `ALADIN_TTB_KEY` 환경변수에서 읽음.
 - 목차·책소개는 알라딘 상품 페이지의 소개 블록(getContents)에서 가져옴 — 원본 html은 `data/cache/raw` (`fetch.py --reparse`로 재파싱).
+
+## 작은 수정
+
+책 정보·추천 문구·표지 수정은 [EDITING.md](EDITING.md) 참고 (`tools/edit.py`, `tools/deploy.sh`).

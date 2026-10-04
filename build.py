@@ -38,6 +38,9 @@ SHARE = '--share' in sys.argv  # 공유용(클로드 아티팩트): 폴더 주�
 PAGES = '--pages' in sys.argv  # GitHub Pages 배포용 → docs/ (main 브랜치 /docs 에서 서빙)
 DIST = os.path.join(ROOT, 'share' if SHARE else 'docs' if PAGES else 'dist')
 VER = datetime.now().strftime('%m%d%H%M')
+BASE = '/bbooks-curation-shop/' if PAGES else '/'  # 사이트 루트 경로 (손으로 넣은 표지 이미지 주소에 사용)
+_ovp = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'data', 'overrides.json')
+OVERRIDES = {k: v for k, v in json.load(open(_ovp, encoding='utf-8')).items() if not k.startswith('_')} if os.path.exists(_ovp) else {}
 
 SITE = json.load(open(os.path.join(DATA, 'site.json'), encoding='utf-8'))
 MEDIA = OrderedDict(sorted(((k, v) for k, v in json.load(open(os.path.join(DATA, 'media.json'), encoding='utf-8')).items()
@@ -177,6 +180,17 @@ class Catalog:
         b['price'] = sale_price(b.get('priceStandard'))
         b['cover'] = b.get('cover500') or (b.get('coverUrl') or '').replace('/cover200/', '/cover500/').replace('/coversum/', '/cover500/')
         b['thumb'] = b.get('coverUrl') or b['cover']
+        ov = OVERRIDES.get(isbn) or {}  # data/overrides.json — 표지·제목·정가 손 보정
+        for k in ('title', 'author', 'publisher', 'priceStandard'):
+            if ov.get(k):
+                b[k] = ov[k]
+        if ov.get('title'):
+            b['short'] = short_title(b['title'])
+        if ov.get('priceStandard'):
+            b['price'] = sale_price(b['priceStandard'])
+        if ov.get('cover'):
+            c = ov['cover'] if ov['cover'].startswith('http') else BASE + 'assets/' + ov['cover'].lstrip('/')
+            b['cover'] = b['thumb'] = c
         b['recs'] = []
         self.books[isbn] = b
         return b
@@ -202,6 +216,8 @@ class Catalog:
             iss['path'] = f'y/{iss["id"]}/' if m == 'yong' else f'i/{m}/{iss["id"]}/'
             iss['recs'] = []
             for it in iss['items']:
+                if it.get('hidden'):  # tools/edit.py hide — 사이트에서 숨김
+                    continue
                 sec = it.get('section') or ('house' if m == 'yong' else 'review')
                 d = it.get('date') or iss['date']
                 r = {'media': m, 'mname': MEDIA[m]['name'], 'issue': iss, 'item': it, 'section': sec,
