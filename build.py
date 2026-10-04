@@ -133,6 +133,13 @@ def unit_n(mm, n):
     return {'호': f'{n}개 호', '년': f'{n}개 연도', '목록': f'{n}개 목록'}.get(mm.get('unit'), f'{n}개월')
 
 
+def line_title(i):
+    """목록 줄 제목 — 엠마오는 '제N호 · 월 · 타이틀' 중 호 뒤쪽(월 · 타이틀)"""
+    if i['media'] == 'emmaus' and ' · ' in i['title']:
+        return i['title'].split(' · ', 1)[1]
+    return i.get('headline') or i.get('subtitle') or i.get('theme') or i['title']
+
+
 def fam(m):
     """같은 매체에서 나뉜 목록(복음과상황 서평·새 책 / 서사의 서사, 틈 / 틈 올해의 책)은 한 매체로 센다"""
     return MEDIA[m].get('family', m)
@@ -409,7 +416,7 @@ def build_home(c):
         latest_cols += f'''<a class="latest" href="{iss['path']}" style="--mc:{mm['color']}">
   <span class="latest-m">{e(mm['name'])}</span>
   <b>{e(iss.get('no') or month_label(iss['month']))}</b>
-  <span class="latest-t">{e(iss.get('headline') or iss.get('subtitle') or iss.get('theme') or iss['title'])}</span>
+  <span class="latest-t">{e(line_title(iss))}</span>
   <span class="latest-d">{ymd(iss['date'])} · {len(iss['recs'])}권</span>
   {strip(list(OrderedDict((x['isbn13'], x) for x in bs).values()), up, 5).replace('<a ', '<span ').replace('</a>', '</span>')}
 </a>'''
@@ -495,7 +502,7 @@ def build_media(c):
                 bs = list(OrderedDict((r['book']['isbn13'], r['book']) for r in sorted(i['recs'], key=lambda r: r['weight']) if r['book']).values())
                 rows += f'''<a class="issue-line" href="{up}{i['path']}">
   <span class="il-no">{e(i.get('no') or month_label(i['month']))}</span>
-  <span class="il-t"><b>{e(i.get('headline') or i.get('subtitle') or i.get('theme') or i['title'])}</b><small>{ymd(i['date'])} · {e(i.get('column') or '')} · {len(i['recs'])}편</small></span>
+  <span class="il-t"><b>{e(line_title(i))}</b><small>{ymd(i['date'])} · {e(i.get('column') or '')} · {len(i['recs'])}편</small></span>
   {strip(bs, up, 6).replace('<a ', '<span ').replace('</a>', '</span>')}
 </a>'''
             sec_html += f'<section class="season"><h3>{e(s)}</h3>{rows}</section>'
@@ -560,7 +567,7 @@ def build_issues(c):
     <p class="kicker"><a href="{up}{'m/' + m + '/' if m != 'yong' else 'y/'}">{e(mm['full'])}</a> · {e(iss.get('no', ''))} · {ymd(iss['date'])}</p>
     <h1>{e(iss['title'])}</h1>
     {f'<p class="lead">{e(head_t)}</p>' if head_t else ''}
-    {f'<p class="lead">{e(iss["theme"])}</p>' if iss.get('theme') else ''}
+    {f'<p class="lead">{e(iss["theme"])}</p>' if iss.get('theme') and iss['theme'] not in iss['title'] else ''}
     {f'<p class="sub">{e(iss["intro"])}</p>' if iss.get('intro') else ''}
     <div class="row">
       {f'<button class="btn primary" data-add-many="{e(json.dumps(ids))}">추천 도서 {len(ids)}권 모두 담기 · {won(total)}</button>' if ids else ''}
