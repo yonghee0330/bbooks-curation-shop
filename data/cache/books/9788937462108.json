@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788937462108",
+ "isbn10": "8937462109",
+ "itemId": 4090640,
+ "title": "어느 시골 신부의 일기",
+ "subTitle": "",
+ "originalTitle": "Journal d'un Cure de Campagne (1937년)",
+ "author": "조르주 베르나노스 (지은이), 정영란 (옮긴이)",
+ "authors": [],
+ "publisher": "민음사",
+ "pubDate": "2009-06-05",
+ "priceStandard": 11500,
+ "priceSales": 10350,
+ "pages": 436,
+ "category": "국내도서>소설/시/희곡>프랑스소설",
+ "series": "민음사 세계문학전집 210",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/409/6/cover200/8937462109_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=4090640&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "어느 시골 신부의 일기\n\n작품 해설\n\n작가 연보",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 20:14",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/409/6/cover500/8937462109_1.jpg"
+}

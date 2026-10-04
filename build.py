@@ -55,7 +55,7 @@ SECTIONS = {
 }
 SECTION_BY_MEDIA = {('emmaus', 'editor'): '기획위원 Pick', ('cbooknews', 'editor'): '편집자추천도서', ('goscon', 'editor'): '에디터가 고른 책',
                     ('goscon', 'new'): '새 책 소개', ('kmib', 'pick'): '올해 최고의 책', ('kmib', 'curation'): '놓치기 아까운 책',
-                    ('ct100', 'classic'): '20세기 기독교 책 100권'}
+                    ('ct100', 'classic'): '20세기 기독교 책 100권', ('churchtimes', 'classic'): '최고의 기독교 서적 100선'}
 GROUPS = [('pick', '대표 추천'), ('review', '서평·에세이'), ('new', '신간 소개'), ('house', 'C.C'), ('related', '함께 읽기')]
 SEASON_ORDER = {'봄': 1, '여름': 2, '가을': 3, '겨울': 4}
 
@@ -508,7 +508,7 @@ def build_issues(c):
         mm = MEDIA[m]
         up = '../../../' if m != 'yong' else '../../'
         groups = OrderedDict()
-        for r in sorted(iss['recs'], key=lambda r: (r['weight'], r['item'].get('field', ''), r['date'])):
+        for r in sorted(iss['recs'], key=lambda r: (r['weight'], r['item'].get('rank') or 0, r['item'].get('field', ''), r['date'])):
             groups.setdefault(r['secKo'], []).append(r)
         body_groups = ''
         for label, rs in groups.items():
@@ -517,7 +517,7 @@ def build_issues(c):
                 b = r['book']
                 others = [x for x in b['outside'] if x != m] if b else []
                 other = f'<span class="also">다른 매체도 추천: {"".join(mchip(x) for x in others)}</span>' if others else ''
-                buy = f'<div class="issue-buy">{price(b)}{add_btn(b)}</div>' if b else '<div class="issue-buy"><span class="muted small">도서 정보를 찾지 못했어요</span></div>'
+                buy = f'<div class="issue-buy">{price(b)}{add_btn(b)}</div>' if b else f'<div class="issue-buy"><span class="muted small">{"국내 번역본을 찾지 못했어요" if mm.get("group") == "special" else "도서 정보를 찾지 못했어요"}</span></div>'
                 title = f'<a href="{up}b/{b["isbn13"]}/">{e(b["short"])}</a>' if b else e(r['item']['title'])
                 orig = f' · <a class="orig" href="{e(r["url"])}" target="_blank" rel="noopener">원문 ↗</a>' if r['url'] and r['url'] != iss.get('url') and m != 'yong' else ''
                 rows += f'''<article class="issue-row">
@@ -535,7 +535,7 @@ def build_issues(c):
             body_groups += f'<section class="issue-sec"><div class="issue-sec-head"><h2>{e(label)}</h2><span>{len(rs)}</span></div>{rows}</section>'
         ids = list(OrderedDict.fromkeys(r['isbn'] for r in iss['recs'] if r['book'] and r['section'] != 'related'))
         total = sum(c.books[i]['price'] for i in ids)
-        same_month = [i for i in c.issues if i['month'] == iss['month'] and i['media'] != m and i['media'] != 'yong']
+        same_month = [i for i in c.issues if i['month'] == iss['month'] and i['media'] != m and is_regular(i['media'])] if is_regular(m) else []
         sm = ''.join(f'<a href="{up}{i["path"]}">{mchip(i["media"])} {e(i.get("no") or month_label(i["month"]))}</a>' for i in same_month)
         head_t = iss.get('headline') or iss.get('subtitle') or ''
         body = f'''
@@ -549,7 +549,7 @@ def build_issues(c):
     <div class="row">
       {f'<button class="btn primary" data-add-many="{e(json.dumps(ids))}">추천 도서 {len(ids)}권 모두 담기 · {won(total)}</button>' if ids else ''}
       {f'<a class="btn ghost light" href="{e(iss["url"])}" target="_blank" rel="noopener">원문 보기 ↗</a>' if iss.get('url') else ''}
-      {f'<a class="btn ghost light" href="{up}t/{iss["month"]}/">같은 달 다른 매체 →</a>' if m != 'yong' else ''}
+      {f'<a class="btn ghost light" href="{up}t/{iss["month"]}/">같은 달 다른 매체 →</a>' if is_regular(m) else ''}
     </div>
     {f'<p class="same">같은 달: {sm}</p>' if sm else ''}
   </div>

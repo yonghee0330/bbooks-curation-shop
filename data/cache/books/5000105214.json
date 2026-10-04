@@ -1,0 +1,29 @@
+{
+ "isbn13": "5000105214",
+ "isbn10": "5000105214",
+ "itemId": 105214,
+ "title": "영혼의 일기",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "교황요한23세 (지은이)",
+ "authors": [],
+ "publisher": "크리스챤출판사(카톨릭)",
+ "pubDate": "1975-08-01",
+ "priceStandard": 6500,
+ "priceSales": 5850,
+ "pages": 378,
+ "category": "국내도서>종교/역학>가톨릭>가톨릭 교리/강론",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/img/noimg_b.gif",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=105214&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 20:10",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/img/noimg_b.gif"
+}

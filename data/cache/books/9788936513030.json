@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788936513030",
+ "isbn10": "8936513036",
+ "itemId": 177182800,
+ "title": "예기치 못한 기쁨 (개정무선판)",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "C. S. 루이스 (지은이), 강유나 (옮긴이)",
+ "authors": [],
+ "publisher": "홍성사",
+ "pubDate": "2018-12-13",
+ "priceStandard": 16000,
+ "priceSales": 14400,
+ "pages": 352,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교 문학",
+ "series": "믿음의 글들 196",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/17718/28/cover200/8936513036_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=177182800&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "머리말\n\n1. 어린 시절\n\n2. 강제수용소\n\n3. 마운트브라켄과 캠벨\n\n4. 시야를 넓히다\n\n5. 르네상스\n\n6. 왕족\n\n7. 빛과 그림자\n\n8. 해방\n\n9. 위대한 노크 선생님\n\n10. 운명의 미소\n\n11. 체크\n\n12. 무기와 전우\n\n13. 새로운 외양\n\n14. 체크메이트\n\n15. 시작\n\nC. S. 루이스 연보",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 20:12",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/17718/28/cover500/8936513036_1.jpg"
+}

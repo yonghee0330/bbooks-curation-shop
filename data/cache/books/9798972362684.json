@@ -1,0 +1,30 @@
+{
+ "isbn13": "9798972362684",
+ "isbn10": "8972362689",
+ "itemId": 434345,
+ "title": "필로칼리아 1",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "성산의 성 니코디모스 (지은이), 엄성옥 (옮긴이)",
+ "authors": [],
+ "publisher": "은성",
+ "pubDate": "2001-03-20",
+ "priceStandard": 40000,
+ "priceSales": 40000,
+ "pages": 496,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>신학일반",
+ "series": "필로칼리아 1",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/43/43/cover200/8972362689_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=434345&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 20:08",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/43/43/cover500/8972362689_1.jpg"
+}

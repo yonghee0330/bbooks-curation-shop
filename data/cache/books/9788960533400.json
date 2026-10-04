@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788960533400",
+ "isbn10": "8960533408",
+ "itemId": 32610101,
+ "title": "길리아드",
+ "subTitle": "",
+ "originalTitle": "Gilead (2004년)",
+ "author": "메릴린 로빈슨 (지은이), 공경희 (옮긴이)",
+ "authors": [],
+ "publisher": "마로니에북스",
+ "pubDate": "2013-10-25",
+ "priceStandard": 13500,
+ "priceSales": 12150,
+ "pages": 336,
+ "category": "국내도서>소설/시/희곡>영미소설",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/3261/1/cover200/8960533408_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=32610101&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "한국 독자들에게_메릴린 로빈슨\n\n삶의 아름다움을 발견하는 기회가 되길 소망하며\n\n길리아드 제1부\n\n길리아드 제2부\n\n옮긴이의 말_공경희",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 20:11",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/3261/1/cover500/8960533408_1.jpg"
+}

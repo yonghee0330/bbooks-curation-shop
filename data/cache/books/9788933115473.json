@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788933115473",
+ "isbn10": "8933115471",
+ "itemId": 340437331,
+ "title": "영혼의 성",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "예수의 성녀 데레사 (지은이), 최민순 (옮긴이)",
+ "authors": [],
+ "publisher": "바오로딸",
+ "pubDate": "2024-05-30",
+ "priceStandard": 15000,
+ "priceSales": 13500,
+ "pages": 384,
+ "category": "국내도서>종교/역학>가톨릭>가톨릭 신앙생활",
+ "series": null,
+ "description": "그리스도교 역사상 뛰어난 신비가인 예수의 성녀 데레사(대데레사, 아빌라의 데레사)의 주옥같은 작품들 중 하나로, 가르멜회 수녀들을 위해 자신의 체험을 바탕으로 쓴 기도와 영성의 단계에 관한 가르침이다.",
+ "coverUrl": "https://image.aladin.co.kr/product/34043/73/cover200/8933115471_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=340437331&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "성녀 데레사의 메시지\n\n머리말\n\n첫째 궁방\n\n둘째 궁방\n\n셋째 궁방\n\n넷째 궁방\n\n다섯째 궁방\n\n여섯째 궁방\n\n일곱째 궁방\n\n맺음말",
+ "intro": "그리스도교 역사상 뛰어난 신비가인 예수의 성녀 데레사(대데레사, 아빌라의 데레사)의 주옥같은 작품들 중 하나로, 가르멜회 수녀들을 위해 자신의 체험을 바탕으로 쓴 기도와 영성의 단계에 관한 가르침이다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-04 20:13",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/34043/73/cover500/8933115471_1.jpg"
+}

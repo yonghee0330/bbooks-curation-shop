@@ -146,5 +146,19 @@
   "home": "",
   "subscribe": "https://maily.so/secularsaints",
   "color": "#3f7a68"
+ },
+ "churchtimes": {
+  "order": 7.5,
+  "group": "special",
+  "name": "처치타임즈 100",
+  "full": "영국 처치타임즈 선정 최고의 기독교 서적 100선",
+  "en": "CHURCH TIMES · 100 BEST CHRISTIAN BOOKS",
+  "kind": "고전 목록",
+  "cadence": "2014년 선정",
+  "unit": "목록",
+  "about": "영국 성공회 주간지 Church Times가 2014년 독자와 심사위원의 추천으로 고른 최고의 기독교 서적 100권. 교부와 중세 영성부터 영국 시인과 20세기 신학까지 아우른다.",
+  "home": "https://www.churchtimes.co.uk/",
+  "subscribe": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+  "color": "#6b2f4a"
  }
 }

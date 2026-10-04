@@ -1,0 +1,1598 @@
+{
+ "media": "churchtimes",
+ "id": "2014",
+ "no": "2014년",
+ "title": "최고의 기독교 서적 100선",
+ "subtitle": "100 best Christian books",
+ "date": "2014-10-10",
+ "column": "고전 목록",
+ "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+ "season": "고전",
+ "_curated": true,
+ "items": [
+  {
+   "key": "001-고백록",
+   "title": "고백록",
+   "author": "아우구스티누스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "하나님 앞에서 자기 삶과 회심을 돌아본 영적 자서전의 원형.",
+   "rank": 1,
+   "field": "1위",
+   "isbn13": "9788944724084"
+  },
+  {
+   "key": "002-베네딕트규칙서",
+   "title": "베네딕트 규칙서",
+   "author": "누르시아의 베네딕투스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "기도와 노동, 공동체 생활의 질서를 세운 서방 수도원 전통의 기초.",
+   "rank": 2,
+   "field": "2위",
+   "isbn13": "9788941991090"
+  },
+  {
+   "key": "003-신학대전",
+   "title": "신학대전",
+   "author": "토마스 아퀴나스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "신앙과 이성을 아우르며 그리스도교 신학 전체를 체계화한 중세 신학의 정점.",
+   "rank": 3,
+   "field": "3위",
+   "isbn13": "9788933102589"
+  },
+  {
+   "key": "004-사랑의계시",
+   "title": "사랑의 계시",
+   "author": "노리치의 줄리언",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "병상에서 받은 환시를 기록한 영국 여성 신비가의 글. “모든 것이 잘 되리라.”",
+   "rank": 4,
+   "field": "4위",
+   "isbn13": "9788932118505"
+  },
+  {
+   "key": "005-신곡",
+   "title": "신곡",
+   "author": "단테 알리기에리",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "지옥·연옥·천국을 순례하며 구원의 여정을 노래한 서사시.",
+   "rank": 5,
+   "field": "5위",
+   "isbn13": "9788937488061"
+  },
+  {
+   "key": "006-팡세",
+   "title": "팡세",
+   "author": "블레즈 파스칼",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "인간의 비참과 위대함 사이에서 하나님을 찾게 하는 미완의 변증 단상.",
+   "rank": 6,
+   "field": "6위",
+   "isbn13": "9788937460838"
+  },
+  {
+   "key": "007-천로역정",
+   "title": "천로역정",
+   "author": "존 번연",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "멸망의 도시를 떠나 하늘 도성으로 가는 순례자의 이야기. 영어권 신앙 문학의 고전.",
+   "rank": 7,
+   "field": "7위",
+   "isbn13": "9788944724152"
+  },
+  {
+   "key": "008-신국론",
+   "title": "신국론",
+   "author": "아우구스티누스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "로마 함락 이후 지상의 도성과 하나님의 도성을 대비한 역사신학의 대작.",
+   "rank": 8,
+   "field": "8위",
+   "isbn13": "9788941904014"
+  },
+  {
+   "key": "009-그리스도를본받아",
+   "title": "그리스도를 본받아",
+   "author": "토마스 아 켐피스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "겸손과 내면의 삶으로 그리스도를 따르라는, 성경 다음으로 많이 읽혔다는 경건서.",
+   "rank": 9,
+   "field": "9위",
+   "isbn13": "9791186092729"
+  },
+  {
+   "key": "010-CompleteEnglishPoems",
+   "title": "Complete English Poems",
+   "author": "조지 허버트",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/10-october/features/features/100-best-christian-books-top-10",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "17세기 영국 시골 사제 시인이 하나님과의 관계를 섬세하게 노래한 시 전집.",
+   "rank": 10,
+   "field": "10위",
+   "isbn13": "none"
+  },
+  {
+   "key": "011-네개의사중주",
+   "title": "네 개의 사중주",
+   "author": "T. S. 엘리엇",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "시간과 영원, 구원을 노래한 엘리엇 만년의 신앙 시.",
+   "rank": 11,
+   "field": "11위",
+   "isbn13": "none"
+  },
+  {
+   "key": "012-ApologiaProVitaSua",
+   "title": "Apologia Pro Vita Sua",
+   "author": "존 헨리 뉴먼",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "성공회에서 가톨릭으로 옮긴 뉴먼이 자기 신앙의 여정을 변론한 자서전.",
+   "rank": 12,
+   "field": "12위",
+   "isbn13": "none"
+  },
+  {
+   "key": "013-교회교의학",
+   "title": "교회 교의학",
+   "author": "칼 바르트",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "하나님의 말씀에서 출발해 교회의 신학 전체를 다시 세운 20세기 신학의 대작.",
+   "rank": 13,
+   "field": "13위",
+   "isbn13": "9788951109379"
+  },
+  {
+   "key": "014-어둔밤",
+   "title": "어둔 밤",
+   "author": "십자가의 요한",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "영혼이 하나님과 하나 되기까지 지나는 ‘어둔 밤’을 노래하고 해설한 신비 신학의 고전.",
+   "rank": 14,
+   "field": "14위",
+   "isbn13": "9788933101407"
+  },
+  {
+   "key": "015-CenturiesofMeditations",
+   "title": "Centuries of Meditations",
+   "author": "토머스 트러헌",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "창조 세계의 경이와 기쁨을 노래한 17세기 영국 사제의 묵상 산문.",
+   "rank": 15,
+   "field": "15위",
+   "isbn13": "none"
+  },
+  {
+   "key": "016-실낙원",
+   "title": "실낙원",
+   "author": "존 밀턴",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "사탄의 반역과 인간의 타락, 구원의 약속을 그린 영문학 최대의 서사시.",
+   "rank": 16,
+   "field": "16위",
+   "isbn13": "9788944785320"
+  },
+  {
+   "key": "017-TheMajorWorks",
+   "title": "The Major Works",
+   "author": "제라드 맨리 홉킨스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "창조 속 하나님의 영광을 독창적 언어로 노래한 예수회 시인의 작품집.",
+   "rank": 17,
+   "field": "17위",
+   "isbn13": "none"
+  },
+  {
+   "key": "018-무지의구름",
+   "title": "무지의 구름",
+   "author": "작자 미상",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "앎이 아닌 사랑으로 하나님께 다가가라고 가르치는 14세기 영국 관상 기도의 고전.",
+   "rank": 18,
+   "field": "18위",
+   "isbn13": "none"
+  },
+  {
+   "key": "019-그리스도와문화",
+   "title": "그리스도와 문화",
+   "author": "H. 리처드 니버",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "그리스도와 문화의 관계를 다섯 유형으로 정리한 기독교 윤리의 고전.",
+   "rank": 19,
+   "field": "19위",
+   "isbn13": "9788932840437"
+  },
+  {
+   "key": "020-순전한기독교",
+   "title": "순전한 기독교",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "교파를 넘는 기독교의 핵심을 쉬운 말로 설명한 20세기 변증의 고전.",
+   "rank": 20,
+   "field": "20위",
+   "isbn13": "9788936513269"
+  },
+  {
+   "key": "021-영국민의교회사",
+   "title": "영국민의 교회사",
+   "author": "비드",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "브리튼에 그리스도교가 뿌리내린 과정을 기록한 8세기 수도사의 역사서.",
+   "rank": 21,
+   "field": "21위",
+   "isbn13": "9788930085472"
+  },
+  {
+   "key": "022-옥중서간",
+   "title": "옥중서간",
+   "author": "디트리히 본회퍼",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "나치 감옥에서 쓴 편지와 단상. 성숙한 세상의 그리스도인을 묻는 마지막 사유.",
+   "rank": 22,
+   "field": "22위",
+   "isbn13": "9791192675244"
+  },
+  {
+   "key": "023-카라마조프가의형제들",
+   "title": "카라마조프가의 형제들",
+   "author": "표도르 도스토옙스키",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "신앙과 의심, 자유와 고통을 정면으로 다룬 도스토옙스키의 마지막 장편.",
+   "rank": 23,
+   "field": "23위",
+   "isbn13": "9788937486067"
+  },
+  {
+   "key": "024-영신수련",
+   "title": "영신수련",
+   "author": "로욜라의 이냐시오",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "분별과 묵상으로 그리스도를 따르게 하는 예수회 영성 훈련서.",
+   "rank": 24,
+   "field": "24위",
+   "isbn13": "9788997108497"
+  },
+  {
+   "key": "025-내면의성",
+   "title": "내면의 성",
+   "author": "아빌라의 테레사",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "영혼을 일곱 궁방이 있는 성에 빗대 하나님께 이르는 기도의 여정을 그린 책.",
+   "rank": 25,
+   "field": "25위",
+   "isbn13": "9788933115473"
+  },
+  {
+   "key": "026-필로칼리아",
+   "title": "필로칼리아",
+   "author": "성산의 니코디모스 엮음",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "동방 정교회 수도 전통의 기도와 영성 글을 모은 선집.",
+   "rank": 26,
+   "field": "26위",
+   "isbn13": "9798972362684"
+  },
+  {
+   "key": "027-사자와마녀와옷장",
+   "title": "사자와 마녀와 옷장",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "옷장 너머 나니아에서 펼쳐지는 희생과 부활의 이야기. 나니아 연대기의 첫 권.",
+   "rank": 27,
+   "field": "27위",
+   "isbn13": "9788952723161"
+  },
+  {
+   "key": "028-SelectedPoems",
+   "title": "Selected Poems",
+   "author": "존 던",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "사랑과 죽음, 신앙을 강렬한 언어로 노래한 형이상학파 시인의 선집.",
+   "rank": 28,
+   "field": "28위",
+   "isbn13": "none"
+  },
+  {
+   "key": "029-스크루테이프의편지",
+   "title": "스크루테이프의 편지",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "선임 악마가 조카에게 보내는 편지로 유혹과 인간 본성을 꿰뚫은 고전.",
+   "rank": 29,
+   "field": "29위",
+   "isbn13": "9788936513191"
+  },
+  {
+   "key": "030-신을기다리며",
+   "title": "신을 기다리며",
+   "author": "시몬 베유",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "고통과 주의 깊음, 은총에 관한 시몬 베유의 편지와 에세이.",
+   "rank": 30,
+   "field": "30위",
+   "isbn13": "9791170832409"
+  },
+  {
+   "key": "031-CollectedPoems",
+   "title": "Collected Poems",
+   "author": "R. S. 토머스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "하나님의 부재와 침묵을 응시한 웨일스 시골 사제 시인의 시 전집.",
+   "rank": 31,
+   "field": "31위",
+   "isbn13": "none"
+  },
+  {
+   "key": "032-도덕적인간과비도덕적사회",
+   "title": "도덕적 인간과 비도덕적 사회",
+   "author": "라인홀드 니버",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "개인의 도덕과 집단의 이기심 사이의 긴장을 분석한 기독교 현실주의의 고전.",
+   "rank": 32,
+   "field": "32위",
+   "isbn13": "9788931000023"
+  },
+  {
+   "key": "033-해방신학",
+   "title": "해방신학",
+   "author": "구스타보 구티에레스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "가난한 이들의 자리에서 신학을 다시 쓴 해방신학의 출발점.",
+   "rank": 33,
+   "field": "33위",
+   "isbn13": "9788941971498"
+  },
+  {
+   "key": "034-InMemoryofHer",
+   "title": "In Memory of Her",
+   "author": "엘리자베스 쉬슬러 피오렌자",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "초기 그리스도교를 여성의 시각으로 재구성한 페미니스트 성서 해석의 이정표.",
+   "rank": 34,
+   "field": "34위",
+   "isbn13": "none"
+  },
+  {
+   "key": "035-ChristianityandSocialOrd",
+   "title": "Christianity and Social Order",
+   "author": "윌리엄 템플",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "영국 복지국가 형성에 영향을 준 캔터베리 대주교의 기독교 사회 사상.",
+   "rank": 35,
+   "field": "35위",
+   "isbn13": "none"
+  },
+  {
+   "key": "036-공포와전율",
+   "title": "공포와 전율",
+   "author": "쇠렌 키르케고르",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "아브라함의 이삭 제사를 통해 신앙의 역설을 파고든 실존 사상의 고전.",
+   "rank": 36,
+   "field": "36위",
+   "isbn13": "9791192348391"
+  },
+  {
+   "key": "037-프로슬로기온",
+   "title": "프로슬로기온",
+   "author": "캔터베리의 안셀무스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "‘이해를 추구하는 신앙’으로 하나님의 존재를 묵상한 존재론적 논증의 원전.",
+   "rank": 37,
+   "field": "37위",
+   "isbn13": "9788983493330"
+  },
+  {
+   "key": "038-정통",
+   "title": "정통",
+   "author": "G. K. 체스터턴",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "정통 신앙에 이르게 된 사유의 여정을 역설과 유머로 풀어낸 변증서.",
+   "rank": 38,
+   "field": "38위",
+   "isbn13": "9791170831761"
+  },
+  {
+   "key": "039-하나님의임재연습",
+   "title": "하나님의 임재 연습",
+   "author": "로렌스 형제",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "부엌일 속에서도 하나님과 끊임없이 동행한 수도사의 단순한 기도 실천.",
+   "rank": 39,
+   "field": "39위",
+   "isbn13": "9788944724176"
+  },
+  {
+   "key": "040-나를따르라",
+   "title": "나를 따르라",
+   "author": "디트리히 본회퍼",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "값싼 은혜를 비판하고 값비싼 제자도의 대가를 묻는 본회퍼의 대표작.",
+   "rank": 40,
+   "field": "40위",
+   "isbn13": "9791192675237"
+  },
+  {
+   "key": "041-TheQuestoftheHistoricalJ",
+   "title": "The Quest of the Historical Jesus",
+   "author": "알베르트 슈바이처",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "19세기 역사적 예수 연구를 총정리하고 그 한계를 드러낸 획기적 연구.",
+   "rank": 41,
+   "field": "41위",
+   "isbn13": "none"
+  },
+  {
+   "key": "042-성스러움의의미",
+   "title": "성스러움의 의미",
+   "author": "루돌프 오토",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "두려움과 매혹을 함께 지닌 ‘누미노제’로 종교 경험의 본질을 밝힌 고전.",
+   "rank": 42,
+   "field": "42위",
+   "isbn13": "9788941987215"
+  },
+  {
+   "key": "043-TheChristianPriest",
+   "title": "The Christian Priest",
+   "author": "마이클 램지",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "캔터베리 대주교가 사제의 소명과 영성을 다룬 강연.",
+   "rank": 43,
+   "field": "43위",
+   "isbn13": "none"
+  },
+  {
+   "key": "044-덕의상실",
+   "title": "덕의 상실",
+   "author": "알래스데어 매킨타이어",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "현대 도덕의 혼란을 진단하고 덕 윤리 전통의 회복을 제안한 철학서.",
+   "rank": 44,
+   "field": "44위",
+   "isbn13": "9788931021486"
+  },
+  {
+   "key": "045-칠층산",
+   "title": "칠층산",
+   "author": "토머스 머튼",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "방황하던 청년이 트라피스트 수도사가 되기까지의 회심을 기록한 자서전.",
+   "rank": 45,
+   "field": "45위",
+   "isbn13": "9788933109175"
+  },
+  {
+   "key": "046-AnEssayinAidofaGrammarof",
+   "title": "An Essay in Aid of a Grammar of Assent",
+   "author": "존 헨리 뉴먼",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "사람이 어떻게 확신에 이르는지 신앙의 인식론을 탐구한 뉴먼의 철학적 저작.",
+   "rank": 46,
+   "field": "46위",
+   "isbn13": "none"
+  },
+  {
+   "key": "047-LovesEndeavourLovesExpen",
+   "title": "Love's Endeavour, Love's Expense",
+   "author": "W. H. 밴스톤",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "사랑하는 하나님은 상처받을 수 있는 하나님이라는 통찰을 담은 영국 사제의 신학 에세이.",
+   "rank": 47,
+   "field": "47위",
+   "isbn13": "none"
+  },
+  {
+   "key": "048-ChristianityRediscovered",
+   "title": "Christianity Rediscovered",
+   "author": "빈센트 도노번",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "동아프리카 마사이족 선교 속에서 복음을 다시 발견한 가톨릭 선교사의 기록.",
+   "rank": 48,
+   "field": "48위",
+   "isbn13": "none"
+  },
+  {
+   "key": "049-상처입은앎",
+   "title": "상처 입은 앎",
+   "author": "로완 윌리엄스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "신약부터 십자가의 요한까지 그리스도교 영성의 역사를 다시 읽은 대표작.",
+   "rank": 49,
+   "field": "49위",
+   "isbn13": "9791192769509"
+  },
+  {
+   "key": "050-Mysticism",
+   "title": "Mysticism",
+   "author": "이블린 언더힐",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/3-october/features/features/100-best-christian-books-11-50",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "그리스도교 신비주의의 본질과 단계를 정리한 20세기 초의 고전 연구.",
+   "rank": 50,
+   "field": "50위",
+   "isbn13": "none"
+  },
+  {
+   "key": "051-로마서",
+   "title": "로마서",
+   "author": "칼 바르트",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "자유주의 신학의 운동장에 폭탄을 떨어뜨렸다는 평을 받은 바르트의 로마서 주석.",
+   "rank": 51,
+   "field": "51위",
+   "isbn13": "9791170831259"
+  },
+  {
+   "key": "052-십자가에달리신하나님",
+   "title": "십자가에 달리신 하나님",
+   "author": "위르겐 몰트만",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "십자가를 그리스도교 신학의 근거이자 비판으로 삼아 고난당하는 하나님을 말한 대표작.",
+   "rank": 52,
+   "field": "52위",
+   "isbn13": "9788951118838"
+  },
+  {
+   "key": "053-존웨슬리의일기",
+   "title": "존 웨슬리의 일기",
+   "author": "존 웨슬리",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "감리교 운동을 이끈 웨슬리가 반세기 넘게 기록한 사역과 신앙의 일기.",
+   "rank": 53,
+   "field": "53위",
+   "isbn13": "9788944785221"
+  },
+  {
+   "key": "054-친교로서의존재",
+   "title": "친교로서의 존재",
+   "author": "존 지지울러스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "삼위일체와 교회를 ‘친교’로 이해하는 정교회 신학의 현대 고전.",
+   "rank": 54,
+   "field": "54위",
+   "isbn13": "9788996267096"
+  },
+  {
+   "key": "055-영혼의일기",
+   "title": "영혼의 일기",
+   "author": "요한 23세",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "제2차 바티칸 공의회를 연 교황이 평생 쓴 영적 일기.",
+   "rank": 55,
+   "field": "55위",
+   "isbn13": "5000105214"
+  },
+  {
+   "key": "056-신비신학과천상의위계",
+   "title": "신비신학과 천상의 위계",
+   "author": "위 디오니시우스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "부정의 길과 천상 위계를 말한 고대 신비 신학의 원전.",
+   "rank": 56,
+   "field": "56위",
+   "isbn13": "none"
+  },
+  {
+   "key": "057-TheRulesandExercisesofHo",
+   "title": "The Rules and Exercises of Holy Dying",
+   "author": "제러미 테일러",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "거룩하게 죽는 법을 가르친 17세기 영국 성공회 경건서.",
+   "rank": 57,
+   "field": "57위",
+   "isbn13": "none"
+  },
+  {
+   "key": "058-죄인의괴수에게넘치는은혜",
+   "title": "죄인의 괴수에게 넘치는 은혜",
+   "author": "존 번연",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "『천로역정』의 저자가 자신의 회심과 영적 투쟁을 고백한 자서전.",
+   "rank": 58,
+   "field": "58위",
+   "isbn13": "9788944724121"
+  },
+  {
+   "key": "059-FiveTheologicalOrations",
+   "title": "Five Theological Orations",
+   "author": "나지안조스의 그레고리오스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "삼위일체 신앙을 변론한 4세기 교부의 다섯 신학 강연.",
+   "rank": 59,
+   "field": "59위",
+   "isbn13": "none"
+  },
+  {
+   "key": "060-신심생활입문",
+   "title": "신심 생활 입문",
+   "author": "프랑수아 드 살",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "세상 속 평신도의 경건 생활을 안내한 17세기 영성 고전.",
+   "rank": 60,
+   "field": "60위",
+   "isbn13": "9788932118000"
+  },
+  {
+   "key": "061-평화의나라",
+   "title": "평화의 나라",
+   "author": "스탠리 하우어워스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "예수의 비폭력과 교회 공동체를 중심으로 기독교 윤리를 다시 세운 입문서.",
+   "rank": 61,
+   "field": "61위",
+   "isbn13": "9791191851151"
+  },
+  {
+   "key": "062-AnEssayontheDevelopmento",
+   "title": "An Essay on the Development of Christian Doctrine",
+   "author": "존 헨리 뉴먼",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "교리가 역사 속에서 어떻게 발전하는지 논한 뉴먼의 대표 저작.",
+   "rank": 62,
+   "field": "62위",
+   "isbn13": "none"
+  },
+  {
+   "key": "063-GodofSurprises",
+   "title": "God of Surprises",
+   "author": "제라드 휴즈",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "이냐시오 영성으로 일상 속 놀라움의 하나님을 만나게 하는 예수회 사제의 책.",
+   "rank": 63,
+   "field": "63위",
+   "isbn13": "none"
+  },
+  {
+   "key": "064-헤아려본슬픔",
+   "title": "헤아려 본 슬픔",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "아내를 잃은 루이스가 슬픔과 의심을 정직하게 기록한 애도 일기.",
+   "rank": 64,
+   "field": "64위",
+   "isbn13": "9788936513832"
+  },
+  {
+   "key": "065-GodSexualityandtheSelf",
+   "title": "God, Sexuality, and the Self",
+   "author": "새라 코클리",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "삼위일체와 욕망, 기도를 엮어 낸 새라 코클리의 조직신학 첫 권.",
+   "rank": 65,
+   "field": "65위",
+   "isbn13": "none"
+  },
+  {
+   "key": "066-탕자의귀향",
+   "title": "탕자의 귀향",
+   "author": "헨리 나우웬",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "렘브란트의 그림 앞에서 아버지의 사랑을 묵상한 나우웬의 대표작.",
+   "rank": 66,
+   "field": "66위",
+   "isbn13": "9788993474220"
+  },
+  {
+   "key": "067-OldTestamentTheologyVol1",
+   "title": "Old Testament Theology Vol.1",
+   "author": "게르하르트 폰 라트",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "이스라엘의 역사 전승을 중심으로 구약신학을 새로 쓴 20세기 고전.",
+   "rank": 67,
+   "field": "67위",
+   "isbn13": "none"
+  },
+  {
+   "key": "068-PurityofHeartistoWillOne",
+   "title": "Purity of Heart is to Will One Thing",
+   "author": "쇠렌 키르케고르",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "마음의 순결은 오직 하나를 원하는 것이라는 키르케고르의 강화.",
+   "rank": 68,
+   "field": "68위",
+   "isbn13": "none"
+  },
+  {
+   "key": "069-TheFoolishnessofGod",
+   "title": "The Foolishness of God",
+   "author": "존 오스틴 베이커",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "오늘의 언어로 그리스도교 신앙의 핵심을 다시 풀어낸 영국 주교의 책.",
+   "rank": 69,
+   "field": "69위",
+   "isbn13": "none"
+  },
+  {
+   "key": "070-길리아드",
+   "title": "길리아드",
+   "author": "메릴린 로빈슨",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "죽음을 앞둔 노목사가 어린 아들에게 쓴 편지로 은총과 일상을 그린 퓰리처상 수상작.",
+   "rank": 70,
+   "field": "70위",
+   "isbn13": "9788960533400"
+  },
+  {
+   "key": "071-TheDescentoftheDove",
+   "title": "The Descent of the Dove",
+   "author": "찰스 윌리엄스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "성령의 관점에서 교회사를 독창적으로 다시 쓴 잉클링스 작가의 책.",
+   "rank": 71,
+   "field": "71위",
+   "isbn13": "none"
+  },
+  {
+   "key": "072-TheTrueWilderness",
+   "title": "The True Wilderness",
+   "author": "해리 윌리엄스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "내면의 광야를 정직하게 마주한 케임브리지 사제의 설교와 성찰.",
+   "rank": 72,
+   "field": "72위",
+   "isbn13": "none"
+  },
+  {
+   "key": "073-TheManBorntobeKing",
+   "title": "The Man Born to be King",
+   "author": "도로시 세이어즈",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "예수의 생애를 그린 라디오 연극 대본. 추리작가 세이어즈의 신앙 작품.",
+   "rank": 73,
+   "field": "73위",
+   "isbn13": "none"
+  },
+  {
+   "key": "074-TheGoBetweenGod",
+   "title": "The Go-Between God",
+   "author": "존 V. 테일러",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "성령을 관계를 잇는 ‘중개자 하나님’으로 그린 선교사 출신 주교의 성령론.",
+   "rank": 74,
+   "field": "74위",
+   "isbn13": "none"
+  },
+  {
+   "key": "075-TheStatureofWaiting",
+   "title": "The Stature of Waiting",
+   "author": "W. H. 밴스톤",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "수난의 예수를 통해 기다림과 수동성의 존엄을 말한 책.",
+   "rank": 75,
+   "field": "75위",
+   "isbn13": "none"
+  },
+  {
+   "key": "077-CompletePoems",
+   "title": "Complete Poems",
+   "author": "에밀리 디킨슨",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "죽음과 영원, 의심과 믿음을 짧은 시로 응축한 디킨슨의 시 전집.",
+   "rank": 77,
+   "field": "77위",
+   "isbn13": "none"
+  },
+  {
+   "key": "078-NaughtforYourComfort",
+   "title": "Naught for Your Comfort",
+   "author": "트레버 허들스턴",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "남아공 아파르트헤이트에 맞선 영국 성공회 사제의 증언.",
+   "rank": 78,
+   "field": "78위",
+   "isbn13": "none"
+  },
+  {
+   "key": "079-LuxMundi",
+   "title": "Lux Mundi",
+   "author": "찰스 고어 엮음",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "성육신 신학과 근대 학문을 화해시키려 한 19세기 영국 성공회 논집.",
+   "rank": 79,
+   "field": "79위",
+   "isbn13": "none"
+  },
+  {
+   "key": "080-왜그리스도인인가",
+   "title": "왜 그리스도인인가",
+   "author": "한스 큉",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "현대인을 위해 그리스도인으로 산다는 것의 의미를 정리한 한스 큉의 대작.",
+   "rank": 80,
+   "field": "80위",
+   "isbn13": "9788941925118"
+  },
+  {
+   "key": "081-바울과하나님의신실하심",
+   "title": "바울과 하나님의 신실하심",
+   "author": "N. T. 라이트",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "바울 신학을 1세기 유대교와 하나님의 신실하심 속에서 재구성한 대작.",
+   "rank": 81,
+   "field": "81위",
+   "isbn13": "9788944704024"
+  },
+  {
+   "key": "082-기독교신앙",
+   "title": "기독교 신앙",
+   "author": "프리드리히 슐라이어마허",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "절대 의존의 감정에서 출발해 근대 신학을 연 교의학.",
+   "rank": 82,
+   "field": "82위",
+   "isbn13": "9788935656622"
+  },
+  {
+   "key": "083-PrinciplesofChristianThe",
+   "title": "Principles of Christian Theology",
+   "author": "존 매쿼리",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "실존주의 철학과 대화하며 쓴 성공회 신학자의 조직신학.",
+   "rank": 83,
+   "field": "83위",
+   "isbn13": "none"
+  },
+  {
+   "key": "084-예기치못한기쁨",
+   "title": "예기치 못한 기쁨",
+   "author": "C. S. 루이스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "무신론자 루이스가 신앙에 이르기까지를 그린 영적 자서전.",
+   "rank": 84,
+   "field": "84위",
+   "isbn13": "9788936513030"
+  },
+  {
+   "key": "085-존재의용기",
+   "title": "존재의 용기",
+   "author": "폴 틸리히",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "불안의 시대에 ‘존재에의 용기’로 신앙을 해석한 틸리히의 대표작.",
+   "rank": 85,
+   "field": "85위",
+   "isbn13": "9788983503961"
+  },
+  {
+   "key": "086-기독교의기본진리",
+   "title": "기독교의 기본 진리",
+   "author": "존 스토트",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "그리스도는 누구이며 왜 믿어야 하는지 간결하게 안내하는 복음주의 고전.",
+   "rank": 86,
+   "field": "86위",
+   "isbn13": "9788904101016"
+  },
+  {
+   "key": "087-신과인간그리고악",
+   "title": "신과 인간 그리고 악",
+   "author": "존 힉",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "악의 문제를 ‘영혼 형성’의 신정론으로 다룬 종교철학의 고전.",
+   "rank": 87,
+   "field": "87위",
+   "isbn13": "9788932907499"
+  },
+  {
+   "key": "088-순교자열전",
+   "title": "순교자 열전",
+   "author": "존 폭스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "종교개혁기 순교자들의 이야기를 기록해 영국 개신교 정체성을 빚은 책.",
+   "rank": 88,
+   "field": "88위",
+   "isbn13": "9788997760749"
+  },
+  {
+   "key": "089-TheStrippingoftheAltars",
+   "title": "The Stripping of the Altars",
+   "author": "이먼 더피",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "종교개혁 이전 영국 민중의 신앙과 그 해체를 새롭게 조명한 역사서.",
+   "rank": 89,
+   "field": "89위",
+   "isbn13": "none"
+  },
+  {
+   "key": "090-유대인예수의종교",
+   "title": "유대인 예수의 종교",
+   "author": "게저 베르메시",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "예수를 1세기 유대교의 맥락에서 이해한 역사적 예수 연구.",
+   "rank": 90,
+   "field": "90위",
+   "isbn13": "none"
+  },
+  {
+   "key": "091-ReadingsinStJohnsGospel",
+   "title": "Readings in St John's Gospel",
+   "author": "윌리엄 템플",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "캔터베리 대주교 템플이 요한복음을 묵상하며 쓴 해설.",
+   "rank": 91,
+   "field": "91위",
+   "isbn13": "none"
+  },
+  {
+   "key": "092-PeterAbelard",
+   "title": "Peter Abelard",
+   "author": "헬렌 워델",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "아벨라르와 엘로이즈의 사랑과 고통을 그린 역사 소설.",
+   "rank": 92,
+   "field": "92위",
+   "isbn13": "none"
+  },
+  {
+   "key": "093-LoveAlmightyandIllsUnlim",
+   "title": "Love Almighty and Ills Unlimited",
+   "author": "오스틴 패러",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "전능한 사랑과 무한한 악의 문제를 다룬 옥스퍼드 신학자의 신정론.",
+   "rank": 93,
+   "field": "93위",
+   "isbn13": "none"
+  },
+  {
+   "key": "094-NinetySixSermons",
+   "title": "Ninety-Six Sermons",
+   "author": "랜슬롯 앤드루스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "흠정역 번역에 참여한 17세기 주교의 설교집. 엘리엇이 사랑한 설교자.",
+   "rank": 94,
+   "field": "94위",
+   "isbn13": "none"
+  },
+  {
+   "key": "095-시골사제의일기",
+   "title": "시골 사제의 일기",
+   "author": "조르주 베르나노스",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "시골 본당 젊은 사제의 고뇌와 은총을 그린 가톨릭 문학의 걸작.",
+   "rank": 95,
+   "field": "95위",
+   "isbn13": "9788937462108"
+  },
+  {
+   "key": "096-TheVisionofGod",
+   "title": "The Vision of God",
+   "author": "케네스 커크",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "하나님을 뵙는 것을 그리스도인 삶의 목적으로 본 성공회 윤리학의 고전.",
+   "rank": 96,
+   "field": "96위",
+   "isbn13": "none"
+  },
+  {
+   "key": "097-신학과사회이론",
+   "title": "신학과 사회이론",
+   "author": "존 밀뱅크",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "세속 사회이론을 넘어서는 신학을 주장한 ‘급진 정통주의’의 출발점.",
+   "rank": 97,
+   "field": "97위",
+   "isbn13": "9791161291000"
+  },
+  {
+   "key": "098-TheGospelandtheCatholicC",
+   "title": "The Gospel and the Catholic Church",
+   "author": "마이클 램지",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "교회론을 십자가와 부활의 복음에서 이해한 램지의 대표작.",
+   "rank": 98,
+   "field": "98위",
+   "isbn13": "none"
+  },
+  {
+   "key": "099-TheGlassofVision",
+   "title": "The Glass of Vision",
+   "author": "오스틴 패러",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "계시와 이미지, 시적 상상력의 관계를 탐구한 뱀프턴 강연.",
+   "rank": 99,
+   "field": "99위",
+   "isbn13": "none"
+  },
+  {
+   "key": "100-뿌리내림",
+   "title": "뿌리내림",
+   "author": "시몬 베유",
+   "translator": "",
+   "publisher": "",
+   "url": "https://www.churchtimes.co.uk/articles/2014/26-september/features/features/100-best-christian-books-51-100",
+   "section": "classic",
+   "by": [
+    "Church Times"
+   ],
+   "summary": "인간의 영혼에 필요한 것은 ‘뿌리내림’이라며 사회와 영성의 회복을 말한 베유의 유작.",
+   "rank": 100,
+   "field": "100위",
+   "isbn13": "9788956441177"
+  }
+ ]
+}
