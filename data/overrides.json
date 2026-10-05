@@ -1,3 +1,11 @@
 {
- "_note": "책 정보 손 보정. 키 = ISBN13. cover: 이미지 주소(https://…) 또는 site/assets/ 아래 경로(예: covers/9788932823447.jpg). title·author·publisher·priceStandard 도 덮어쓸 수 있음. 직접 고치기보다 python3 tools/edit.py cover … 를 쓰세요."
+ "_note": "책 정보 손 보정. 키 = ISBN13. cover: 이미지 주소(https://…) 또는 site/assets/ 아래 경로(예: covers/9788932823447.jpg). title·author·publisher·priceStandard 도 덮어쓸 수 있음. 직접 고치기보다 python3 tools/edit.py cover … 를 쓰세요.",
+ "9780520254190": {
+  "noSale": "국내에는 번역본이 없는 원서예요. 해외 서점 등에서 원서로만 구입할 수 있어요.",
+  "tag": "원서만 구입 가능"
+ },
+ "9780268007355": {
+  "noSale": "국내에는 번역본이 없는 원서예요. 해외 서점 등에서 원서로만 구입할 수 있어요.",
+  "tag": "원서만 구입 가능"
+ }
 }

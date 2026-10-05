@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788972973782",
+ "isbn10": "8972973785",
+ "itemId": 34679,
+ "title": "다른 목소리로 - 동녘선서 75",
+ "subTitle": "동녘선서 75",
+ "originalTitle": "",
+ "author": "캐롤 길리건 (지은이), 허란주 (옮긴이)",
+ "authors": [],
+ "publisher": "동녘",
+ "pubDate": "1997-08-30",
+ "priceStandard": 8000,
+ "priceSales": 7200,
+ "pages": 322,
+ "category": "국내도서>사회과학>사회문제>사회문제 일반",
+ "series": "동녘선서 75",
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/3/46/cover200/9788972973782.gif",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=34679&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 11:54",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/3/46/cover500/9788972973782.gif"
+}

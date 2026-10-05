@@ -178,16 +178,26 @@ class Catalog:
     def book_info(self, isbn):
         if isbn in self.books:
             return self.books[isbn]
-        p = os.path.join(DATA, 'cache', 'books', f'{isbn}.json')
-        if not os.path.exists(p):
-            return None
-        b = json.load(open(p, encoding='utf-8'))
+        if isbn.startswith('custom-'):  # data/custom_books.json — 알라딘에 없는 책(직접 구매 안내 등)
+            cp = os.path.join(DATA, 'custom_books.json')
+            cb = json.load(open(cp, encoding='utf-8')).get(isbn) if os.path.exists(cp) else None
+            if not cb:
+                return None
+            b = dict(cb, isbn13=isbn)
+        else:
+            p = os.path.join(DATA, 'cache', 'books', f'{isbn}.json')
+            if not os.path.exists(p):
+                return None
+            b = json.load(open(p, encoding='utf-8'))
         b['short'] = short_title(b['title'])
         b['subTitle'] = b.get('subTitle') or b['title'].partition(' - ')[2].strip()
         b['price'] = sale_price(b.get('priceStandard'))
         b['cover'] = b.get('cover500') or (b.get('coverUrl') or '').replace('/cover200/', '/cover500/').replace('/coversum/', '/cover500/')
         b['thumb'] = b.get('coverUrl') or b['cover']
         ov = OVERRIDES.get(isbn) or {}  # data/overrides.json — 표지·제목·정가 손 보정
+        for k in ('noSale', 'tag', 'buyUrl', 'buyLabel'):  # 온라인 주문 불가 책: 안내 문구·링크
+            if ov.get(k):
+                b[k] = ov[k]
         for k in ('title', 'author', 'publisher', 'priceStandard'):
             if ov.get(k):
                 b[k] = ov[k]
@@ -337,11 +347,22 @@ def media_dots(b):
 
 
 def add_btn(b, label='담기', cls='btn add'):
+    if b.get('noSale'):
+        return ''
     return f'<button class="{cls}" data-add="{b["isbn13"]}">{label}</button>'
 
 
 def price(b):
+    if b.get('noSale'):
+        return f'<span class="price"><b class="nosale">{e(b.get("tag") or "구매 안내")}</b></span>'
     return f'<span class="price"><s>{won(b["priceStandard"])}</s> <b>{won(b["price"])}</b></span>'
+
+
+def nosale_box(b):
+    if not b.get('noSale'):
+        return ''
+    link = f' <a class="btn primary" href="{e(b["buyUrl"])}" target="_blank" rel="noopener">{e(b.get("buyLabel") or "구매처 보기")}</a>' if b.get('buyUrl') else ''
+    return f'<div class="buybox nosale-box"><p>{e(b["noSale"])}</p>{link}</div>'
 
 
 ROUNDUP = re.compile(r'외\s*\d+\s*권')  # 여러 권을 묶은 신간 소개 기사 제목은 요약 자리에 반복하지 않음
@@ -681,7 +702,8 @@ def build_books(c):
     {f'<p class="subtitle">{e(b["subTitle"])}</p>' if b.get('subTitle') else ''}
     <p class="meta">{e(b['author'])}</p>
     <dl class="facts">{dl}</dl>
-    <div class="buybox">
+    {nosale_box(b)}
+    <div class="buybox"{' hidden' if b.get('noSale') else ''}>
       <div class="prices"><span>정가 <s>{won(b['priceStandard'])}</s></span><span class="now">C.books <b>{won(b['price'])}</b></span></div>
       <div class="qty" data-qty><button data-q="-1" aria-label="수량 빼기">−</button><input type="number" min="1" max="20" value="1" aria-label="수량"><button data-q="1" aria-label="수량 더하기">+</button></div>
       <div class="row">{add_btn(b, '장바구니 담기', 'btn add big')}<button class="btn primary big" data-buy="{b['isbn13']}">바로 주문</button></div>
@@ -1002,7 +1024,7 @@ def main():
     cat = {i: {'isbn13': i, 'title': b['short'], 'author': b['author'], 'publisher': b['publisher'],
                'priceStandard': b['priceStandard'], 'price': b['price'], 'cover': b['thumb'],
                'recs': [f'{r["mname"]} {r["secKo"]}' for r in b['recs'][:3]]}
-           for i, b in c.books.items()}
+           for i, b in c.books.items() if not b.get('noSale')}
     write('data/catalog.json', json.dumps(cat, ensure_ascii=False, separators=(',', ':')))
     open(os.path.join(DIST, '.nojekyll'), 'w').close()
     nohit = sum(1 for r in c.recs if not r['book'])

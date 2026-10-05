@@ -409,3 +409,6 @@ code { font-size: .9em; background: rgba(0,0,0,.08); padding: 1px 5px; border-ra
 .legal h2 { font-size: 16px; margin: 22px 0 6px; }
 .legal p { line-height: 1.75; }
 .btn.ghost { background: transparent; color: #8a3b2f; }
+.nosale-box { padding: 16px 20px; }
+.nosale-box p { margin: 0 0 12px; line-height: 1.6; }
+.price b.nosale { font-weight: 600; color: var(--muted, #888); font-size: .85em; }

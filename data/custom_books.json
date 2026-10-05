@@ -1,0 +1,16 @@
+{
+ "custom-aa-bigbook": {
+  "title": "익명의 알코올중독자들",
+  "author": "알코올중독자 익명 모임(A.A.)",
+  "publisher": "A.A. 한국",
+  "coverUrl": "https://wnooiyhhwzjbvdjtdlhv.supabase.co/storage/v1/object/public/cms-assets/books/2026/c13e8677-ace6-47a7-9a90-8ab862d79294.png",
+  "cover500": "https://wnooiyhhwzjbvdjtdlhv.supabase.co/storage/v1/object/public/cms-assets/books/2026/c13e8677-ace6-47a7-9a90-8ab862d79294.png",
+  "priceStandard": 0,
+  "description": "미국 Alcoholics Anonymous의 한글판. 제1부는 회복의 프로그램이며, 제2부는 프로그램을 통해 회복된 개인들의 이야기이다.",
+  "originalTitle": "Alcoholics Anonymous",
+  "noSale": "온라인 서점에서는 판매하지 않는 책이에요. 익명의 알코올중독자들(A.A.) 한국 사이트에서 직접 구매할 수 있어요.",
+  "tag": "A.A. 사이트에서 구매",
+  "buyUrl": "https://www.aakorea.org/books",
+  "buyLabel": "A.A. 한국 사이트에서 구매"
+ }
+}

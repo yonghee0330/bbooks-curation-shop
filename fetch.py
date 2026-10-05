@@ -279,7 +279,7 @@ def main():
             doc = json.load(open(path, encoding='utf-8'))
             changed = False
             for it in doc.get('items', []):
-                if it.get('isbn13') == 'none':
+                if it.get('isbn13') == 'none' or str(it.get('isbn13') or '').startswith('custom-'):
                     continue
                 isbn = fetch_book(it)
                 if isbn:

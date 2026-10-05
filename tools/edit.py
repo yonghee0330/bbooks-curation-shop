@@ -140,6 +140,8 @@ def cmd_isbn(iid, value):
     v = value.strip().replace('-', '')
     if v == 'none':
         it['isbn13'] = 'none'
+    elif value.startswith('custom-'):  # data/custom_books.json 에 등록한 책
+        it['isbn13'] = value.strip()
     elif v == 'auto':
         it.pop('isbn13', None)
         got = fetch_one(it)
