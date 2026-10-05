@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788984811294",
+ "isbn10": "8984811297",
+ "itemId": 495101,
+ "title": "수도원 산책",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "캐틀린 노리스 (지은이), 강창헌 (옮긴이)",
+ "authors": [],
+ "publisher": "생활성서사",
+ "pubDate": "2004-03-24",
+ "priceStandard": 12000,
+ "priceSales": 10800,
+ "pages": 358,
+ "category": "국내도서>종교/역학>가톨릭>가톨릭 일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/49/51/cover200/8984811297_1.gif",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=495101&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "머리말\n.\n새벽\n위대?h 영혼\n규칙서와 나\n시적인 앎의 길\n두려워하지 말아라\n차이점\n별을 싫어한 성인\n두 소녀의 대화\n우리를 위한 축일\n작가 예레미야 : 없어서는 안 될 타자\n.\n중간 생략\n.\n수도원 공원\n아우구스티노, 그의 긴 회심\n해가 뜨고 해가 지는 땅\n주일 오후의 요양원\n한 남자의 일생\n\"인생은 아름다워요\"\n수도원 예식\n\"공동체의 나머지 사람들\"\n\"미국에 있는 유일한 도시\"\n밤\n.\n감사의 글",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 12:16",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/49/51/cover500/8984811297_1.gif"
+}

@@ -1,0 +1,30 @@
+{
+ "isbn13": "9780743262170",
+ "isbn10": "0743262174",
+ "itemId": 436261,
+ "title": "Cry, the Beloved Country (Paperback) - Oprah's Book Club",
+ "subTitle": "Oprah's Book Club",
+ "originalTitle": "",
+ "author": "Alan Paton (지은이)",
+ "authors": [],
+ "publisher": "Scribner",
+ "pubDate": "2003-09-29",
+ "priceStandard": 28500,
+ "priceSales": 22800,
+ "pages": 320,
+ "category": "외국도서>소설/시/희곡>소설>근현대",
+ "series": null,
+ "description": "오프라 윈프리 독서클럽의 책 중 한 권으로 선정된 1948년작 소설. 1940년대 남아프리카를 배경으로 줄루족 부자의 삶을 섬세하게 그렸다.",
+ "coverUrl": "https://image.aladin.co.kr/product/43/62/cover200/074326217d_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=436261&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "오프라 윈프리 독서클럽의 책 중 한 권으로 선정된 1948년작 소설. 1940년대 남아프리카를 배경으로 줄루족 부자의 삶을 섬세하게 그렸다. 인종차별과 비극을 다뤘지만 시적인 문장 속에 인생에 대한 희망과 용기, 인내를 담았다.",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 12:27",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/43/62/cover500/074326217d_1.jpg"
+}

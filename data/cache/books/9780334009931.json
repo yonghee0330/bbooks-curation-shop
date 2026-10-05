@@ -1,0 +1,29 @@
+{
+ "isbn13": "9780334009931",
+ "isbn10": "0334009936",
+ "itemId": 45062344,
+ "title": "The Meaning of Persons (Paperback)",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "폴 투르니에 (지은이)",
+ "authors": [],
+ "publisher": "SCM Press",
+ "pubDate": "2012-11-05",
+ "priceStandard": 59500,
+ "priceSales": 56520,
+ "pages": 240,
+ "category": "외국도서>종교/명상/점술>종교>기독교>신앙생활",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/4506/23/cover200/0334009936_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=45062344&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 12:28",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/4506/23/cover500/0334009936_1.jpg"
+}

@@ -1,0 +1,29 @@
+{
+ "isbn13": "9780199555833",
+ "isbn10": "0199555834",
+ "itemId": 2699784,
+ "title": "The Souls of Black Folk (Paperback, Reissue)",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "W. E. B. Du Bois, Brent Hayes Edwards (지은이)",
+ "authors": [],
+ "publisher": "Oxford Univ Pr",
+ "pubDate": "2008-10-09",
+ "priceStandard": 20330,
+ "priceSales": 13210,
+ "pages": 272,
+ "category": "외국도서>인문/사회>사회과학>민족학",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/269/97/cover200/0199555834_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=2699784&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 12:27",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/269/97/cover500/0199555834_1.jpg"
+}

@@ -1,0 +1,29 @@
+{
+ "isbn13": "9780061233326",
+ "isbn10": "0061233323",
+ "itemId": 1366173,
+ "title": "Pilgrim at Tinker Creek (Paperback, Deckle Edge)",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "애니 딜러드 (지은이)",
+ "authors": [],
+ "publisher": "Harper Perennial Modern Classics",
+ "pubDate": "2013-09-10",
+ "priceStandard": 28880,
+ "priceSales": 23680,
+ "pages": 304,
+ "category": "외국도서>과학/수학/생태>자연생태>자연 에세이",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/136/61/cover200/0061233323_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=1366173&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 12:27",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/136/61/cover500/0061233323_1.jpg"
+}

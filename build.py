@@ -680,7 +680,7 @@ def build_books(c):
             by_media.setdefault(r['media'], []).append(r)
         recs_html = ''.join(rec_row(r, up) for r in sorted(b['recs'], key=lambda r: r['date']))
         details = [('출판사', b['publisher']), ('출간', ymd(b.get('pubDate'))), ('쪽수', f'{b["pages"]}쪽' if b.get('pages') else ''),
-                   ('ISBN', b['isbn13']), ('원제', b.get('originalTitle')), ('시리즈', b.get('series')),
+                   ('ISBN', '' if b['isbn13'].startswith('custom-') else b['isbn13']), ('원제', b.get('originalTitle')), ('시리즈', b.get('series')),
                    ('분야', ' › '.join((b.get('category') or '').split('>')[1:]))]
         dl = ''.join(f'<dt>{k}</dt><dd>{e(str(v))}</dd>' for k, v in details if v)
         # 같은 호에서 함께 추천된 책

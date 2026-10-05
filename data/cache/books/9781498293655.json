@@ -1,0 +1,29 @@
+{
+ "isbn13": "9781498293655",
+ "isbn10": "1498293654",
+ "itemId": 83715350,
+ "title": "Descent into Hell (Paperback)",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "Charles Williams (지은이)",
+ "authors": [],
+ "publisher": "Wipf & Stock Pub",
+ "pubDate": "2016-03-23",
+ "priceStandard": 40800,
+ "priceSales": 33450,
+ "pages": 220,
+ "category": "외국도서>소설/시/희곡>소설>근현대",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/8371/53/cover200/1498293654_2.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=83715350&partner=openAPI&start=api",
+ "stockStatus": "",
+ "toc": "",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 12:28",
+ "sources": [
+  "aladin-api"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/8371/53/cover500/1498293654_2.jpg"
+}
