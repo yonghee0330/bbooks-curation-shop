@@ -89,21 +89,6 @@
    "isbn13": "9791189092382"
   },
   {
-   "key": "아빠의포옹기도엄마의포옹기도-지우",
-   "title": "아빠의 포옹기도·엄마의 포옹기도",
-   "author": "오선화",
-   "translator": "",
-   "publisher": "지우",
-   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41229",
-   "section": "new",
-   "corner": "새 책 나들이",
-   "headline": "《저는 안녕합니다》 외 9권",
-   "by": [
-    "복음과상황"
-   ],
-   "summary": "부모와 자녀가 매일 함께 읽고 껴안고 기도하도록 돕는 이야기책."
-  },
-  {
    "key": "요한복음서-아크루파이",
    "title": "요한복음서",
    "author": "대한성서공회",
@@ -182,6 +167,38 @@
    ],
    "summary": "오늘 수도회 운동에 주목해야 하는 이유를 제국에 저항해 온 수도 전통에서 찾는 최종원의 책.",
    "isbn13": "9791191851755"
+  },
+  {
+   "key": "아빠의포옹기도엄마의포옹기도-지우-dad",
+   "title": "아빠의 포옹기도",
+   "author": "오선화",
+   "translator": "",
+   "publisher": "지우",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41229",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《저는 안녕합니다》 외 9권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "부모와 자녀가 매일 함께 읽고 껴안고 기도하도록 돕는 이야기책.",
+   "isbn13": "9791197744051"
+  },
+  {
+   "key": "아빠의포옹기도엄마의포옹기도-지우-mom",
+   "title": "엄마의 포옹기도",
+   "author": "오선화",
+   "translator": "",
+   "publisher": "지우",
+   "link": "https://www.goscon.co.kr/news/articleView.html?idxno=41229",
+   "section": "new",
+   "corner": "새 책 나들이",
+   "headline": "《저는 안녕합니다》 외 9권",
+   "by": [
+    "복음과상황"
+   ],
+   "summary": "부모와 자녀가 매일 함께 읽고 껴안고 기도하도록 돕는 이야기책.",
+   "isbn13": "9791197744044"
   }
  ]
 }

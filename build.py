@@ -168,6 +168,14 @@ def split_issue(m, iss):
     return [(m, iss)]
 
 
+STOCK_NOTICE = {
+    '절판': ('이 책은 현재 절판 상태예요. 새로 구입할 수 없어 주문을 받지 않아요.', '절판'),
+    '구판절판': ('이 판본은 절판되었어요. 새로 구입할 수 없어 주문을 받지 않아요.', '절판'),
+    '품절': ('이 책은 현재 품절 상태예요. 재입고되면 다시 주문할 수 있어요.', '품절'),
+    '일시품절': ('이 책은 일시 품절 상태예요. 재입고되면 다시 주문할 수 있어요.', '일시 품절'),
+}
+
+
 class Catalog:
     def __init__(self):
         self.issues = []          # 호/월 묶음/C.C 목록
@@ -195,6 +203,9 @@ class Catalog:
         b['cover'] = b.get('cover500') or (b.get('coverUrl') or '').replace('/cover200/', '/cover500/').replace('/coversum/', '/cover500/')
         b['thumb'] = b.get('coverUrl') or b['cover']
         ov = OVERRIDES.get(isbn) or {}  # data/overrides.json — 표지·제목·정가 손 보정
+        st = STOCK_NOTICE.get(b.get('stockStatus') or '')  # 알라딘 재고 상태: 품절·절판은 주문 불가로 안내
+        if st:
+            b['noSale'], b['tag'] = st
         for k in ('noSale', 'tag', 'buyUrl', 'buyLabel'):  # 온라인 주문 불가 책: 안내 문구·링크
             if ov.get(k):
                 b[k] = ov[k]
