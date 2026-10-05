@@ -42,7 +42,8 @@
   "subscribe": "https://www.goscon.co.kr/",
   "color": "#2b5f8a",
   "group": "regular",
-  "family": "goscon"
+  "family": "goscon",
+  "decades": true
  },
  "newsnjoy": {
   "order": 4,
@@ -129,7 +130,8 @@
   "about": "1991년 창간한 기독 월간지. 매 호 〈에디터가 고른 책〉과 서평 코너, 〈새 책 나들이〉·〈새 책 맛보기〉·〈잠깐 독서〉로 새 책을 소개한다.",
   "home": "https://www.goscon.co.kr/news/articleList.html?sc_section_code=S1N36&view_type=sm",
   "subscribe": "https://www.goscon.co.kr/",
-  "color": "#1f4e79"
+  "color": "#1f4e79",
+  "decades": true
  },
  "teumyear": {
   "order": 8,

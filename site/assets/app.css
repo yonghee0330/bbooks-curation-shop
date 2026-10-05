@@ -412,3 +412,10 @@ code { font-size: .9em; background: rgba(0,0,0,.08); padding: 1px 5px; border-ra
 .nosale-box { padding: 16px 20px; }
 .nosale-box p { margin: 0 0 12px; line-height: 1.6; }
 .price b.nosale { font-weight: 600; color: var(--muted, #888); font-size: .85em; }
+.decade { border-bottom: 1px solid var(--line); margin-top: 14px; }
+.decade > summary { cursor: pointer; list-style: none; display: flex; align-items: baseline; gap: 14px; padding: 16px 4px; font-family: var(--serif); font-size: 24px; }
+.decade > summary::-webkit-details-marker { display: none; }
+.decade > summary::before { content: '▸'; font-size: 16px; color: var(--muted, #888); transition: transform .15s; }
+.decade[open] > summary::before { transform: rotate(90deg); }
+.decade > summary span { font-family: var(--sans, inherit); font-size: 14px; color: var(--muted, #888); }
+.decade[open] { padding-bottom: 10px; }

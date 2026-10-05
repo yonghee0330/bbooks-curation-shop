@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788993800067",
+ "isbn10": "8993800065",
+ "itemId": 4163641,
+ "title": "예수그리스도의 신비주의",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "이블린 언더힐 (지은이), 배덕만 (옮긴이)",
+ "authors": [],
+ "publisher": "누멘",
+ "pubDate": "2009-07-30",
+ "priceStandard": 8000,
+ "priceSales": 7200,
+ "pages": 135,
+ "category": "국내도서>종교/역학>기독교(개신교)>기독교(개신교) 목회/신학>신학일반",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/416/36/cover200/8993800065_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=4163641&partner=openAPI&start=api",
+ "stockStatus": "절판",
+ "toc": "옮긴이 머리말\n\n1. 공관복음의 기록\n\n2. 세례와 유혹\n\n3. 각성된 삶\n\n4. 슬픔의 길\n\n5. 신화의 삶",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 20:54",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/416/36/cover500/8993800065_1.jpg"
+}

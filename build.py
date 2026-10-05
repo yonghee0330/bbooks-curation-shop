@@ -241,7 +241,7 @@ class Catalog:
             iss['media'] = m
             if not iss.get('items') or iss.get('hidden'):
                 continue
-            iss.setdefault('season', season_of(iss['date']))
+            iss['season'] = iss.get('season') or season_of(iss['date'])
             iss['month'] = iss['date'][:7]
             iss['path'] = f'y/{iss["id"]}/' if m == 'yong' else f'i/{m}/{iss["id"]}/'
             iss['recs'] = []
@@ -539,7 +539,19 @@ def build_media(c):
   <span class="il-t"><b>{e(line_title(i))}</b><small>{ymd(i['date'])} · {e(i.get('column') or '')} · {len(i['recs'])}편</small></span>
   {strip(bs, up, 6).replace('<a ', '<span ').replace('</a>', '</span>')}
 </a>'''
-            sec_html += f'<section class="season"><h3>{e(s)}</h3>{rows}</section>'
+            sec_html += f'<section class="season" data-yr="{e(s)[:4]}"><h3>{e(s)}</h3>{rows}</section>'
+        if mm.get('decades'):  # 자료가 많은 매체: 10년 단위로 묶어 펼쳐 보기 (최신 10년만 펼쳐 둠)
+            decs = OrderedDict()
+            for sec in re.findall(r'<section class="season" data-yr="(\d{4})">.*?</section>', sec_html, re.S):
+                decs.setdefault(int(sec) // 10 * 10, None)
+            parts = re.findall(r'(<section class="season" data-yr="(\d{4})">.*?</section>)', sec_html, re.S)
+            sec_html = ''
+            for n, dec in enumerate(sorted(decs, reverse=True)):
+                chunk = [p for p, y in parts if int(y) // 10 * 10 == dec]
+                cnt = sum(1 for i in iss if int(i['season'][:4]) // 10 * 10 == dec)
+                nrec = sum(len(i['recs']) for i in iss if int(i['season'][:4]) // 10 * 10 == dec)
+                sec_html += (f'<details class="decade"{" open" if n == 0 else ""}><summary><b>{dec}년대</b>'
+                             f'<span>{cnt}{"호" if mm.get("unit", "호") == "호" else mm.get("unit", "")} · 추천 {nrec}편</span></summary>{"".join(chunk)}</details>')
         nb = len({r['isbn'] for i in iss for r in i['recs'] if r['isbn']})
         body = f'''
 <section class="issue-hero" style="--mc:{mm['color']}">

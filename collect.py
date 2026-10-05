@@ -717,16 +717,16 @@ def goscon_list(since, sub=None):
     return rows
 
 
-def goscon_reviews(since):
+def goscon_reviews(since, rows=None, pages=None):
     st = state('goscon_reviews')
     done = set(st.get('done', []))
     new = 0
-    for r in goscon_list(since):
+    for r in (rows if rows is not None else goscon_list(since)):
         code = r.get('sub_section_code')
         if code not in GOSCON_CORNERS or r['idxno'] in done:
             continue
         corner, sec = GOSCON_CORNERS[code]
-        t = get(f"https://www.goscon.co.kr/news/articleView.html?idxno={r['idxno']}", gap=3)
+        t = (pages or {}).get(r['idxno']) or get(f"https://www.goscon.co.kr/news/articleView.html?idxno={r['idxno']}", gap=3)
         if not t:
             continue
         done.add(r['idxno'])
@@ -778,7 +778,30 @@ def goscon_reviews(since):
     log(f'■ 복상 리뷰 코너: 새 기사 {new}개')
 
 
-COLLECTORS = {'emmaus': emmaus, 'teum': teum, 'goscon': goscon, 'goscon_reviews': goscon_reviews, 'newsnjoy': newsnjoy, 'cbooknews': cbooknews}
+def goscon_old(since):
+    """목록이 닿지 않는 옛 기사(2008-12~): 기사 번호를 차례로 훑어 '리뷰' 코너 기사만 같은 방식으로 처리.
+    사용: python3 collect.py goscon_old   (범위는 GOSCON_OLD_RANGE)"""
+    names = {v[0]: k for k, v in GOSCON_CORNERS.items()}
+    lo, hi = GOSCON_OLD_RANGE
+    rows, pages = [], {}
+    for n in range(lo, hi + 1):
+        t = get(f'https://www.goscon.co.kr/news/articleView.html?idxno={n}', gap=2)
+        if not t or len(t) < 1000 or meta(t, 'article:section') != '리뷰':
+            continue
+        corner = meta(t, 'article:section1')
+        if corner not in names:
+            continue
+        title = html.unescape((re.search(r'<title>(.*?)</title>', t, re.S) or [0, ''])[1]).split(' < ')[0].strip()
+        d = meta(t, 'article:published_time')[:10]
+        rows.append({'idxno': str(n), 'sub_section_code': names[corner], 'title': title, 'viewDate': d.replace('-', '.'), 'user_name': ''})
+        pages[str(n)] = t
+        if len(rows) % 20 == 0:
+            log(f'  · 훑는 중 {n} (리뷰 {len(rows)}건)')
+    goscon_reviews('', rows=rows, pages=pages)
+
+
+GOSCON_OLD_RANGE = (26581, 27330)
+COLLECTORS = {'goscon_old': goscon_old, 'emmaus': emmaus, 'teum': teum, 'goscon': goscon, 'goscon_reviews': goscon_reviews, 'newsnjoy': newsnjoy, 'cbooknews': cbooknews}
 
 
 def main():
@@ -788,7 +811,7 @@ def main():
         since = sys.argv[sys.argv.index('--since') + 1]
         args = [a for a in args if a != since]
         since = (since + '-01')[:10] if len(since) == 7 else since
-    for name in (args or COLLECTORS):
+    for name in (args or [k for k in COLLECTORS if k != 'goscon_old']):
         try:
             COLLECTORS[name](since)
         except Exception as e:  # noqa: BLE001  한 매체가 실패해도 나머지는 진행
