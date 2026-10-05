@@ -216,6 +216,8 @@ class Catalog:
             b['short'] = short_title(b['title'])
         if ov.get('priceStandard'):
             b['price'] = sale_price(b['priceStandard'])
+        if ov.get('noCover'):
+            b['cover'] = b['thumb'] = ''
         if ov.get('cover'):
             c = ov['cover'] if ov['cover'].startswith('http') else BASE + 'assets/' + ov['cover'].lstrip('/')
             b['cover'] = b['thumb'] = c

@@ -12,6 +12,7 @@
   python3 tools/edit.py hide <항목ID>   /  unhide <항목ID>  # 사이트에서 숨기기 / 되돌리기
   python3 tools/edit.py cover <ISBN> https://…/cover.jpg  # 표지 이미지 주소로 바꾸기
   python3 tools/edit.py cover <ISBN> ~/Desktop/표지.jpg     # 내 컴퓨터 이미지로 바꾸기 (site/assets/covers/ 로 복사)
+  python3 tools/edit.py cover <ISBN> none                 # 표지 이미지 없이 제목 글자 표지로
   python3 tools/edit.py cover <ISBN> reset                # 표지 보정 지우기 (알라딘 표지로)
   python3 tools/edit.py book <ISBN> title "표시할 제목"     # 책 자체 정보 보정 (title author publisher priceStandard)
 
@@ -150,8 +151,8 @@ def cmd_isbn(iid, value):
             die('자동 검색으로 찾지 못했어요. search 로 후보를 보고 isbn <항목ID> <ISBN> 으로 지정하세요.')
         it['isbn13'] = got
     else:
-        if not (v.isdigit() and len(v) in (10, 13)):
-            die('ISBN은 숫자 13자리(또는 10자리)입니다.')
+        if not ((v.isdigit() and len(v) in (10, 13)) or (v[:1] == 'K' and v[1:].isdigit())):
+            die('ISBN은 숫자 13자리(또는 10자리, 또는 K로 시작하는 알라딘 코드)입니다.')
         it['isbn13'] = v
         if not fetch_one(it):
             die('알라딘에서 이 ISBN을 조회하지 못했어요. 번호를 다시 확인하세요. (파일은 바꾸지 않았습니다)')
@@ -185,7 +186,13 @@ def ovr_load():
 
 def cmd_cover(isbn, src):
     ov = ovr_load()
+    if src == 'none':  # 표지 이미지 없이 제목 글자 표지로 표시
+        ov.setdefault(isbn, {})['noCover'] = True
+        save(OVR, ov)
+        print('✓ 표지 없음 (제목 글자 표지로 표시)')
+        return
     if src == 'reset':
+        (ov.get(isbn) or {}).pop('noCover', None)
         (ov.get(isbn) or {}).pop('cover', None)
         if isbn in ov and not ov[isbn]:
             ov.pop(isbn)
