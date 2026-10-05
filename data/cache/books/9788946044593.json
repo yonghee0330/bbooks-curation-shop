@@ -1,0 +1,30 @@
+{
+ "isbn13": "9788946044593",
+ "isbn10": "8946044594",
+ "itemId": 12428027,
+ "title": "기술의 역사",
+ "subTitle": "",
+ "originalTitle": "",
+ "author": "자끄 엘륄 (지은이), 박광덕 (옮긴이)",
+ "authors": [],
+ "publisher": "한울(한울아카데미)",
+ "pubDate": "2011-04-20",
+ "priceStandard": 24000,
+ "priceSales": 24000,
+ "pages": 470,
+ "category": "국내도서>과학>과학의 이해>과학사/기술사",
+ "series": null,
+ "description": "",
+ "coverUrl": "https://image.aladin.co.kr/product/1242/80/cover200/8946044594_1.jpg",
+ "link": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=12428027&partner=openAPI&start=api",
+ "stockStatus": "품절",
+ "toc": "기술현상의 위치설정\n\n기술의 역사적 발전\n\n문명에 있어서의 기술\n\n현대 기술의 특징\n\n최상과 최악\n\n비밀스로운 길\n\n큰 희망들\n\n경제인\n\n국가와 기술과의 만남\n\n국가의 반동\n\n법.권리침해\n\n기술의 반동\n\n인간기술의 필요성\n\n미래에 대한 전망",
+ "intro": "",
+ "publisherReview": "",
+ "fetchedAt": "2026-10-05 11:39",
+ "sources": [
+  "aladin-api",
+  "aladin-page"
+ ],
+ "cover500": "https://image.aladin.co.kr/product/1242/80/cover500/8946044594_1.jpg"
+}
